@@ -69,9 +69,10 @@ This is a note. Notes don't require you to put anything in your report.
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
 :::
 
+Like Notes, Warnings don't require you to put anything in your report. 
+Warnings differ from Notes because they highlight potentially dangerous details of the procedure.
 ::: Warning 
-This is a Warning. Like Notes, Warnings don't require you to put anything in your report. 
-Warnings differ from Notes because they highlight potentially dangerous details of the procedure. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the Warning.
+This is a Warning. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the Warning.
 :::
 
 ## Information Boxes
