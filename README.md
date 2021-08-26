@@ -5,7 +5,7 @@
 The directory structure must look as follows for the index.html linking to work:
 
 
----
+```
 -ILG.physics.ucsb.edu folder
   |-static
   |-people
@@ -24,6 +24,7 @@ The directory structure must look as follows for the index.html linking to work:
                         |-imgs
                           |-LabName
                           |-imagename.ext
+```
                      
                         
 ## Rules for editing
