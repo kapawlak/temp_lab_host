@@ -3,7 +3,7 @@
 # Rules for Editing
 
 This is a professionally-maintained folder intended to serve lab manuals to UCSB students. This is not a miscellaneous storage folder to put random lab-related files on.
-Rules are strictly enforced on this respository to prevent rat-nesting of files. As this folder will be directly uploaded on the physics servers, any files not following these rules will be deleted without warning.
+Rules are strictly enforced on this respository to prevent rat-nesting of files. As this folder will be directly uploaded on the physics servers, any and all files contained within it are available to students — any files not following the rules below will be deleted without warning.
 
 1. All course .md files must go into the appropriate course folder. 
      - Only **one** version of each lab is permitted. You must store alternate/historical versions of labs elsewhere.
@@ -15,6 +15,7 @@ Rules are strictly enforced on this respository to prevent rat-nesting of files.
 4. Additional proliferation of folders that are not for the explicit purpose of storing a course manual in the prescribed format is strictly prohibited
     - This includes "Misc" folders, or top-level folders that hold any files.
 5. Any orphaned files will be deleted at the will of the maintainer without notice.
+6. Any files with innapropriate names will be immediately deleted.
 
 
 # Directory Structure

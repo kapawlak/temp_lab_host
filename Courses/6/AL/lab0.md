@@ -1,129 +1,21 @@
-# Good Laboratory Practices
+# Experimental Physics Primer
+
+
+
+:::Intro (Welcome to PHYS6AL)
+The goal of this assignment is to prepare you for the rest of the quarter, and even the next two quarters of the Physics 6 Lab series. This week we will discuss some of the mosst important concepts in experimental Physics, including: 
+
+- **Uncertainty** and **Error**, including their quantification 
+- Basic **Statistics**, including the meaning of mean and standard devation
+- **Signifigant Figures** and their propogation
+
+:::
 ---
-
-
-
-:::Intro (This week)
-The goal of this assignment is to prepare you for the rest of the quarter, and even the next two quarters of the Physics 6 Lab series. We are going to walk you through some concepts that you will need to succeed in these classes. The things that we will highlight are the following:
-
-- The structure of the lab manuals and what is required of you.
-- Uncertainty in measurement. 
-- What are significant figures, and how to work with them.
-- How to make a table of your data.
-:::
----
-
-
-# Getting Familiar with the Format
-
-In all of the lab manuals you will notice some common environments. Each environment will have different tasks that you need to do in order to get full credit.
-
-## Activities
-Activities are tasks with specific instructions — generally steps to complete an experiment. Expand the activity below by clicking on it to read more.
-:::::: Activity (intro| Getting Familiar)
-This is an Activity.  Inside of an Activity, you might be asked to do different subtasks. Each of these subtasks should be included in your report. **If they are not, you will lose points**is
-Typical subtasks might include:
-- Making a table.
-- Making a plot.
-- Taking a screenshot of something you did on your computer.
-- Making a hand drawing, and including a picture of it. 
-
-This is not an exhaustive list, but includes the most common subtasks you will need to do. 
-
----
-As practice, for this Activity, create a list of the following three things:
-1. Your name.
-2. What major you want to graduate with.
-3. The person who has won the largest share of the 2020 Nobel Prize in physics.
-4. The time right now.
-
-::::::
-
-## Exercises
-
-Exercises are something that you should respond directly to as part of your lab report. There may be many different parts to a Exercise and you should answer each part. Sometimes Exercises are inside of Activities and other times they simply exist in the maintext to check that you are following the discussion. 
-
-You should answer Exercises with a **full sentence** to get full credit. Some examples of bad answers are:
-- Yes.
-- It's bigger.
-- It looks like it.
-- Linear.
-
-These sorts of answers will receive little to no credit.
-
-
-:::::: Exercise
-
-Please complete the following for this Exercise:
-1. Copy the list you made in [](#Activity-intro) into the document you will turn in.
-2. Add the name of your TA as an entry to this list.
-3. Add the time of your weekly lab section as an entry to this list.
-4. How many entries are in your list now, total?
-::::::
-
-
-## Notes and Warnings
-::: Note 
-This is a note. Notes don't require you to put anything in your report. 
-
-The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
-:::
-
-Like Notes, Warnings don't require you to put anything in your report. 
-Warnings differ from Notes because they highlight potentially dangerous details of the procedure.
-::: Warning 
-This is a Warning. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the Warning.
-:::
-
-## Information Boxes
-
-In this course, information boxes come in many shapes and sizes. Click the arrow below to expand the information box on expanding boxes.
-
-:::Hider (|Expanding Boxes)
-The first kind of information box is an expanding box, like this one. This box usually contains supplementary information, and you may want to minimize it while working on the lab. It can also contain a check-your-understanding type of Exercise.
-
-:::
-
-:::Definition (Definition Box)
-**Definition Boxes**: these are boxes that are used to frame the important definitions of technical words or concepts in the course. 
-:::
-
-:::Intro (Introduction Boxes)
-These will appear at the top of a lab to give you an idea of what the week will focus on.
-:::
-
-Click this number in brackets: [fn]This is an in-line footnote. Hovering over one of these reveals hidden text that provides interesting and useful information to supplement the main text, usually including a link to an information source[/fn]
-
-Click this question mark ;;;And this is a pop-over that offers a Hint;;;
-
-## Check Your Understanding
-
-We periodically will place small "Check your Understanding" quizlets in the text. These are optional tests to let you practice the concepts and are **not graded**. They usually contain some kind of feedback to aid you on your learning journey
-
-:::Quiz (intro|Yes --- Uh-oh, read the text above this box again!|No --- Great! Thanks for paying attention!)
-Are these quiz boxes graded?
-
-:::
-
-## Conclusion
-Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3-sentence statement highlighting the most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
-``` 
-In this lab we showed that falling objects in air do not fall with constant acceleration. The major factors affecting air resistance are mass and cross sectional area.
-``` 
-
-A bad example would be:
-
-```
-In this lab I dropped a ball and timed how long it took to hit the ground. This was really cool and showed that things have air resistance. I really liked how some balls fell faster than others. This demonstrated to me that air can really affect things.
-```
-
-
-
-
-
 
 # Collecting Data & Sources of Error
-Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and  derive trends and relationships between our variables.
+In physics, we the study of the laws of nature through observation and experiment. We compare the results with our theories and look for meaningful discrepancies that can either confirm them, or suggest that there is something beyond.  When our theories fail, we guess why and test our hypothesis with another well-thought-out experiment.
+
+Clearly, experiments are a central component of Physics. We need them to both confirm our assumptions, as well as inspire new insights into the physical world. In an experiment, we perform measurements and collect data, then we interpret the data and derive trends and relationships between our variables.
 
 ## Uncertainty in measurement
 
@@ -202,7 +94,7 @@ The main points of this section are:
 - Random error is unavoidable and leads to uncertainty in our measurement.
 :::
 
-::::::Activity
+::::::Activity (randomerr|Recording Reaction Rate)
 An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too early or a little too late.
 
 1. Measure your reaction time by going to the following website:
@@ -222,7 +114,7 @@ An example of a random error is your reaction time. If you time how fast a frien
 3. Watch the video below. It demonstrates how to make a nice table with Google Sheets.
 
 :::Video
-<iframe width="auto"  src="https://www.youtube.com/embed/pnvFYFyK7zs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%"  src="https://www.youtube.com/embed/pnvFYFyK7zs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
 :::Exercise
@@ -235,35 +127,38 @@ Make sure to include the table in your lab report.
  
  
  ## Accuracy vs. Precision
-
-:::RFigure avp m
-![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Lab0/targets.png)
-
-A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other
+:::Figure (avp|s|R)
+![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Lab0/targets.png "A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other")
 :::
- 
 Systematic errors introduce bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
 
-:::Card Definition Accuracy
-**Accuracy** is a measure of how *close* your measured values are to the *accepted*  or *true* value.
-:::
 
 Random errors are unbiased, so some of your measurements will be higher and some will be lower than the accepted value. Random errors will determine the **precision** of your measurement.
 
-:::Card Definition Precision
+:::Definition (Accuracy and Precision|6 C)
+**Accuracy** is a measure of how *close* your measured values are to the *accepted*  or *true* value.
+
+---
+
 **Precision** is a measure of how *close* your measured values, after you have repeated an experiment multiple times, are to each other.
 :::
 
+######
 
 
 
 
+:::Quiz (accpre1| They are precise, but not accurate. --- Not Quite Right. Notice that the results are somewhat evenly above and below the accepted value, meaning that the value is accurate |They are accurate, but not precise. --- Arguable. Note, that the largest discrepancy is no more than 10% off from the actual value, so we can argue that the set of meaasurements are reasonably precise|They are both accurate and precise. --- Likely the best answer. Since the results are about evenly distributed above and below the accepted value and the deviations are not too large, we can easily argue that the result is both accurate and precise|They are neither accurate nor precise. --- Incorrect. Be sure you are evaluating the dataset scientifically and not subjectly! )
+
+Zak conducts an astrophysical experiment five times and gets a distance of 1900 ly, 2100 ly, 1800 ly, 1900 ly, and 2200 ly. The known distance of the observed star is is 2000 ly. Which of the following are true about Zak's results?
+
+:::
 
 ## Measures of Precision and Accuracy
 
 To determine if a value is accurate, we compare it to the accepted one. A quantitative measure of accuracy is the **percent discrepancy**
 
-::::::Card Definition Percent Discrepancy
+::::::Definition (Percent Discrepancy)
 The **Percent Discrepancy** measures the absolute percent difference between two measurements. We say that the *percent discrepancy of value 2 with respect to value 1 is:* 
 :::Equation
 $$\text{percent discrepancy} = |\frac{\text{value 1 - value 2}} { \text{value 1}}| \times 100\%$$
@@ -286,7 +181,7 @@ In an experiment we measure the acceleration due to gravity to be $9.825\ \rm{m/
 Sometimes there is no accepted value to our measurement. In this case, to measure the precision of two measurements that are determined experimentally, we look at how different the two values are as a percentage of their average. This is known as the **percent difference**.
 
 
-::::::Card Definition Percent Difference
+::::::Definition (Percent Difference)
 The **Percent Difference** measures the relative percent difference between two measurements. We say that the *percent difference of value 2 with respect to value 1 is:* 
 :::Equation pdiff
 $$
@@ -301,7 +196,7 @@ The result of this calculation can be a positive or negative number, depending o
 
 
 :::Note
-Careful! The definition of percent difference in this course is **different** from what you may see in other courses. Please use [Eq](#Eq-pdiff) for calculations in this course.
+Careful! The definition of percent difference in this course is **different** from what you may see in other courses. Please use [](#Equation-pdiff) for calculations in this course.
 :::
 
 
@@ -375,11 +270,11 @@ We will usually calculate the standard deviation by using the STDEV() function i
 
 
 :::Exercise
-Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [Eq](#Eq-fmt).
+Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [Eq](#Equation-fmt).
 :::
 
 :::Exercise
-Find the standard deviation for your reaction time in the previous Activity 2. Report your full results (average and uncertainty) using the format of [Eq](#Eq-fmt).
+Find the standard deviation for your reaction time in the previous Activity 2. Report your full results (average and uncertainty) using the format of [Eq](#Equation-fmt).
 :::
 
 ::::::
@@ -395,16 +290,16 @@ To know the best way to write our answer, we must determine which **digits carry
 
 To determine the number of significant figures, count from left to right the number of digits.
 
-:::Card Intro Example
-1.6 cm has two sig figs, whereas 1.67 cm has three sig figs.
+:::Card (|Example||bg-UCSB-navy text-white)
+$1.6$ cm has two sig figs, whereas $1.67$ cm has three sig figs.
 :::
 
 
 
 Note that leading zeros after the decimal point are not significant. They merely determine the location of the decimal point.
 
-:::Card Intro Example
-0.0167 m has only three significant figures. (This is the 1.67 cm quoted before.)
+:::Card (|Example||bg-UCSB-navy text-white)
+$0.0167$ m has only three significant figures. (This is the $1.67$ cm quoted before.)
 
 :::
 
@@ -412,13 +307,13 @@ Note that leading zeros after the decimal point are not significant. They merely
 Zeros at the end of a number (trailing zeros) can be significant or not depending on context. If the trailing zero is to the right of a decimal point then we will count it as significant. 
 
 
-:::Card Intro Example
+:::Card (|Example||bg-UCSB-navy text-white)
 12.450 has five sig figs, while 12.45000 has seven sig figs.
 :::
 
 If the trailing zero is to the left of the decimal point it can be ambiguous. To avoid ambiguity we use the following convention. If the number ends in a decimal point, all of the zeros are significant. If the number does not end in a decimal point, the trailing zeros are not significant.
 
-:::Card Intro Example
+:::Card (|Example||bg-UCSB-navy text-white)
  4,510,000 has three sig figs, while 4,510,000. has 7 sig figs. 
 :::
 
@@ -442,13 +337,13 @@ Determine the number of significant figures in the following values:
 ## Significant Figures in Calculations
 When we add a series of numbers, the one having the greatest uncertainty determines the number of significant figures in the final result.
 
-:::Card Intro Example
+:::Card (|Example||bg-UCSB-navy text-white)
 For example, the sum 53.7 + 2.63 + 0.068 equals 56.4. Since we know the value 53.7 only to the tenths place, we cannot know the sum to anything less than that digit.
 :::
 
 When we multiply or divide, we take the number of significant figures in the answer to be the same as that of the quantity that has the lowest number of significant figures.
 
-:::Card Intro Example
+:::Card (|Example||bg-UCSB-navy text-white)
 The result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig figs).
 :::
 
@@ -522,7 +417,7 @@ A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig fi
 ## Significant Figures and Uncertainty
 When we take data with an estimated uncertainty, the uncertainty will always be in the first uncertain figure. This is natural, of course, since digits beyond the location of the uncertainty of the number are washed out by the possible error.
 
-:::Card Intro Example
+:::Card (|Example||bg-UCSB-navy text-white)
 If you measured a dog's height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is '$5$', i.e., $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
 :::
 
@@ -531,11 +426,13 @@ But how many significant figures should be reported in the uncertainty *itself*?
 
 # Conclusion
 
-:::Activity
-Write a brief conclusion summarizing the important points of this lab.
-:::
 
 :::Summary 
-You should take a moment to go back and review your answers to Exercises and responses to Activitys. Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
+
+### INSTRUCTIONS
+ 1) Be sure you did all of the Activities and Answered all Exercises in this Lab
+ 2) Attach a brief conclusion summarizing the important points of this lab to your report.
+
+**NOTE:** Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
 :::
 

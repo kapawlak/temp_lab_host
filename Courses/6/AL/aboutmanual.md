@@ -1,10 +1,4 @@
-# FAQ
-
-##
-# Graphing
-# Etc
-
-# How to use the Manual
+# Getting Familiar with the Format
 
 In all of the lab manuals you will notice some common environments. Each environment will have different tasks that you need to do in order to get full credit.
 

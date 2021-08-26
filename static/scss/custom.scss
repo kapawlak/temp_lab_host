@@ -294,6 +294,7 @@ $simulation-bg:$UCSB-mist;
     .card-body{
         font-size: smaller
     }
+    clear: none !important;;
  };
 
  .Prelab{
@@ -605,7 +606,7 @@ $simulation-bg:$UCSB-mist;
         max-width:80%;
     }
     .xs.Figure:not(.rowfig), .xs img{
-        width:min(10rem, 100%);
+        max-width:min(10rem, 100%);
     }
     .s.Figure:not(.rowfig), .s img{
         max-width: min(15rem, 100%);

@@ -9,7 +9,7 @@ const katex_map = new Map(); //saves key pairs for retreiving latex in blurbs
 const fig_group = "justify-content-center text-center px-0 mx-3 mb-4" //Formatting that is special for figues -- adds margins to floated figs
 
 const narrow_center = "col-lg-9 mx-auto my-5"
-const blurb_center = "col-lg-5 mx-auto"
+const blurb_center = "col-lg-8 mx-auto"
 const collapsable_header = ' fs-4 align-bottom'
 
 

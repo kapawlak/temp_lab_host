@@ -1,7 +1,7 @@
 # Position, Velocity, Acceleration, and Falling Objects
 
 
-:::Intro (Motion!|Objects for Dropping --- Feather, Basket Ball, Dog Ball|Stopwatch| Large Measuring Tape | Graph Paper)
+:::Intro (This Week's Topic: Motion!|Objects for Dropping --- Feather, Basket Ball, Dog Ball|Stopwatch| Large Measuring Tape | Graph Paper)
 This week we will review how to describe, mathematically, the trajectory of a body moving under the influence of a force. For your Pre-Lab, you will sharpen your calculational abilities on some test problems, and make some educated guesses about the influence of **air resistance**.
 
 Following this discussion we will turn our attention to a real experiment. You will analyze the data from this "real-world" experiment, compare the results to the predictions of the "ideal" theory, and then draw inferences about the underlying physics. 

@@ -13974,6 +13974,7 @@ textarea.form-control-lg {
 .Definition {
   background-color: #f2f5f7;
   color: #001626;
+  clear: none !important;
 }
 .Definition ul {
   font-size: 90%;
@@ -14234,7 +14235,7 @@ textarea.form-control-lg {
   }
 
   .xs.Figure:not(.rowfig), .xs img {
-    width: min(10rem, 100%);
+    max-width: min(10rem, 100%);
   }
 
   .s.Figure:not(.rowfig), .s img {
