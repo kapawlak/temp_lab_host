@@ -1,6 +1,4 @@
-# ILG.physics.ucsb.edu
-
-## Directory Structure
+# Directory Structure
 
 The directory structure must look as follows for the index.html linking to work:
 
@@ -11,7 +9,7 @@ The directory structure must look as follows for the index.html linking to work:
   |-people
   |-Courses
         |-Course_group_folder
-                |-Specific_Lab_folder
+                |-Course_folder
                         |-index.html
                         |-config.json             
                         |-home.md
@@ -22,12 +20,12 @@ The directory structure must look as follows for the index.html linking to work:
                         .
                         |-lab#.md
                         |-imgs
-                          |-LabName
-                          |-imagename.ext
+                           |-LabName
+                              |-imagename.ext
 ```
                      
                         
-## Rules for editing
+# Rules for Editing
 
 This is a professionally-maintained folder intended to serve lab manuals to UCSB students. This is not a miscellaneous storage folder to put random lab-related files on.
 Rules are strictly enforced on this respository to prevent rat-nesting of files. As this folder will be directly uploaded on the physics servers, any files not following these rules will be deleted without warning.
