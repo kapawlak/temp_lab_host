@@ -37,7 +37,7 @@ $$
 
 The 15.33 $\text{cm}$ is our best estimate, and the 0.05 $\text{cm}$ is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is 15.33 $\text{cm}$ but the true length is most likely between 15.28 $\text{cm}$ and 15.38 $\text{cm}$.
 
-:::Note (uncert|2)
+:::Note (uncert|4)
 Uncertainty is unavoidable in every measurement!
 :::
 Error in a measurement is any deviation from the true value that is being measured. Error does not mean that you made a mistake.
@@ -137,7 +137,7 @@ An example of a random error is your reaction time. If you time how fast a frien
  
  ## Accuracy vs. Precision
 :::Figure (avp|s|R)
-![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Lab0/targets.png "A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other")
+![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Primer/targets.png "A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other")
 :::
 Systematic errors introduce bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
 
@@ -385,10 +385,10 @@ Practice the rules above by calculating some geometric properties of the followi
 :::::::::Figure (measure|m|Row)
 ::::::row
 :::col
-![Rectangle](imgs/Lab0/Rectangle2.png 'a) A rectangle with length $2.4$ $\text{cm}$ and width $3.2$ $\text{cm}$.')
+![Rectangle](imgs/Primer/Rectangle2.png 'a) A rectangle with length $2.4$ $\text{cm}$ and width $3.2$ $\text{cm}$.')
 :::
 :::col
-![Circle](imgs/Lab0/Circle.png 'b) A circle with a radius of $2.4$ $\text{cm}$.')
+![Circle](imgs/Primer/Circle.png 'b) A circle with a radius of $2.4$ $\text{cm}$.')
 :::
 ::::::
 :::::::::
@@ -413,7 +413,7 @@ Practice the rules above by calculating some geometric properties of the followi
 We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. The results of this process are shown in [](#Figure-cyl) Ultimately we want to calculate the density of this object.
 
 :::Figure (cyl|s|R)
-![Object submerged in cylinder](imgs/Lab0/gradcylinder.png)
+![Object submerged in cylinder](imgs/Primer/gradcylinder.png)
 Object submerged in cylinder
 :::
 1. What are the initial and final volumes (in mL) before and after the object is submerged? What is the volume (in mL) of the object?  Make sure you use the appropriate number of significant figures when stating all your answers.
@@ -457,11 +457,11 @@ In [](#Figure-table_ex) we show an example of an excellent table and a not-so-gr
 :::::::::Figure (table_ex|s|Row)
 ::::::row
 ::: col
-![Table 1](imgs/Lab1/GoodTable.png "a) Table 1")
+![Table 1](imgs/Primer/GoodTable.png "a) Table 1")
 :::
 
 ::: col
-![Table 2](imgs/Lab1/BadTable.png "b) Table 2")
+![Table 2](imgs/Primer/BadTable.png "b) Table 2")
  
 :::
 ::::::
@@ -505,7 +505,7 @@ When it comes to a title, **don't** provide a title like "Distance vs. Time." Th
 
 
 :::Figure (goodgraph|xl)
-![Example of a Good Graph](imgs/Lab1/GoodGraph.png)
+![Example of a Good Graph](imgs/Primer/GoodGraph.png)
 Example of a Good Graph
 :::
 
@@ -521,29 +521,29 @@ In this exercise you will use the six rules above to identify mistakes in graphs
 1. Identify mistakes in the following graph.
 
 
-![Bad Graph 1](imgs/Lab1/GraphBadRange.png)
+![Bad Graph 1](imgs/Primer/GraphBadRange.png)
 
 
 
 2. Identify mistakes in the following graph.
 
-![Bad Graph 2](imgs/Lab1/GraphConnected.png)
+![Bad Graph 2](imgs/Primer/GraphConnected.png)
 
 
 
 3. Identify mistakes in the following graph.
 
-![Bad Graph 1](imgs/Lab1/Graphaxislabelerrors.png)
+![Bad Graph 1](imgs/Primer/Graphaxislabelerrors.png)
 
 4. Identify mistakes in the following graph.
 
-![Bad Graph 2](imgs/Lab1/GraphNoTitle.png)
+![Bad Graph 2](imgs/Primer/GraphNoTitle.png)
 
 
 
 5. Identify mistakes in the following graph.
 
-![Bad Graph 5](imgs/Lab1/GraphYX.png)
+![Bad Graph 5](imgs/Primer/GraphYX.png)
 
 :::
 
@@ -579,14 +579,14 @@ Never remove an outlier without a good reason!
 On her first run, Jillian sees an outlier in her data set, shown in [](#Figure-jill1). She takes a closer look at her measurement system and realizes that there is a loose cable, which causes intermittent failures. She decides that this run was not valid, and she does the experiment again.
 
 :::Figure (jill1|xl)
-![Jill's Line of Best Fit and apparent outlier](imgs/Lab1/OutlierSheet.png)
+![Jill's Line of Best Fit and apparent outlier](imgs/Primer/OutlierSheet.png)
  Jill's Line of Best Fit and apparent outlier
 :::
 
 2. The curve fit is **balanced**, *i.e.*, roughly the same number of points lies above the line as below it. This time Jillian plots her data in [](#Figure-jill2) and sees what looks like a balanced fit with no outliers. There is roughly the same number of points above and below the line of best fit. 
 
 :::Figure (jill2|xl)
-![ Line of Best Fit after removing the outlier ](imgs/Lab1/LinearFit.png)
+![ Line of Best Fit after removing the outlier ](imgs/Primer/LinearFit.png)
 Line of Best Fit after removing the outlier
 :::
 
@@ -595,7 +595,7 @@ Line of Best Fit after removing the outlier
 When Jillian takes data for her second engine, plots and does a linear fit, she obtains the plot in [](#Figure-jill3).
 
 :::Figure (jill3|xl)
-![](imgs/Lab1/QuadLinear.png)
+![](imgs/Primer/QuadLinear.png)
 :::
 
 Notice that the data start above the fit, then go below the fit, then back above the fit. Jillian recognizes that this means her data are not linear, because the data should be randomly above and below the fit as in Figure 4.
@@ -603,7 +603,7 @@ Notice that the data start above the fit, then go below the fit, then back above
 She reads the manufacturer data sheet for the second engine, and learns that the thrust should increase quadratically in time, so she decides to fit a parabola to the data, as in [](#Figure-jill4).
 
 :::Figure (jill4|xl)
-![](imgs/Lab1/QuadQuad.png)
+![](imgs/Primer/QuadQuad.png)
 :::
 
 Notice that the curve follows the data more closely and that the data are randomly distributed around the curve. This is sign of using the correct function to fit the data.
@@ -613,13 +613,13 @@ Notice that the curve follows the data more closely and that the data are random
 Below are two plots of the [population of California from 1900 to 1950](https://www.macrotrends.net/states/california/population). The data are the same in both of the plots, but each plot has a different fit. The first one is a linear fit, and the second is an exponential fit.
 
 :::Figure
-![Linear Fit](imgs/Lab1/CAPopLinear.png)
+![Linear Fit](imgs/Primer/CAPopLinear.png)
 
 Linear
 :::
 
 :::Figure
-![Exponential Fit](imgs/Lab1/CAPopExp.png)
+![Exponential Fit](imgs/Primer/CAPopExp.png)
 
 Exponential
 :::
@@ -675,7 +675,7 @@ As an example, if we collected data on the amount of potential energy a spring h
 
 
 :::Figure (SpringPlot|l|L)
-![Spring Plot](imgs/Lab1/SpringEnergy.png "A plot of the potential energy of a spring")
+![Spring Plot](imgs/Primer/SpringEnergy.png "A plot of the potential energy of a spring")
 :::
 
 
@@ -731,7 +731,7 @@ Use all of the tools we have discussed in this lab to analyze the motion of an i
 
 :::::::::Activity
 :::Figure (inchworm-data|xl)
-![Table of Data for Inchworm](imgs/Lab1/InchWormTable.png)
+![Table of Data for Inchworm](imgs/Primer/InchWormTable.png)
 :::
 
 

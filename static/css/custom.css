@@ -13980,16 +13980,17 @@ textarea.form-control-lg {
 .Definition {
   background-color: #f2f5f7;
   color: #001626;
+  font-size: 1.1rem !important;
   clear: none !important;
 }
 .Definition ul {
-  font-size: 90%;
+  font-size: 95%;
 }
 .Definition .card-header {
   background-color: #ffde88;
 }
 .Definition .card-body {
-  font-size: smaller;
+  font-size: 1rem;
 }
 .Definition .katex {
   font-size: 1.15rem;
@@ -14417,7 +14418,6 @@ img:hover {
 
 .card:not(.Note) {
   overflow-x: hidden;
-  font-size: 1rem;
 }
 
 .Equation .card-body::-webkit-scrollbar-thumb {
