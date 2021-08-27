@@ -137,7 +137,7 @@ An example of a random error is your reaction time. If you time how fast a frien
  
  ## Accuracy vs. Precision
 :::Figure (avp|s|R)
-![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Primer/targets.png "A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other")
+![A visual guide to Accuracy vs. Precision. There are four dart boards shown, each with some darts placed. The first dart board has four darts clustered south-west of the target, with the text "High Precision. Low Accuracy". The second dart board has four darts clustered over the target, with the text "High Precision. High Accuracy". The third dart board has five darts spread loosely over the south-west of the dart board, with the text "Low Precision. Low Accuracy". The final dart board has five darts spread roughly over the center of the target, with the text "Low Precision. High Accuracy". ](imgs/Primer/targets.png "A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other")
 :::
 Systematic errors introduce bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
 
