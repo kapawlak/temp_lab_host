@@ -58,7 +58,7 @@ class Card{
         this.footerText= `Video ${this.number}`
         break
       case 'Note':
-        this.styleList.push('mx-auto', 'my-4', 'col-8 bg-caution bg-gradient')
+        this.styleList.push('mx-auto', 'my-4', 'col-8 bg-gradient')
         this.innerStyles[1]='text-center'
         this.headerText = '<i class="fa fa-thumb-tack fs-1" aria-hidden="true"></i>'
         break
@@ -73,9 +73,9 @@ class Card{
         this.headerText=`<span class='lead' > Definition: </span>`
         break
       case 'Table':
-        this.styleList.push(' mx-auto ')
+        this.styleList.push('')
         this.innerStyles[0]='text-left'
-        this.footerText= 'Table ' + this.number
+        this.footerText= 'Table ' + this.number 
         break
       case 'Hider':
         this.collapse=true
@@ -383,8 +383,9 @@ md.use(container, 'Table', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Table(.*)$/)[1])
       let table=new Card("Table", args[0])
-      table.styleList.push('col-lg-' + (args[2] ||'9') )
-      table.footerText+=(args[1] || '')
+      table.styleList.push(args[2] ? 'col-lg-' + args[2].replace("L","float-lg-start mt-0 mb-1 mx-3 ").replace("R","float-lg-end mt-0 mb-1 mx-3 ").replace("C","mx-auto my-4 ") : 'col-lg-9 mx-auto my-5' )
+     
+      table.footerText+=( args[1]? ': ' + args[1] : '')
       table.publishCard()
       return div_head.pop()
     } else {

@@ -20,6 +20,9 @@ code {
 .card {
   box-shadow: 1px 1px 5px 2px #DCE1E5;
 }
+.card .katex {
+  font-size: 1.3rem;
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -13958,6 +13961,9 @@ textarea.form-control-lg {
   color: white;
   background-color: #003660;
 }
+.Summary ol > li, .Summary ul > li {
+  text-align: left;
+}
 
 .Materials {
   background-color: rgba(255, 255, 255, 0.2);
@@ -13984,6 +13990,9 @@ textarea.form-control-lg {
 }
 .Definition .card-body {
   font-size: smaller;
+}
+.Definition .katex {
+  font-size: 1.15rem;
 }
 
 .Prelab {
@@ -14020,6 +14029,9 @@ textarea.form-control-lg {
   font-size: 1.3rem !important;
   font-weight: normal;
   padding-right: 10px;
+}
+.Hider p {
+  text-indent: 1rem;
 }
 
 .Simulation button {
@@ -14141,6 +14153,10 @@ textarea.form-control-lg {
 .Exercise ol {
   list-style-type: lower-alpha !important;
 }
+.Exercise img {
+  margin: auto;
+  text-align: center;
+}
 
 .badge-Exercise {
   background-color: #0a978b;
@@ -14166,20 +14182,25 @@ textarea.form-control-lg {
 }
 
 .Note {
-  transform: rotate(2deg);
-  font-family: "Comic Sans Ms", "Comic Sans", cursive;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #424445;
   text-indent: 0.25rem;
-}
-.Note i {
-  transform: rotate(45deg) translateY(-40px);
+  background-color: #fff3cd;
+  border-left: 8px #ffc107 solid !important;
 }
 .Note .card-header {
-  background-color: #ffebb8 !important;
   border: none;
-  height: 20px;
-  color: black;
+  display: none;
+}
+.Note .card-footer {
+  border: none;
+  display: none;
+}
+.Note p {
+  margin: 0px;
+}
+.Note ol > li, .Note ul > li {
+  text-align: left;
 }
 
 .Warning {
@@ -14396,6 +14417,7 @@ img:hover {
 
 .card:not(.Note) {
   overflow-x: hidden;
+  font-size: 1rem;
 }
 
 .Equation .card-body::-webkit-scrollbar-thumb {
