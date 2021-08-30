@@ -14124,6 +14124,9 @@ textarea.form-control-lg {
 .Activity .card-but {
   font-size: 1.5rem;
 }
+.Activity ol li::marker {
+  font-weight: bold;
+}
 
 .badge-Activity {
   background-color: #a9544a;
@@ -14233,6 +14236,9 @@ textarea.form-control-lg {
   display: block;
   overflow: hidden;
   font-size: 0.85rem;
+}
+.Figure .katex {
+  font-size: 100% !important;
 }
 
 .xs, .s, .m, .l, .xl {
@@ -14414,6 +14420,9 @@ img:hover {
 }
 .Table card-footer {
   max-width: 100%;
+}
+.Table td, .Table th {
+  text-align: center;
 }
 
 .card:not(.Note) {

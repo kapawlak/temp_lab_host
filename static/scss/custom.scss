@@ -468,6 +468,10 @@ $simulation-bg:$UCSB-mist;
         font-size: 1.5rem;
     }
 
+    ol li::marker{
+        font-weight: bold;
+    }
+
 }
 
 .badge-Activity{
@@ -604,6 +608,10 @@ $simulation-bg:$UCSB-mist;
         display: block;
         overflow: hidden;
         font-size: 0.85rem;
+    }
+
+    .katex{
+        font-size: 100%!important
     }
    
  };
@@ -811,12 +819,16 @@ img:hover{
     card-footer{
         max-width: 100%;
     }
+
+    td, th{
+        text-align: center;
+    }
   }
 
-  .card:not(.Note){
-    overflow-x: hidden;
-    // font-size: 2rem;
-  }
+.card:not(.Note){
+overflow-x: hidden;
+// font-size: 2rem;
+}
 
 
 

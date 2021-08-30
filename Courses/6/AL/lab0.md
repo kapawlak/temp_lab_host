@@ -105,21 +105,21 @@ The main points of the previous section were:
 
 We are now ready to see the effects of error in a real experiment. Please expand [](#Activity-randomerr) and complete the instructions
 
-::::::Activity (randomerr|Recording Reaction Rate)
+::::::Activity (randomerr|Recording Your Reaction Time)
 An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too early or a little too late.
 
 1. Measure your reaction time by going to the following website:
 [https://humanbenchmark.com/dashboard/reactiontime](https://humanbenchmark.com/dashboard/reactiontime)
 
-2. Record your reaction time 10 times in a table.  Your table should look like Table 1:
+2. Record your reaction time 10 times in a table.  Your table should look like [](#Table-rxn):
 
-:::Table
-| Trial | Reaction Time (ms) | 
-| -------- | -------- | 
-| 1    |     | 
-| 2  |     | 
-| ...    |     | 
-| 10    |     | 
+:::Table (rxn|Reaction Time|4 C)
+| Trial | Reaction Time (ms) |
+| ----- | ------------------ |
+| 1     | ..                 |
+| 2     | ..                 |
+| ...   | ..                 |
+| 10    | ..                 |
 :::
 
 3. Watch the video below. It demonstrates how to make a nice table with Google Sheets.
@@ -129,7 +129,7 @@ An example of a random error is your reaction time. If you time how fast a frien
 :::
 
 :::Exercise
-1. Provide a copy of the table you made, ensuring that all rows and columns are properly labelled and all data has appropriate units and sigfigs.
+1. Provide a copy of the table you made, ensuring that all rows and columns are properly labelled and all data has appropriate units and sigfigs. You can do this by copying your table from Google Sheets to your Google Doc Lab Notebook.
 2. What is your average reaction time?
 :::
 ::::::
@@ -212,12 +212,12 @@ Careful! The definition of percent difference in this course is **different** fr
 
 
 :::Exercise
-In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
+In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58 \text{ in}$. and $2.61 \text{ in}$.
 What is the percent difference of the second measurement with respect to the first in our measurements?
 :::
 
 
-::: Note (comparing|7 C)
+::: Note (comparing|9 C)
 **When comparing two values, you have two options:**
 1. When comparing your measured value to a value that is well accepted by the scientific community, you want to use percent discrepancy. When your percent discrepancy is low, your accuracy is high. This can be an indicator that you have eliminated systematic errors.
 2. When comparing two values that are not generally accepted by the scientific community (two things you have measured), you want to use percent difference. When your percent difference is low, your precision is high. 
@@ -230,7 +230,7 @@ We always want to do our best to estimate the uncertainty of our measurements. T
 2. Estimating from repeatability
 
 ### Estimating uncertainty from a scale
-The first comes from using a graduated scale, like that of a ruler. For a scale, we say that the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has 1-mm divisions, we would say that our uncertainty is $\pm 0.5$ mm. For a digital display, we say that the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52$ g, then we would say our uncertainty is $\pm 0.5$ g. Thus we would report the stone's mass as $52.0 \pm 0.5 g$.
+The first comes from using a graduated scale, like that of a ruler. For a scale, we say that the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has $1\text{ mm}$ divisions, we would say that our uncertainty is $\pm 0.5\text{ mm}$. For a digital display, we say that the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52\text{ g}$, then we would say our uncertainty is $\pm 0.5 \text{ g}$. Thus we would report the stone's mass as $52.0 \pm 0.5 g$.
 
 ### Estimating uncertainty from repeatability
 The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn't report the uncertainty by half of the last digit displayed. This is because our reaction time, how quickly we can press the start and stop button, is much larger than the precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
@@ -243,14 +243,14 @@ To quantify the uncertainty in our measurements, we can conduct repeated measure
 ## Mean
 If you take N measurements of a quantity $x$, you can get a better best estimate than any one of the measurements individually. This is done by finding the arithmetic average of your N measurements, known as **the mean.** The formula for the mean is:
 
-:::Equation
+:::Equation (mean|The Arithmetic Mean)
 $$x_{avg}=(x_1+x_2+..x_N)/N$$
 :::
 
 ## Standard Deviation
 The standard deviation is a measure of the spread in the values $x_1, x_2,..., x_N$.
 
-:::Equation
+:::Equation (std| The Standard Deviation)
 $$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}=\delta x$$
 :::
 
@@ -285,7 +285,8 @@ In our intro courses, we will usually calculate the standard deviation by using 
 
 
 :::Exercise
-Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [](#Equation-fmt).
+1. Provide a copy of the table created for the speaking speed exercise
+2. Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [](#Equation-fmt).
 :::
 
 
@@ -572,7 +573,7 @@ For this example we will consider a student, Jillian, who is investigating diffe
 
 1.  **Outliers**. These may be due to experimental error or to mistakes in typing the data into the plotting program. When you see an outlier you should stop and assess it. In this class, more often than not, it is because a scale was read wrong, some data were transcribed incorrectly, or there was an error in the data collecting tool.
 
-:::Note
+:::Note (|6 C)
 Never remove an outlier without a good reason!
 :::
 
@@ -646,20 +647,20 @@ When determining the number of sig figs to report in our slope or intercept we w
 
 :::Table (pot| Potential Energy of a Spring |3 R )
 | Length (m) | Potential Energy (J) |
-| -------- | -------- | 
-|   0.021   | 0.012    | 
-|   0.043   |  0.212   | 
-|   0.065   |  0.372   | 
-|   0.085   |  0.740   | 
-|   0.107   |  1.061   | 
-|   0.129   |  1.850   | 
-|   0.150   |  2.310   | 
-|   0.169   |  2.756   | 
-|   0.191   |  3.764   | 
-|   0.209   |  4.121   | 
-|   0.228   |  4.752   | 
-|   0.249   |  6.250   | 
-|   0.267   |  7.563   | 
+| ---------- | -------------------- |
+| 0.021      | 0.012                |
+| 0.043      | 0.212                |
+| 0.065      | 0.372                |
+| 0.085      | 0.740                |
+| 0.107      | 1.061                |
+| 0.129      | 1.850                |
+| 0.150      | 2.310                |
+| 0.169      | 2.756                |
+| 0.191      | 3.764                |
+| 0.209      | 4.121                |
+| 0.228      | 4.752                |
+| 0.249      | 6.250                |
+| 0.267      | 7.563                |
 :::
 
 If we are doing more complicated curve fits than just lines, we require more knowledge about programming or higher level math. That is above what is needed in this class. For all of the physics 6\*L classes, we will just use the following convention:
@@ -760,8 +761,8 @@ Make sure to include your final table with all the columns you made, a sample ca
 ---
 
 ### INSTRUCTIONS
- 1) Be sure you did all of the Activities and Answered all Exercises in this Lab
- 2) Attach a brief conclusion summarizing the important points of this lab to your report.
+ 1) Be sure you did all of the **Activities** and answered all **Exercises** in this Lab
+ 2) On a new page, attach a brief conclusion summarizing the important points of this lab to your lab notebook.
 
 **NOTE:** Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
 :::

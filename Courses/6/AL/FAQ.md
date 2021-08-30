@@ -1,7 +1,72 @@
 # FAQ
 
-##
-# Graphing
+
+#  Who do I contact for help...
+## ...completing the lab?
+## ...turning in my assignment?
+## ...reporting issues in the manual?
+## ...reguarding extenuating circimstances?
+## ...reporting innappropriate behavior ?
+
+# Tables and Graphs
+## Q: How do I receive full credit on a table in my lab report?
+
+While the contents of the table are important for your grade and are  decided by the context of the lab activity, you can do things to ensure that you *don't loose points to frivouslous display issues*. 
+
+**In order for the table to convey the data scientifically, it must contain:**
+
+1. Data organized in columns with descriptive headers that specify variable names and **units**.  If a table must span multiple pages, a header needs to be added for every page.
+2. Correct number of significant figures for the data. 
+3. All data in a column aligned at the decimal point.
+4. If you have any calculations in your table, then you should show your work for **one row** of the table. 
+
+
+In [](#Figure-table_ex) we show an example of an excellent table and a not-so-great table. Just by glancing at them, you can probably guess which table is which -- the bad table is visually confusing and difficult to read, independent of its poor technical qualities.
+:::::::::Figure (table_ex|s|Row)
+::::::row
+::: col
+![Table 1](imgs/Primer/GoodTable.png "a) Table 1")
+:::
+::: col
+![Table 2](imgs/Primer/BadTable.png "b) Table 2")
+:::
+::::::
+:::::::::
+
+In (a), the two variables that were measured are clearly described, the headers have units, the values have the proper number of sig figs, and their decimal points are aligned. In (b) the variables are not clearly described. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet?
+
+Your goal with a table, is to communicate what you did as simply as possible to those reading your report. For this class, that means your TA, who will be grading your report. If you are clear in your thoughts and your tables, it is more likely that your TA will be able to understand any mistakes you make. This will allow them to provide better feedback, and maybe even take off fewer points. If your TA can't follow what you did, they are more likely to take off points.
+
+
+## Q: How do I receive full credit on a plot in my lab report?
+
+While the contents of the plot are important for your grade and are decided by the context of the lab activity, you can do things to ensure that you *don't loose points to frivouslous display issues*. 
+
+**In order for the plot to convey the data scientifically, it must:**
+
+1. Identify the independent and dependent variables, and make sure you put them on the correct axes. 
+2. Determine the range of each variable. Your data should take up most of the area of your plot. There *should not* be any large blank areas.
+3. Clearly label each axis with the variable name and unit of measurement.
+4. Plot the data as a scatter plot. DO NOT "connect the dots."
+5. Draw the line of best fit (usually linear) and include its equation.
+6. Provide a descriptive title that communicates the scenario that you are plotting.
+:::
+
+When it comes to a title, **don't** provide a title like "Distance vs. Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, *e.g.*, "Distance Traveled by Car on Vacation Trip."
+
+[](#Figure-goodgraph), below, is an example of a good plot, which shows the relationship between the color (wavelength) of the light emitted by several different LEDs and the measured voltage at which they turn on.  The Inverse Wavelength is the independent variable and the Turn-on Voltage is the dependent variable.
+
+
+
+:::Figure (goodgraph|xl)
+![Example of a Good Graph](imgs/Primer/GoodGraph.png)
+Example of a Good Graph
+:::
+
+Notice that the data take up the entire plot; there are no large blank areas. Both of the axes are labeled and have units. The data points are not connected, and there is a line of best fit. There is also a title for the plot that lets us know what the experimenter was doing.
+
+
+
 # Etc
 
 # How to use the Manual

@@ -8,13 +8,14 @@ Following this discussion we will turn our attention to a real experiment. You w
 
 :::
 
-:::Prelab
+::::::Prelab
 **Prior to Lab**, please complete the following:
- - [](#Exercise-noforce)
- - [](#Exercise-analysis)
+:::center
+  [](#Exercise-noforce), [](#Exercise-quadratic), [](#Exercise-confounded), [](#Exercise-tffromy), [](#Exercise-completedtable)
+:::
 
 Your TA will check your notebook at the beginning of class.
-:::
+::::::
 ---
 
 
@@ -48,7 +49,7 @@ The **acceleration**, $a(t)$, quantifies how the *velocity* of an object changes
 
 These three variables are interrelated, as each of the latter two quantities tells you about the *change over time* of the previous one [fn]You may wonder what a change in acceleration is. This is called [*jerk*](https://en.wikipedia.org/wiki/Jerk_(physics)).We could go on to define the change in jerk and so on, but as it turns out, the three variables in our current discussion are often more than adequate to describe most kinds of motion[/fn]. In this lab, we will learn about what these relationships mean in both a qualitative and quantitative way. Since we are going to experiment with these concepts by dropping a ball off the side of Broida, the remaining discussions in the manual will focus on this scenerio.
 
-:::Note (vectors|3 )
+:::Note (vectors|7 C )
 Unlike the simple case of 1D motion, when we are considering motion in 2D (a plane) or 3D (a volume), all three quantities must be expressed as *vectors*, with independent components for each possible direction of motion. 
 :::
 
@@ -172,25 +173,201 @@ $$
 Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) = $ 
 :::
 
-
-## Motion of Falling Objects
-
-In the last example, we considered the motion of an object under constant acceleration due to gravity. In this lab, we will test the validity of this model under earth's gravity. 
-
-When dropped from the same height, which one of these objects &ndash; stone or feather &ndash; will hit the ground first? Most people will say, "That depends." If this is done in a normal room, the stone wins, as your intuition may tell you. If, however, it is done in a *vacuum*, which contains no air, both hit the bottom at the same time! The question we would like to answer is: "How does the presence of the air change the equations of motion for falling objects?"
-
-In the next activity, you will watch videos of someone dropping a variety of balls from a sixth-floor walkway. For one drop, you will measure and record height and time data, and for the rest, you will be given the data. You will plot these data, and use your results to test the validity of one of the motion formulas, namely,
-
-:::Equation
-$$
-y(t) = y_0 + v_{0}t + \frac{1}{2} at^2
-$$
+:::Exercise (quadratic)
+Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. 
+1. How long does it take for the ball to reach the ground again? ;;;Hint: When the ball reaches the ground again, y=0 ;;;
+2. How long does it take for the ball to reach the highest point of its arc?
+3. What is the ball's maximum height?
 :::
 
-where y is the position, $v_{0y}$ the initial velocity, $a_{y}$ the acceleration, and t the time. In some of these examples, you may find that the data do not match the theoretical equation. It is your job to determine how and why these equations change, by using your sharp analytical skills.
+## Analyzing the Motion of Falling Objects
+
+In the last example, we considered the motion of an object under constant acceleration due to gravity.  In our experiment this week, we will explicitly test the validity of this model under earth's gravity, using a number of different objects. As is generally true in experimental physics, we face the possibility that our theoretical models may only be partially right. Our job will be to figure out in what situations the theoretical model applies and in which it doesn't. For the cases that the model *fails*, we will inspect our data and develop a hypothesis as tto **why** it has failed. 
+
+:::Exercise (confounded)
+In the previous section we discussed the ideal behavior of a ball under constant acceleration. Brainstorm three possible reasons why the time it takes for a ball to reach the ground after being dropped in our real-life experiment may not match the theoretical prediction.
+:::
+
+### Where can our theory go wrong?
+
+When dropped from the same height, which one of these objects &mdash; stone or feather &mdash; will hit the ground first? Most people will say, "That depends." If this is done in a normal room, the stone wins, as your intuition may tell you. If, however, it is done in a *vacuum*, which contains no air, both hit the bottom at the same time! The question we would like to answer is: "How does the presence of the air change the equations of motion for falling objects?"
+
+Using a stopwatch, you will measure the time it takes for various objects to hit the ground after being dropped from one of Broida's balconies of varying height. In this experiment, we ultimately have two questions to answer:
+ 1. Which, if any, of the objects will match our expectations of motion under constant acceleration?
+ 2. Which, if any, of the objects will defy these expectations and *how*?
+
+Quantitatively, both of these questions are essentially asking you to compare the theoretical & measured time to hit the ground, $t_f$, and draw a conclusion from any agreement or disagreement. 
+
+:::Exercise (tffromy)
+If $t_f$ is the time that the ball has hit the ground again, then $y(t_f)=0$.
+Using [](#Equation-positionwithforce), write out an equation that solves for $t_f$ for an object at rest at an initial height of $y_0$. You can assume that the experiment takes place on earth so that $a=g$. ;;;Hint: Watch your signs before and after applying the squareroot!;;;
+
+:::
+# Preparing for the Experiment 
+Generally, it is good practice to set up your lab notebook *prior* to an experiment to make sure that you record all of the necessary data in a legible manner. In this portion of the Prelab, we will go ahead and do this in a Google Sheet [fn] Spreadsheet programs are not typically used in real scientific experiments, but in the spirit of equity and freely available software for students, we believe this is the best choice[/fn]. If you have completed the previous lab, you should have enough experience with Google Sheets to follow along with the following activity. If you haven't, please return to [Lab 0](?linkfile=Lab0) to complete it now.
+
+::::::Activity (sheets|Setting Up our Notebook)
+So that we can quickly and efficiently gather our data in person, and make an analysis, please follow along with this activity to set up a datatable.
+
+1. Open a new Google Sheet and Create a Table with 3 rows for data similar to [](#Table-droptable) 
+   :::Table (droptable| Processed Data)
+   | Drop Height| Theoretical $t_f$ | Object 1 Avg. Measured $t_f$| Object 1 Percent Difference|
+   |-------|-------|-------|-------|
+   | ... | ... |... | ... |
+   | ... | ... |... | ... |
+   | ... | ... |... | ... |
+   ::: 
+
+2. Inside each column header you just made, specify the correct units that the measurement will be made in.
+3. From your answer to [](#Exercise-tffromy), set up a function in Google Sheets that will automatically display theoretical $t_f$ using the drop height.
+4. Using the definition of [Percent Difference](?linkfile=lab0#Definition-PercentDifference), create a google sheet function that will automatically calculate the values in this column once the data is entered.
+5. Next, below this table, make a table to record individual measurements for an object, similar to [](Table-avgtable). Each lab partner making a measurement should get their own column. Each column should be labeled with the appropriate units in your version.
+ :::Table (avgtable| Raw Data Object 1)
+   | Drop Height| Firstname_1 Measured $t_f$ | Firstname_2 Measured $t_f$| Avg Measured $t_f$|
+   |-------|-------|-------|-------|
+   | ... | ... |... |... |
+   | ... | ... |... |... |
+   | ... | ... |... |... |
+ ::: 
+
+ 6. Use a Google Sheet function so that once the data is entered for each lab partner, the average is automatically calculated.
+
+:::Exercise (completedtable)
+
+1. Make copies of your version of [](Table-avgtable) for each object that will be dropped.
+2. For Objects 2 and 3, create additional columns in [](#Table-droptable) to record their drop heights and percent difference. Your final table should have eight columns.
+3. Make a copy of [](#Table-droptable)  and [](#Table-avgtable) in your lab notebook. Make sure the table is easily readable and properly formatted prior to class so that your TA can verify that you have done the prelab.
+:::
+::::::
 
 
-## General Properties of Motion Curves
+
+# The Experiment
+
+We are now ready to move ahead and conduct the experiment. You have done most of the hard work in the lab already! On the day of your laboratory experiment, please be sure your completed work is available to be checked by your TA.
+
+## Collecting Drop Times
+:::Materials (Objects for Dropping --- Feather, Basket Ball, Dog Ball|Stopwatch| Large Measuring Tape | Graph Paper)
+:::
+
+
+
+In [](#Activity-ball-drop) we will look at different balls being dropped from the walkways of Broida Hall.
+
+How do the properties of these sport balls affect how they fall?
+
+
+::::::Activity (ball-drop|Making the measurement)
+**Instructions:**
+1. Round up the objects for the test drop and head out to the designated dropping area with your TA. 
+2. Using the measuring tape, determine the height from the drop zone to each of the floors. The railing makes for a good 
+reference point from where you or one of your group members will drop things.
+
+:::Exercise (collect-heights)
+
+1. What is the distance from the drop zone to the rail on the second floor?
+2. What is the distance from the drop zone to the rail on the third floor?
+3. What is the distance from the drop zone to the rail on the fourth floor?
+:::
+
+3. Before you drop anything, be sure the drop zone is clear of people! From the second, third, and fourth floors of Broida, have one team member release an object from the recorded height and let it fall to the ground while the other team members time the fall. Be sure you release the object cleanly without imparting an initial upward or downward 
+speed, *i.e.* that the object is released from **rest**.
+4. Record the times measured by each group member ;;;Each member of your group should have an identical copy of *all* data;;;
+5. Repeat this procedure, including recording data for several objects.
+::: Warning
+Do not throw the objects to the upper floors. Use the stairs. 
+:::
+
+:::Exercise
+1. Fill in the drop height data and your team's raw measurements of $t_f$ into your raw data tables. Include a copy of these tables here. Make sure that this data and all calculated columns have the correct number of significant figures and have labeled units as necessary.
+2. Use the calculated average $t_f$'s to fill in the theoretical table, and include a copy of the final table in this exercise. 
+:::
+::::::
+
+## Analyzing Drop Times
+
+Now that you have collected and organized your data, we can now analyze the results and answer the original questions:
+ 1. Which, if any, of the objects will match our expectations of motion under constant acceleration?
+ 2. Which, if any, of the objects will defy these expectations and *how*?
+
+
+
+[](#Activity-analy) walks you though a shot analysis, by plotting the theoretical behavior against your real data sets.
+::::::Activity (analy)
+
+1. Using the data in your Processed Data table, for each object, graph the height $y$, vs. measured fall time $t_f$. Label your graph with the proper units. Your graph should have 
+four points for each object;;;Hint: what is tf for a height of 0? ;;;. 
+
+2. On the same graph, also plot the theoretical fall time calculated.; and compare this to your original data.
+
+:::Exercise
+1. Which of the objects **most closely** follow the theoretically predicted drop time?
+2. Which of the objects have the greatest percent difference with the theoretically predicted drop time?
+3. For the object in part (b), is the percent difference greater for higher or lower drop heights?
+:::
+
+3. For the object in with the greatest percent difference with the theoretically predicted drop time, use Google sheets to create a line of best fit with the measured data (excluding the origin)
+
+:::Exercise
+1. What is the slope of the line of best fit, including units?
+2. What is the physical meaning of the line of best fit?
+:::
+
+::::::
+
+## Discussing Our Results
+
+If all things in the lab have gone well, you likely found that at least one of your objects has a suspiciously linear-looking $y_0$ v.s. $t_f$ graph. This is seemingly in direct conflict with our expectations for objects experiencing constant acceleration. What use are the these theoretical models if they get such a simple experiment wrong?
+
+It turns out, however, that our lengthy discussion in [Part I](#part1), upon a closer inspection actually *resolves* our problems. Recall that the the velocity of an object, in the absence of acceleration, remains constant. In a world without gravity, if we had performed the experiment by dropping an object with an initial velocity $v_0$ from a height of $y_0$, it would reach the ground at a time $t_f = y_0/v_0$. This relationship is *linear* in height, just like some of our data. 
+
+:::center
+**Wait, what? But we live in a world** ***with*** **gravity!**
+:::
+
+Indeed, some of our objects behave in a way that looks like they are ignoring gravity after a few moments of time. The reason for this is that their motion through the air generates an **additional force**  proportional to and in the direction opposite of their velocity. As an object falls under the influence of gravity, eventually the decelleration from air resistance will cancel the acceleration from gravity, leading to an **object experiencing motion under no net force**. [](#Simulation-balldrop) below lets you explore this interactively. 
+
+
+
+
+:::Simulation (balldrop)
+<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/BallDrop/Page.html"  height="1000" style="border:none;width:100%"> </iframe>
+
+:::
+
+:::Exercise (FinalevalAR)
+Reflect on the trajectories of the dropped objects and their properties.
+1. Which objects, according to your data, were most influenced by air resistance as discussed?
+2. Does it make sense to you that these mentioned objects were affected most by air resistance? What physical properties to they have that might lead to high air resistance?
+:::
+
+
+:::Exercise (Finalevalall)
+We now want to discuss the impact of factors other than air resistance. 
+1. Do you think that the uncertainty introduced by you and your lab partner's reaction times is significant in this experiment? Please answer this quantitatively, referencing your measured reaction time from this [Exercise](linkfile?=Lab0#Activity-randomerr) in Lab 0 and comparing it to the *variance* in measured times
+2. Do you think that there any environmental factors that could have significantly altered the results of the experiment? ;;;Hint: consider things such as wind, weather, accidentally imparting a v0;;;
+:::
+
+# Conclusion
+
+:::Exercise
+Write a brief conclusion summarizing the important points of this lab.
+:::
+
+:::Summary 
+Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises, in your report, as well as answers to all the questions.
+
+**All responses and answers should contain the correct number of sig figs and should include units when needed.**
+:::
+
+# Old Stuff
+
+
+
+::::::::::::Hider (|Stuff from old manual that doesn't really fit.)
+
+
+### General Properties of Motion Curves
 :::Figure (graphs|m|R) 
 
 ![(a) Constant Position vs. Time](imgs/VelAcc/Constant.png "(a) Constant Position vs. Time")
@@ -269,78 +446,6 @@ Make sure to take a picture of your sketch plots and include them in your report
 
 ::::::
 
-
-# The Experiment
-
-## Collecting Data from an Experiment
-:::Materials (Objects for Dropping --- Feather, Basket Ball, Dog Ball|Stopwatch| Large Measuring Tape | Graph Paper)
-:::
-
-
-
-In [](#Activity-ball-drop) we will look at different balls being dropped from the walkways of Broida Hall.
-
-How do the properties of these sport balls affect how they fall?
-
-
-::::::Activity (ball-drop|Making the measurement)
-**Instructions:**
-1. Round up the objects for the test drop and head out to the designated dropping area with your TA. 
-2. Using the measuring tape, determine the height from the drop zone to each of the floors. The railing makes for a good 
-reference point from where you or one of your group members will drop things.
-
-:::Exercise (collect-heights)
-1. What is the distance $y_1$ from the drop zone to the rail on the second floor?
-2. What is the distance $y_2$ from the drop zone to the rail on the third floor?
-3. What is the distance $y_3$ from the drop zone to the rail on the fourth floor?
-:::
-
-3. Before you drop anything, be sure the drop zone is clear of people! From the second, third, and fourth floors of 
-Broida, have one team member release an object from the recorded height and let it fall to the ground while the other 
-team members time the fall. Be sure you release the object cleanly without imparting an initial upward or downward 
-speed. Then $v_y(0)$ = 0 and $a_y= -9.8 \text{m}/\text{s}^2$
-.
-4. Record the times measured by each member. The average is the drop time for the object. These data should be copied 
-by each member of the team as each will turn in a lab report.
-Warning: Do not throw the objects to the upper floors. Use the stairs. 
-5. Repeat this procedure for several objects.
-6. For each object, make a table on your data sheet with the height and fall time. Take note of the units!
-7. For each object, graph the height $y$, vs. fall time $t$. Label your graph with the proper units. Your graph should have 
-four points (including the origin). This is enough data to check basic trends. Use a separate sheet of graph paper for 
-each object.
-
-:::Exercise
-1. Include the graphs made in this Activity, being sure that they are properly labelled and have all the qualities of a [Good Figure](google.com). 
-2. Are any of these plots linear?
-3. In terms of displacement, velocity, or acceleration, what does it mean if the plot is linear? 
-:::
-
-8. On each of these same graphs, also plot $y = \frac{1}{2}a_y t^2$ ;;; using $a_y = -9.8 \text{ m}/\text{s}^2= -32 \text{ ft}/\text{s}^2$, and your fall times to get $y$ ;;; and compare this to your original data. Remember to include a few sentences of analysis with each graph.
-::::::
-
-
-
-
-# Conclusion
-
-:::Activity
-Write a brief conclusion summarizing the important points of this lab.
-:::
-
-
-
-:::Summary 
-Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises, in your report, as well as answers to all the questions.
-
-**All responses and answers should contain the correct number of sig figs and should include units when needed.**
-:::
-
-
-# Stuff from old manual that doesn't really fit.
-
-
-
-
 ::::::Activity drop
 
 In this exercise you will be collecting data for the height of a ball in free fall versus time. All four balls will be dropped, but you will **be taking data only for the basketball.** The data for the other balls have been taken for you.
@@ -365,17 +470,13 @@ We have annotated [](#Video-balldrop) for you with the height measurements and a
 
 
 
-# Simulation
+### Simulation
 To get a feel for the concepts in this lab, feel free to play with [](#Simulation-balldrop). You can adjust the sliders to see how different conditions affect the trajectory of the ball. Observe how increasing or decreasing air resistance affects the shape of the graph! In this lab you will explore this phenomenon by using your analytical and mathematical skills.
 	
-:::Simulation (balldrop)
-<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/BallDrop/Page.html"  height="1000" style="border:none;width:100%"> </iframe>
-
-:::
 
 
 
-## Understanding & Organizing Data
+### Understanding & Organizing Data
 You have now collected some data for a basketball falling from the sixth floor of Broida! As mentioned above, three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection, we have collected data for you by using a piece of software called Tracker.
 
 Tracker allows us to monitor the location of the ball at every frame of the video, which happens once every 1/30 second. This method has two advantages:
@@ -414,9 +515,9 @@ Please open the link to the Google Sheet data when you are ready to start [Ex](#
 :::
 ::::::
 
-# Analyzing the Data
+### Analyzing the Data
 
-## Qualitatively Understanding your Data
+### Qualitatively Understanding your Data
 In [](#Activity-anal) you will begin analyzing the drop data. You will apply what you learned in the Introduction to real data, and try to **infer** something about the underlying physics.
 
 :::Activity anal
@@ -431,7 +532,7 @@ In [](#Activity-anal) you will begin analyzing the drop data. You will apply wha
 
 :::
 
-## Quantitatively Understanding your Data
+### Quantitatively Understanding your Data
 In [](#Activity-fit), for each of the datasets, you will perform a polynomial fit of degree 2. This will draw a line of best fit by using a quadratic function. That is, it will attempt to fit the equation:
 
 
@@ -489,7 +590,7 @@ This exercise is designed to help you understand curve fitting. Nothing needs to
 ::::::
 
 
-## Quantitatively Understanding your Data 2
+### Quantitatively Understanding your Data 2
 In [Ex](#Ex-quant) we will be more quantitative about our analysis. We will perform specific fits to our data and use the results to analyze the underlying physics in our experiment. 
 
 ::::::Activity quant
@@ -543,3 +644,6 @@ From your linear fit:
 
 
 ::::::
+
+
+::::::::::::

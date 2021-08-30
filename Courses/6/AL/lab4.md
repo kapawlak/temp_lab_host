@@ -1,7 +1,7 @@
 # Lab 4: Rotation
 ---
 
-:::Card Intro In this Lab..
+:::Intro (In this Lab..)
 In the last lab of this quarter, you will refresh your knowledge of **Rotational Mechanics**. While the relationships between variables are very similar to Linear Mechanics, some quantities are ostensibly new, and will be explored in this lab. Among them is the concept of the **Moment of Inertia** of an object, and in this lab we will investigate multiple ways to measure it in a pulley system. 
 :::
 
@@ -19,7 +19,7 @@ The similarities between these two kinds of mechanics are so deep, that it is wo
 ## Position, Velocity, Acceleration 
 
 ### Angular displacement
-:::RFigure ad s
+:::Figure (ad|s|R)
 ![](imgs/Lab4/angulardisplacement.png)
 The 8-ball on the right has been rotated to have an angular displacement of $\theta$, counterclockwise about an axis coming out of the page through its center, with respect to the vertical axis, compared to the one on the left.
 :::
@@ -193,7 +193,7 @@ The total kinetic energy for the rotating object is the sum for all points on it
 
 ## Setup
 
-For our dynamic measurement of the moment of inertia, we will use a vertically-mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. [Fi](#Fi-device) shows a schematic of the apparatus: 
+For our dynamic measurement of the moment of inertia, we will use a vertically-mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. [](#Figure-device) shows a schematic of the apparatus: 
 
 :::Figure device l
 ![Figure_1](imgs/Lab4/Figure_1.jpg)
@@ -210,12 +210,12 @@ The tension in the string provides, in turn[fn]pun intended[/fn], an opposing fo
 :::
 <!--In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin $\theta$ equals one; F and F$_\perp$ are identical.-->
 
-:::Question
+:::Exercise
 1. What is the formula for the torque on the turntable in terms of tension $T$ in the string and the lever arm distance $r$? 
 
 2. What is the tension in the string if the turntable is held fixed, with the mass hanging from the pulley (*i.e.*, the mass is stationary)?
 
-3. When the mass is falling, what is the tension in the string? Use Newton&rsquo;s second law to determine the tension $T$ in the string as a function of $m$, the falling mass, $g$, the acceleration due to gravity, and $a$, the linear acceleration of the falling mass. Refer to [Fi](#Fi-device).
+3. When the mass is falling, what is the tension in the string? Use Newton&rsquo;s second law to determine the tension $T$ in the string as a function of $m$, the falling mass, $g$, the acceleration due to gravity, and $a$, the linear acceleration of the falling mass. Refer to [](#Figure-device).
 :::
 
 When you release the mass, it accelerates toward the earth with acceleration, $a$. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, $h$. We then use the following equation to calculate $a$[fn]Because the mass starts from rest, we can ignore the $v_{0} t$ term, which equals zero.[/fn]:
@@ -236,7 +236,7 @@ $$
 
 where $a$ is the acceleration of the falling mass, $r$ is the lever arm distance, and $\alpha$ is the angular acceleration of the turntable.
 
-:::Question
+:::Exercise
 Show that the equation $a=r\alpha$ is consistent in terms of units. 
 Note: Radians can be ignored as units. (They are dimensionless, as mentioned above.)
 :::
@@ -247,12 +247,12 @@ Be sure you understand the difference between the **angular acceleration**, $\al
 # Determining the Moment of Inertia from Torque and Angular Acceleration
 We will first calculate the moment of inertia $$I$$ of the turntable by using the equation $$\tau=I\alpha.$$
 
-::::::Exercise
+::::::Activity
 In this exercise we will set up the table needed to record our data.
 
 1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ $\rm cm$. We will be using only the groove whose radius is $2.5$ $\rm cm$. Record this radius. This will be your lever arm $r$ since the tension $T$ is perpendicular to it.
 
-:::Question
+:::Exercise
 What effect does the diameter of the string have on the lever arm? Explain why we can ignore this effect.
 :::
 
@@ -268,7 +268,7 @@ What effect does the diameter of the string have on the lever arm? Explain why w
 
 6) We will repeat this procedure (steps 1-5) for all our different masses.
 ::::::
-::::::Exercise
+::::::Activity
 The following video will show the steps above being performed.
 
 1) Watch the video, and record for each mass, $r$, $m$, $h$ and $t$.
@@ -301,7 +301,7 @@ $$
 
 where $M$ is the mass of the disc and $R$ is the radius of the disc. Do not confuse the radius of the disc $R$ with the lever arm $r$ where the tension is applied. Do not confuse the mass of the disc $M$ with the hanging mass $m$. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
 
-::::::Exercise
+::::::Activity
 
 1) The video below shows the measurement of the mass and the diameter of the turntable platter. Record these values.
 :::Video
@@ -309,7 +309,7 @@ where $M$ is the mass of the disc and $R$ is the radius of the disc. Do not conf
 :::
 2) Given the mass  $M=976.5 \rm\ g$ and radius $R=12.7 \rm\ cm$ of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
 
-:::Question
+:::Exercise
 1. How do your two calculated moments of inertia compare to each other?
 
 2. What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
@@ -318,6 +318,6 @@ where $M$ is the mass of the disc and $R$ is the radius of the disc. Do not conf
 
 4. What else might cause a discrepancy between these two values? 
 ::::::
-:::Exercise
+:::Activity
 Write a brief statement summarizing the main points of this lab.
 :::

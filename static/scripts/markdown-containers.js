@@ -63,9 +63,10 @@ class Card{
         this.headerText = '<i class="fa fa-thumb-tack fs-1" aria-hidden="true"></i>'
         break
       case 'Warning':
-        this.styleList.push(' mx-auto bg-danger bg-gradient alert alert-warning alert-dismissible fade show hshaker')
+        this.styleList.push(' mx-auto bg-danger bg-gradient alert alert-warning  fade show hshaker')
         this.innerStyles= ['text-center text-light', 'text-center text-light fs-2', 'px-2' , 'text-center']
-        this.headerText='<i class="fa fa-exclamation-triangle fs-1 rotor" aria-hidden="true"></i> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+        this.headerText='<i class="fa fa-exclamation-triangle fs-1 rotor" aria-hidden="true"></i> '
+        this.footerText='<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="bottom:0px!important; position:relative!important"></button>'
         break
       case 'Definition':
         this.styleList.push('')
@@ -656,6 +657,48 @@ md.use(container, 'row', {
   }
 });
 
+md.use(container, 'center', {
+
+  render: function (tokens, idx) {
+
+    let args;
+    if (tokens[idx].nesting === 1) {
+      args = strip(tokens[idx].info.trim().match(/^center(.*)$/)[1])
+      // opening tag
+      return `<div class="text-center">`;
+    } else {
+      return '</div>'
+    }
+  }
+});
+md.use(container, 'left', {
+
+  render: function (tokens, idx) {
+
+    let args;
+    if (tokens[idx].nesting === 1) {
+      args = strip(tokens[idx].info.trim().match(/^left(.*)$/)[1])
+      // opening tag
+      return `<div class="text-left">`;
+    } else {
+      return '</div>'
+    }
+  }
+});
+md.use(container, 'right', {
+
+  render: function (tokens, idx) {
+
+    let args;
+    if (tokens[idx].nesting === 1) {
+      args = strip(tokens[idx].info.trim().match(/^right(.*)$/)[1])
+      // opening tag
+      return `<div class="text-right">`;
+    } else {
+      return '</div>'
+    }
+  }
+});
 
 
 
