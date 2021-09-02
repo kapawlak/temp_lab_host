@@ -1,8 +1,25 @@
 // Custom.scss
 // Option B: Include parts of Bootstrap
+.avenir-light {
+    font-family: Avenir, "Century Gothic", sans-serif; 
+    font-weight:100; 
+    font-style:normal;
+  }
+  
+  .avenir-black-oblique {
+    font-family:Avenir, "Century Gothic", sans-serif; 
+    font-weight:600; 
+    font-style:italic; 
+  }
+  
+  .produkt-thin {
+    font-family:Produkt, serif; 
+    font-weight:100; 
+    font-style:normal;
+  }
 
-
-
+  $font-weight-bolder:          800 ;
+  $lead-font-weight:            100;
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../bootstrap/scss/functions";
 
@@ -70,7 +87,9 @@ $dropdown-divider-margin-y:         1px ;
  
 
 
-
+$font-family-sans-serif:      "Avenir", Roboto , -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       "Produkt", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-weight-base:            280;
 
 
 $accordion-padding-y:                     0.75rem;
@@ -500,7 +519,7 @@ $simulation-bg:$UCSB-mist;
             padding: 0.3rem 0px;
         }
         li::marker{
-            font-weight: 550;
+            font-weight: bold;
         }
     }
 
@@ -680,11 +699,17 @@ $simulation-bg:$UCSB-mist;
 
 ////Specific
 #part0{
-    font-family: var(--bs-font-monospace);
+    font-family: "Produkt", var(--bs-font-monospace);
     font-size: 1em;
+    font-weight: 400;
     direction: ltr /* rtl:ignore */;
     unicode-bidi: bidi-override;
-
+    margin:  20px auto;
+    display: block;
+    text-align: center;
+    //text-decoration: underline;
+    font-size: 3rem;
+    border-bottom: 1px lightgrey solid
 }
 
 

@@ -3,7 +3,7 @@
 
 
 :::Intro (Welcome to PHYS6AL)
-The goal of this assignment is to prepare you for the rest of the quarter, and even the next two quarters of the Physics 6 Lab series. This week we will discuss some of the mosst important concepts in experimental Physics, including: 
+The goal of this assignment is to prepare you for the rest of the quarter, and even the next two quarters of the Physics 6 Lab series. This week we will discuss some of the most important concepts in Experimental Physics, including: 
 
 - **Uncertainty** and **Error**, including their quantification 
 - Basic **Statistics**, including the meaning of mean and standard devation
@@ -35,7 +35,7 @@ $$
 15.33 \pm 0.05 \text{ $\text{cm}$}
 $$
 
-The 15.33 $\text{cm}$ is our best estimate, and the 0.05 $\text{cm}$ is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is 15.33 $\text{cm}$ but the true length is most likely between 15.28 $\text{cm}$ and 15.38 $\text{cm}$.
+The  $15.33\text{ cm}$ is our best estimate, and the  $0.05 \text{ cm}$ is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is  $15.33 \text{ cm}$ but the true length is most likely between $15.28 \text{ cm}$ and  $15.38 \text{ cm}$.
 
 :::Note (uncert|4)
 Uncertainty is unavoidable in every measurement!
@@ -106,7 +106,7 @@ The main points of the previous section were:
 We are now ready to see the effects of error in a real experiment. Please expand [](#Activity-randomerr) and complete the instructions
 
 ::::::Activity (randomerr|Recording Your Reaction Time)
-An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too early or a little too late.
+An example of a random error is the variation in your reaction time. Even if you have a good idea of how delayed your reaction to a signal is, it will always vary slightly, sometimes a little later and other times a bit earlier.
 
 1. Measure your reaction time by going to the following website:
 [https://humanbenchmark.com/dashboard/reactiontime](https://humanbenchmark.com/dashboard/reactiontime)

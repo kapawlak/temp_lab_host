@@ -20,7 +20,7 @@ After an analysis of your data, you will have to make that decision with an evid
   [](#Exercise-noforce), [](#Exercise-quadratic), [](#Exercise-tffromy), [](#Exercise-confounded), [](#Exercise-completedtable)
 :::
 
-Your TA will check your notebook at the beginning of class.
+Your TA will check your notebook at the beginning of class. You should also, at the very minimum, skim the rest of the lab before class to ensure that you are prepared to turn in your report by the end of class.
 ::::::
 ---
 

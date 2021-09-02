@@ -86,7 +86,7 @@ class Card{
         break
       case 'Activity':
         this.collapse=true
-        this.headerText= 'Activity ' + this.number
+        this.headerText= `<div class= ' container-fluid row justify-content-start'> <div class='col-lg-12'> <strong>Activity ${this.number} </strong></div>`
         this.styleList.push('col-lg-11 my-5 mx-auto')
         this.innerStyles[0]+=collapsable_header
         break
@@ -431,7 +431,8 @@ md.use(container, 'Activity', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Activity(.*)$/)[1])
       let activity = new Card('Activity', args[0])
-      activity.headerText+= args[1] ?  `│ <span class='lead align-baseline' style="padding-left:0px"> ${args[1]} </span>` : ''
+      activity.headerText+= args[1] ?  `<div class='col-lg-12 text-left justify-content-start' > <span class='lead align-baseline' style="padding-left:0px"> ${args[1]} </span></div>` : ''
+      activity.headerText+='</div>'
       activity.publishCard()
       return div_head.pop()
     } else {

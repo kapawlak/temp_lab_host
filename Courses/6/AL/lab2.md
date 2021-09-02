@@ -1,4 +1,4 @@
-# Lab 2: Forces and Motion
+Forces and Motion
 
 
 :::Intro (This Week|Air Track|Cart|Riser Block|Force Meter|Scale|Stopwatch)
