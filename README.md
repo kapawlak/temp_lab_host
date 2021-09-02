@@ -29,17 +29,19 @@ The directory structure must look as follows for the index.html linking to work:
   |-people
   |-Courses
         |-Course_group_folder
+                |Common (Contains stuff like shared FAQ and Policies for course Groups)
+                        |- FAQ.md
+                        |- imgs
                 |-Course_folder
-                        |-index.html
-                        |-config.json             
-                        |-home.md
-                        |-FAQ.md
-                        |-lab0.md
+                        |- index.html
+                        |- config.json             
+                        |- home.md
+                        |- lab0.md
                         .
                         .
                         .
-                        |-lab#.md
-                        |-imgs
+                        |- lab#.md
+                        |- imgs
                            |-LabName
                               |-imagename.ext
 ```

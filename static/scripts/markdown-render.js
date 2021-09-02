@@ -14,13 +14,15 @@ function doRendering(md_text) {
 function includeHTML(filenum = linkfile) {
     console.log("include html called")
    
-   
-    
     var z, xhttp;
     /*loop through a collection of all HTML elements:*/
     z = document.getElementById("maincontent");
 
+    if(filenum == 'FAQ'){
+        filenum = '../Common/'+filenum
+    }
     file =  filenum + ".md"
+
 
     if (file) {
         /*make an HTTP request using the attribute value as the file name:*/

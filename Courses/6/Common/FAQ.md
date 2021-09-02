@@ -1,6 +1,5 @@
 # FAQ
 
-
 #  Who do I contact for help...
 ## ...completing the lab?
 ## ...turning in my assignment?
@@ -25,10 +24,10 @@ In [](#Figure-table_ex) we show an example of an excellent table and a not-so-gr
 :::::::::Figure (table_ex|s|Row)
 ::::::row
 ::: col
-![Table 1](imgs/Primer/GoodTable.png "a) Table 1")
+![Table 1](../Common/imgs/FAQ/GoodTable.png "a) Table 1")
 :::
 ::: col
-![Table 2](imgs/Primer/BadTable.png "b) Table 2")
+![Table 2](../Common/imgs/FAQ/BadTable.png "b) Table 2")
 :::
 ::::::
 :::::::::
@@ -59,7 +58,7 @@ When it comes to a title, **don't** provide a title like "Distance vs. Time." Th
 
 
 :::Figure (goodgraph|xl)
-![Example of a Good Graph](imgs/Primer/GoodGraph.png)
+![Example of a Good Graph](../Common/imgs/FAQ/GoodGraph.png)
 Example of a Good Graph
 :::
 

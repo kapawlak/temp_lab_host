@@ -14110,7 +14110,7 @@ textarea.form-control-lg {
 .Activity {
   border-radius: 5px !important;
 }
-.Activity button {
+.Activity > .accordion-item > button {
   border: 0px solid black;
   width: 100%;
   background-color: #984c43;
@@ -14118,17 +14118,17 @@ textarea.form-control-lg {
   border-radius: 0.25rem !important;
   color: white;
 }
-.Activity button:after {
+.Activity > .accordion-item > button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
-.Activity button:active, .Activity .Activity button:focus {
+.Activity > .accordion-item > button:active, .Activity .Activity button:focus {
   border: 0px solid black;
   width: 100%;
   color: white;
   background-color: #ad5d53;
   box-shadow: none !important;
 }
-.Activity button:not(.collapsed) {
+.Activity > .accordion-item > button:not(.collapsed) {
   border: 0px solid black;
   width: 100%;
   color: white;
@@ -14136,7 +14136,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: 0rem !important;
   border-bottom-right-radius: 0rem !important;
 }
-.Activity button:not(.collapsed):after {
+.Activity > .accordion-item > button:not(.collapsed):after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 .Activity .card-but {
