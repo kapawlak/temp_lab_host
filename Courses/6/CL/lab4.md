@@ -1,13 +1,15 @@
 # Lab 4: Nuclear Physics
----
-:::Card Intro You&rsquo;ve made it to the final lab!
-You&rsquo;ve learned a lot about optics this quarter, and we are finally ready to move on! In this lab we will be focusing on the final subject of this course: **Nuclear Physics** and the characteristics of its radiation.
+
+:::Intro You've made it to the final lab!
+You've learned a lot about optics this quarter, and we are finally ready to move on! In this lab we will be focusing on the final subject of this course: **Nuclear Physics** and the characteristics of its radiation.
 :::
+
 ---
+
 # Introduction
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/VeXpMijpazE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (intro| What is Radiation?)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/VeXpMijpazE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
 The nuclei of some atoms are unstable. In the process of becoming stable, they emit various particles. This phenomenon is known as radioactive decay. The most common types of emission are alpha and beta particles, and gamma rays. 
@@ -23,8 +25,8 @@ The energies of all three of these types of radiation greatly exceed the ionizat
 
 ## Geiger-Müller Tube
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/qtvz8lH5zhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (gmt|Geiger-Müller Tubes)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/qtvz8lH5zhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
 A device called a Geiger counter can be used to detect alpha, beta and gamma radiation. The Geiger-Müller tube (or GM tube) is the sensing element of a Geiger counter. It can detect a single particle of ionizing radiation, and is typically connected to electronic circuitry that produces an audible click for each event. It was named for Hans Geiger, who invented the device in 1908, and Walther Müller, who collaborated with Geiger in developing it further in 1928.
@@ -33,31 +35,32 @@ The Geiger-Müller tube consists of a tube filled with an inert gas such as heli
 
 
 
-:::LFigure gmtube xl
-![Geiger-Müller Tube Plateau](imgs/Lab4/fig1_1.JPG)
-Geiger-Müller Tube Plateau
+:::Figure (gmtube|xl|L)
+![Geiger-Müller Tube Plateau](imgs/Lab4/fig1_1.JPG 'Geiger-Müller Tube Plateau')
+
 :::
 When ionizing radiation passes through the tube, it ionizes some of the gas molecules inside it. This creates positively charged ions and free electrons. The electric field between the tube’s electrodes accelerates these charged particles. The ions are pulled to the cathode, and the electrons are drawn to the anode. On their way to the electrodes, they gain sufficient energy to ionize other molecules. This creates an avalanche of charged particles and results in a short, intense pulse of current from the negative electrode to the positive electrode.
 
 
 The Geiger-Müller counter has applications in the fields of nuclear physics, geophysics (mining) and medical therapy that involves radioisotopes and x-rays.
 
-The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge, and radioactive events will not be counted. If the voltage is too great, the tube will break down, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube exhibits a “plateau” effect, where for a given level of radiation, the count rate remains nearly constant over a range of applied voltage. One can determine the correct operating voltage for the Geiger-Müller tube experimentally, by using a small radioactive source and observing the count rate while varying the voltage. [Fi](#Fi-gmtube) displays a typical plateau curve.
+The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge, and radioactive events will not be counted. If the voltage is too great, the tube will break down, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube exhibits a “plateau” effect, where for a given level of radiation, the count rate remains nearly constant over a range of applied voltage. One can determine the correct operating voltage for the Geiger-Müller tube experimentally, by using a small radioactive source and observing the count rate while varying the voltage. [](#Figure-gmtube) displays a typical plateau curve.
 
 
 ## Operational Overview
-:::RFigure labstation m
-![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG)
-Spectech ST - 150 Nuclear Lab Station
+:::Figure (labstation|m|R)
+![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG 'Spectech ST - 150 Nuclear Lab Station')
+
 :::
 
 In this lab we will use the ST-150 Nuclear Lab Station to make radiation measurements with a Co-60 gamma source. We will place it in the device at a set distance from the detector, and then we will insert various absorbers between it and the detector.
-
-<center> <b>The quantities of radiation in this lab are safe and will not hurt you. </b></center>
+:::center
+**The quantities of radiation in this lab are safe and will not hurt you.**
+:::
 
 The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between them. Each position can hold either a radioactive source or an absorber.
 
-:::Note 
+:::Note (|10 C)
 To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken, it cannot be repaired. ***Never*** allow objects to touch the window.
 :::
 
@@ -65,15 +68,15 @@ To improve sensitivity to alpha and beta particle radiation, many GM tubes have 
 
 # Background Counts
 
-::::::Exercise
+::::::Activity (BG-Counts|Analyzing Background Counts)
 
-In this exercise we will introduce our instrument, the ST - 150, and measure the level of the radiation around us by observing the count rate with no source installed in the instrument.
+In this activity we will introduce our instrument, the ST - 150, and measure the level of the radiation around us by observing the count rate with no source installed in the instrument.
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/ye4EiLZWXQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (bg-vid|Background Radiation)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/ye4EiLZWXQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-:::Question
+:::Exercise
 What is the average rate of background radiation in the physics lab? Answer in units of counts per minute.
 :::
 ::::::
@@ -82,23 +85,23 @@ Background radiation is usually caused by high-energy cosmic rays from sources o
 
 ## Cobalt-60
 
-Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [Fi](#Fi-co60). You can see in [Fi](#Fi-co60) that Co-60 emits two different-energy beta particles. This transmutes the nucleus into that of Ni-60, but the Ni-60 is in an excited state. To get to the most stable (ground) state, the excited nucleus emits gamma rays, each time lowering its energy, finally becoming stable Ni-60.
+Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [](#Figure-co60). You can see in [](#Figure-co60) that Co-60 emits two different-energy beta particles. This transmutes the nucleus into that of Ni-60, but the Ni-60 is in an excited state. To get to the most stable (ground) state, the excited nucleus emits gamma rays, each time lowering its energy, finally becoming stable Ni-60.
 
-:::Figure co60 xl
-![*Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.*](imgs/Lab4/co60.gif)
+:::Figure (co60|xl)
+![Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.](imgs/Lab4/co60.gif "Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.")
 
 From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
 :::
 
-:::::: Exercise
-In this exercise we will measure the activity of a Co-60 source with the beta particles being blocked. 
+::::::Activity (co60| The activity of Co-60)
+In this activity we will measure the activity of a Co-60 source with the beta particles being blocked. 
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/w23dvGLi54c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (co60| Co-60)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/w23dvGLi54c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-::: Question
-What is the (gamma) activity of the C0-60 in units of counts per minute? **Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.**
+:::Exercise
+What is the (gamma) activity of the C0-60 in units of counts per minute? ;;;Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.;;;
 :::
 
 ::::::
@@ -111,7 +114,7 @@ In this lab we will measure the mass attenuation coefficient of Cobalt-60 in lea
 
 There are two types of absorbers in this lab:  aluminum and lead. They come in various thicknesses, and each material has a characteristic density. The likelihood that a radioactive particle is absorbed depends primarily upon the amount of mass it encounters. 
 
-Regardless of the materials’ different densities, we employ a method that allows us treat them all similarly. If we measure the amount of material traversed in $\rm mg/cm^2$ rather than the linear thickness traveled by the particle, we get a more useful quantity, which we call &ldquo;density thickness.&rdquo; It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
+Regardless of the materials’ different densities, we employ a method that allows us treat them all similarly. If we measure the amount of material traversed in $\rm mg/cm^2$ rather than the linear thickness traveled by the particle, we get a more useful quantity, which we call "density thickness." It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
 
 Mathematically we see that:
 
@@ -130,7 +133,7 @@ $$
 :::
 Density thickness has dimensions of mass/area; we will use $\rm mg/cm^2$.
 
-:::Note
+:::Note (|10 C)
 The nice thing about density thickness is that it combines linearly. That means if you had a material with density thickness 300 $\rm mg/cm^2$, and another with 100 $\rm mg/cm^2$, and you stacked them on top of each other, the total density thickness would be 400 $\rm mg/cm^2$. 
 :::
 
@@ -140,48 +143,50 @@ Gamma radiation is part of the electromagnetic spectrum, and of all known forms 
 
 # Procedure
 
-::::::Exercise
+::::::Activity (co602)
 
-In this exercise we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. You will make a table of measurements, which you will then use in the next exercise to determine the mass attenuation coefficient of lead. 
+In this activity we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. You will make a table of measurements, which you will then use in the next activity to determine the mass attenuation coefficient of lead. 
 
-Make a table like the following. Remember that for each run you should subtract the background number of counts that you measured in Exercise 1. The result is what we will call &ldquo;Net Counts&rdquo; in the table.
+Make a table like the following. Remember that for each run you should subtract the background number of counts that you measured in activity 1. The result is what we will call "Net Counts" in the table.
 
 :::Table
-|Density Thickness [$mg/cm^2$]| Counts | Net Counts | Activity [cpm] |
-| -------- | -------- | -------- | ------ |
-|     |      |     |_|
+| Density Thickness [$mg/cm^2$] | Counts | Net Counts | Activity [cpm] |
+|-------------------------------|--------|------------|----------------|
+|                               |        |            |                |
+|                               |        |            |                |
+|                               |        |            |                |
 :::
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/6mW-X-0OxxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (th1)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/6mW-X-0OxxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-1. Watch Video 4 and fill out the table accordingly. The density thickness of absorber 8 is $1,230 \rm\ mg/cm^2$.
+1. Watch [](#Video-th1) and fill out the table accordingly. The density thickness of absorber 8 is $1,230 \rm\ mg/cm^2$.
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/pBp3f3ruSBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (th2)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/pBp3f3ruSBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-2. Watch Video 5 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place, you need to add its density thickness to that of absorber 9. The density thickness of absorber 9 is $1,890 \rm\ mg/cm^2$.
+2. Watch [](#Video-th2) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place, you need to add its density thickness to that of absorber 9. The density thickness of absorber 9 is $1,890 \rm\ mg/cm^2$.
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/yJRLIPIsUwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (th3)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/yJRLIPIsUwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-3. Watch Video 6 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 10. The density thickness of absorber 10 is $3,632 \rm\ mg/cm^2$.
+3. Watch [](#Video-th3) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 10. The density thickness of absorber 10 is $3,632 \rm\ mg/cm^2$.
 
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/VKZmvOzoxnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Video (th4)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/VKZmvOzoxnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 :::
 
-4. Watch Video 7 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 11.  The density thickness of absorber 11 is $7,435 \rm\ mg/cm^2$.
+4. Watch [](#Video-th4) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 11.  The density thickness of absorber 11 is $7,435 \rm\ mg/cm^2$.
 ::::::
 
-:::::: Exercise
+::::::Activity
 1. Create a new column in your table. Compute the natural logarithm for each of your activity values. Plot these data against your $\rho x$ values, with ln(activity) on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis.
 
-:::Question
+:::Exercise
 What kind of curve do your data follow (straight-line, exponential, parabolic, etc)?
 :::
 ::::::
@@ -206,14 +211,14 @@ ln(N) = ln(N\rm_0) - (\mu/\rho)(\rho \it{x})
 $$
 :::
  
-[Eq](#Eq-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
+[](#Equation-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
 
-::::::Exercise
+::::::Activity
 
-1. Make a best-fit line on the plot you made in Exercise 4. 
+1. Make a best-fit line on the plot you made in activity 4. 
 2. From the best-fit line, determine $\mu/\rho$.
 
-:::Question
+:::Exercise
 1. What is your computed value for the mass attenuation coefficient of lead?
 
 2. How does this compare to the accepted value of $5.9 \times 10^{-5} \rm\ cm^2/mg$? Your error may be $±50$%.
@@ -225,7 +230,7 @@ $$
 ::::::
 
 # Conclusion
-::: Exercise
+:::Exercise
 Write a brief conclusion summarizing the important points of this lab.
 :::
 :::Summary

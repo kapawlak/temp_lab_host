@@ -53,7 +53,7 @@ class Card{
         this.styleList.push(fig_group)
         break
       case 'Video':
-        this.styleList.push('col-lg-8', 'mx-auto', 'my-2')
+        this.styleList.push('col-lg-8', 'mx-auto', 'my-4')
         this.innerStyles[1]+=' ratio ratio-16x9'
         this.footerText= `Video ${this.number}`
         break
@@ -286,7 +286,7 @@ md.use(container, 'Video', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Video(.*)$/)[1])
       let vid= new Card("Video", args[0])
-      vid.headerText= args[1]
+      vid.footerText+=( args[1]? ': ' + args[1] : '')
       vid.publishCard()
 
       return div_head.pop()
