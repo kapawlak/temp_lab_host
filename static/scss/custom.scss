@@ -490,7 +490,15 @@ $simulation-bg:$UCSB-mist;
         font-weight: bold;
     }
 
+    li ol{
+        list-style-type: lower-alpha;
+    
+    }
+
+
 }
+
+
 
 .badge-Activity{
     background-color: $Activity-bg;
@@ -626,15 +634,27 @@ $simulation-bg:$UCSB-mist;
         display: block;
         overflow: hidden;
         font-size: 0.85rem;
+        
     }
 
     .katex{
         font-size: 100%!important
     }
-   
+
  };
 
- 
+h1, h2{
+    font-family: $font-family-monospace;
+
+}
+
+.toch1{
+    font-size: 1.5rem;
+}
+
+.toch2{
+    font-size: 1.2rem;
+}
 
 
 

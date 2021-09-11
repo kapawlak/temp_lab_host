@@ -216,6 +216,25 @@ Based on the interference only and diffraction only part of the exercise, predic
 <br>
 ::::::
 
+
+::::::Activity (laser| Gaining Intuition Laser on Optics Bench)
+1. Setup the laser at one end of the optics bench and the screen, covered with paper, on the other. 
+Warning: Do not look directly into the laser! Never shine the laser around the room, always 
+point the laser into the screen. 
+2. Center and level the laser using the adjustment screws on the back of the laser. You can use the half meter stick to 
+measure the height of the laser beam at different points of the track to make sure it is level.
+3. Place the multiple slit set about 3cm in front of the laser (printed side facing laser) and set it to the widest part of the 
+variable double slit by rotating the slit disk. This section of the disk consists of two slits of constant size (width of 
+each slit is .04mm), but with variable separation between slits (separation d = 0.125mm to d = 0.75mm).
+4. Use the adjustment screws on the back of the laser to center the laser beam on the slits.
+:::Exercise
+1. What do you observe on the screen? Make a sketch of this in your notebook.
+2. Are these the kind of shadows you would expect to see if you cut two notches in a piece of paper and shined a light through it? 
+3. How does the pattern on the screen change when you decrease the slit separation
+:::
+
+::::::
+
 ## Pair of Slits with Variable Separation
 
 In [](#Activity-variable) you will see a video of  light shining through a pair of slits. This is not your standard pair of slits, however. They are attached to a wheel and designed so that as the wheel rotates the *slit **separation** changes* but the *slit **width** remains constant*. 
@@ -257,7 +276,6 @@ If light behaved only as a particle, what would the pattern on the screen look l
 ::::::
 <!-- End of Variable Slit Exercise -->
 
----
 
 # Measuring the Laser's Wavelength
 
@@ -320,3 +338,20 @@ Make sure to include all tables, plots, pictures, drawings, screenshots or anyth
 
 All responses and answers should contain the correct number of sig figs and should include units when needed
 :::
+
+
+
+::::::Activity
+Procedure
+1. With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact 
+disc about 4cm from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
+pass through.
+2. You should see at least the first order maxima, and possibly the second order maxima if you move the CD close 
+enough to the screen. Measure and record the distance between maxima of similar orders.
+3. Using the correct wavelength of laser light (printed on the laser) calculate the track spacing of a CD for each of your 
+measured distances.
+:::Exercise
+1. What is your average computed value of the track spacing for a CD? Calculate the percent difference between your measured value and the value specified in the Compact Disc Standard: 1.6 µm.
+2. Does your average value of the CD track spacing fall within the tolerance of 0.1 µm given in the Compact Disc Specification
+:::
+::::::

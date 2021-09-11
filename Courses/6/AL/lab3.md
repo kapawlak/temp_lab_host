@@ -1,4 +1,4 @@
-# Lab 3: Energy Transformation
+# Energy Transformation
 
 
 :::Intro (This Week...|Air Track)
@@ -80,6 +80,30 @@ We will release the glider on the air track, and the range finder will follow it
 The data in the table for the next exercise are the position and velocity of the glider **starting at the first bounce (with the rubber band at the bottom of the air track) and ending at the second bounce**.  Remember that $x=0$ corresponds to the bottom of the air track.
 :::
 
+::::::Activity (air-track|Air Track in Person)
+
+1. Fire up the air-track. Set the knob to 3. Check the level of the track as you did in the previous lab.
+2. Attach the Ranger to the calculator. See Appendix A for operating instructions for the sonic ranger.
+3. Place a small riser block under the single stand-alone leg of the air track. Measure the height, b, of the block and 
+record this in your lab book. Also, measure and record the mass of your glider cart.
+4. Start the glider (with attached metal reflector) at the bottom of the track and give it a quick push up the ramp (airtrack). Do not push the glider-cart all the way up the ramp because the rangefinder has trouble measuring objects 
+within 50cm of its sensor. Use the rangefinder to measure the position and speed of the cart as a function of time
+5. Using the data acquired from the rangefinder and the provided mathematical formulae, fill in the table, which 
+represents the potential energy and kinetic energy of your cart for different times during one cycle (each cycle 
+begins and ends when the car returns to its starting position (at the band) after launch. Make a table that includes 
+the following information: (Note: your data table might look like the one at the end of the lab.)
+   1. Record numerical data from the calculator for at least 10 data points of a single run.
+   2.  Use (roughly) evenly spaced data points.
+   3.  Include the point where the glider reached its maximum height.
+   4. Include the point when the speed was maximum, you will need to look at your v vs. t graph to get this
+
+:::Exercise
+1. Does your data support the Law of Conservation of Energy? 
+2. Identify some sources of error and suggest how you could eliminate them.
+3. When the glider hits the rubber band, what are the kinetic and potential energies right when the 
+glider changes direction? Where did the energy go
+:::
+::::::
 ::::::Activity (kepe|)
 The following video shows this procedure:
 

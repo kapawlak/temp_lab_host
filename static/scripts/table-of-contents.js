@@ -169,13 +169,13 @@ var tableOfContents = function (content, target, options) {
 							`</div>
 						</div>
 						<div class="accordion-item" style="padding-bottom:-20px;">
-							<h1 class="accordion-header ac-h2" id="${heading.id}acc">
+							<span class="accordion-header ac-h2" id="${heading.id}acc">
 								<button class="accordion-button collapsed ac-heads" type="button" data-bs-toggle="collapse" data-bs-target="#${current_name}">
 									<span>
 										${heading.innerHTML.trim()}
 									</span>
 								</button>
-							</h1>
+							</span>
 							<div class="collapse" id="${current_name}" >
 								<div class="accordion-collapse collapse show" aria-labelledby="${current_name}">
 									<div class="">

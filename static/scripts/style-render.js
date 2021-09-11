@@ -133,3 +133,13 @@ function quick_math(t){
     ]
   })
 }
+
+
+
+function emergency_reload_iframes(){
+  iframes= document.getElementsByTagName('iframe')
+  for (i=1;i < iframes.length; i++){
+  iframes[i].src=iframes[i].src
+  }
+}
+

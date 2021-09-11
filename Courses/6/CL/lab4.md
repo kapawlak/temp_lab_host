@@ -81,6 +81,30 @@ What is the average rate of background radiation in the physics lab? Answer in u
 :::
 ::::::
 
+::::::Activity (bg-counts|Background Counts In Person)
+
+1. Turn the instrument on and set the voltage to 500V by pressing the H.V. button and adjusting the voltage using the 
+UP/DOWN buttons. Adjustments to the voltage will be made in 20 volt increments. Press the H.V. button again to 
+return to the COUNT display.
+2. Set the acquisition time to 100 seconds by pressing the TIME button. Adjust the time interval using the UP/DOWN 
+buttons. Press TIME again to return to the COUNT display.
+3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating 
+data and the count indicator light will turn off. At this point it is only necessary to press COUNT again to zero the 
+readout and restart a new 100 second interval.
+4. Take three 100-second trials of the background. Record the count for each trial. Calculate the average counts per minute. 
+:::Exercise
+What is the average background radiation in the physics lab?
+:::
+5. Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single 100-second trial of the 
+background radiation.
+:::Exercise
+How does the background radiation compare when there is an absorber in place? What does this 
+tell you about the energy of the background particles?
+:::
+Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics 
+building, so the absorber isn’t much of an obstacle.
+::::::
+
 Background radiation is usually caused by high-energy cosmic rays from sources outside the earth. 
 
 ## Cobalt-60
@@ -104,6 +128,25 @@ In this activity we will measure the activity of a Co-60 source with the beta pa
 What is the (gamma) activity of the C0-60 in units of counts per minute? ;;;Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.;;;
 :::
 
+::::::
+
+::::::Activity (co-6-gamma|)co60 Gamma in person
+1) The first emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
+block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber 
+on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. 
+This aluminum sheet will remain in place throughout the experimen
+2) Place the thinnest lead absorber, #8, in the very top slot. Take a single 600s measurement and record the number of 
+counts in your data table, along with the absorber’s ρx value.
+3) Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
+4) Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined 
+values for the three absorbers.
+5) Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
+6) For each measurement subtract off the average background count found in Part 1.
+7) Compute the natural logarithm for each of your background adjusted counts. Plot this data against your ρx values, 
+with ln(counts) on the vertical axis and absorber density thickness ρx on the horizontal axis
+:::Exercise
+What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
+:::
 ::::::
 
 # Absorption of Gamma Rays
@@ -236,4 +279,25 @@ Write a brief conclusion summarizing the important points of this lab.
 :::Summary
 You will expected to turn in every plot and table you make for this lab, as well as justify the reasoning behind your answers.
 :::
+
+
+
+
+# In Person Component
+::::::Activity (determining|Determining the Mass Attenuation Coefficient)
+Determining the Mass Attenuation Coefficient µ/ρ
+The mass attenuation coefficient for a specific material, defined as µ/ρ, tells us how well a material absorbs or scatters 
+radiation. The behavior of radiation as it passes through matter is given by the formula:
+N = No e-(µ/ρ)(ρx)
+where N is the number of counts after passing through an absorber of thickness x, No is the number of counts incident on 
+the absorber, the quantity (µ/ρ) is the mass attenuation coefficient, ρx is the linear density in mg/cm2 and ρ is the density 
+of the absorber material in mg/cm3
+. If we take the natural logarithm of both sides we obtain:
+ln(N) = ln(No) - (µ/ρ)(ρx)
+The above equation follows the form y = mx + b, with m = -(µ/ρ) and b = ln(No)
+:::Exercise
+1. What is your computed value for the mass attenuation coefficient of lead?
+2. How does this compare to the accepted value of 5.9 x 10-5 cm2/mg? Your error may be ±20%.
+3. What are some sources of error in the experiment? How could you reduce them?
+::::::
 

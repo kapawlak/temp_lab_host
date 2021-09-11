@@ -14145,6 +14145,9 @@ textarea.form-control-lg {
 .Activity ol li::marker {
   font-weight: bold;
 }
+.Activity li ol {
+  list-style-type: lower-alpha;
+}
 
 .badge-Activity {
   background-color: #a9544a;
@@ -14257,6 +14260,18 @@ textarea.form-control-lg {
 }
 .Figure .katex {
   font-size: 100% !important;
+}
+
+h1, .h1, h2, .h2 {
+  font-family: "Produkt", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.toch1 {
+  font-size: 1.5rem;
+}
+
+.toch2 {
+  font-size: 1.2rem;
 }
 
 .xs, .s, .m, .l, .xl {

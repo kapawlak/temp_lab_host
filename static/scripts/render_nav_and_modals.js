@@ -1,5 +1,5 @@
 let sitedata
-
+ 
   ///Start by just printing out json file.
  function init_nav(linkfile) {
     console.log("init nav called")
@@ -227,3 +227,4 @@ function modal_img(){
     console.log("document.onload", e, Date.now() ,window.tdiff,  
     (window.tdiff[0] = Date.now()) && window.tdiff.reduce(fred) ); 
 }
+

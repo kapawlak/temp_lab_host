@@ -1,93 +1,138 @@
-# Math Refresher Lab 
+# A Light Refresher Lab 
 
 
-:::Intro (Welcome to PHYS6CL!)
-This week we will engage with a quick lab intended as a refresher of our mathematical skills.
+:::Intro (Welcome to PHYS6CL!| Microwave | Meltable Foodstuffs --- Pasta, Chocolate, or Melting Cheese| Ruler|Microwave-Safe Plate --- Please make sure that your plate explicitly says this)
+Welcome back to the 6-series laboratory course. For our refresher lab, we will perform a quick home experiment to measure a fundamental property of light — its speed through space — using pasta. Yes, *pasta* [fn] or chocolate or cheese [/fn]
+
+While the measurement of the speed of light is interesting, and will hopefully give you a tangible sense of some of the topics discussed in the accompanying lecture course, we will also embark on some new experimental skill sets. This quarter, we will think carefully about finding accepted values, citing them, and comparing our results to them. 
 :::
 
-# Introduction 
+# The Wave Nature of Light 
+Electric and Magnetic fields permeate the entirety of the universe, accounting for most of our day-to-day experiences. As you are learning in lecture, an simultaneous excitation of both of these fields (in accordance with Maxwell's equations) produces an *Electromagnetic Wave*. This wave, simply put, is light. Like more familiar kinds of waves, like the ones in water or on a slinky, they can be characterized by their amplitude and wavelength. Unlike their mechanical and fluid counterparts, however, they have a set speed that they can travel through the vacuum *regardless of frequency or wavelength*. 
 
-Taking measurements is *never* enough in experimental physics. In fact, performing an experiment and collecting data are *only the beginning* of the experimental process: data are absolutely meaningless without contextualization, analysis and comparison to *something*, e.g., a model or the data of a colleague.  
+We call this speed, $c$, the *speed of light*. It has a very rigid and useful relationship to wavelength, $\lambda$ and frequency, $\nu$.
 
-In this Lab, we will review the very basics of data analysis: organization into a table, presentation as a scatter plot, followed by inferring relationships from linear fits of the data (or functions of the data!). After the analysis is carried out, we will ask you to put on your thinking caps and contextualize the data by using what you learned to make a physical prediction.
-
-# Crocjuice
-A student, August, is very particular about his favorite sports drink. For legal reasons we will refer to this sports drink as Crocjuice.  He finds the flavor of Crocjuice straight from the bottle to be too strong for his sophisticated taste, so he dilutes it with (filtered) water to exactly the right concentration. Unfortunately, he has forgotten the factor by which he dilutes the Crocjuice, but he does have one last remaining bottle of drink that he had prepared earlier. If he could measure the concentration of that drink, and knew the original concentration of Crocjuice, he would again have his recipe. To this end, he wants to build a device that can measure the concentration of his drink.
-
-He knows from his research and his good friends, Pierre and Johann, that if you shine a laser through a solution, not all of the light is transmitted. The ratio of transmitted light to incident light ($I/I_0$), which we will call *T*, for *transmittance*, depends on the length of the light path through the solution ($l$), the concentration of the solution ($c$), and the *molar extinction coefficient*, $\epsilon$ [fn] sometimes called the *molar absorptivity*[/fn].  The relationship among these quantities is the following:
-
-::: Equation
+:::Equation (c)
 $$
-T = 10^{-\epsilon lc }
+c =  \nu \lambda 
 $$
 :::
 
-Before August is able to use his device to measure the concentration of his Crocjuice, he must first determine the molar absorptivity, which is an intrinsic property of the drink. It is measured in units of L$\cdot \rm{mol}^{−1}\cdot \rm{cm}^{−1}$.
+This simple equation gives us something important: 
 
-To do this, August designs an experiment.  Since he wishes to measure the molar extinction coefficient, he must find a way to manipulate the other two quantities &mdash; the path length and concentration. From Equation 1, he knows that as he increases the length of the container, less and less light will get through the solution. He also knows that to start, he will need a Crocjuice sample of known concentration. Oddly enough, the information on the bottle lists the concentration of the compound that gives Crocjuice its color, as $100$ mmol/L (or mM, for millimolar). He decides to keep the concentration fixed, and take a series of transmittance measurements for a variety of path lengths [fn]by using a set of cells having different lengths[/fn].
-
-
-## The Experiment 
-In [](#Acivity-exp) we will perform August's experiment. You probably do not have access to an actual lab, so instead you will carry out the experiment by using a simulation. 
-
-::::::Activity (exp|The Experiment)
-
-:::Simulation
-<iframe src="https://phet.colorado.edu/sims/html/beers-law-lab/latest/beers-law-lab_en.html?screens=2" width="100%" height="600" allowfullscreen="" frameborder="0"></iframe>
+:::center
+*If we know $\nu$ and $\lambda$, we can directly calculate $c$.*
 :::
 
+Ultimately, we will use the wave nature of light to measure the speed of light indirectly. The problem we face now is finding a light source with known or *measurable* $\lambda$ and $\nu$. Most of the light we usually think of has a $\lambda$ in the visible spectrum, ranging from $400 \text{ nm}$ to $700 \text{ nm}$, which is probably a lot smaller than we can see (without the aid of some kind of  [electron microscope](https://en.wikipedia.org/wiki/Electron_microscope) [fn] Not suprisingly, you can't use visible light to investigate things on the scale of visible light![/fn]). Luckily for us, light exists at all sizes and scales, to the best of our knowledge, and some of the most useful forms of light have wavelengths on the orders of centimeters to kilometers.
 
-**Instructions:**
 
-1. Leave wavelength set to "preset," the detector set to "Transmittance," and the solution set to "Drink mix."
-2. Slide the concentration to August's known concentration of $100 \text{ mM}$. 
-3. Press the big red button to turn on the laser. 
-4. Use the yellow arrows to slide the length of the container all the way left so it is as small as possible. 
-5. Create a table with two columns, one for the length, and another for the transmittance.
-6. Drag the ruler to the container and measure its length. Then look at the detector. Fill out the first row of your table. (Make sure to convert the percent transmittance to a decimal number between zero and one, by dividing by 100.)
-7. Now adjust the length of the container, measure its length, and measure the transmittance. Add these measurements to your table.
-8. Repeat step 7 six more times for a total of eight data points.
 
-:::Exercise
-Make plot of transmittance vs. container length.  Is the plot linear?
+
+## A Kitchen Light Source
+
+Microwave ovens use microwaves, which -- you guessed it -- are simply ordinary light with a relatively large wavelength (compared to &ldquo;visible&rdquo; light, that is). Most microwaves operate in the $2.45 \text{  GHz}$ frequency band, as this band is the most efficient at exciting rotations of water molecules in food.
+
+Since we know the frequency, $\nu = 2.45$ GHz, if we are able to determine the *wavelength*, $\lambda$, of the signal, we can find the speed of light by using [](#Equation-c). [fn]Take a look at Freedman Example 22-1 for a related exercise using FM radio waves[/fn]
+
+
+When a microwave is powered, it produces standing waves across the cooking chamber. We can use the resulting pattern to measure the wavelength of the light by placing a medium in the microwave, with the rotating platform removed, and noticing how it heats up unevenly.
+
+
+:::::::::Figure (micro|m|Row)
+::::::row
+:::col
+![](imgs/Refresher/m1.png 'A microwave oven works by producing microwaves in a device called a magnetron, that leave from a hole adjacent to it (typically on the the right). The microwaves will reflect back and forth from the two sides of the metal oven.')
 :::
-:::Exercise
-By using your knowledge of logarithms, rewrite Equation 1 so that it is linear.  Your result should take the form of 
-$$
--\log(T) =ml+b
-$$
-
-where $m$ and $b$ are constants, $l$ is the path length and $T$ is the transmitted light ratio.  
-
-Define a new quantity $A$,  named *absorbance*, that is equal to $−\log(T)$.  Write out this new equation.  This is known as Beer’s Law, named after August Beer, who formulated it in 1852. It is also sometimes known as the Beer-Lambert law. [fn]Lambert is Johann, in the story above. The Pierre in the story is Pierre Bouguer, who studied this phenomenon in the 1720s.[/fn]
+:::col
+![](imgs/Refresher/m2.png ' The wavelength of the microwaves is tuned to produce a standing wave. This is where you get two waves, one going in each direction, which interact to make some areas where there is a huge vibration and others where there is none.')
 :::
-
-9. Make a new column in your table for the absorbance. 
-
-:::Exercise
-Now, using the transmittance data you've already collected, create a plot of $A$ as a function of $l$. This should be linear. 
-
-1. Based on the absorbance formula you derived in Question 2, create a best-fit line, and determine the slope and intercept. 
-
-2. What value should the intercept be?
+:::col
+![](imgs/Refresher/m3.png 'This means that there are places where the microwaves are very intense, where the molecules will be vibrated very powerfully, and so heated strongly, and others where the microwaves are weak.  These areas are separated by half a wavelength.')
 :::
-
-:::Exercise
-Using the slope and Beer’s Law, determine the molar extinction coefficient (molar absorptivity, $\epsilon$).
-:::
-
-:::Exercise
-For the compound that gives Crocjuice its color, August finds the extinction coefficient to be the value that you just determined in the previous question. 
-
-He now pours some of the contents of his last bottle of pre-diluted drink into a cell whose path length is $3.0$ cm, and he measures the absorbance to be $1.97$. What is the concentration of this compound in the drink when it is diluted as August likes it?
-:::
-
 ::::::
-# Conclusion
+######
+**Because of the standing waves, modern microwave ovens contain turntables. Otherwise parts of your food would be overcooked and others would still be raw.**
+:::::::::
+
+######
+
+The question we have to ask now is: 
+:::center
+*How can we infer the wavelength of the microwaves by using household objects?*
+:::
+The answer is quite simple, actually! Since the microwaves deposit *energy* into water molecules, and that energy depends on the amplitude of the wave at that point, we can look for the first signs of "cooking" in the medium -- places where the wave amplitude is highest will heat faster than the surrounding region. Hence, the cooked regions represent the *antinodes* of the microwaves, and raw regions are near *nodes*. 
+
+
+Since we are finding distance between the locations of the antinodes, $d$, our measured distances will represent *half* of our wavelength, $\lambda$.
+
+
+
+::: Exercise
+Why is the distance between the food medium and the magnetron not important to the determination of $c$ in this experiment?
+:::
+
+::: Exercise
+ Write the equation to calculate $c$ in terms of $d$ rather than $\lambda$.
+:::
+
+
+
+# Measuring the Speed of Light
+
+
+## Before the Experiment
+Before performing an experiment, it is always a good idea to work out your expectation and  
+
+##
+::: Materials (Microwave | Meltable Foodstuffs --- Pasta, Chocolate, or Melting Cheese| Ruler|Microwave-Safe Plate --- Please make sure that your plate explicitly says this)
+:::
+
+::::::Activity
+
+
+:::Figure (tested|xl)
+![](imgs/Refresher/choc.jpg)
+
+ We tested a number of possible food items to use, and found that using dry pasta that was briefly put under running water to moisten it worked best.
+:::
+1. Remove the rotating table from your microwave. You may need to place a microwave-safe cup or bowl upside down over the turning gear.
+2. Place your medium on the microwave-safe plate.
+3. Set the plate in the microwave and turn it on for 10- to 30-second intervals, until you see at least two spots that are melting/cooked
+4. Measure the distance between the centers of these two spots.
+
+
+:::Figure pasta xl
+![](imgs/Refresher/pasta.jpg)
+
+Do your best to measure from the center of the cooked region. Be sure to estimate your measurement error, so that you will be able to determine the precision of your result!
+:::
 
 :::Exercise
-Write a brief conclusion summarizing the important points of this lab.
+1. What is the distance between the centers of your cooked regions, $d$? 
+2. Estimate the uncertainty in this measurement, e.g. what are the largest and smallest values you'd expect to get if you were to measure this distance multiple times? Write your final answer as $(d \pm \delta d)$ as usual.
+3. Calculate the measured value and error of the speed of light using your results. Write your final answer as $(c \pm \delta c)$ as usual Recall that for a product $A =XY$, the formula for error is given by:
+$$
+\frac{\delta A}{A} =  \sqrt{ \Big(\frac{\delta X}{X}\Big)^2 + \Big(\frac{\delta Y}{Y}\Big)^2}
+$$
 :::
+::::::
+
+:::Exercise
+1. What is the *discrepancy* between your result and the accepted value of $c$?
+2. Is the discrepancy within the error bounds, $\delta c$ you calculated?
+3. Based on your answer to the above, do you think your measurement agrees with the accepted value of $c$? Why or why not?
+4. Are there any sources of systematic error (e.g. irregularities in food moisture, dirty microwave walls, other things that may affect microwave amplitude distribution) that may have affected your results? Give details about these possible sources and how they might affect your result.
+:::
+
+
+::: Exercise
+1. Roughly measure the length of the inside your microwave in cm. 
+2. Is it close to a multiple of $d$?
+3. Give an argument as to why microwaves typically come in only a few standard sizes. 
+4. What do you think the function of the mesh on the viewing screen of your microwave is?
+:::
+
 :::Summary
 
 Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
