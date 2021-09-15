@@ -43,14 +43,14 @@ let sitedata
         var first_name=sitedata['TAs'][i]['first-name']
         var last_name=sitedata['TAs'][i]['last-name']
         var email= sitedata['TAs'][i]['email']
-        var zoom= sitedata['TAs'][i]['zoom']
+        var zoom= sitedata['TAs'][i]['room']
   
         TA_list.innerHTML+= `<li >
               <div class="dropdown-item text-center py-1">
                 <div class="col-sm-12 nav-links lead">${first_name} ${last_name}</div>
                 <div class="row bg-UCSB-lightgray p-1">
                 <a href="mailto:${email}" class="col"><i class="bi bi-envelope-fill px-1"></i></a>
-                <a href="${zoom}" class="col"><i class="bi bi-camera-video-fill px-1 py-0"></i></a>
+               
                 <button type="button" class="btn col px-1 py-0" data-bs-toggle="modal" data-bs-target="#infoModal" 
                 data-name="${first_name +' '+ last_name}" 
                 data-title="TA"
@@ -82,14 +82,14 @@ let sitedata
         var last_name=sitedata['Faculty'][i]['last-name']
         var title=sitedata['Faculty'][i]['title']
         var email= sitedata['Faculty'][i]['email']
-        var zoom= sitedata['Faculty'][i]['zoom']
+        var zoom= sitedata['Faculty'][i]['room']
       
         TA_list.innerHTML+= `<li>
         <div class="dropdown-item text-center">
         <div class="col-sm-12 nav-links lead">${first_name} ${last_name}</div>
         <div class="row bg-UCSB-lightgray p-1">
         <a href="mailto:${email}" class="col"><i class="bi bi-envelope-fill px-1"></i></a>
-        <a href="${zoom}" class="col"><i class="bi bi-camera-video-fill px-1 py-0"></i></a>
+        
         <button type="button" class="btn col px-1 py-0" data-bs-toggle="modal" data-bs-target="#infoModal" 
                 data-name="${first_name +' '+ last_name }" 
                 data-title= "${title}"
@@ -113,7 +113,7 @@ let sitedata
 
 }
 
-
+//<a href="${zoom}" class="col"><i class="bi bi-camera-video-fill px-1 py-0"></i></a>
 
 var infoModal = document.getElementById('infoModal')
 infoModal.addEventListener('show.bs.modal', function (event) {
@@ -153,26 +153,27 @@ infoModal.addEventListener('show.bs.modal', function (event) {
   <small class=text-muted>${button.getAttribute('data-pronouns')}</small>
   <hr>`
 
-  if(button.getAttribute('data-email')){
+  if(button.getAttribute('data-email')!='undefined'){
     modalBodyInput.innerHTML+= `
   <b>Email:</b> <br>
   <a href="mailto:${button.getAttribute('data-email')}">${button.getAttribute('data-email')}</a>
-  <hr>
+  
   `}
-  if(button.getAttribute('data-zoom')){
+  if(button.getAttribute('data-zoom')!='undefined'){
     modalBodyInput.innerHTML+= `
-  <b>Zoom Room:</b> <br>
-  <a href="mailto:${button.getAttribute('data-zoom')}"> Join Zoom Room </a>
+    <hr>
+  <b>Office Hours Rooms:</b> <br>
+  ${button.getAttribute('data-zoom')}
   <hr>
   `}
-  if(button.getAttribute('data-oo')){
+  if(button.getAttribute('data-oo')!='undefined'){
     modalBodyInput.innerHTML+= `
   <b>Office Hours:</b><br> 
   ${button.getAttribute('data-oo')}
   <hr>
   `}
 
-  if(button.getAttribute('data-so')){
+  if(button.getAttribute('data-so')!='undefined'){
     modalBodyInput.innerHTML+= `
   <b>Section Hours:</b> <br>
   ${button.getAttribute('data-so')}

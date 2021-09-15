@@ -219,3 +219,6 @@ h5.text-responsive{
   font-size: calc(0.9rem + 0.6vw)!important;
 }
 
+#Table-schedule td{
+  vertical-align:middle
+}

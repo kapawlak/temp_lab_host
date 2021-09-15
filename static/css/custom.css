@@ -14448,6 +14448,8 @@ img:hover {
 
 #maincontent > ul, #maincontent > ol {
   padding-left: 5rem;
+  overflow: hidden;
+  margin-right: 2rem;
 }
 
 .card-header p, .card-footer p, .card-header h5, .card-header .h5, .card-footer h5, .card-footer .h5 {

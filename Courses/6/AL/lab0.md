@@ -48,8 +48,13 @@ There are two main types of errors: **Systematic** and **Random**.
 :::Definition (Systematic Error)
 **Systematic errors** are errors that arise due to the actions and choices of the *experimenter*. There are two especially important kinds of systematic error that we will frequently see in undergraduate courses:
 
-- **Systematic error due to poor apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
-- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g., applying the equations of free fall to a feather to calculate the gravitational acceleration constant $g$, not considering the effects of air resistance.
+---
+
+ **Systematic error due to poor apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
+
+ ---
+ 
+ **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g., applying the equations of free fall to a feather to calculate the gravitational acceleration constant $g$, not considering the effects of air resistance.
 
 :::
 

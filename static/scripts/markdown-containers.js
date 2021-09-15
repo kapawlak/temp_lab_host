@@ -728,6 +728,7 @@ function contacts(kind) {
 
 
   let role = ''
+  let sectionhours, officehours, room
   let elmt =
     `<div class="row justify-content-center">
         <div id ="Contact${kind}" class="accordion accordion-flush card col-card Contact col-md-8 my-3 p-0" >
@@ -742,10 +743,23 @@ function contacts(kind) {
        
     `
     sitedata[kind].forEach( (e)=> {
-
+      sectionhours=''
+      officehours=''
+      room=''
     if (kind == "Faculty") {
       role = ` <li class="list-inline-item "><strong>Role:</strong> ${e["title"]} </li>`
     }
+    if(e["officehours"]!='' && e["officehours"]!=  null){
+      officehours=`<li class="list-inline-item "><strong>Office Hours:</strong> ${e["officehours"]}</li>`
+    }
+    if(e["sectionhours"]!='' && e["sectionhours"]!=  null){
+      sectionhours=`<li class="list-inline-item "><strong>Section Hours:</strong> ${e["sectionhours"]}</li>`
+    }  
+    if(e["room"]!= '' && e["room"]!=null){
+      room=`<li class="list-inline-item "><strong>Location:</strong> ${e["room"]}</li>`
+    }
+    console.log(e["first-name"],e["room"], null, e["room"]==null)
+
     elmt += `  
       <div class="card " style="width:100%; overflow:hidden">
       <div class="row g-0">
@@ -764,10 +778,12 @@ function contacts(kind) {
                   <small class="badge bg-UCSB-navy address">${e["email"].replace('@','&commat;')}</small>
           </h5>
           <ul class="list-inline p-0 m-0 ">
-                  <li class="list-inline-item "><strong>Office Hours:</strong> ${e["officehours"]}</li>
-                  <li class="list-inline-item "><strong>Section Hours:</strong> ${e["sectionhours"]}</li>
-                  <li class="list-inline-item "><strong>Location:</strong> <a href="${e["zoom"]}">Room</a></li>
-                  ${role}
+          
+          ${sectionhours}
+          ${officehours}
+          ${room}
+        
+          ${role}
                 </ul>
         </div>
       </div>
@@ -920,7 +936,7 @@ function quizzy(args,ref) {
   })
 
   inner+=`</div> 
-  <div class="col quiz_ans align-middle" id="${ref}_answer" > Choose your answer.</div>
+  <div class="col quiz_ans align-middle" id="${ref}_answer" > Make a selection.</div>
   </div>`
   return inner;
 

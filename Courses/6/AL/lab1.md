@@ -15,9 +15,15 @@ After an analysis of your data, you will have to make that decision with an evid
 ::::::
 
 ::::::Prelab
-**Prior to Lab**, please complete the following:
+**Prior to Lab**, please complete the following Exercises:
 :::center
-  [](#Exercise-noforce), [](#Exercise-quadratic), [](#Exercise-tffromy), [](#Exercise-confounded), [](#Exercise-completedtable)
+  [](#Exercise-noforce), [](#Exercise-quadratic), [](#Exercise-tffromy), [](#Exercise-confounded)
+:::
+
+You must also complete the following Activity to ensure that you have a table ready to collect data on Experiment Day:
+
+:::center
+[](#Activity-sheets)
 :::
 
 Your TA will check your notebook at the beginning of class. You should also, at the very minimum, skim the rest of the lab before class to ensure that you are prepared to turn in your report by the end of class.
@@ -175,7 +181,7 @@ $$
 
 
 
-:::Quiz (const-force2| $ 45\text{ m}$ --- Great Job.)
+:::Quiz (const-force2| Click to Reveal Answer --- $45\text{ m}$.)
 Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) = $ 
 :::
 
@@ -270,13 +276,12 @@ So that we can quickly and efficiently gather our data in person, and make an an
  ::: 
 
 
-::::::Exercise (completedtable)
-1. Make copies of your version of Table 2 for each object that will be dropped.
-2. Link [](#Table-droptable)  and [](#Table-rawtable) into your lab notebook. Make sure the table is easily readable and properly formatted prior to class so that your TA can verify that you have done the prelab.
+6. Make copies of your version of Table 2 for each object that will be dropped.
+7. Link [](#Table-droptable) and [](#Table-rawtable) into your lab notebook under [](#Exercise-tables). Make sure the table is easily readable and properly formatted prior to class so that your TA can verify that you have done the prelab.
       :::Note (|10 C)
       When linked sheets are updated, any edits to the data in the original file will appear in the Google Docs file. If you make edits to the linked chart, table, or slide in your Google Docs, the **changes won't be copied to the original file** and will be lost. [See More Here](https://support.google.com/docs/answer/7009814?hl=en&co=GENIE.Platform%3DAndroid)
       :::
-::::::
+
 :::::::::
 
 
@@ -312,8 +317,8 @@ Do not throw the objects to the upper floors. Use the stairs.
 :::
 7. At the end of the experiment, submit your data to the group spreadsheet created by your TA.
 
-:::Exercise
-1. Fill in the raw measurements of $t_f$ into your raw data tables. Include a copy of this table here. Make sure that this data and all calculated columns have the correct number of significant figures and have labeled units as necessary. ;;;If you were one of the droppers, please ask the TA for their measurements to use as your own;;;
+:::Exercise(tables)
+1. Fill in the raw measurements of $t_f$ into your raw data tables. Include a copy of your raw table and processed table here. Make sure that this data and all calculated columns have the correct number of significant figures and have labeled units as necessary. ;;;If you were one of the droppers, please ask the TA for their measurements to use as your own;;;
 2. Once it is available, use the calculated average $t_f$'s to fill in the theoretical table, and include a copy of the final table in this exercise. 
 :::
 ::::::

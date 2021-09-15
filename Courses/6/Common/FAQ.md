@@ -2,10 +2,40 @@
 
 #  Who do I contact for help...
 ## ...completing the lab?
+If you are struggling to complete the Prelab, please reach out to your TA or visit their office hours for additional guidance. You can also visit the PSR and ask questions to any TA teaching this course. As a reminder, the Prelab section of experiments are meant to give you practice solving problems and setting up data collection without time pressure. You must complete the Prelab prior to coming to lab
+
+If you are struggling to complete the experimental portion of lab, and are having issues with equipment and setup, please seek out help from the TA in your section.
+
+If you are struggling to complete some analysis questions after the experimental portion of the lab, skip the question and come back to it if possible. After giving it a fresh look, ask your TA for guidence.
+
+Generally, we recommend doing independent research on topics that you may find confusing in this manual. Not every person will like or understand the way things are written in this manual. This is true for all books, manuals and courses. It is always a good idea to venture out and find something that *does* make sense to you, personally. 
+
 ## ...turning in my assignment?
+Assignments are due by the end of lab section, so if you having trouble submitting your report, please flag down your TA for assistance. If, for some reason, you are submitting a lab report remotely, please email your TA about the submission. If you are near the turn-in deadline, please email a copy of your report to the TA to ensure that it is not marked late.
+
 ## ...reporting issues in the manual?
+The manual is written and maintained by the Instructional Lab Group at UCSB. If you find any issues in the manual, please email Dr. Pawlak from the "Get Help" menu. It will likely be fixed by the end of the day, if not within minutes. 
+
+We wanted to move the manual to an online format to eliminate the costly and wasteful paper manuals that are traditional. Online manuals have the benefit of having interactive simulations, videos and .gifs too. Because of this, the manual for the 6-Series has been completely rewritten for the Fall 2021 quarter — it likely contains some typos. We want to know about these typos.
+
+
 ## ...reguarding extenuating circimstances?
+
+If you are facing extenuating circumstances that are preventing you from completing your PreLab or attending your lab section, you must let your TA know **prior to the start of lab**, and ideally ASAP. The further in advance they know about the issue, the more likely they are to grant an extension. This rule does not hold if you have a doctor's note or other documentation for emergencies.
+
+If your circumstance is something you don't feel comfortable sharing with the TA, please send an email to the Instructor or Coordinator of this course directly.
+
+## Requesting Accommodations
+If you are a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact the Instructor of the course about your situation during the **first week of class**, or have [DSP](https://dsp.ext-prod.sa.ucsb.edu/) forward your accommodations letter. If you require accommodations but are not a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact them for your intake meeting. We cannot provide accommodations (including extensions, rescheduling, additional time) without explicit instruction and permission from DSP.
+
 ## ...reporting innappropriate behavior ?
+If you are a victim of or witness to any inappropriate behavior, please report it to Either the Instructor or Coordinator of the course **immediately**. This includes:
+- sexual harassment, assault, rape
+- dangerous behavior & misuse of equipment
+- derogatory comments and hate speech  
+- entering the lab under the influence of alcohol or drugs
+- bullying and hazing
+
 
 # Tables and Graphs
 ## Q: How do I receive full credit on a table in my lab report?

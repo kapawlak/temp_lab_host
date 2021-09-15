@@ -1,14 +1,14 @@
 # Home 
 
-
+<div class='text-center'>
+<img src='imgs/Home/newtons-cradle.png' width='100%'> </img>
+</div>
 
 ## Welcome to UCSB Physics 6AL
 
+PHYS 6AL is the laboratory based component of the PHYS 6A course, and the first in of our introductory three-course sequence. This sequence of courses is designed to prepare students in the Life and Biological Sciences for success in their future STEM careers. The laboratory exercises aim to deliver the core experience with physics experimental techniques and concepts needed in the Life Sciences.
 
-
-Physics 6AL ivestigates basic physics. [fn]Curabitur varius ipsum in leo suscipit maximus vitae eu magna. Morbi posuere, dolor ac malesuada sagittis, est elit rutrum quam, at vestibulum nisi risus ut lorem[/fn]. Duis efficitur mauris quis lectus mollis, et sagittis nisl lacinia. Etiam condimentum venenatis sem, sed ullamcorper augue posuere nec. Fusce pretium nibh et sagittis gravida. Nullam vehicula nisi sit amet tempor tincidunt. Vestibulum pharetra faucibus ex nec pretium. 
-
-Donec malesuada quam facilisis, auctor tellus sed, pretium neque. Vestibulum erat dolor, aliquet id facilisis sit amet, eleifend nec massa. Maecenas ut luctus leo, non commodo magna. Sed consequat, orci sit amet fermentum placerat, purus quam porta orci, et fringilla diam justo non quam. Nullam eleifend, ante a dictum bibendum, leo orci tincidunt augue, vel ullamcorper purus purus et tellus. Quisque sit amet imperdiet dui, vel lobortis diam. Curabitur pellentesque eros quis molestie tincidunt.
+In this course we will cover topics that roughly reflect the material you learn in class: 1D Motion, Newton's Laws, Work and Energy, and Rotational Motion. In addition to verifying the concepts learned in the theory course against real experiments, you will also learn universal introductory experimental techniques used in *all* scientific fields. PHYS 6AL specifically focuses on elementary error analysis, significant figures and the identification of types of uncertainty.   
 
 ### Contact Information
 
@@ -19,7 +19,7 @@ Your Teaching Assistant (TA) is your first point of contact for this course.
 :::ContactTA
 :::
 
-The course Faculty are here to help with more complex issues, working behind the scenes to ensure the labs run smoothly. Please contact a Faculty member if you have specific issues reguarding DSP and other accomodations, errors in the lab manual, problems with equipment, or have witnessed/been a victim of any kind of harassment `
+The course Faculty are here to help with more complex issues, working behind the scenes to ensure the labs run smoothly. Please contact a Faculty member if you have specific issues reguarding DSP and other accommodations, errors in the lab manual, problems with equipment, or have witnessed/been a victim of any kind of harassment `
 
 
 :::ContactFA
@@ -32,14 +32,14 @@ The course Faculty are here to help with more complex issues, working behind the
 
 The table below shows the weekly schedule
 
-:::Table
-| Week      | Lab Opens | Report Due  | Final Deadline|
-|---        | ---       | ---         | ---           |
-|Week 1     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
-|Week 2     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
-|Week 3     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
-
-
+:::Table (schedule| PHYS 6AL Lab Schedule|10 C)
+| Weeks              | Lab | Lab Title                   |
+|--------------------|-----|-----------------------------|
+| 26-Sep thru 1-Oct  | 0   | Experimental Physics Primer |
+| 3-Oct thru 15-Oct  | 1   | Velocity and Acceleration   |
+| 17-Oct thru 29-Oct | 2   | Forces and Motion           |
+| 31-Oct thru 12-Nov | 3   | Energy Transformation       |
+| 14-Nov thru 26-Nov | 4   | Rotation                    |
 :::
 
 ---

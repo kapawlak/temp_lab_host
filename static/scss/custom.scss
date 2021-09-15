@@ -843,8 +843,11 @@ img:hover{
   #maincontent{
     > ul, > ol{
         padding-left: 5rem;
+        overflow:hidden;
+        margin-right: 2rem
+        
     }
-
+   
 
   }
 

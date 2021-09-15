@@ -1,15 +1,18 @@
-# Home 
+# PHYS 6CL 
 
-
+<div class='text-center'  >
+<img src='imgs/Home/leaf-banner.jpg' width='100%' > </img>
+</div>
 
 ## Welcome to UCSB Physics 6CL
 
 
+PHYS 6CL is the laboratory based component of the PHYS 6C course, and the first in of our introductory three-course sequence. This sequence of courses is designed to prepare students in the Life and Biological Sciences for success in their future STEM careers. The laboratory exercises aim to deliver the core experience with physics experimental techniques and concepts needed in the Life Sciences.
 
-Physics 6CL ivestigates basic physics. [fn]Curabitur varius ipsum in leo suscipit maximus vitae eu magna. Morbi posuere, dolor ac malesuada sagittis, est elit rutrum quam, at vestibulum nisi risus ut lorem[/fn]. Duis efficitur mauris quis lectus mollis, et sagittis nisl lacinia. Etiam condimentum venenatis sem, sed ullamcorper augue posuere nec. Fusce pretium nibh et sagittis gravida. Nullam vehicula nisi sit amet tempor tincidunt. Vestibulum pharetra faucibus ex nec pretium. 
+In this course we will cover topics that roughly reflect the material you learn in class: The Wave Nature of Light, Reflection and Refraction, Simple Lenses, Wave Optics, and a brief excursion into Nuclear Physics. In addition to verifying the concepts learned in the theory course against real experiments, you will also learn universal introductory experimental techniques used in *all* scientific fields. PHYS 6CL specifically focuses on intermediate error analysis, hypothesis testing and critical comparison to accepted values.   
 
-Donec malesuada quam facilisis, auctor tellus sed, pretium neque. Vestibulum erat dolor, aliquet id facilisis sit amet, eleifend nec massa. Maecenas ut luctus leo, non commodo magna. Sed consequat, orci sit amet fermentum placerat, purus quam porta orci, et fringilla diam justo non quam. Nullam eleifend, ante a dictum bibendum, leo orci tincidunt augue, vel ullamcorper purus purus et tellus. Quisque sit amet imperdiet dui, vel lobortis diam. Curabitur pellentesque eros quis molestie tincidunt.
 
+######
 ### Contact Information
 
 ######
@@ -19,7 +22,7 @@ Your Teaching Assistant (TA) is your first point of contact for this course.
 :::ContactTA
 :::
 
-The course Faculty are here to help with more complex issues, working behind the scenes to ensure the labs run smoothly. Please contact a Faculty member if you have specific issues reguarding DSP and other accomodations, errors in the lab manual, problems with equipment, or have witnessed/been a victim of any kind of harassment `
+The course Faculty are here to help with more complex issues, working behind the scenes to ensure the labs run smoothly. Please contact a Faculty member if you have specific issues regarding DSP and other accommodations, errors in the lab manual, problems with equipment, or have witnessed/been a victim of any kind of harassment `
 
 
 :::ContactFA
@@ -32,15 +35,18 @@ The course Faculty are here to help with more complex issues, working behind the
 
 The table below shows the weekly schedule
 
-:::Table
-| Week      | Lab Opens | Report Due  | Final Deadline|
-|---        | ---       | ---         | ---           |
-|Week 1     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
-|Week 2     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
-|Week 3     | Monday @ Noon   | Next Monday @ Noon | Next Friday @ Noon       |
 
-
+:::Table (schedule| PHYS 6CL Lab Schedule|10 C)
+| Weeks              | Lab | Lab Title                                           |
+|--------------------|-----|-----------------------------------------------------|
+| 26-Sep thru 1-Oct  | 0   | A Light Refresher                                   |
+| 3-Oct thru 15-Oct  | 1   | Reflection and Refraction                           |
+| 17-Oct thru 29-Oct | 2   | Lenses, Ray Tracing, <br>and Simple Optical Devices |
+| 31-Oct thru 12-Nov | 3   | Wave Optics                                         |
+| 14-Nov thru 26-Nov | 4   | Nuclear Radiation                                   |
 :::
+
+
 
 ---
 
@@ -58,15 +64,19 @@ scores on lab reports.
 
 ### Physical Laboratory Guidelines
 All students attending lower division Physics Laboratory courses are reminded to observe the following rules:
-1. Smoking, Vaping and the use of non-medical nicotine is strictly prohibited in the lab.
-2. Food and drink are not allowed in the lab.
-3. Shoes must be worn when working in the lab. Avoid wearing loose fitting clothing.
-4. No animals allowed in lab, except for service animals.
-5. When lasers are in use, avoid looking into the light beam. The high intensity may cause permanent damage to your 
+1. Smoking, Vaping and the use nicotine is strictly prohibited in the lab.[fn]This excludes medical and prescription nicotine in the form of patches[/fn]
+2. Students must be entirely sober while on physics premises.
+3. Food and drink are not allowed in the lab.
+4. Shoes must be worn when working in the lab. Avoid wearing loose fitting clothing.
+5. No animals allowed in lab, except for service animals.
+6. When lasers are in use, avoid looking into the light beam. The high intensity may cause permanent damage to your 
 eye. Be extremely careful not to reflect the beam into anyone else’s eyes. 
-6. Radioactive isotopes should be handled carefully and by the casing only.
-7. If equipment is broken or circuit elements burned out, report the fact to the instructor immediately so that the 
+7. Radioactive isotopes should be handled carefully and by the casing only.
+8. If equipment is broken or circuit elements burned out, report the fact to the instructor immediately so that the 
 apparatus can be properly repaired.
-8. Do not remove equipment or furniture from the lab.
-9. Do not alter or remove lab equipment
+9. Do not remove equipment or furniture from the lab.
+10. Do not alter or remove lab equipment
 
+<div class='text-center  mx-auto' style= 'width:100%' >
+<img src='imgs/Home/light.jpg' width='90%' > </img>
+</div>
