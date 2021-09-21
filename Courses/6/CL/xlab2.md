@@ -108,41 +108,6 @@ Can you measure the focal length of the lens? If you were to trace the refracted
 ::::::
 <!-- End of Exercise 2 -->
 
-## Real Lenses and Aberration
-
-Real lenses do not exactly follow physics equations. In this exercise we will look at a lens that deviates from the thin lens approximation, specifically one that does not focus all parallel light to a single point. Lenses like this are said to exhibit *aberration*. (This particular type of abberation is called *spherical aberration*, because it is caused by the deviation of the spherical curvature of the lens from that of an ideal lens.) In [](#Activity-abb), you will watch a video of five parallel rays passing through a thick, D-shaped lens and study the properties of the refracted rays. 
-
-::::::Activity (abb|Aberration of a Hemispherical Lens)
-In this procedure you will use the optical bench. It has a multi-purpose light source and a small circular ray traced platform 
-where you set the lens. You are provided with one thin convex block lens and one thick block half lens. You will use both to 
-demonstrate focal lengths. 
-1. Adjust the grating on the ray box to provide 5 parallel rays.
-2. Place the thin convex lens perpendicular to the rays. The imaginary line perpendicular to the lens and running 
-exactly through the center is referred to as the optical axis or principal axis. Note that it is necessary to place the lens 
-on the front half of the table to observe the intended phenomenon. 
-3. Dim the class lights and observe the refracted rays.
-:::Exercise
-What is the focal length of the lens?
-:::
-4. Use the thick block half lens. Place the curved surface towards the parallel light source. Observe the refracted 
-beams
-:::Exercise
-Measured from the flat surface, at what distance do the beams converge? 
-:::
-5. Reverse the orientation of the block such that the flat surface is towards the light source.
-
-:::Exercise
-Does the block lens have symmetrical behavior? That is, do the beams converge at the same 
-distance from the flat surface? Why might this be the case? Hint: look at the flat boundary, 
-comment on the refraction which occurs there
-:::
-6. Place the concave lens on the platform. Again observe the refracted beams
-:::Exercise
-Can you measure the focal length of the lens? If you were to trace the refracted rays backwards 
-(on the same side as the incident beams) would they converge?
-:::
-::::::
-
 
 # Ray Tracing with a Lens of Known Focal Length
 
@@ -151,6 +116,24 @@ Can you measure the focal length of the lens? If you were to trace the refracted
 :::
  
 An object is some physical entity that either produces light rays of its own (like a light bulb) or reflects them from some other light source (like a page of text, or your pencil). The image is a version of the object as it appears after light coming from it has gone through some optical device, in this case a lens. In the remainder of this lab we will explore how lenses form images, and how the placement of a lens relative to an object determines the location and relative size of the image, and whether it is upright (erect) or inverted.
+
+
+:::Definition (Real and Virtual Images)
+For a **Real Image:**
+- Light rays actually pass through the image point.
+- The image is on the opposite side from the incident light.
+- The image can be projected onto a screen.
+- The image is inverted with respect to the object.
+
+---
+
+For a **Virtual Image:**
+- Light only appears to pass through the image point.
+- The image is on the same side as the incident light.
+- The image cannot be projected onto a screen.
+- The image is in the same orientation as the object; we say that it is erect.
+:::
+
 
 ## Three Principles of Ray Diagrams
 
@@ -188,57 +171,33 @@ We use ray tracing methods to predict the behavior of a lens. We begin with conv
 
 4. Draw one last line from the point through the near-side focal point and then to the lens. From there, draw a line parallel to the optical axis. This line will intersect the other two at the point where they intersect each other.
 
-:::Figure raytrace1 xl
+:::Figure (raytrace1|xl)
 ![Example of a Ray Trace Diagram](imgs/Lab2/fig3_4.JPG "Example of a Ray Trace Diagram")
 
 :::
 
 There are two other important cases to consider. When an object is placed within the focal length of a convex lens, the image point becomes negative. A virtual image is formed at the point that the image *appears* to come from. The ray tracing method is consistent, but note that you draw the line in reverse:
 
-:::Figure raytrace2 xl
+:::Figure (raytrace2|xl)
 ![](imgs/Lab2/fig3_5.JPG "Caption 1")
 :::
 
-*Note:* As a convention, we always draw from the top-most point on the object. Any other point would work equally well. The top is generally most useful.
+:::Note (|11 C)
+As a convention, we always draw from the top-most point on the object. Any other point would work equally well. The top is generally most useful.
+:::
 
 A concave lens has a negative focal length, and the line from the object to the focal length actually crosses the lens:
 
-:::Figure raytrace3 xl
+:::Figure (raytrace3|xl)
 ![](imgs/Lab2/fig3_6.JPG "Caption 1")
 :::
 
-Concave lenses do not cause light to converge upon a single point, but instead cause it to spread out. Because of this they are referred to as *diverging* lenses. The focal length of a concave lens is negative. Hence they are also sometimes called *negative* lenses. If we incorporate this detail into our ray tracing, we can analyze them by using the same method that we use for convex lenses. 
 
-:::Figure raytrace4 xl
-![Figure 7](imgs/Lab2/fig3_7.JPG "Caption 2")
-:::
-
-:::Definition (Real and Virtual Images)
-For a **Real Image:**
-- Light rays actually pass through the image point.
-- The image is on the opposite side from the incident light.
-- The image can be projected onto a screen.
-- The image is inverted with respect to the object.
-
----
-
-For a **Virtual Image:**
-- Light only appears to pass through the image point.
-- The image is on the same side as the incident light.
-- The image cannot be projected onto a screen.
-- The image is in the same orientation as the object; we say that it is erect.
-:::
 
 Image formation through a lens is exemplified in the dynamic [](#Simulation-Concave). You can change the location of the object as well as the focal length of the lens. You can do the latter by dragging the point labeled"Focus." You can switch from convex to concave by dragging the"Focus" point to the right of the lens. You will be using this simulation in both exercises that follow.
 
 
-
-:::Simulation (Concave)
-<a href="https://www.geogebra.org/material/iframe/id/vd77gpfr" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
-<iframe scrolling="no" title="Copy of Concave and Convex Lenses" src="https://www.geogebra.org/material/iframe/id/vd77gpfr" width="1033px" height="482px" style="border:0px;width:100%; height:500px;"> </iframe>
-:::
-
-
+# Experiment Ray Tracing
 
 In [](#Activity-rayt) you will practice ray tracing on a piece of paper. You are expected to photograph and attach your work.
 ::::::Activity (rayt|Ray Tracing Practice)
@@ -264,40 +223,37 @@ focal length. Note that this is the second special case mentioned above, see Fig
 :::Exercise
 Do the rays converge at a given point
 :::
+
+5. Trace the rays backwards as shown in [](#Figure-raytrace3)
+:::Exercise
+For object distances outside the focal length, do concave lenses make things bigger or smaller?
+:::
 ::::::
 <!-- End of Exercise: Ray Tracing -->
+Concave lenses do not cause light to converge upon a single point, but instead cause it to spread out. Because of this they are referred to as *diverging* lenses. The focal length of a concave lens is negative. Hence they are also sometimes called *negative* lenses. If we incorporate this detail into our ray tracing, we can analyze them by using the same method that we use for convex lenses. 
 
-
-In [](#Activity-rayt2) you will fill out two tables with the image location for various object locations in single-lens optical systems. You will explore all possible scenarios to fill out the tables below, and in this way fully characterize the behavior of convex and concave lenses.
-
-::::::Activity (rayt2| Quantifying a Ray Trace Diagram)
-
- Use [](#Simulation-Concave) to explore the conditions in the tables below. Fill out the tables by using the [Table Templates](https://docs.google.com/spreadsheets/d/1Cvw8Ov_A9N4cCR9wG04k_4OWk2SzO5Wo7_48GxVOHCQ/edit?usp=sharing). Notice that the first case is filled out for you as an example.
-
-:::Figure (LCT|xl)
-![Lens Characteristics Table](imgs/Lab2/Table.JPG 'Lens Characteristics Table')
+:::Figure (raytrace4|xl)
+![Figure 7](imgs/Lab2/fig3_7.JPG "Caption 2")
 :::
 
-:::Exercise
-For the convex lens, describe with words what the conditions are for the image to be larger than the object, smaller than the object, and the same size as the object.
+
+# Telescopes and Microscopes
+
+
+::::::Activity (telemicro|Telescopes and Microscopes)
+
+:::Figure (basictele|m|R)
+![](imgs/Lab2/tele1.png "(a) Hold the 200mm lens in your left hand. Lock your elbow to give a full extension")
+![](imgs/Lab2/tele2.png "(b) With the 100mm lens in your right hand, place it right at the back of the 200mm lens")
+![](imgs/Lab2/tele3.png "(c) Using your right eye, bring the eyepiece (100mm) in your right hand, toward your eye")
 :::
-5) Trace the rays backwards as shown in figure 3.6.
-Question 3.3
-For object distances outside the focal length, do concave lenses make things bigger or smaller?
-Concave lenses do not cause light to converge upon a single point but instead cause it to spread out. Because of this they are 
-referred to as diverging lenses. The focal length of a concave lens is negative. If we incorporate this into our ray tracing they 
-can be analyzed using the same method that was used for convex lenses
-::::::
-
-
-:::Activity (telemicro|Telescopes and Microscopes)
 Note: In the following procedure, you may have to adjust the starting positions to get good results.
 1. Hold the 200mm lens in your left hand. 
-2. Lock your elbow to give a full extension (Figure 4.1). 
+2. Lock your elbow to give a full extension [](#Figure-basictele)a. 
 3. Aim your arm with the 200mm lens at something across the room. 
 4. Take the 100mm lens and hold it with your right hand. 
-5. Place the 100mm lens, the eyepiece, right at the back of the 200mm lens, the objective lens (Figure 4.2). 
-6. Using your right eye, slowly bring the eyepiece, in your right hand, toward your eye (Figure 4.3). 
+5. Place the 100mm lens, the eyepiece, right at the back of the 200mm lens, the objective lens [](#Figure-basictele)b. 
+6. Using your right eye, slowly bring the eyepiece, in your right hand, toward your eye [](#Figure-basictele)c. 
 7. Keep your eye, the eyepiece and the objective lens along the same axis pointed at your target. You should be able to capture a clear image of your target. You may find this easier if you shut your left eye.
 :::Exercise
 1. Does the object appear to be closer or farther from you? 

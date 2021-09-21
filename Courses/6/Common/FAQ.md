@@ -25,7 +25,7 @@ If you are facing extenuating circumstances that are preventing you from complet
 
 If your circumstance is something you don't feel comfortable sharing with the TA, please send an email to the Instructor or Coordinator of this course directly.
 
-## Requesting Accommodations
+## ...requesting accommodations?
 If you are a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact the Instructor of the course about your situation during the **first week of class**, or have [DSP](https://dsp.ext-prod.sa.ucsb.edu/) forward your accommodations letter. If you require accommodations but are not a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact them for your intake meeting. We cannot provide accommodations (including extensions, rescheduling, additional time) without explicit instruction and permission from DSP.
 
 ## ...reporting innappropriate behavior ?
@@ -96,7 +96,40 @@ Notice that the data take up the entire plot; there are no large blank areas. Bo
 
 
 
-# Etc
+
+# Answering Questions
+## How to I get full credit for my answers to questions that require a calculation?
+
+This is a very popular question! In order to get full credit, keep in mind that all calculations must *show the work* done to get to the final answer. This means showing at least one intermediate step (though likely more) on the way to the final result. You are also encouraged to describe what you are doing in the calculation and why, to prove that you are following what is going on.
+
+This still isn't enough, however. The final result of calculations must be presented with the correct number of **significant figures** (yes, we care about this -- this is an experimental course after all). The final result should also be clearly marked with the **correct units**. Be sure to follow any additional information given in the exercise prompt or by your TA.
+
+## How to I get full credit for my answers to questions that require a discussion?
+
+When we ask you to *explain your reasoning*, *discuss your thoughts*, and similar, we want you to think about what is going on in a given problem and write about it. We want to see your analytical thought process and how you are  e.g. connecting your results to theory, or how you are interpreting unexpected measurements in the context of what could go wrong in your experiment.
+
+There are no hard and fast rules to getting a perfect mark on these kinds of questions, but as long as you are demonstrating effort and critical thought, you can expect to do well. Your response should **not** be vague, incomplete or describe how you subjectively feel, such as any of these answers:
+
+**Do you think your results agree with the accepted value of $g=9.81 \text{ ms}^{-2}$? Explain**
+``` 
+No I don't, because my value is different than that value.
+``` 
+
+``` 
+No.
+``` 
+
+``` 
+Yes because I think the values are pretty close.
+``` 
+
+
+An example of many possible *awesome* responses to the question would be:
+
+```
+My final result of g= 9.79 m/s² seems to agree with the known value of g= 9.81 m/s². The percent difference between these two values is less than 1%, and I believe that the differnce in these values can be attributed to the uncertainty in my reaction time. 
+```
+
 
 # How to use the Manual
 

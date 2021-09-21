@@ -268,7 +268,8 @@ md.use(container, 'Equation', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Equation(.*)$/)[1])
       let eq = new Card('Equation', args[0])
-      eq.headerText= md.render(args[1] ?? '')
+      if(args[1]!= null && args[1]!=''){
+      eq.headerText= md.render(args[1] )}
       eq.publishCard()    
       return div_head.pop()
     } else {

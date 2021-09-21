@@ -39,18 +39,18 @@ function replace_tags() {
     var text = document.querySelectorAll(' #maincontent >*:not(code):not(pre)')
     text.forEach( (t) => {
      
-      emojified = t.innerHTML.replaceAll(/(\@)(.{2})(-)(.*?)(\@)/g, `<i class='$2 $2-$4'></i>`)
+      emojified = t.innerHTML.replace(/(\@)(.{2})(-)(.*?)(\@)/g, `<i class='$2 $2-$4'></i>`)
       t.innerHTML = emojified
   
-      fnoted = t.innerHTML.replaceAll(/\[fn\](.*?)\[\/fn\]/g, 
+      fnoted = t.innerHTML.replace(/\[fn\](.*?)\[\/fn\]/g, 
       `<span class= 'mytooltip' tabindex="0"><sup>]</sup>
       </span><span class ='tooltiptext'>$1</span>`)
       t.innerHTML = fnoted
   
-      checked = t.innerHTML.replaceAll(/\[c\]/g, "<input type= 'checkbox'>")
+      checked = t.innerHTML.replace(/\[c\]/g, "<input type= 'checkbox'>")
       t.innerHTML = checked
      
-      popper=t.innerHTML.replaceAll(/(;;;)(.*?)(;;;)/g,` 
+      popper=t.innerHTML.replace(/(;;;)(.*?)(;;;)/g,` 
       <a tabindex="0" class=" text-primary p-0 m-0 align-top" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="$2" style='text-indent:0px;'><i class="bi bi-question-square-fill"></i></a>`)
       t.innerHTML = popper
       

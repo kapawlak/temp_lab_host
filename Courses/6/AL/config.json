@@ -7,18 +7,17 @@
         "email": "tianxie@ucsb.edu",
         "room": "PSR",
         "officehours": "TBA",
-        "sectionhours": "TBA",        
+        "sectionhours": "<b>M</b> 1-3, 3-5|<b>R</b> 3-5",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
-      },
-      {
+      },{
         "first-name": "Zining (Leo)",
         "last-name": "Zhu",
         "pronouns": "",
         "email": "Ziningzining@ucsb.edu",
         "room": "PSR",
         "officehours": "TBA",
-        "sectionhours": "TBA",        
+        "sectionhours": "<b>T</b> 1-3, 3-5|<b>R</b> 1-3",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },{
@@ -28,7 +27,7 @@
         "email": "jdcelestial@ucsb.edu",
         "room": "PSR",
         "officehours": "TBA",
-        "sectionhours": "TBA",        
+        "sectionhours": "<b>M</b> 5-7|<b>T</b> 5-7|<b>W</b> 1-3, 3-5| <b>R</b> 5-7",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       }
