@@ -144,6 +144,10 @@ code{
 
 $card-border-width: 0px;
 .card{
+    .card-header,.card-footer{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
     box-shadow: 1px 1px 5px 2px $UCSB-lightgray;
     .katex{
         font-size: 1.3rem
@@ -412,6 +416,7 @@ $simulation-bg:$UCSB-mist;
     background-color: $eqn-bg;
     .card-footer{
         color: black;
+        text-align: center;
     }   
 }
 
@@ -537,6 +542,11 @@ $simulation-bg:$UCSB-mist;
     img{
         margin: auto;
         text-align: center;
+    }
+
+    .card-footer{
+        font-size: 0.9rem;
+        background-color: $UCSB-lightgray;
     }
 
 }
@@ -925,6 +935,9 @@ overflow-x: hidden;
  
     .card-header{
         background-color: $UCSB-sandstone;
+
+            text-align: center!important;
+       
     }
     .quiz_ans{
         font-size: 1rem;

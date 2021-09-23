@@ -16,6 +16,8 @@ The video below gives a brief review of important concepts in this lab
 ::::::
 
 ::::::Prelab
+**Reminder:** Completing the PreLab before your Lab day is worth 2 Points.
+ 
 Please complete the following Exercises:
 :::center
 [](#Exercise-1), [](#Exercise-snell-rearranged), [](#Exercise-find), [](#Exercise-look-up), [](#Exercise-prism-hyp)
@@ -105,7 +107,7 @@ The indexes of refraction are properties of the two mediums.
 :::
 
 
-:::Exercise
+:::Exercise (|1 Point)
 Look at [](#Figure-refrac) to answer the following:
 
 1. Light ray A is normal to the interface.  What is the angle of incidence $\theta_1$ for this ray? According to Snell's law, what is the angle of refraction $\theta_2$? 
@@ -115,7 +117,7 @@ Look at [](#Figure-refrac) to answer the following:
 :::
 
 
-:::Exercise (snell-rearranged)
+:::Exercise (snell-rearranged|2 Points)
 In our experiment, we will want to calculate the index of refraction of a prism by measuring the angle of incidence and angle of refraction at the interface between the prism and air. Without loss of generality, assume that we are making these measurements such that the light is *leaving* the prism and *entering the air* at this interface.
 1. Based on the interface we are studying, do you think $\theta_1$ or $\theta_2$ should be larger? Defend your answer
 2. Starting from [](#Equation-snell), derive an expression that gives the value of $n_1$ in terms of $\theta_1$, $\theta_2$ and $n_2$  
@@ -142,7 +144,7 @@ The critical angle is the angle of incidence that corresponds to an angle of ref
 Open [](#Simulation-mystery_critical). Set the upper material to Mystery A and the lower material to air. Moving around the laser pointer, and using the protractor provided, what is the critical angle? 
 :::
 
-:::Exercise (find)
+:::Exercise (find|1 Point)
 Change the top material to air and the bottom material to Mystery B in [](#Simulation-mystery_critical).
 1. Using any angle of incidence you'd like, calculate index of refraction, $n$ for the material "Mystery B?" Show your work.
 2. Now swap the  materials so that the top is "Mystery B" and the bottom is air. What is the critical angle? ;;;The simulation is hard to get just right — give your best guess at the lower bound;;;
@@ -199,7 +201,7 @@ You will have a Ray Box, a Ray Table with degree markings, the acrylic block and
 
 Finally we will want to compare our results to some known value. 
 
-:::Exercise (look-up)
+:::Exercise (look-up|1 Point)
 1. Look up a value for the index of refraction of acrylic. Report it here.
 2. Where did you get this information from?
 3. For an incident angle of $\theta_1=30 \deg$, what $\theta_2$ should you get?
@@ -241,7 +243,7 @@ Unlike the previous experiment, our prism experiment will be slightly more quali
 
 We will make some hypothesis based on what we've learned for this section, and then check our guesses in lab.
 
-:::Exercise (prism-hyp)
+:::Exercise (prism-hyp|1 Point)
 1. Do you think you will be able to get the light to go directly through the triangular end of the prism, i.e. without any change in direction or offset? Defend your reasoning.
 2. Do you think you will be able to get the light to go directly through the square end of the prism, i.e. without any change in direction or offset? Defend your reasoning.
 
@@ -331,7 +333,7 @@ At angles beyond the critical angle no light is transmitted into the air or alon
 is called total internal reflection.
 :::
 
-:::Exercise
+:::Exercise (|1 Point)s
 1. Present a copy of your final table here.
 2. What is the average measured index of refraction (call this $\bar n$), for the acrylic block?
 3. What is the critical angle you found?
@@ -341,7 +343,7 @@ is called total internal reflection.
 :::::::::
 
 ### Analysis of the Refraction Experiment
-:::Exercise
+:::Exercise (|3 Points)
 1. What is the percent difference between your two results, $n_c$ and $\bar n$?
 
 2. Estimate your error in measuring the angles of incidence and refraction. Write these as $\delta \theta_1$ and $\delta \theta_2$
@@ -393,7 +395,7 @@ At steep angles you will observe total internal reflection just as you did with 
 and prism to see the many possible geometric paths. 
 ::::::
 
-:::Exercise
+:::Exercise (|2 Points)
 **For the triangular end of the prism, complete the following:**
 
 1. Sketch the orientation of the block when the rainbow is most observable, and attach the image to your report. Why do you think this is?;;;Hint: Is the refraction greater at grazing or normal angles? White light goes in, what comes out?;;;
@@ -454,7 +456,7 @@ edge of the mirror). Measure the angle of incidence and angle of reflection. Nea
 
 ::::::::::::
 
-:::Exercise
+:::Exercise (|1 Point)
 1. Where do the dashed lines meet?
 2. How does the perpendicular distance from the object pin to the reflection line compare with the distance from the image to that line?
 3. What can you say about the angle of incidence and angle of reflection for each of the rays?
@@ -465,7 +467,7 @@ edge of the mirror). Measure the angle of incidence and angle of reflection. Nea
 :::
 ::::::Activity (spherical| Spherical Mirrors)
 1. Hold the concave spherical mirror mounted in black plastic holder approximately 1cm from your eye.
-:::Exercise
+:::Exercise (|1 Point)
 1. What do you observe? 
 2. What orientation is the image? 
 3. By approximately what factor has the image been magnified? ;;;Remember that magnification, as the term is used in optics, can mean bigger or smaller. For bigger, the magnification is greater than 1.0. For smaller, the magnification is less than 1.0;;;
@@ -474,7 +476,7 @@ edge of the mirror). Measure the angle of incidence and angle of reflection. Nea
 2. Slowly move the mirror away from you. You will notice that there is a point where it becomes difficult to discern any type of
 image. You are approximately at the focal point of the mirror when this happens. Continue moving the mirror away from you.
 
-:::Exercise
+:::Exercise (|1 Point)
 1. What do you observe? 
 2. What orientation is the image at this distance? 
 3. How large is the image?
@@ -484,7 +486,7 @@ image. You are approximately at the focal point of the mirror when this happens.
 
 # Conclusion
 
-:::Exercise
+:::Exercise (|1 Point)
 Write a brief conclusion summarizing the important points of this lab.
 :::
 

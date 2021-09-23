@@ -131,9 +131,9 @@ function classCard(c) {
     data-type="${c.type}"> 
     ${c.headerText == '' || c.headerText == null ? '' :
       `<div class="card-header">
-      <h5 class="${c.innerStyles[0]}">
+      <span class="${c.innerStyles[0]}">
         ${c.headerText}
-      </h5>
+      </span>
     </div>`}
 
     <div class="container ${c.innerStyles[1]}">
@@ -145,9 +145,9 @@ function classCard(c) {
     </div>
     ${(c.footerText == '' || c.footerText == null ? '' :
       `<div class="card-footer">
-      <h5 class="my-0 ${c.innerStyles[3]} ">
+      <span class="my-0 ${c.innerStyles[3]} ">
         ${c.footerText}
-      </h5>
+      </span>
     </div>`)}
     </div>`)
  c= null
@@ -251,6 +251,8 @@ md.use(container, 'Exercise', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Exercise(.*)$/)[1])
       let ex = new Card('Exercise', args[0])
+      ex.footerText+=  args[1] ? ` ${args[1]} ` : ''
+      ex.innerStyles[3]+=' py-0'
       ex.publishCard()
       return div_head.pop()
     } else {
@@ -774,10 +776,10 @@ function contacts(kind) {
       </div>
       <div style="width:calc(100% - 150px)">
         <div class="card-body">
-          <h5 class="card-title">${e["first-name"] + ' ' + e["last-name"]}
+          <span class="card-title">${e["first-name"] + ' ' + e["last-name"]}
           <small class='text-muted'>${e["pronouns"]}</small>
                   <small class="badge bg-UCSB-navy address">${e["email"].replace('@','&commat;')}</small>
-          </h5>
+          </span>
           <ul class="list-inline p-0 m-0 ">
           
           ${sectionhours}

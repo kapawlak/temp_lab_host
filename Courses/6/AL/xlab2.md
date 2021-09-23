@@ -1,7 +1,7 @@
 # Forces and Motion
 
 
-:::Intro (This Week|Air Track|glider|Riser Block|Force Meter|Scale|Stopwatch)
+:::Intro (This Week|Air Track|Glider|Riser Block|Force Meter|Scale|Stopwatch)
 This week we will look at the quantity that we call energy, and its transformations. In classical physics, there are two categories of energy:
  1. Kinetic Energy &mdash; what you may know as *energy of motion*, or the energy stored in the inertial motion of an object. An object has *kinetic energy* if you have to perform **work** on it to bring it to rest.
  2. Potential Energy &mdash; which is stored energy an object has due to certain kinds of **work** having been exerted on it, *e.g.*, the energy a barbell has after you have lifted it from the floor to above your head.

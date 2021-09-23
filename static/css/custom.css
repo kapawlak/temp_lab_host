@@ -38,6 +38,10 @@ code {
 .card {
   box-shadow: 1px 1px 5px 2px #DCE1E5;
 }
+.card .card-header, .card .card-footer {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
 .card .katex {
   font-size: 1.3rem;
 }
@@ -14083,6 +14087,7 @@ textarea.form-control-lg {
 }
 .Equation .card-footer {
   color: black;
+  text-align: center;
 }
 
 .Contact button:after, .Drop button:after {
@@ -14181,6 +14186,10 @@ textarea.form-control-lg {
 .Exercise img {
   margin: auto;
   text-align: center;
+}
+.Exercise .card-footer {
+  font-size: 0.9rem;
+  background-color: #DCE1E5;
 }
 
 .badge-Exercise {
@@ -14513,6 +14522,7 @@ img:hover {
 }
 .Quiz .card-header {
   background-color: #C9BF9D;
+  text-align: center !important;
 }
 .Quiz .quiz_ans {
   font-size: 1rem;

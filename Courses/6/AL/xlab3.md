@@ -1,7 +1,7 @@
 # Energy Transformation
 
 
-:::Intro (This Week...|Air Track)
+:::Intro (This Week...|Air Track|Glider|Range Finder --- with calculator|Riser Block)
 This week we will look at the quantity that we call energy, and its transformations. In classical physics, there are two categories of energy:
  1. **Kinetic Energy** &mdash; what you may know as *energy of motion*, or the energy stored in the inertial motion of an object. An object has *kinetic energy* if you have to perform **work** on it to bring it to rest.
  2. **Potential Energy** &mdash; which is stored energy an object has due to certain kinds of **work** having been exerted on it, *e.g.*, the energy a barbell has after you have lifted it from the floor to above your head.
@@ -101,7 +101,8 @@ This weeks data tables will need quite a few formulae added in, so be sure to gi
 ::::::
 
 # Measuring Energy Transformation
-
+:::Materials (Air Track|Glider|Range Finder --- with calculator|Riser Block)
+:::
 
 In [](#Activity-air-track) will operate the air track in a similar fashion to the way we operated it previously. To set the angle of the track, we will place a block of height $b$ under a leg of the air track. 
 

@@ -39,7 +39,7 @@ The table below shows the weekly schedule
 :::Table (schedule| PHYS 6CL Lab Schedule|10 C)
 | Weeks              | Lab | Lab Title                                           |
 |--------------------|-----|-----------------------------------------------------|
-| 26-Sep thru 1-Oct  | 0   | A Light Refresher                                   |
+| 26-Sep thru 1-Oct  | 0   | Online Math Lab <br>"A Light Refresher"                                   |
 | 3-Oct thru 15-Oct  | 1   | Reflection and Refraction                           |
 | 17-Oct thru 29-Oct | 2   | Lenses, Ray Tracing, <br>and Simple Optical Devices |
 | 31-Oct thru 12-Nov | 3   | Wave Optics                                         |

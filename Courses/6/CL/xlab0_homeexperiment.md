@@ -2,7 +2,7 @@
 
 
 :::Intro (Welcome to PHYS6CL!| Microwave | Meltable Foodstuffs --- Pasta, Chocolate, or Melting Cheese| Ruler|Microwave-Safe Plate --- Please make sure that your plate explicitly says this)
-Welcome back to the 6-series laboratory course. For our refresher lab, we will evaluate a quick home experiment to measure a fundamental property of light — its speed through space — using chocolate. Yes, *chocolate* . If you have access to chocolate ;;;Or pasta or cheese;;; and a microwave, you are encouraged to try the experiment yourself.
+Welcome back to the 6-series laboratory course. For our refresher lab, we will evaluate a quick home experiment to measure a fundamental property of light — its speed through space — using chocolate. Yes, *chocolate* . If you have access to chocolate and a microwave, you are encouraged to try the experiment yourself.
 
 While the measurement of the speed of light is interesting, and will hopefully give you a tangible sense of some of the topics discussed in the accompanying lecture course, we will also embark on some new experimental skill sets: intermediate error analysis and quantitative comparison of results. 
 :::
@@ -84,13 +84,24 @@ As hinted at in the previous section, our experiment will be to use the microwav
 
 
 ## Before the Experiment
-Before performing an experiment, it is always a good idea to work out your procedure and expectations. Below is a rough outline of how one might prepare for this home experiment. You can look through the procedure followed to generate the final result in [](#Activity-microwave)
+Before performing an experiment, it is always a good idea to work out your procedure and expectations. Below is a rough outline of the procedure that we will be taking
+
+:::Hider (|Procedure Outline)
+1. Remove turning table and prepare microwave for the experiment.
+2. Place your medium on the microwave-safe plate.
+3. Set the plate in the microwave and turn it on for brief intervals
+4. Measure the distance between the centers of these cooked spots.
+5. Use this  measurement to calculate the speed of light. 
+:::
+
+
+
 
 ### Readying our Calculations
-Since we are finding distance between the locations of the antinodes, $d$, our measured distances will represent *half* of our wavelength, $\lambda$. We should find the correct equation to relate $c$ to $d$ after we make our measurement.
+Since we are finding distance between the locations of the antinodes, $d$, our measured distances will represent *half* of our wavelength, $\lambda$.
 
 
-:::Exercise (lambdatod|2 Points)
+:::Exercise (lambdatod)
  Write [](#Equation-c) to calculate $c$ in terms of $d$ rather than $\lambda$. You will need this later.
 :::
 
@@ -98,7 +109,7 @@ Since we are finding distance between the locations of the antinodes, $d$, our m
 
 We now have to figure out what we are *expecting* to see. Our primary goal in this experiment is to measure the speed of light, $c$, so we should first find a reliable value for this quantity.
 
-:::Exercise (research|3 Points)
+:::Exercise (research)
 Using your favorite search engine, find a reference for the speed of light.
 1. What is the speed of light?
 2. Is the speed of light *measured* or *defined*?
@@ -107,18 +118,20 @@ Using your favorite search engine, find a reference for the speed of light.
 :::
 
 
-From [](#Exercise-research), you should now have a value for $c$ in hand. We now need to document some information about our *equipment*. 
+From [](#Exercise-research), you should now have a value for $c$ in hand. We now need to document some information about our *equipment*.
 
-:::Exercise (equipment|1 Point)
- Find the frequency microwaves typically run at online. Provide a link to your source.
+:::Exercise (equipment)
+Locate the information panel on your microwave
+1. What is your microwave's make and model number?
+2. Find the frequency your microwave runs at on the information panel or online. ;;;If you can't find this information, it is probably OK to assume 2.450 GHz. Please note this if you assume it ;;;
 :::
 
 
 Finally, let's figure out what the wavelength of our microwave should be, and what we expect to measure
 
-:::Exercise (wavelength|2 Points)
-Using the accepted value of $c$ and the frequency $\nu$ of a standard microwave:
-1. What wavelength, $\lambda$ do you expect a microwave to produce?
+:::Exercise (wavelength)
+Using the accepted value of $c$ and the frequency $\nu$ of your microwave:
+1. What wavelength, $\lambda$ do you expect your microwave to produce?
 2. What $d$ do you expect to measure? 
 :::
 
@@ -127,16 +140,14 @@ Using the accepted value of $c$ and the frequency $\nu$ of a standard microwave:
 ::: Materials (Microwave | Meltable Foodstuffs --- Pasta, Chocolate, or Melting Cheese| Ruler|Microwave-Safe Plate --- Please make sure that your plate explicitly says this)
 :::
 
-If you want to do this optional activity, be sure that you have all the materials readily available for this experiment, and proceed to [](#Activity-microwave). It is highly recommended that you complete all previous exercises prior to this activity. 
-
-If you do not want to do this activity, and would like to use my image, please continue.
+Be sure that you have all the materials readily available for this experiment, and proceed to [](#Activity-microwave). It is highly recommended that you complete all previous exercises prior to this activity. 
 
 
 ::::::Activity (microwave|Measuring the Speed of Light in a Microwave)
 
 
 :::Figure (tested|xl)
-![](imgs/Refresher/choc.jpg "We tested a number of possible food items to use, and found that using a chocolate bar or dry pasta that was briefly put under running water to moisten it worked best.") 
+![](imgs/Refresher/choc.jpg "We tested a number of possible food items to use, and found that using dry pasta that was briefly put under running water tomoisten it worked best.") 
 ::: 
 :::Figure (turninggear|m|R)
 ![](imgs/Refresher/bowl_turn_gear.jpg "Placing a bowl or cup over the turning gear can stop unwanted rotation and also elevate the plate") 
@@ -160,30 +171,21 @@ Microwaving a mostly empty chamber for a long period of time can and will destro
 
 
 
-
+:::Exercise (result)
+1. What is your measured $d$? ;;;Reminder: SigFigs matter;;;
+2. Take a picture of your pasta (or food) next to a ruler and post it here.
+:::
 
 
 
 ::::::
 
-If you did not do the experiment yourself, please use the image in [](#Figure-choc) to make your measurement. It is advised that you make the best measurement you can between the 1st and 2nd spots, and then the 2nd and 3rd spots and then average them for your final measurement. Note that you can click on the image to make it larger.
-
-:::Figure (choc|xl)
-![](imgs/Refresher/meltedchocolate.jpg "This is the image of my chocolate bar after microwaving it for about 15 seconds. The result is quite messy, and hard to judge exactly where the melted parts start and end. That is OK. Do your best to measure the distance between the melted regions and make a note of your your uncertainty in the measurement. What is the smallest possible seperation you think you could measure? The largest?")
-:::
-
-
-
-:::Exercise (result|2 Points)
-1. What is your measured $d$? ;;;Reminder: SigFigs matter;;;
-2. Take a picture of your chocolate (or food) next to a ruler and post it here if you did the experiment yourself.
-:::
 # Analyzing Your Results
 
 Now that we have a measurement, we can proceed with analyzing our results. You may need to return to [Math Lab in PHYS 6AL](../AL/index.html?linkfile=lab0) to recall some definitions, techniques or concepts in the following sections.
 
 
-## Judging and Propagating Error
+## Judging and Propogating Error
 
 Recall [Math Lab in PHYS 6AL](../AL/index.html?linkfile=lab0), where we learned that that all measurements have an associated uncertainty. These uncertainties, or errors, can be random or systematic, due to equipment limitations or the physical nature of the experiment. We typically have a good idea about what our errors are at the level of an experiment, i.e. how precise our rulers are, or how well we can estimate the true value of a quantity. What is less clear is how that error will effect our final result —  how does our ruler only measuring to centimeters translate to our ability to precisely determine a value for $c$? This part of experimental physics is called **error propagation**
 
@@ -206,7 +208,7 @@ Zak wants to replace the dry grass in his backyard with gravel. Using a GPS meas
 
 Error propagation is, at times, a complex task more suited for upper division courses. In this class, we will discuss error propagation abstractly and give you formulas for any necessary calculations, such as in [](#Exercise-error). You are only required to understand that error propagation converts measurement error into uncertainty in your final result. For students interested in STEM who would like a gentle introduction into the fascinating topic of error propagation and analysis, an excellent, well written, and fun to read book is [An Introduction to Error Analysis (Taylor)](https://www.amazon.com/Introduction-Error-Analysis-Uncertainties-Measurements/dp/093570275X)
 
-:::Exercise (error|3 Points)
+:::Exercise (error)
 1. What kind of error(s) could effect your measurement of $d$? Explain. ;;; By 'kind', we mean random or systematic ;;;
 2. Estimate the uncertainty in your measurement of $d$; e.g. what are the largest and smallest values you'd expect to get if you were to measure this distance multiple times? Uncertainty here can be due to  the resolution of your ruler, the imperfect appearance of the cooked regions that make it hard to judge the center, etc. as examples. Provide your final result in the form $(d \pm \delta d) \text{ units}$
 3. Calculate the measured speed of light to the correct number of sigfigs.
@@ -262,20 +264,20 @@ If our result is neither, we can argue in whatever direction we believe is corre
 
 
 
-:::Exercise (|3 Points)
+:::Exercise
 1. What is the **discrepancy** between your result and the accepted value of $c$? This is the *difference* between your measured value and the accepted value
 2. Is the **discrepancy** larger or smaller than the error you calculated, $\delta c$? By how much?
 3. Based on your answer to the above, do you think your measurement agrees with the accepted value of $c$? Why or why not? 
 5. Are there any sources of systematic error (e.g. irregularities in food moisture, dirty microwave walls, other things that may effect the standing waves) that may have affected your results? Give details about these possible sources and how they might affect your result.
 :::
 
-:::Exercise (|1 Point)
+::: Exercise
 **Challenge Question**
 #####
 Why is the distance between the food medium and the magnetron not important to the determination of $c$ in this experiment?
 :::
 
-:::Exercise (|1 Point)
+::: Exercise
 **Challenge Question**
 1. Roughly measure the length of the inside your microwave in cm. 
 2. Is it close to a multiple of $d$?
@@ -284,7 +286,7 @@ Why is the distance between the food medium and the magnetron not important to t
 :::
 # Conclusion
 
-:::Exercise (|2 Points)
+:::Exercise
 Please write a short summary of this lab that explains what you did, how you analyzed your data and what you concluded from your data. 
 
 :::
