@@ -15,6 +15,8 @@ After an analysis of your data, you will have to make that decision with an evid
 ::::::
 
 ::::::Prelab
+**Reminder:** Completing the PreLab before your Lab day is worth 2 Points.
+ 
 **Prior to Lab**, please complete the following Exercises:
 :::center
   [](#Exercise-noforce), [](#Exercise-quadratic), [](#Exercise-tffromy), [](#Exercise-confounded)
@@ -125,7 +127,7 @@ $$
 :::
 In plain English, the above mathematical sentence translates to: "The position of the ball at a given time is equal to the distance it travels per unit of time (*e.g.*, seconds), multiplied by the time that has passed, plus its original position." Really make sure you understand this statement before moving on.
 
-:::Exercise (noforce)
+:::Exercise (noforce|2 Points)
 In space (no gravity), a ball is shot towards a wall at a velocity of $7.5 \text{ m/s}$. The ball hits the wall and perfectly reflects after collision, maintaining the same *speed*. At $t= 4 \text{ s}$, the ball is measured to be $20 \text{ m}$ from the wall.
 
 1. Did any forces act on the ball? Defend your answer, explicitly referencing the ball's initial and final velocities as needed.
@@ -185,7 +187,7 @@ $$
 Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) = $ 
 :::
 
-:::Exercise (quadratic)
+:::Exercise (quadratic|1 Point)
 Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. 
 1. How long does it take for the ball to reach the ground again? ;;;Hint: When the ball reaches the ground again, y=0 ;;;
 2. How long does it take for the ball to reach the highest point of its arc?
@@ -220,7 +222,7 @@ The heights of the three balconies will be obtained prior to the experiment usin
 
 The structure of our experiment means that instead of height as a function of time, we need to calculate the *final time*, $t_f$, as a function of *initial height*, $y_0$. In this situation the final time, $t_f$, is our dependent variable and the initial height, $y_0$, is our intendent variable. This should be contrasted with the usual situation in class where your *instantaneous height*, $y$, is dependent on the *instantaneous time*, $t$.  
 
-:::Exercise (tffromy)
+:::Exercise (tffromy|1 Point)
 The final time, $t_f$, is the time that the ball has hit the ground after being dropped from rest at some height $y_0$. 
 1. Using [](#Equation-positionwithforce), write out an equation that solves for $t_f$ for an object at rest at an initial height of $y_0$. You can assume that the experiment takes place on earth so that $a=g$. ;;;Hint: First, set t= tf. What is y(tf)?;;; ;;;Hint: Watch your signs before and after applying the squareroot!;;;
 2. What is the $t_f$ for an object released from rest at $y_0 = 1.0 \text{ m}$? $y_0 = 5.0 \text{ m}$? $y_0 = 20.0 \text{ m}$? $y_0 = 50.0 \text{ m}$?, $y_0 = 0.0 \text{ m}$?
@@ -244,7 +246,7 @@ In summary, in this experiment, we ultimately have two questions to answer:
 Quantitatively, both of these questions are essentially asking you to compare the theoretical & measured time to hit the ground, $t_f$, and draw a conclusion from any agreement or disagreement. 
 
 
-:::Exercise (confounded)
+:::Exercise (confounded|2 Points)
 In the previous Part we discussed the ideal behavior of a ball under constant acceleration. Brainstorm three possible reasons;;; including, e.g. environmental, experimenter mistakes, equipment;;; why the time it takes for a ball to reach the ground after being dropped in our real-life experiment may not match the ideal theoretical predictions. For each possible reason, indicate whether the cause would result in a faster-than-ideal drop time or a slower-than-ideal drop time and why.
 :::
 
@@ -301,7 +303,7 @@ On the experiment day, your TA will have the test objects for dropping. Since th
 1. Grab your notebook and stopwatch head out to the designated dropping area with your TA. 
 2. Using the measuring tape, a few students will determine the height from the drop zone to each of the floors. The railing makes for a good 
 reference point from where the objects will be dropped. The student on the highest floor will reel the measuring tape down to the ground so that all measurements can be taken simultaneously.
-:::Exercise (collect-heights)
+:::Exercise (collect-heights|1 Point)
 Answer the following data questions using the standard reporting form that includes uncertainty: $(y \pm \delta y) \text{ units}$
 1. What is the distance from the drop zone to the rail on the second floor?
 2. What is the distance from the drop zone to the rail on the third floor?
@@ -317,7 +319,7 @@ Do not throw the objects to the upper floors. Use the stairs.
 :::
 7. At the end of the experiment, submit your data to the group spreadsheet created by your TA.
 
-:::Exercise(tables)
+:::Exercise(tables|1 Point)
 1. Fill in the raw measurements of $t_f$ into your raw data tables. Include a copy of your raw table and processed table here. Make sure that this data and all calculated columns have the correct number of significant figures and have labeled units as necessary. ;;;If you were one of the droppers, please ask the TA for their measurements to use as your own;;;
 2. Once it is available, use the calculated average $t_f$'s to fill in the theoretical table, and include a copy of the final table in this exercise. 
 :::
@@ -341,7 +343,7 @@ four points for each object;;;Hint: what is tf for a height of 0? ;;;.
 
 2. On the same graph, also plot the theoretical fall time calculated, and compare this to your original data.
 
-:::Exercise
+:::Exercise (|1 Point)
 1. Which of the objects **most closely** follow the theoretically predicted drop time?
 2. Which of the objects have the greatest percent difference with the theoretically predicted drop time?
 3. For the object in part (b), is the percent difference greater for higher or lower drop heights?
@@ -349,7 +351,7 @@ four points for each object;;;Hint: what is tf for a height of 0? ;;;.
 
 3. For the object in with the greatest percent difference with the theoretically predicted drop time, use Google sheets to create a line of best fit with the measured data (excluding the origin)
 
-:::Exercise
+:::Exercise (|1 Point)
 1. What is the slope of the line of best fit, including units?
 2. What is the physical meaning of the line of best fit?
 :::
@@ -363,7 +365,7 @@ four points for each object;;;Hint: what is tf for a height of 0? ;;;.
 | ...         | ...          | ...              |
 :::
 
-:::Exercise
+:::Exercise (|2 Points)
 1. Include your [](#Table-velocity) here (make sure the table is formatted, with sigfigs, units and a descriptive title)
 2. How to the average velocities compare to one another? Elaborate on if you see a trend.
 3. How to the average velocities compare to the slopes of the lines of best fit?
@@ -391,14 +393,14 @@ Indeed, some of our objects behave in a way that looks like they are ignoring gr
 
 :::
 
-:::Exercise (FinalevalAR)
+:::Exercise (FinalevalAR|2 Points)
 Reflect on the trajectories of the dropped objects and their properties.
 1. Which objects, according to your data, were most influenced by air resistance as discussed? Support your conclusion with a sentence or two.
 2. Does it make sense to you that these mentioned objects were affected most by air resistance? What physical properties to they have that might lead to high air resistance?
 :::
 
 
-:::Exercise (Finalevalall)
+:::Exercise (Finalevalall|3 Points)
 We now want to discuss the impact of factors other than air resistance on our experiment. 
 1. Do you think that the uncertainty introduced by you and your classmates' reaction times is significant in this experiment? Please answer this quantitatively, referencing your measured reaction time from this [Exercise](linkfile?=Lab0#Activity-randomerr) in Lab 0 and comparing it to the *variance* in measured times
 2. You all had to start a stopwatch on a certain agreed upon signal, and then stop it the instant an object hit the ground. Do you think that the *systematic error* associated with the average *delay* in reaction time resulted in a **bias** in the measured $t_f$ being longer? ;;;This is a high level discussion, try your best here;;; 
@@ -407,7 +409,7 @@ We now want to discuss the impact of factors other than air resistance on our ex
 
 # Conclusion
 
-:::Exercise
+:::Exercise (|2 Points)
 Write a brief conclusion summarizing the important points of this lab. Dedicate one paragraph to answering the question:
 
 **Do the laws of linear motion appear to hold for this experiment? Why or why not?**

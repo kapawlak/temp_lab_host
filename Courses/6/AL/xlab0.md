@@ -133,7 +133,7 @@ An example of a random error is the variation in your reaction time. Even if you
 <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/pnvFYFyK7zs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-:::Exercise
+:::Exercise (|2 Points)
 1. Provide a copy of the table you made, ensuring that all rows and columns are properly labelled and all data has appropriate units and sigfigs. You can do this by copying your table from Google Sheets to your Google Doc Lab Notebook.
 2. What is your average reaction time?
 :::
@@ -186,7 +186,7 @@ When comparing your **experimental value to the accepted value** the accepted va
 $$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100\%$$
 :::
 
-:::Exercise
+:::Exercise (|1 Point)
 In an experiment we measure the acceleration due to gravity to be $9.825\ \rm{m/s}^2$. The accepted value is $9.807\ \rm{m/s}^2$. What is the percent discrepancy in our measurement?
 :::
 
@@ -216,7 +216,7 @@ Careful! The definition of percent difference in this course is **different** fr
 
 
 
-:::Exercise
+:::Exercise (|1 Point)
 In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58 \text{ in}$. and $2.61 \text{ in}$.
 What is the percent difference of the second measurement with respect to the first in our measurements?
 :::
@@ -289,7 +289,7 @@ In our intro courses, we will usually calculate the standard deviation by using 
 :::
 
 
-:::Exercise
+:::Exercise (|2 Points)
 1. Provide a copy of the table created for the speaking speed exercise
 2. Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [](#Equation-fmt).
 :::
@@ -298,7 +298,7 @@ In our intro courses, we will usually calculate the standard deviation by using 
 
 ::::::
 
-:::Exercise
+:::Exercise (|1 Point)
  Find the standard deviation for your reaction time from [](#Activity-randomerr). Report your full results (average and uncertainty) using the format of [](#Equation-fmt).
 :::
 
@@ -340,7 +340,7 @@ If the trailing zero is to the left of the decimal point it can be ambiguous. To
  $4,510,000$ has three sig figs, while $4,510,000.$ has 7 sig figs. 
 :::
 
-:::Exercise
+:::Exercise (|2 Points)
 Determine the number of significant figures in the following values:
 
 1. 15.02
@@ -385,7 +385,7 @@ Ultimately,** the result of the density calculation above cannot contain more th
 :::
 
 
-::::::::::::Exercise
+::::::::::::Exercise (|2 Points)
 Practice the rules above by calculating some geometric properties of the following shapes. **Make sure your answers are written with the correct number of sig figs and with units.** 
 
 :::::::::Figure (measure|m|Row)
@@ -415,7 +415,7 @@ Practice the rules above by calculating some geometric properties of the followi
 
 
 
-::::::Exercise
+::::::Exercise (|2 Points)
 We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. The results of this process are shown in [](#Figure-cyl) Ultimately we want to calculate the density of this object.
 
 :::Figure (cyl|s|R)
@@ -432,7 +432,7 @@ Object submerged in cylinder
 When you are converting between units, the conversions are treated as exact and don't affect the number of sig figs in your result.
 
 
-:::Exercise
+:::Exercise (|1 Point)
 A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig figs?
 :::
 
@@ -520,7 +520,7 @@ Notice that the data take up the entire plot; there are no large blank areas. Bo
 
 
 
-:::Exercise
+:::Exercise (|3 Point)
 
 In this exercise you will use the six rules above to identify mistakes in graphs that other students have made.
 
@@ -630,7 +630,7 @@ Linear
 Exponential
 :::
 
-:::Exercise
+:::Exercise (|1 Point)
 Which function fits the data better -- linear or exponential? Explain your reasoning.
 :::
 ::::::
@@ -745,7 +745,7 @@ Here is a table of data that a student collected by monitoring an inchworm as it
 
 
 
-:::Exercise
+:::Exercise (|2 Point)
 1. Using a similar analysis as for the car above, what is the speed of the inch worm in inches per minute? 
 Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
 2. Include a copy of your final table that you used to calculate this quantity
