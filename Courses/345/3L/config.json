@@ -49,10 +49,6 @@
     ],
     "page-links": [
       {
-        "name": "Lab 0",
-        "file": "lab0"
-      },
-      {
         "name": "Lab 1",
         "file": "lab1"
       },
@@ -67,6 +63,18 @@
       {
         "name": "Lab 4",
         "file": "lab4"
+      },
+      {
+        "name": "Lab 5",
+        "file": "lab5"
+      },
+      {
+        "name": "Lab 6",
+        "file": "la6"
+      },
+      {
+        "name": "Lab 7",
+        "file": "lab7"
       }
     ],
     "integrations": [
