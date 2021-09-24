@@ -26,8 +26,12 @@ A lens is an object that consists of a material of index of refraction, $n$, dif
 
 We will consider two common types of lenses, **convex** and **concave** lenses. Convex lenses are those that bulge outward in the center, with the edge being the narrowest part. Because light passing through such lenses converges to a point on the other side as described above, these are known as *converging* lenses. 
 
-:::Definition Convex Lens
+:::Definition (Convex and Concave Lens)
 A **convex lens** is a lens that possesses at least one surface that curves outward. Such a lens causes rays of light that travel through it parallel to its principal axis, to converge.
+
+---
+A **concave lens** is a lens that possesses at least one surface that curves inward. Such a lens causes rays of light that travel through it parallel to its principal axis, to diverge, or spread out.
+
 :::
 
 Concave lenses are those that are thicker on the outside and thinner toward the center. (Their faces curve inward.) Later in this lab, we will examine the behavior of concave lenses, which is different from that of convex lenses.

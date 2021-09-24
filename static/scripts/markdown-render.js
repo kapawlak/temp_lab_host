@@ -15,13 +15,14 @@ function includeHTML(filenum = linkfile) {
     console.log("include html called")
    
     var z, xhttp;
+    var rand = Math.floor(Math.random() * 100000) //gennerate a random number to append to prevent cache of markdown file
     /*loop through a collection of all HTML elements:*/
     z = document.getElementById("maincontent");
 
     if(filenum == 'FAQ'){
         filenum = '../Common/'+filenum
     }
-    file =  filenum + ".md"
+    file =  filenum + ".md" + '?v=' + rand
 
 
     if (file) {

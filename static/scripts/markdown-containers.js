@@ -131,9 +131,9 @@ function classCard(c) {
     data-type="${c.type}"> 
     ${c.headerText == '' || c.headerText == null ? '' :
       `<div class="card-header">
-      <span class="${c.innerStyles[0]}">
+      <div class="${c.innerStyles[0]}">
         ${c.headerText}
-      </span>
+      </div>
     </div>`}
 
     <div class="container ${c.innerStyles[1]}">
@@ -145,9 +145,9 @@ function classCard(c) {
     </div>
     ${(c.footerText == '' || c.footerText == null ? '' :
       `<div class="card-footer">
-      <span class="my-0 ${c.innerStyles[3]} ">
+      <div class="my-0 ${c.innerStyles[3]} ">
         ${c.footerText}
-      </span>
+      </div>
     </div>`)}
     </div>`)
  c= null
