@@ -49,15 +49,25 @@ Watch the video below for instructions on how to use the apparatus.
 ## Pre-Lab
 
 :::Prelab
-**Before coming to lab** you will need to complete [](Exercise-alignment) and [](Exercise-procedure). This will be checked off by your TA when you get to class. 
+**Before coming to lab** you will need to complete **and submit on Gauchospace** your responses to [](Exercise-logistics), [](Exercise-alignment), and [](Exercise-procedure). This will be checked off by your TA when you get to class. 
+:::
+
+:::Exercise (logistics)
+Answer the following:
+1. Which color group is your section?
+2. Which classroom number is your group meeting in during the second **full week** of the quarter?
+3.  Which classroom number is your group meeting in during the third **full week** of the quarter?
+4.  Which classroom number is your group meeting in during the fourth **full week** of the quarter?
+5. What is your TA's name?
 :::
 
 :::Exercise (alignment)
-Since the protractor does not have defined position, you will need to set it in a position that is useful for the experiment. Spend 5 minutes coming up with a procedure to align your protractor.
+1. When reading the initial angle using the protractor, you must look straight on or you might have an error from parallax. Briefly explain what parallax is.
+2. How will this effect your measurement of the initial angle? 
 :::
 
 :::Exercise (procedure)
-Write a step by step procedure outlining the data that you will collect that will determine which of the three parameters, mass, length, and initial angle, affect the period of the pendulum.
+Write a step by step procedure outlining how you will collect data that will determine which of the three parameters, mass, length, and initial angle, affect the period of the pendulum.
 
 You will not be graded on whether you have "the right" procedure. We are simply looking for effort that you have thought about this and that you will be ready to start taking measurements when you get to class.
 :::
@@ -70,6 +80,11 @@ You TA will walk your class through an exercise in which you measure the period 
 
 :::Exercise
 Write down the two period values you recorded in the activity. Make sure to indicate which is which.
+:::
+
+:::Exercise
+1. What statistic are you using to characterize the classes measurement of the period?
+2. What statistic are you using to characterize the uncertainty in the classes measurement of the period? 
 :::
 
 :::Exercise
@@ -98,15 +113,17 @@ Your TA will walk you all through a final activity of looking for a sign of resp
 
 :::Exercise
 1. Which parameter are you measuring?
-2. What are the other two values you are looking at?
+2. What are the values of the other two parameters you in your experiment?
 3. What is the data you collected?
 4. What is the data the other groups collected?
 :::
 
 :::Exercise
-Do you think the period depends on the parameter you measured? Why or why not?
+1. Do you think the period depends on the parameter you measured? Why or why not?
+2. Do you think the period depends any other parameters? Why or why not?
 :::
 ::::::
+
 
 
 

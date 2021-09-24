@@ -1,38 +1,93 @@
 {
     "TAs": [
       {
-        "first-name": "Kelly",
-        "last-name": "Pawlak",
-        "pronouns": "(She/Her/Hers)",
-        "email": "kapawlak@ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",        
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ULW9KeE3_400x400.jpg?itok=_jLjeNxS",
+        "first-name": "Jiuci",
+        "last-name": "Xu",
+        "pronouns": "",
+        "email": "Jiuci_Xu@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Tuesday (Y), 4-7PM Tuesday (Y)",        
+        "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },
       {
-        "first-name": "Zak",
-        "last-name": "Espley",
-        "pronouns": "(He/Him/His)",
-        "email": "zespley@physics.ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ZakAndGalileo.jpeg?itok=HriS16Cn",
+        "first-name": "James",
+        "last-name": "Kwon",
+        "pronouns": "",
+        "email": "jameskwon@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Monday (Y), 4-7PM Monday (Y)",        
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
+        "first-name": "Qier",
+        "last-name": "An",
+        "pronouns": "",
+        "email": "aan@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Thursday (Y), 4-7PM Thursday (Y)",        
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
+        "first-name": "Diego",
+        "last-name": "Gonzalez Hernandez",
+        "pronouns": "",
+        "email": "dgonzalezhernandez@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Monday (B), 4-7PM Monday (B)",        
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
+        "first-name": "Zhenhao",
+        "last-name": "Song",
+        "pronouns": "",
+        "email": "z_song@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Wednesday (Y), 4-7PM Wednesday (Y)",        
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
+        "first-name": "Zixuan",
+        "last-name": "Peng",
+        "pronouns": "",
+        "email": "zixuanpeng@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "1-3PM Wednesday (B), 4-7PM Wednesday (B)",       
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
+        "first-name": "Owen",
+        "last-name": "Sheekey",
+        "pronouns": "",
+        "email": "osheekey@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "7-10PM Wednesday (Y)",        
+        "img": "../../../people/photo/nopic.png",
         "title":"TA"
       }
     ],
     "Faculty": [
       {
-        "first-name": "Kelly",
-        "last-name": "Pawlak",
-        "pronouns": "(She/Her/Hers)",
-        "email": "kapawlak@ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",        
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ULW9KeE3_400x400.jpg?itok=_jLjeNxS",
+        "first-name": "Zak",
+        "last-name": "Espley",
+        "pronouns": "(He/Him/His)",
+        "email": "zespley@physics.ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "",        
+        "img": "https://physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ZakAndGalileo.jpeg?itok=HriS16Cn",
         "title":"Coordinator"
       },
       {
@@ -75,6 +130,10 @@
       {
         "name": "Lab 7",
         "file": "lab7"
+      },
+      {
+        "name": "Reference Material",
+        "file": "references"
       }
     ],
     "integrations": [
