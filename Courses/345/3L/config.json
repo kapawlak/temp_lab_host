@@ -87,7 +87,7 @@
         "zoom": "",
         "officehours": "",
         "sectionhours": "",        
-        "img": "https://physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ZakAndGalileo.jpeg?itok=HriS16Cn",
+        "img": "../../../people/photo/zakespley.jpeg",
         "title":"Coordinator"
       },
       {
@@ -95,11 +95,8 @@
         "last-name": "Popescu",
         "pronouns": "(She/Her/Hers)",
         "email": "ppopescu@physics.ucsb.edu ",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",
         "title":"Lecturer, Coordinator",
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/popescu%20photo.jpg?itok=dkwvpBPq"
+        "img": "../../../people/photo/paulapopescu.jpg"
       }
     ],
     "page-links": [

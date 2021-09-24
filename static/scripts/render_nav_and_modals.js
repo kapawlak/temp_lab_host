@@ -5,7 +5,7 @@ let sitedata
     console.log("init nav called")
     let lab_list=document.getElementById('lab_list')
     let TA_list=document.getElementById('TA_list')
-    fetch("config.json")
+    fetch("config.json?v="+Math.floor(Math.random() * 100000))
         .then(response => {
             return response.json();
         })

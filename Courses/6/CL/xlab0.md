@@ -212,7 +212,7 @@ Error propagation is, at times, a complex task more suited for upper division co
 3. Calculate the measured speed of light to the correct number of sigfigs.
 4. The uncertainty in the measured speed of light, $\delta c$ assuming that your microwave's operating frequency is exact, can be calculated using the following formula:
    $$
-   \delta c = \nu \cdot \delta\lambda
+   \delta c = 2\nu \cdot \delta d
    $$
    Calculate this and report your final result for the measured speed of light in the form $(c \pm \delta c) \text{ units}$
 :::
@@ -277,10 +277,10 @@ Why is the distance between the food medium and the magnetron not important to t
 
 :::Exercise (|1 Point)
 **Challenge Question**
-1. Roughly measure the length of the inside your microwave in cm. 
-2. Is it close to a multiple of $d$?
-3. Give an argument as to why microwaves typically come in only a few standard sizes. 
-4. What do you think the function of the mesh on the viewing screen of your microwave is?
+If you did the experiment yourself, measure the length of the inside of your microwave. If not, the microwave I used measures to be $(36 \pm 2)\text{ cm}$
+1. Is it close to a multiple of $d$? 
+2. Give an argument as to why microwaves typically come in only a few standard sizes. 
+3. What do you think the function of the mesh on the viewing screen of your microwave is?
 :::
 # Conclusion
 
