@@ -50,6 +50,8 @@ Watch the video below for instructions on how to use the apparatus.
 
 :::Prelab
 **Before coming to lab** you will need to complete **and submit on Gauchospace** your responses to [](Exercise-logistics), [](Exercise-alignment), and [](Exercise-procedure). This will be checked off by your TA when you get to class. 
+
+Additionally it is **highly** recommended that you read through Parts 1 and 2 of the "Reference Material" that can be found in the top left "Labs" drop down menu.
 :::
 
 :::Exercise (logistics)
@@ -84,7 +86,8 @@ Write down the two period values you recorded in the activity. Make sure to indi
 
 :::Exercise
 1. What statistic are you using to characterize the classes measurement of the period?
-2. What statistic are you using to characterize the uncertainty in the classes measurement of the period? 
+2. What statistic represents the precision of the measurement process?
+3. What statistic are you using to characterize the uncertainty in the classes measurement of the period? 
 :::
 
 :::Exercise
