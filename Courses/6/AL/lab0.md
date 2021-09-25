@@ -65,11 +65,9 @@ Systematic errors can be *very useful* in experimental science: the presence of 
 :::Hider (|Systematic Error Examples)
 Imagine that we are characterizing the properties of a pencil. Each of the following scenarios is an example of systematic error:
 
-- @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted (while the wooden pencil is less so). That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
+-  When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted (while the wooden pencil is less so). That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
 
-- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
-
-- @fa-pencil@ Say we measured the length, (maximum) radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
+-  If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
 
 :::
 
@@ -275,7 +273,7 @@ We report standard deviations to 1 significant figure! Please see the example in
 
 
 
-## Calculating Statistical Quantities with a Spreadsheer
+## Calculating Statistical Quantities with a Spreadsheet
 In our intro courses, we will usually calculate the standard deviation by using the STDEV() function in Google Sheets. In [](#Activity-speakingspeed) you will practice this with real data.
 
 ::::::Activity (speakingspeed| Speaking Speed)
@@ -340,6 +338,11 @@ If the trailing zero is to the left of the decimal point it can be ambiguous. To
  $4,510,000$ has three sig figs, while $4,510,000.$ has 7 sig figs. 
 :::
 
+Finally, if the final significant figure in a number is a 0 to the left of the decimal and it is not in the ones's place, you must write that number in [scientific notation](https://en.wikipedia.org/wiki/Scientific_notation). Scientific notation is the preferred notation in much of STEM because significant figures are unambiguous.
+:::Card (|Example||bg-UCSB-navy text-white)
+ $4,510,000$ has three sig figs, while $4.5100 \times 10^{6}$ has 5 sig figs. 
+:::
+
 :::Exercise (|2 Points)
 Determine the number of significant figures in the following values:
 
@@ -358,6 +361,7 @@ Determine the number of significant figures in the following values:
 
 
 ## Significant Figures in Calculations
+You will often have to do calculations with numbers that have significant figures. This section discusses the basic rules. 
 When we add a series of numbers, the one having the greatest uncertainty determines the number of significant figures in the final result.
 
 :::Card (|Example||bg-UCSB-navy text-white)
@@ -372,8 +376,11 @@ The result of the calculation $(35 \times 0.637)/256.3$ is $0.087$ (two sig figs
 
 Certain multipliers, such as the $180$, in $180/\pi$, the conversion factor to go from radians to degrees, or the $2$ in $2\pi r$, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
 
+:::Note (|10 C)
+When working with sigfigs, a rule for best practices is to do any rounding at the **end** of your calculation when possible. Read more in "Rage Against the Machine"
+:::
 
-:::Hider (|Rage against the machine: when the calculator is wrong)
+:::Hider (|Rage Against the Machine: when the calculator is wrong)
 
 Imagine that you've been given the mass of a block of material as $75\text{ g}$, and its dimensions as $2.5 \text{ cm} \times3.1 \text{ cm} \times 6.3 \text{ cm}$ (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into $75$.  You do this on a calculator. 
 
@@ -381,7 +388,7 @@ For the volume, you get  $48.825\text{ cm}^3$, and for the density, the calculat
 
 It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the nearest gram, and each dimension to the nearest tenth-of-a-centimeter, do we *really* know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the $8$), or even to a milligram per cc (the $6$)?
 
-Ultimately,** the result of the density calculation above cannot contain more than two significant figures**, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
+Ultimately, **the result of the density calculation above cannot contain more than two significant figures**, and is properly written as $1.5 \text{ g/cm}^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, $1.45$ is $1.4$, and $1.55$ is $1.6$.
 :::
 
 
@@ -419,8 +426,8 @@ Practice the rules above by calculating some geometric properties of the followi
 We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. The results of this process are shown in [](#Figure-cyl) Ultimately we want to calculate the density of this object.
 
 :::Figure (cyl|s|R)
-![Object submerged in cylinder](imgs/Primer/gradcylinder.png)
-Object submerged in cylinder
+![Object submerged in cylinder](imgs/Primer/gradcylinder.png "Object submerged in cylinder")
+
 :::
 1. What are the initial and final volumes (in mL) before and after the object is submerged? What is the volume (in mL) of the object?  Make sure you use the appropriate number of significant figures when stating all your answers.
 2. If the mass of the object is $57.868$ g, what is its density (in g/mL) ? Make sure you use the appropriate number of significant figures when stating all your answers.
@@ -481,11 +488,11 @@ Your goal with a table, is to communicate what you did as simply as possible to 
 Graphs help us visualize the **relationship between two variables**: the independent variable (on the x-axis) and the dependent variable (on the y-axis). If you are unfamiliar with these terms, take note of their definitions below:
 
 :::Definition (Independent & Dependent Variables)
-An **independent variable** is one that *doesn't* depend on anything else. Often times, but not exclusively, it is a variable that you are measuring directly. 
+An **independent variable** is one that *doesn't* depend on anything else. In experiments, this might be the variable the experimenter is directly changing. Often times, but not exclusively, it is a variable that you are measuring directly (e.g. repeating an experiment with a number of different masses, who's mass you obtain directly from a scale). 
 
 ---
 
-A **dependent** variable is one that *does* depend on the other variables. Often times, but not exclusively, this is a variable that you get from doing calculations.
+A **dependent** variable is one that *does* depend on the other variables. In experiments, this might be the variable the experimenter has no direct control over, and who's behavior they are probing. Often times, but not exclusively, this is a variable that you get from doing calculations.
 :::
 
 Often times in the lab manual we will ask you to plot "this vs. that." When we ask you to plot something with this format, that means plot "dependent variable vs. independent variable."
@@ -511,8 +518,8 @@ When it comes to a title, **don't** provide a title like "Distance vs. Time." Th
 
 
 :::Figure (goodgraph|xl)
-![Example of a Good Graph](imgs/Primer/GoodGraph.png)
-Example of a Good Graph
+![Example of a Good Graph](imgs/Primer/GoodGraph.png "Example of a Good Graph. Turn-on Voltage $(V)$ vs. Inverse Wavelength $(\mu^{-1})$")
+
 :::
 
 Notice that the data take up the entire plot; there are no large blank areas. Both of the axes are labeled and have units. The data points are not connected, and there is a line of best fit. There is also a title for the plot that lets us know what the experimenter was doing.
@@ -527,29 +534,29 @@ In this exercise you will use the six rules above to identify mistakes in graphs
 1. Identify mistakes in the following graph.
 
 
-![Bad Graph 1](imgs/Primer/GraphBadRange.png)
+![](imgs/Primer/GraphBadRange.png "Bad Graph 1")
 
 
 
 2. Identify mistakes in the following graph.
 
-![Bad Graph 2](imgs/Primer/GraphConnected.png)
+![Bad Graph 2](imgs/Primer/GraphConnected.png "Bad Graph 2")
 
 
 
 3. Identify mistakes in the following graph.
 
-![Bad Graph 1](imgs/Primer/Graphaxislabelerrors.png)
+![Bad Graph 3](imgs/Primer/Graphaxislabelerrors.png "Bad Graph 3" )
 
 4. Identify mistakes in the following graph.
 
-![Bad Graph 2](imgs/Primer/GraphNoTitle.png)
+![Bad Graph 4](imgs/Primer/GraphNoTitle.png "Bad Graph 4")
 
 
 
 5. Identify mistakes in the following graph.
 
-![Bad Graph 5](imgs/Primer/GraphYX.png)
+![Bad Graph 5](imgs/Primer/GraphYX.png "Bad Graph 5")
 
 :::
 
@@ -638,11 +645,11 @@ Which function fits the data better -- linear or exponential? Explain your reaso
 ## Significant Figures in the Line of Best Fit
 Just as with all physical quantities, a trend or slope estimated from data is subject to the limits of significant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens -- if not hundreds -- of data points, the number of significant figures isn't directly inherited from the number of sig figs present in your data. This is something that must be estimated from the entire set of data you are working with.
 
-We have to be clear about what a sig fig is, so we know how many digits to keep! When we talk about a sig fig, we are actually talking about a measure of *uncertainty*. For example, if I measure and record a velocity of 1.2 m/s, I am saying that the actual value of this velocity is greater than 1.15 m/s and less than 1.25 m/s -- in other words, that the true velocity lies in this interval of numbers that *round* to 1.2 m/s; hence, the "2"  is the smallest significant digit.
+We have to be clear about what a sig fig is, so we know how many digits to keep! When we talk about a sig fig, we are actually talking about a measure of *uncertainty*. For example, if I measure and record a velocity of $1.2 \text{ m/s}$, I am saying that the actual value of this velocity is greater than $1.15 \text{ m/s}$ and less than $1.25 \text{ m/s}$ -- in other words, that the true velocity lies in this interval of numbers that *round* to $1.2 \text{ m/s}$; hence, the "2"  is the smallest significant digit.
 
 The same principle applies for lines of best fit: we need to determine the smallest digit that is not sensitive to the random nature of a real set of data, which will never fall exactly on a trend line. While the math and concepts that we need to fully understand this procedure are often employed in upper-division labs with error analysis components, we can use spreadsheets to help us determine the error. By using the function "LINEST," we can make a spreadsheet provide us with the values for the slope and intercept, as well as the error in those values. The error will tell us the correct number of sig figs needed. We will demonstrate how to use this below.
 
-To determine the least significant digit in your slope, you round the value of $m$ to the digit that coincides with the first non-zero decimal place of the uncertainty. For example, if you obtained $m = 12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook $m= 12.93$. This is very similar to using the "STDEV" function that we used in the last lab.
+To determine the least significant digit in your slope, you round the value of $m$ to the digit that coincides with the first non-zero decimal place of the uncertainty. For example, if you obtained $m = 12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook $m= 12.93$. This is very similar to using the "STDEV" function that we used in [](#Activity-speakingspeed).
 
 :::Note
 When determining the number of sig figs to report in our slope or intercept we will rely on the standard error reported by the LINEST function.
@@ -694,7 +701,7 @@ Again, this is not a standard way of treating the data, but a convention that we
 # Working with a Spreadsheet
 Now that we have talked about what makes a good table, plot, and curve fit, we will show you how to do this for yourself. Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6\*L lab courses, and you probably will even find it useful in the real world. 
 
-We will walk through plotting and fitting the data in Figure 1. We will assume that you can make a table from having done the first lab. These data are recorded by a car traveling from San Diego to San Francisco. The driver marked the distance traveled in kilometers roughly every 60 minutes. Once the car got on the freeway, the driver put on cruise control and  never stopped (what amazing mileage!). 
+We will walk through plotting and fitting the data in [](#Figure-table_ex). We will assume that you can make a table from having done the first lab. These data are recorded by a car traveling from San Diego to San Francisco. The driver marked the distance traveled in kilometers roughly every 60 minutes. Once the car got on the freeway, the driver put on cruise control and  never stopped (what amazing mileage!). 
 
 **We want to answer the question: at what speed, in mph, did the driver set their cruise control?**
 
@@ -746,8 +753,7 @@ Here is a table of data that a student collected by monitoring an inchworm as it
 
 
 :::Exercise (|2 Point)
-1. Using a similar analysis as for the car above, what is the speed of the inch worm in inches per minute? 
-Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
+1. Using a similar analysis as for the car above, what is the speed of the inch worm in inches per minute? Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
 2. Include a copy of your final table that you used to calculate this quantity
 :::
 
@@ -767,7 +773,7 @@ Make sure to include your final table with all the columns you made, a sample ca
 
 ### INSTRUCTIONS
  1) Be sure you did all of the **Activities** and answered all **Exercises** in this Lab
- 2) On a new page, attach a brief conclusion summarizing the important points of this lab to your lab notebook.
+ 2) On a new page, attach a brief conclusion summarizing the important points of this lab to your assignment ;;; Please complete your assignment in google docs or a similar word processing program and submit it as a .doc or .pdf;;;.
 
 **NOTE:** Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
 :::

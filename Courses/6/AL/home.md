@@ -10,6 +10,11 @@ PHYS 6AL is the laboratory based component of the PHYS 6A course, and the first 
 
 In this course we will cover topics that roughly reflect the material you learn in class: 1D Motion, Newton's Laws, Work and Energy, and Rotational Motion. In addition to verifying the concepts learned in the theory course against real experiments, you will also learn universal introductory experimental techniques used in *all* scientific fields. PHYS 6AL specifically focuses on elementary error analysis, significant figures and the identification of types of uncertainty.   
 
+### Materials
+
+No materials are required for this course. All labs will be submitted digitally in a .pdf, .doc or .docx format. It is recommended that students use the latest version of the Chrome Browser available for their device to view the manual.
+
+
 ### Contact Information
 
 ######
