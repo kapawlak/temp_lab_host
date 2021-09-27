@@ -285,7 +285,7 @@ If you did the experiment yourself, measure the length of the inside of your mic
 # Conclusion
 
 :::Exercise (|2 Points)
-Please write a short summary of this lab that explains what you did, how you analyzed your data and what you concluded from your data. 
+Please write a short summary (1-2 paragraphs) of this lab that explains what you did, how you analyzed your data and what you concluded from your data. 
 
 :::
 

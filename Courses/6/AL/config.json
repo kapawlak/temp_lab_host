@@ -7,8 +7,8 @@
         "email": "tianxie@ucsb.edu",
         "room": "",
         "officehours": "TBA",
-        "sectionhours": "<b>M</b> 1-3, 3-5, 5-7 | <b>T</b> 5-7",        
-        "img": "../../../people/photo/nopic.png",
+        "sectionhours": "[Monday 1-3PM, 3-5PM, 5-7PM] [Tuesday 5-7PM]",        
+        "img": "../../../people/photo/benxie.jpg",
         "title":"TA"
       },{
         "first-name": "Zining (Leo)",
@@ -17,7 +17,7 @@
         "email": "zining@ucsb.edu",
         "room": "",
         "officehours": "TBA",
-        "sectionhours": "<b>T</b> 1-3, 3-5 | <b>R</b> 1-3",        
+        "sectionhours": "[Tuesday 1-3PM, 3-5PM] [Thursday 1-3PM]",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },{
@@ -27,7 +27,7 @@
         "email": "jdcelestial@ucsb.edu",
         "room": "",
         "officehours": "TBA",
-        "sectionhours": "<b>W</b> 1-3, 3-5 | <b>R</b> 3-5, 5-7",        
+        "sectionhours": "[Wednesday 1-3PM, 3-5PM] [Thursday 3-5PM, 5-7PM]",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       }

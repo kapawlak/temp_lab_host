@@ -28,7 +28,7 @@ If your circumstance is something you don't feel comfortable sharing with the TA
 ## ...requesting accommodations?
 If you are a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact the Instructor of the course about your situation during the **first week of class**, or have [DSP](https://dsp.ext-prod.sa.ucsb.edu/) forward your accommodations letter. If you require accommodations but are not a member of [DSP](https://dsp.ext-prod.sa.ucsb.edu/), please contact them for your intake meeting. We cannot provide accommodations (including extensions, rescheduling, additional time) without explicit instruction and permission from DSP.
 
-## ...reporting innappropriate behavior ?
+## ...reporting inappropriate behavior ?
 If you are a victim of or witness to any inappropriate behavior, please report it to Either the Instructor or Coordinator of the course **immediately**. This includes:
 - sexual harassment, assault, rape
 - dangerous behavior & misuse of equipment
@@ -36,6 +36,35 @@ If you are a victim of or witness to any inappropriate behavior, please report i
 - entering the lab under the influence of alcohol or drugs
 - bullying and hazing
 
+# Assignments
+
+## Where do I write my assignments?
+
+You should create a [Google Doc](https://docs.google.com/) on your UCSB email account to write your assignment in. You will need to be able to access this assignment during lab from your lab station's Chromebook. 
+
+An example of how you might set up your assignment in google docs can be found [here](https://docs.google.com/document/d/1wHyNIoMf2gt6u1qYGjA57fjTVA8K-dKe-ZeCWxZPljE/copy). Please note that the answers to these questions are completely wrong :)
+
+## Are there any formatting guidelines for assignments?
+
+Please make sure that the following are on the first page of your assignment:
+- Your name
+- Your partner's name (except for Lab 0 and Prelabs, which are done independently)
+- Your TA's name 
+- The Lab number/name
+
+Furthermore, make sure that each Exercise is clearly labeled (and in order) to receive credit for your answers.
+
+## How to I link a table or plot into my aGoogle Doc so that it automatically updates when I enter data?
+
+Instructions for how to do this can be found [here](https://support.google.com/docs/answer/7009814)
+
+## Where do I turn in my assignments?
+
+Your assignments will be turned in by submitting to the appropriate Gauchospace tile at the end of your lab section. You and your partner will submit one report between the two of you. 
+
+## Where do I turn in my Prelab?
+
+Prelabs are also turned in by submitting to the appropriate Gauchospace tile. Prelabs are just a check that you have made a complete attempt at the material, so just submit your assignment file as-is before lab.
 
 # Tables and Graphs
 ## Q: How do I receive full credit on a table in my lab report?
