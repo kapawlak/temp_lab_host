@@ -3,7 +3,7 @@
 
 ::::::Intro (This Week's Topic: Motion!|Objects for Dropping --- Your TAs will have these |Stopwatch| Reel Measuring Tape |Notebook)
 This week we will review how to describe, mathematically, the trajectory of a body moving under the influence of a constant force. 
-For your Pre-Lab, you will sharpen your calculational abilities on some test problems, and prepare your notebook this weeks experiment.
+For your Pre-Lab, you will sharpen your calculational abilities on some test problems, and prepare your notebook for this weeks experiment.
 
 **The experiment this week is simple in nature:** drop some objects off of a balcony and time them to show that all of the linear motion equations you've learned *in class* actually work *in the real world*
 :::center 
@@ -51,7 +51,7 @@ The **position**, $x(t)$, quantifies where a body is located in space at a given
 
 --- 
 
-The  **velocity**, $v(t)$, quantifies how the *position* of an object changes over time. It is a measure of the speed *and* direction the object is traveling at a given time.
+The  **velocity**, $v(t)$, quantifies how the *position* of an object changes over time. It is a measure of the speed *and* direction the object is traveling at a given time. 
 
 --- 
 
@@ -88,7 +88,7 @@ From [](#Definition-VariablesofMotionin1D), [](#Definition-Rest), and your intui
 :::Figure (noforce|m|R)
 ![A graph showing the trajectory a ball takes in time when no force is applied to it. The vertical axis of the graph is distance and the horizontal axis is time. The plot appears as a perfectly horizonal line through the initial position of the ball since the position does not change.](imgs/VelAcc/nov_pos.gif "The trajectory of the ball with no force and zero initial velocity")
 :::
-Indeed, when there are no forces acting on a body, there is no acceleration; hence, the body's velocity does not change. Since the ball started at rest, e.g. $v(0\text{s})= 0\text{ m/s}$, it *stayed* at rest[fn] You might recognize this as Newton's 1st Law — the law of inertia![/fn]. Since the ball remains at rest, it's position doesn't change.
+Indeed, when there are no forces acting on a body, there is no acceleration; hence, the body's velocity does not change. Since the ball started at rest, e.g. $v(0\text{s})= 0\text{ m/s}$, it *stayed* at rest[fn] You might recognize this as Newton's 1st Law — the law of inertia![/fn]. Since the ball remains at rest, its position doesn't change.
 
 
 
@@ -126,6 +126,9 @@ $$
 
 :::
 In plain English, the above mathematical sentence translates to: "The position of the ball at a given time is equal to the distance it travels per unit of time (*e.g.*, seconds), multiplied by the time that has passed, plus its original position." Really make sure you understand this statement before moving on.
+:::Note (|8 C)
+Important distinction! It is easy to get speed and velocity mixed up. Speed doesn't care about the direction an object is moving and is always positive. Velocity does care about direction. For Example, a falling ball has a velocity of $-3 \text{ m/s}$ , but a speed of $3 \text{ m/s}$. On the other hand, a ball thrown upwards could have the same speed $3 \text{ m/s}$, but would have a different velocity $+ 3 \text{ m/s}$.
+:::
 
 :::Exercise (noforce|2 Points)
 In space (no gravity), a ball is shot towards a wall at a velocity of $7.5 \text{ m/s}$. The ball hits the wall and perfectly reflects after collision, maintaining the same *speed*. At $t= 4 \text{ s}$, the ball is measured to be $20 \text{ m}$ from the wall.
@@ -190,8 +193,8 @@ Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) 
 :::Exercise (quadratic|1 Point)
 Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. 
 1. How long does it take for the ball to reach the ground again? ;;;Hint: When the ball reaches the ground again, y=0 ;;;
-2. How long does it take for the ball to reach the highest point of its arc?
-3. What is the ball's maximum height?
+2. How long does it take for the ball to reach the highest point of its arc? ;;;Hint: When the ball reaches the top of its arc, what is its velocity? ;;;
+3. What is the ball's maximum height? ;;;Hint: Can you  use the time to reach the maximum height from part (b) to find this?;;;
 :::
 
 # Preparing for the Experiment
@@ -225,7 +228,7 @@ The structure of our experiment means that instead of height as a function of ti
 :::Exercise (tffromy|1 Point)
 The final time, $t_f$, is the time that the ball has hit the ground after being dropped from rest at some height $y_0$. 
 1. Using [](#Equation-positionwithforce), write out an equation that solves for $t_f$ for an object at rest at an initial height of $y_0$. You can assume that the experiment takes place on earth so that $a=g$. ;;;Hint: First, set t= tf. What is y(tf)?;;; ;;;Hint: Watch your signs before and after applying the squareroot!;;;
-2. What is the $t_f$ for an object released from rest at $y_0 = 1.0 \text{ m}$? $y_0 = 5.0 \text{ m}$? $y_0 = 20.0 \text{ m}$? $y_0 = 50.0 \text{ m}$?, $y_0 = 0.0 \text{ m}$?
+2. What is the $t_f$ for an object released from rest at $y_0 = 1.0 \text{ m}$? $y_0 = 5.0 \text{ m}$? $y_0 = 20.0 \text{ m}$? $y_0 = 50.0 \text{ m}$?, $y_0 = 0.0 \text{ m}$? You may use that $g=-9.81 \text{ m/s}$
 3. Using the points above, make a sketch of the $t_f (y_0)$ graph.
 :::
 
@@ -258,28 +261,29 @@ So that we can quickly and efficiently gather our data in person, and make an an
 
 1. Open a new Google Sheet and Create a Table with 3 rows for data similar to [](#Table-droptable) 
    :::Table (droptable| Processed Data)
-   | Drop Height (units)| Theoretical $t_f$ (units)| Object 1 Avg. Measured $t_f$ (units) | Object 1 Percent Difference |
-   |-------------|-------------------|------------------------------|-----------------------------|
-   | ...         | ...               | ...                          | ...                         |
-   | ...         | ...               | ...                          | ...                         |
-   | ...         | ...               | ...                          | ...                         |
+   Ball : ______________
+     | Drop Height (units) | Theoretical $t_f$ (units) | Object 1 Avg. Measured $t_f$ (units) | Object 1 Percent Difference | Measured Average Velocity (units) |
+   |---------------------|---------------------------|--------------------------------------|-----------------------------|-----------------------------------|
+   | ...                 | ...                       | ...                                  | ...                         | ...                               |
+   | ...                 | ...                       | ...                                  | ...                         | ...                               |
+   | ...                 | ...                       | ...                                  | ...                         | ....                              |
    ::: 
 
 2. Inside each column header you just made, specify the correct units that the measurement will be made in.
 3. From your answer to [](#Exercise-tffromy), set up a function in Google Sheets that will automatically display theoretical $t_f$ using the drop height.
 4. Using the definition of [Percent Difference](?linkfile=lab0#Definition-PercentDifference), create a google sheet function that will automatically calculate the values in this column once the data is entered.
-5. Next, below this table, make a table to record **your individual measurements** for an object, similar to [](Table-rawtable).  Each column should be labeled with the appropriate units in your version.
+5. Finally, Using the **Drop Height** column and the **Avg. Measured $t_f$** column, calculate the **Measured Average Velocity** ;;; Hint: Average Velocity is just the net displacement / net time;;;
+6. Make a Copy of this table for each of the three balls.
+7. Next, below these or on a separate sheet, make a table to record **your individual measurements** for an object, similar to [](Table-rawtable).  Each column should be labeled with the appropriate units in your version.
  :::Table (rawtable| Raw Data)
-   | Drop Height (u) | Object 1 $t_f$ (u)| Object 2 $t_f$ (u)| Object 3 $t_f$ (u)|
-   |-------------|----------------|----------------|----------------|
-   | ...         | ...            | ...            | ...            |
-   | ...         | ...            | ...            | ...            |
-   | ...         | ...            | ...            | ...            |
+   | Drop Height (u) | Object 1 $t_f$ (u) | Object 2 $t_f$ (u) | Object 3 $t_f$ (u) |
+   |-----------------|--------------------|--------------------|--------------------|
+   | ...             | ...                | ...                | ...                |
+   | ...             | ...                | ...                | ...                |
+   | ...             | ...                | ...                | ...                |
  ::: 
 
-
-6. Make copies of your version of Table 2 for each object that will be dropped.
-7. Link [](#Table-droptable) and [](#Table-rawtable) into your lab notebook under [](#Exercise-tables). Make sure the table is easily readable and properly formatted prior to class so that your TA can verify that you have done the prelab.
+7. Link [](#Table-droptable) and [](#Table-rawtable) into your lab notebook under [](#Exercise-tables). You can find how to do this in the FAQ.  Make sure the table is easily readable and properly formatted prior to class so that your TA can verify that you have done the prelab.
       :::Note (|10 C)
       When linked sheets are updated, any edits to the data in the original file will appear in the Google Docs file. If you make edits to the linked chart, table, or slide in your Google Docs, the **changes won't be copied to the original file** and will be lost. [See More Here](https://support.google.com/docs/answer/7009814?hl=en&co=GENIE.Platform%3DAndroid)
       :::
@@ -319,57 +323,51 @@ Do not throw the objects to the upper floors. Use the stairs.
 :::
 7. At the end of the experiment, submit your data to the group spreadsheet created by your TA.
 
-:::Exercise(tables|1 Point)
+
+::::::
+:::Exercise (tables|2 Points)
 1. Fill in the raw measurements of $t_f$ into your raw data tables. Include a copy of your raw table and processed table here. Make sure that this data and all calculated columns have the correct number of significant figures and have labeled units as necessary. ;;;If you were one of the droppers, please ask the TA for their measurements to use as your own;;;
 2. Once it is available, use the calculated average $t_f$'s to fill in the theoretical table, and include a copy of the final table in this exercise. 
 :::
-::::::
 
-## Analyzing Drop Times
+## Analyzing the Experiment 
+
 
 Now that you have collected and organized your data, we can now analyze the results and answer the original questions:
  1. Which, if any, of the objects will match our expectations of motion under constant acceleration?
  2. Which, if any, of the objects will defy these expectations, *in what way*, and *why*?
 
 
-
 [](#Activity-analy) walks you though a short analysis, by plotting the theoretical behavior against your real data sets.
 
+ 
+::::::Activity (analy|Analyzing the Drop Times)
 
-::::::Activity (analy)
-
-1. Using the data in your processed data table, for each object, graph the initial height $y_0$, vs. measured fall time $t_f$. Label your graph with the proper units. Your graph should have 
+1. Using the data in your processed data table, for each object, graph the measured fall time $t_f$ vs. initial height $y_0$. Label your graph with the proper units. Your graph should have 
 four points for each object;;;Hint: what is tf for a height of 0? ;;;. 
 
 2. On the same graph, also plot the theoretical fall time calculated, and compare this to your original data.
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 1. Which of the objects **most closely** follow the theoretically predicted drop time?
 2. Which of the objects have the greatest percent difference with the theoretically predicted drop time?
 3. For the object in part (b), is the percent difference greater for higher or lower drop heights?
 :::
 
-3. For the object in with the greatest percent difference with the theoretically predicted drop time, use Google sheets to create a line of best fit with the measured data (excluding the origin)
+3. For the object in with the greatest percent difference with the theoretically predicted drop time, use Google sheets to create a line of best fit with the measured data (excluding the origin).
 
 :::Exercise (|1 Point)
-1. What is the slope of the line of best fit, including units?
-2. What is the physical meaning of the line of best fit?
+You do not need to include the plot, only answer the following questions.
+1. Does the plot look linear? Why or why not?
+2. What is the slope of the line of best fit, including units?
+3. What is the physical meaning of the line of best fit?
 :::
 
-4. For this object create a new table that calculates the average velocity the object experiences after each drop. Fill in the data and insert a function to calculate the last column.
-:::Table (velocity| Average Velocity)
-| Drop Height | Time to Fall | Average Velocity |
-|-------------|--------------|------------------|
-| ...         | ...          | ...              |
-| ...         | ...          | ...              |
-| ...         | ...          | ...              |
-:::
-
-:::Exercise (|2 Points)
-1. Include your [](#Table-velocity) here (make sure the table is formatted, with sigfigs, units and a descriptive title)
-2. How to the average velocities compare to one another? Elaborate on if you see a trend.
-3. How to the average velocities compare to the slopes of the lines of best fit?
-4. Make an educated guess as to what the average velocity of this object would be if you dropped it from a height of $500 \text{ m}$, and support your hypothesis with your *data*.
+4. For this ball, look at the column that calculates the average velocity.
+ 
+:::Exercise (|3 Points)
+1. How do the average velocities from different fall distances compare to one another? Elaborate on if you see a trend.
+2. Make an educated guess as to what the average velocity of this object would be if you dropped it from a height of $500 \text{ m}$, and support your hypothesis with your *data*.
 :::
 ::::::
 
@@ -393,16 +391,18 @@ Indeed, some of our objects behave in a way that looks like they are ignoring gr
 
 :::
 
-:::Exercise (FinalevalAR|2 Points)
+:::Exercise (FinalevalAR|1 Point)
 Reflect on the trajectories of the dropped objects and their properties.
 1. Which objects, according to your data, were most influenced by air resistance as discussed? Support your conclusion with a sentence or two.
 2. Does it make sense to you that these mentioned objects were affected most by air resistance? What physical properties to they have that might lead to high air resistance?
 :::
 
 
-:::Exercise (Finalevalall|3 Points)
+:::Exercise (Finalevalall|1 Point)
+**Challenge Question**
+######
 We now want to discuss the impact of factors other than air resistance on our experiment. 
-1. Do you think that the uncertainty introduced by you and your classmates' reaction times is significant in this experiment? Please answer this quantitatively, referencing your measured reaction time from this [Exercise](linkfile?=Lab0#Activity-randomerr) in Lab 0 and comparing it to the *variance* in measured times
+1. Do you think that the uncertainty introduced by you and your classmates' reaction times is significant in this experiment? Please answer this quantitatively, referencing your measured reaction time from this [Exercise](index.html?linkfile=lab0#Activity-randomerr) in Lab 0 and comparing it to the *variance* in measured times
 2. You all had to start a stopwatch on a certain agreed upon signal, and then stop it the instant an object hit the ground. Do you think that the *systematic error* associated with the average *delay* in reaction time resulted in a **bias** in the measured $t_f$ being longer? ;;;This is a high level discussion, try your best here;;; 
 3. Do you think that there any environmental factors that could have significantly altered the results of the experiment? ;;;Hint: consider things such as wind, weather, accidentally imparting a v0;;;. Argue your answer in a sentence or two. Pointing to evidence in the data is strongly encouraged for full credit.
 :::

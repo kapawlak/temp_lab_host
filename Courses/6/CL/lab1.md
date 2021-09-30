@@ -236,7 +236,7 @@ Unlike the previous experiment, our prism experiment will be slightly more quali
 ![](imgs/ReflectionRefraction/prismtopview.png)
 :::
 1. Set up the optical bench so that a ray of light is incident onto the triangular end of the acrylic block
-2. Align the ray so that it is perpendicular with the surface of the prism, and observe what happens to the light while slowly sweeping toward the grazing angle.
+2. Align the ray so that it is perpendicular with the surface of the prism, and observe what happens to the light as you slowly adjust the incident angle until the rays exit almost parallel to the surface (at a grazing angle).
 3. Try to get the light to pass directly through the prism.
 4. With the Square end of the block, shrine the ray at an angle and observe what happens.
 ::::::
@@ -323,15 +323,15 @@ Once you have gathered your materials, proceed with the instructions below.
 :::
 
 
-1. The critical angle is the breaking point between refraction and total internal reflection (where no light is refracted, it
+4. The critical angle is the breaking point between refraction and total internal reflection (where no light is refracted, it
 is all reflected. Find this angle and record it.
-
-
 5.  Observe the reflected angle when the incident light is past the critical angle.
 :::Note (|10 C)
 At angles beyond the critical angle no light is transmitted into the air or along the surface of the block. This phenomenon
 is called total internal reflection.
 :::
+
+:::::::::
 
 :::Exercise (|1 Point)s
 1. Present a copy of your final table here.
@@ -340,14 +340,13 @@ is called total internal reflection.
 4. What is the index of refraction calculated from this value (call this $n_c$)
 :::
 
-:::::::::
 
 ### Analysis of the Refraction Experiment
 :::Exercise (|3 Points)
-1. What is the percent difference between your two results, $n_c$ and $\bar n$?
+1. What is the **percent difference** between your two results, $n_c$ and $\bar n$?
 
 2. Estimate your error in measuring the angles of incidence and refraction. Write these as $\delta \theta_1$ and $\delta \theta_2$
-3. The percent uncertainty in determining the index of refraction can be calculated as 
+3. The **percent uncertainty** in determining the index of refraction can be calculated as 
     $$
     \text{percent uncert. in }n = \frac{\delta n}{n} = \sqrt{ \left(\frac{\delta \theta_1}{\tan\theta_1} \right)^2 + \left(\frac{\delta \theta_2}{\tan\theta_2} \right)^2}
     $$
@@ -430,7 +429,7 @@ The mirror is a second surface mirror, the light actually reflects from the surf
 
 :::::::::Figure (mirror-setup-2|m|R)
 ![](img/../imgs/ReflectionRefraction/twopin.png 'The setup as it looks with the original and single yellow pin placed. ')
-![](img/../imgs/ReflectionRefraction/pinsaligned.png 'An example of what you will see during the alignment step.')
+![](img/../imgs/ReflectionRefraction/pinsaligned.png 'An example of what you will see during the alignment step. The pin you place should line up')
 ![](img/../imgs/ReflectionRefraction/reflectedandlabeled.png 'A complete example')
 ![](img/../imgs/ReflectionRefraction/finalresultonepath.png 'An example of solid and dashed lines on a single set of pins.')
 :::::::::
