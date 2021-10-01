@@ -19,10 +19,10 @@ The simple pendulum is called such because the most simplified model of pendulum
 
 This is a typical thing in physics. Often times the real world gets extremely complicated and it becomes easier to make assumptions and ignore things. However, we must be thoughtful about what we choose to assume and ignore. We want to choose things that will have little affect what we are trying to measure. Sometimes we do this well, and sometimes we are too loose with our assumptions. In the latter case we must then reevaluate our simplified model and add back things we may have thought we could ignore, or relax some of our assumptions.
 
-The thing that we will be focusing on is the period, $T$. For the simple pendulum we have three parameters available to us. The mass of the bob, $m$, the length of the pendulum, $L$, and the initial angle, $\theta_0$. Each of these is depicted in [](Figure-pendulumDiagram) We will be adjusting these three parameters to see what affects they have on the period.
+The thing that we will be focusing on is the period, $T$. For the simple pendulum we have three parameters available to us. The mass of the bob, $m$, the length of the pendulum, $L$, and the initial angle, $\theta_0$. Each of these is depicted in [](#Figure-pendulumDiagram) We will be adjusting these three parameters to see what affects they have on the period.
 
 ## The Model
-The model that we will be evaluating will states that the period of the pendulum follows this equation:
+The model that we will be evaluating states that the period of the pendulum follows this equation:
 
 :::Equation (model)
 $$
@@ -52,28 +52,28 @@ t' = \frac{A-B}{\sqrt{\delta A^2 + \delta B^2}}
 $$
 :::
 
-In [](Equation-tstat) $A$ and $B$ are both measurements that have been made and $\delta A$ and $\delta B$ are both uncertainties in $A$ and $B$ respectively.
+In [](#Equation-tstat) $A$ and $B$ are both measurements that have been made and $\delta A$ and $\delta B$ are uncertainties in $A$ and $B$ respectively.
 
 $t'$ gives us a more quantitative way to talk about the relationship of two measurements.
 
 ## Apparatus
 
-The apparatus is the same as the previous lab and can be shown in [](Figure-fullApparatus). For a review of how the apparatus works you can go to the apparatus section of the previous lab document.
+The apparatus is the same as the previous lab and can be shown in [](#Figure-fullApparatus). For a review of how the apparatus works you can go to the apparatus section of the previous lab document.
 
 
 ## Pre-Lab
 
 :::Prelab
-**Before coming to lab** you will need to complete [](Exercise-sigfigs) and [](Exercise-procedure). This will be checked off by your TA when you get to class. 
+**Before coming to lab** you will need to complete [](#Exercise-sigfigs) and [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
 
-Additionally please read the [Making a Good Table](?linkfile=references#part5) of the Reference Material.
+Additionally, please read the [Making a Good Table](?linkfile=references#part5) of the Reference Material.
 
-If you are unfamiliar with you work with equations in spreadhseets you should also read the [Working with a Spreadsheet](?linkfile=references#part6) part of the Reference Material.
+If you are unfamiliar with working with equations in spreadhseets, you should also read the [Working with a Spreadsheet](?linkfile=references#part6) part of the Reference Material.
 :::
 
 
 :::Note
-From now on you will be expected to report your values with the correct sig figs and present your in a readable and understandable format. 
+From now on you will be expected to report your values with the correct sig figs and present your tables in a readable and understandable format. 
 
 Improper sig figs or poor table formatting will result in a loss of points.
 :::
@@ -88,7 +88,7 @@ As scientists and engineers it is important that we express our results as preci
 If you were to measure the length of a table and say report that the length is $1.4528762$ m long, you would be indicating that you know the length of the table to smaller than a bacteria cell.
 :::
 
-Thus when we report our values we must thoughtful about how many digits we use. The digits that we report are known as **significant figures** or **sig figs** for short. If you are unfamiliar with how to determine the number of sig figs in a value please see the Sig
+Thus when we report our values we must be thoughtful about how many digits we use. The digits that we report are known as **significant figures** or **sig figs** for short. If you are unfamiliar with how to determine the number of sig figs in a value please see the [Significant Figures](?linkfile=references#part4) portion of the reference material.
 
 :::Exercise (sigfigs|2 Points)
 Determine the number of significant figures in the following values:
@@ -139,7 +139,7 @@ $$
 
 ## Procedure
 
-:::Exercise (procedure)
+:::Exercise (procedure| 5 Points)
 Write a procedure that you will use during class to measure the period at both 10° and 20°. Make sure to include information that you learned from the previous lab.
 :::
 
@@ -148,22 +148,22 @@ Write a procedure that you will use during class to measure the period at both 1
 ::::::Activity
 Your TA will start a discussion about the interpretation of $t'$ and how you might go about making some claims based on the value of $t'$.
 
-:::Exercise
+:::Exercise (|3 Points)
 If you perform the same experiment twice and collect statistics on both, what do you expect the value of $|t'|$ to be?
 :::
 
-:::Exercise
+:::Exercise (|a. 3 Points / b. 4 Points)
 1. Based on your discussion, what conclusions can be drawn if $|t'| \leq 1$?
-2. What actions might you take ensure that your conclusion is accurate?
+2. What actions might you take to ensure that your conclusion is accurate?
 :::
 
-:::Exercise
+:::Exercise (|4 Points)
 Based on your discussion, what conclusions can be drawn if $1 < |t'| \leq 3$?
 :::
 
-:::Exercise
+:::Exercise (|a. 3 Points / b. 4 Points)
 1. Based on your discussion, what conclusions can be drawn if $|t'| > 3$?
-2. What actions might you take ensure that your conclusion is accurate?
+2. What actions might you take to ensure that your conclusion is accurate?
 :::
 
 ::::::
@@ -172,7 +172,7 @@ Based on your discussion, what conclusions can be drawn if $1 < |t'| \leq 3$?
 
 :::::::::Activity
 
-In this lab you make attempt to determine if there is a difference between the period of a pendulum released at 10° and 20°. 
+In this lab you will attempt to determine if there is a difference between the period of a pendulum released at 10° and 20°. 
 
 Follow your procedure and use the $t'$ statistic to help make a case for one way or the other.
 
@@ -184,25 +184,25 @@ You will be graded on whether or not you made logical and justified decisions in
 You should stop and do calculations throughout your lab to evaluate your measurement process and your data.
 :::
 
-:::Exercise
+:::Exercise (|15 Points)
 Each time you calculate $t'$, make a decision about how to proceed in your lab, or maybe just every ~20 minutes or so, write down a short summary of what you did, what your data is telling you, and what you are choosing to do. 
 
 :::
 
-:::Exercise
+:::Exercise (|7 Points)
 List any major sources of uncertainty and systematics.
 :::
 
-:::Exercise
+:::Exercise (|9 Points)
 Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
 :::
 
-:::Exercise
+:::Exercise (|13 Points)
 Make two histograms of your data. Be sure to include a title and label the axes appropriately with correct units.
 :::
 
-:::Exercise
-Calculate you the mean, standard deviation, and standard uncertainty of the mean for each of your two final data sets.
+:::Exercise (|8 Points)
+Calculate the mean, standard deviation, and standard uncertainty of the mean for each of your two final data sets.
 :::
 
 :::::::::
@@ -210,7 +210,7 @@ Calculate you the mean, standard deviation, and standard uncertainty of the mean
 
 # Conclusion
 
-::::::Exercise
+::::::Exercise (|20 Points)
 Based on your results, does the model we use accurately describe the world to your level of measurement? Explain your reasoning.;;;You should make a reference to your histograms, your t' value, and the rest of the statistics you calculated.;;; 
 
 If you don't think think the model is accurate, look at the assumptions we made when developing the model and try to determine if any may be invalid.

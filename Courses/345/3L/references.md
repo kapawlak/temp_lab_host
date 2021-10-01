@@ -24,13 +24,13 @@ Typically, the uncertainty comes from two sources, systematic and random uncerta
 
 **Systematic uncertainty** causes the measurement to consistently be high or low. Systematic uncertainty usually arises from measurement technique or other physical influences, for example improperly calibrating an instrument or assuming a variable is negligible. The job of the experimenter is to minimize the systematic uncertainty and eliminate it if possible. 
 
-One example of systematic uncertainty we might see while measuring the length of the pendulum is the following. Imagine we were using a metal meter stick that was calibrated at 25 °C but we were making our measurements at 15 °C. The metal would contract making the markers spaced shorter than 1 mm apart. Thus all of our measurements of the pendulum length would be larger what the true length of the pendulum is.
+One example of systematic uncertainty we might see while measuring the length of the pendulum is the following. Imagine we were using a metal meter stick that was calibrated at 25 °C but we were making our measurements at 15 °C. The metal would contract making the markers spaced shorter than 1 mm apart. Thus all of our measurements of the pendulum length would be larger than the true length of the pendulum is.
 
 Knowing this, the next questions an experimenter would ask his/her self are, "how does this systematic uncertainty compare in magnitude to the rest of my uncertainty? Can I ignore this effect?" and if not, "how can I account for contraction of the meter stick or prevent it from contracting in the first place?"
 
 ## Random Uncertainty
 
-**Random uncertainty** are random variations in *every measurement* that do not consistently cause the measurement to shift in a high or low direction but instead randomly high and low. That is to say if we repeat a measurement, the values of the measured quantity will vary from each other measurement to measurement. The values will be randomly distributed around a mean value.
+**Random uncertainty** are random variations in *every measurement* that do not consistently cause the measurement to shift in a high or low direction but instead randomly high and low. That is to say if we repeat a measurement, the values of the measured quantity will vary from each other, measurement to measurement. The values will be randomly distributed around a mean value.
 
 Random uncertainties are caused by limitations in our instruments or fluctuations in the physical system. We can't eliminate random uncertainties, but we can minimize them by using precise instruments and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to help reduce the random uncertainty. 
 
@@ -50,7 +50,7 @@ Measurements are often classified by their precision and accuracy. **Accuracy** 
 
 Accuracy and precision are independent of one another. The definitions and independence are depicted visually in [](Figure-accuracyTargets).
 
-Precision can be measured by looking at the uncertainty in our measurement. Accuracy is not so simple to determine. In order to make a useful statement about accuracy we must first understand the precision of our measurement. It's not useful to makes claims about accuracy is the uncertainty is too high. For instance, perhaps someone missed evenly all around the target but never hit the target itself. All of the holes would average to a bullseye but we would not consider the thrower to be accurate. 
+Precision can be measured by looking at the uncertainty in our measurement. Accuracy is not so simple to determine. In order to make a useful statement about accuracy we must first understand the precision of our measurement. It's not useful to makes claims about accuracy if the uncertainty is too high. For instance, perhaps someone missed evenly all around the target but never hit the target itself. All of the holes would average to a bullseye but we would not consider the thrower to be accurate. 
 
 # Statistics
 
@@ -58,7 +58,7 @@ Precision can be measured by looking at the uncertainty in our measurement. Accu
 ![j](imgs/Reference/histogram.png)
 :::
 
-For the majority of this class when making some claim we will begin our justification with some amount of statistics. Thus when we make a measurement we will want to repeat it so that we can get some quantitative values to support our claims.
+For the majority of this class, when making some claim we will begin our justification with some amount of statistics. Thus when we make a measurement we will want to repeat it so that we can get some quantitative values to support our claims.
 
 For this class, we will assume that all of our measurements will follow a Gaussian distribution. Thus when you make many measurement you will be able to produce a histogram similar to [](Figure-histogram).
 
@@ -76,7 +76,7 @@ This will represent our best estimate of the true value of what we measure.
 ## Standard Deviation
 The width of the histogram is characterized by the standard deviation. The standard deviation tells use that if were to make another measurement there is a 68% chance that our new measurement would be within one standard deviation of the mean. 
 
-The standard deviation is calculate with following equation:
+The standard deviation is calculated with the following equation:
 
 :::Equation
 $$
