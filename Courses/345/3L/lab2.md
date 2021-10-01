@@ -3,7 +3,7 @@
 :::Intro (Objective)
 The objective of this lab is to collect data and evaluate a given model for the period of a pendulum and then make a *quantitative* argument about the model based on the data. 
 
-You will be using the model provided below and see if you can detect a difference in the period of the pendulum when you have an initial angle of 10° or 20°. 
+You will be using the model provided below and see if you can detect a difference in the period of the pendulum when you have an initial angle of 10° or 25°. 
 :::
 
 # Introduction
@@ -140,7 +140,7 @@ $$
 ## Procedure
 
 :::Exercise (procedure| 5 Points)
-Write a procedure that you will use during class to measure the period at both 10° and 20°. Make sure to include information that you learned from the previous lab.
+Write a procedure that you will use during class to measure the period at both 10° and 25°. Make sure to include information that you learned from the previous lab.
 :::
 
 # Making a Quantitative Comparison
@@ -172,7 +172,7 @@ Based on your discussion, what conclusions can be drawn if $1 < |t'| \leq 3$?
 
 :::::::::Activity
 
-In this lab you will attempt to determine if there is a difference between the period of a pendulum released at 10° and 20°. 
+In this lab you will attempt to determine if there is a difference between the period of a pendulum released at 10° and 25°. 
 
 Follow your procedure and use the $t'$ statistic to help make a case for one way or the other.
 
