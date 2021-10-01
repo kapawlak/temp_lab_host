@@ -124,3 +124,123 @@ $|t'| > 3$: At this point is very likely that these two measurements are indeed 
 - Improve your measurements.
 - Evaluate your model and considering revising it. 
 - Make sure that you have appropriately accounted the uncertainty and that you haven't underestimated your uncertainty. 
+
+
+# Significant Figures
+
+When we quote our measurements, the number of digits we write has to correlate with the precision of our measurement tool. When we read a scale, we can interpolate between two of the finest divisions on the scale to find the first uncertain digit.
+For instance, if we use a scale whose finest divisions are 1 $\text{cm}$ apart, we can quote a measurement as 1.6 $\text{cm}$.  We could not quote it as 1.6723 $\text{cm}$, since our ruler does not have that much precision.
+
+For a scale whose finest divisions are 1 mm apart, we could quote a measurement as 1.67 $\text{cm}$, since the last digit mentioned (7, obtained by interpolation between neighboring mm marks) is the uncertain one.
+
+To know the best way to write our answer, we must determine which **digits carry meaningful information**, and which ones do not. That is, we keep only those digits that are *significant*. We call these *significant figures*, which many people shorten to *sig figs*. These are all the digits whose values are certain, plus the first uncertain one.
+
+To determine the number of significant figures, count from left to right the number of digits.
+
+:::Card (|Example||bg-UCSB-navy text-white)
+$1.6$ $\text{cm}$ has two sig figs, whereas $1.67$ $\text{cm}$ has three sig figs.
+:::
+
+
+
+Note that leading zeros after the decimal point are not significant. They merely determine the location of the decimal point.
+
+:::Card (|Example||bg-UCSB-navy text-white)
+$0.0167 \text{ m}$  has only three significant figures. (This is the $1.67$ $\text{cm}$ quoted before.)
+
+:::
+
+
+Zeros at the end of a number (trailing zeros) can be significant or not depending on context. If the trailing zero is to the right of a decimal point then we will count it as significant. 
+
+
+:::Card (|Example||bg-UCSB-navy text-white)
+$12.450$ has five sig figs, while $12.45000$ has seven sig figs.
+:::
+
+If the trailing zero is to the left of the decimal point it can be ambiguous. To avoid ambiguity we use the following convention. If the number ends in a decimal point, all of the zeros are significant. If the number does not end in a decimal point, the trailing zeros are not significant.
+
+:::Card (|Example||bg-UCSB-navy text-white)
+ $4,510,000$ has three sig figs, while $4,510,000.$ has 7 sig figs. 
+:::
+
+Finally, if the final significant figure in a number is a 0 to the left of the decimal and it is not in the ones's place, you must write that number in [scientific notation](https://en.wikipedia.org/wiki/Scientific_notation). Scientific notation is the preferred notation in much of STEM because significant figures are unambiguous.
+:::Card (|Example||bg-UCSB-navy text-white)
+ $4,510,000$ has three sig figs, while $4.5100 \times 10^{6}$ has 5 sig figs. 
+:::
+
+
+
+## Significant Figures and Uncertainty
+When we take data with an estimated uncertainty, the uncertainty will always be in the first uncertain figure. This is natural, of course, since digits beyond the location of the uncertainty of the number are washed out by the possible error.
+
+:::Card (|Example||bg-UCSB-navy text-white)
+If you measured a dog's height to be $101.537$ $\text{cm}$, but your ruler and technique suggested an uncertainty of $\pm 0.4$ $\text{cm}$, then naturally, the last significant figure in your measurement is '$5$', i.e., $ \text{Height of dog} = (101.5 \pm 0.4)$ $\text{cm}$ 
+:::
+
+
+But how many significant figures should be reported in the uncertainty *itself*? The answer to this is easy! **The uncertainty is always reported with one significant figure,** for the same reason as above: the additional digits in the uncertainty are far less important than the first digit.
+# Making a Good Table
+In the previous assignment you learned some basics about how to make a table for your lab report. Here we will write down the requirements for any table that you submit. Expand the box below to see the requirements.
+
+
+:::Hider (|Recipe for a Good Table)
+**In order for the table to convey the data scientifically, it must contain:**
+
+1. Data organized in columns with descriptive headers that specify variable names and **units**.  If a table must span multiple pages, a header needs to be added for every page.
+2. Correct number of significant figures for the data. 
+3. If you have any calculations in your table, then you should show your work for **one row** of the table. 
+:::
+
+In [](#Figure-table_ex) we show an example of an excellent table and a not-so-great table. Just by glancing at them, you can probably guess which table is which -- the bad table is visually confusing and difficult to read, independent of its poor technical qualities.
+
+:::::::::Figure (table_ex|s|Row)
+::::::row
+::: col
+![Table 1](imgs/Lab2/GoodTable.png "a) Table 1")
+:::
+
+::: col
+![Table 2](imgs/Lab2/BadTable.png "b) Table 2")
+ 
+:::
+::::::
+:::::::::
+
+In (a), the two variables that were measured are clearly described, the headers have units, the values have the proper number of sig figs, and their decimal points are aligned. In (b) the variables are not clearly described. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet?
+
+Your goal with a table, is to communicate what you did as simply as possible to those reading your report. For this class, that means your TA, who will be grading your report. If you are clear in your thoughts and your tables, it is more likely that your TA will be able to understand any mistakes you make. This will allow them to provide better feedback, and maybe even take off fewer points. If your TA can't follow what you did, they are more likely to take off points.
+
+Here is a video demonstrating how to make a nice table like in (a). 
+
+:::Video
+<iframe width="100%" height="100%"  src="https://www.youtube.com/embed/pnvFYFyK7zs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+# Working with a Spreadsheet
+Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your physics lab courses, and you probably will even find it useful in the real world. 
+
+We will assume that you can make a table from having done the first lab. These data are recorded by a car traveling from San Diego to San Francisco. The driver marked the distance traveled in kilometers roughly every 60 minutes. Once the car got on the freeway, the driver put on cruise control and  never stopped (what amazing mileage!). 
+
+**We want to answer the question: at what speed, in mph, did the driver set their cruise control?**
+
+We know that for an object traveling at a constant velocity, $v$, starting at position $x_0$, that its position, $x$, as a function of time, $t$, is given by the following linear equation:
+
+:::Equation
+
+$$
+x = vt+x_0
+$$
+:::
+
+Our plan here is to convert the data table into units of miles and hours so that we can answer the question in the correct units, then to fit a line to our data, where the slope should be the velocity. 
+
+## Using Equations in a Spreadsheet
+
+The driver took data in units that we would like to convert. We do that in a spreadsheet program by using equations and functions. Watch the video below for instructions on how to use sheets to help with conversions.
+
+:::Video
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Nv4Ty11e00k" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
