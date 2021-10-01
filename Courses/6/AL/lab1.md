@@ -193,7 +193,7 @@ Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) 
 :::Exercise (quadratic|1 Point)
 Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. 
 1. How long does it take for the ball to reach the ground again? ;;;Hint: When the ball reaches the ground again, y=0 ;;;
-2. How long does it take for the ball to reach the highest point of its arc? ;;;Hint: When the ball reaches the top of its arc, what is its velocity? ;;;
+2. How long does it take for the ball to reach the highest point of its trajectory? ;;;Hint: When the ball reaches the top of its trajectory, what is its velocity? ;;;
 3. What is the ball's maximum height? ;;;Hint: Can you  use the time to reach the maximum height from part (b) to find this?;;;
 :::
 
@@ -207,7 +207,7 @@ In the previous section, we considered the motion of an object under constant ac
 
 ### What is our model?
 
-We, unfortunately, will not have access to a way of *continuously* tracking the height of our dropped balls during the experiment. We will have data that is much more "primative", e.g. an average time that it takes for the ball to drop from a balcony to the ground — a single number for each run of the experiment!
+We, unfortunately, will not have access to a way of *continuously* tracking the height of our dropped balls during the experiment. We will have data that is much more "primitive", e.g. an average time that it takes for the ball to drop from a balcony to the ground — a single number for each run of the experiment!
 
 The procedure is roughly as follows:
 :::Hider (|Procedure Summary)
@@ -223,7 +223,7 @@ The heights of the three balconies will be obtained prior to the experiment usin
 
 
 
-The structure of our experiment means that instead of height as a function of time, we need to calculate the *final time*, $t_f$, as a function of *initial height*, $y_0$. In this situation the final time, $t_f$, is our dependent variable and the initial height, $y_0$, is our intendent variable. This should be contrasted with the usual situation in class where your *instantaneous height*, $y$, is dependent on the *instantaneous time*, $t$.  
+The structure of our experiment means that instead of height as a function of time, we need to calculate the *final time*, $t_f$, as a function of *initial height*, $y_0$. In this situation the final time, $t_f$, is our dependent variable and the initial height, $y_0$, is our independent variable. This should be contrasted with the usual situation in class where your *instantaneous height*, $y$, is dependent on the *instantaneous time*, $t$.  
 
 :::Exercise (tffromy|1 Point)
 The final time, $t_f$, is the time that the ball has hit the ground after being dropped from rest at some height $y_0$. 

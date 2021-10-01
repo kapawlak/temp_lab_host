@@ -154,7 +154,7 @@ Change the top material to air and the bottom material to Mystery B in [](#Simul
 :::
 
 ## Frequency Dependent Refraction and Prisms
-:::Figure (prism|m|L)
+:::Figure (prism|xl)
 ![](imgs/ReflectionRefraction/prism.gif "Frequency dependent refraction angles lead to dispersion")
 :::
 ::::::Figure (freqdep|m|R)

@@ -1,6 +1,5 @@
 # A Light Refresher Lab 
 
-
 :::Intro (Welcome to PHYS6CL!| Microwave | Meltable Foodstuffs --- Pasta, Chocolate, or Melting Cheese| Ruler|Microwave-Safe Plate --- Please make sure that your plate explicitly says this)
 Welcome back to the 6-series laboratory course. For our refresher lab, we will evaluate a quick home experiment to measure a fundamental property of light — its speed through space — using chocolate. Yes, *chocolate* . If you have access to chocolate and a microwave, you are encouraged to try the experiment yourself.
 
