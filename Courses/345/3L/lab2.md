@@ -189,19 +189,19 @@ Each time you calculate $t'$, make a decision about how to proceed in your lab, 
 
 :::
 
-:::Exercise (|7 Points)
+:::Exercise (|6 Points)
 List any major sources of uncertainty and systematics.
 :::
 
-:::Exercise (|9 Points)
+:::Exercise (|8 Points)
 Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
 :::
 
-:::Exercise (|13 Points)
+:::Exercise (|11 Points)
 Make two histograms of your data. Be sure to include a title and label the axes appropriately with correct units.
 :::
 
-:::Exercise (|8 Points)
+:::Exercise (|7 Points)
 Calculate the mean, standard deviation, and standard uncertainty of the mean for each of your two final data sets.
 :::
 
@@ -217,6 +217,7 @@ If you don't think think the model is accurate, look at the assumptions we made 
 ::::::
 
 :::Summary
+Please note: There will be an additional 5 points for neatness. Make sure that your report is well organized and easy to follow.
 :::
 
 
