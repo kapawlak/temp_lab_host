@@ -33,6 +33,31 @@ This is a typical thing in physics. Often times the real world gets extremely co
 
 The thing that we will be focusing on is the period, $T$. For the simple pendulum we have three parameters available to us. The mass of the bob, $m$, the length of the pendulum, $L$, and the initial angle, $\theta_0$. Each of these is depicted in [](Figure-pendulumDiagram) We will be adjusting these three parameters to see what affects they have on the period.  
 
+## Pre-Lab
+
+Include the following two exercises in your report even though you  have already done them in your pre-lab. Feel free to make changes to your procedure or your responses to the exercises for your report.
+
+
+:::Exercise (logistics)
+Answer the following:
+1. Which color group is your section?
+2. Which classroom number is your group meeting in during the second **full week** of the quarter?
+3.  Which classroom number is your group meeting in during the third **full week** of the quarter?
+4.  Which classroom number is your group meeting in during the fourth **full week** of the quarter?
+5. What is your TA's name?
+:::
+
+:::Exercise (alignment)
+1. When reading the initial angle using the protractor, you must look straight on or you might have an error from parallax. Briefly explain what parallax is.
+2. How will this effect your measurement of the initial angle? 
+:::
+
+:::Exercise (procedure)
+Write a step by step procedure outlining how you will collect data that will determine which of the three parameters, mass, length, and initial angle, affect the period of the pendulum.
+
+You will not be graded on whether you have "the right" procedure. We are simply looking for effort that you have thought about this and that you will be ready to start taking measurements when you get to class.
+:::
+
 ## Using the PhET
 For the activities you will want to have the PhET set in a particular way and use some specfifc tools. This section will show you how to set up the simulation. 
 
