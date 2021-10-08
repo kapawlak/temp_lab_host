@@ -103,7 +103,7 @@ In the previous lab, it may have been useful to see, or even determine, the rela
 
 For this reason, we will use this lab to practice making a plot, finding a relationship, and pulling useful information from the plot.
 
-We will take the data we collect, possible perform some calculations with it, plot it, and perform a linear fit. From the line of best fit we can determine something about our system.
+We will take the data we collect, possibly perform some calculations with it, plot it, and perform a linear fit. From the line of best fit we can determine something about our system.
 
 
 ### Line of best fit
@@ -119,17 +119,23 @@ You have a data set that is a list of $N$ ordered pairs $(x_1, y_1),\ (x_2,y_2),
 
 :::Equation (residuals)
 $$
-\sum_{i=1}^{N} (y_i-Y(x_i)) = \sum_{i=1}^{N} y_i - (mx_i+b)
+\begin{aligned}
+    \text{Sum of Residuals} &= \sum_{i=1}^{N} (y_i-Y(x_i)) \\\\
+    &= \sum_{i=1}^{N} y_i - (mx_i+b)
+\end{aligned}
 $$
 :::
 
 That is to say, we look at the difference each of our data values $y_i$ and the $Y$ value determined from our line of best fit. These differences are called the **residuals**.
 
-3. On average, the sum of [](#Equation-residuals) will be zero since we should have data equally above and below. So like we do with standard deviations, we will look at the sum of the squares of the residuals so that we get a positive answer.
+3. On average, the sum of [](#Equation-residuals) will be zero since we should have data equally above and below. So, like we do with standard deviations, we will look at the sum of the squares of the residuals so that we get a positive answer.
 
 :::Equation (sumSquares)
 $$
-\sum_{i=1}^{N} (y_i-Y(x_i))^2 = \sum_{i=1}^{N} (y_i - (mx_i+b))^2
+\begin{aligned}
+    \text{Sum of Residuals Squared} &= \sum_{i=1}^{N} (y_i-Y(x_i))^2 \\\\ 
+    &= \sum_{i=1}^{N} (y_i - (mx_i+b))^2
+\end{aligned}
 $$
 :::
 
@@ -147,7 +153,7 @@ This value is called chi-squared.
 
 :::Card (|Least-Squares ALgorithm Summary||bg-UCSB-seagreen text-white)
 1. Plot a line with equation $Y=mx+b$
-2. Calculate residuals
+2. Calculate the residuals
 3. Square and sum the residuals
 4. Divide by the uncertainty to get chi-squared.
 5. Adjust $m$ and $b$ to minimize chi-squared.
@@ -157,7 +163,7 @@ This value is called chi-squared.
 
 
 
-It is very important to note that **there is uncertainty** in slope and intercept values that are determined using the least-squares algorithm. These values **are not exact**.
+It is very important to note that, unless every data point falls exactly on a line, **there is uncertainty** in slope and intercept values that are determined using the least-squares algorithm These slope and intercept values **are not exact**.
 
 In this class we will use Google Sheets to determine the slope and line of best of fit. In order to that we will use the "LINEST" function. This will go through the process of determining the slope and intercept for the line of best as well as the uncertainties in each.
 
@@ -184,7 +190,7 @@ To get some intuition about the least-squares algorithm do [](#Activity-leastSqu
 
 :::
 
-4. Check the "My Line" box on the right. Note that the $a$ value represents the slope, that we use $m$ for and the $b$ is the intercept.
+4. CCheck the "My Line" box on the right. Note that the $a$ value represents the slope (we use $m$ in the lab manual), and the $b$ is the intercept.
 
 5. Adjust the slope and intercept values until you think you have drawn the line of best fit.
 
@@ -209,16 +215,18 @@ What is the new equation for your best fit line?
 2. Did using the sum of squares sliders make an improvement from your first attempt to the second attempt?
 :::
 
-10. Move the last point from $(17.1,12.0)$ to $(17.1, 10)$.
+10. Click the "My Line" checkbox to uncheck and remove your line.
+
+11. Move the last point from $(17.1,12.0)$ to $(17.1, 10)$.
 
 :::Exercise (|1 Point)
-How did this affect your line?
+How did this affect the best line?
 :::
 
-11. Now move the middle point from $(8.2,7.6)$ to $(8.2, 12.0)$
+12. Now move the middle point from $(8.2,7.6)$ to $(8.2, 12.0)$
 
 :::Exercise (|1 Point)
-1. How did this affect your line?
+1. How did this affect the best fit line?
 2. Why did this change affect your line differently from your previous change?
 :::
 
@@ -228,7 +236,7 @@ How did this affect your line?
 
 Sometimes you make a measurement of some value and you want to use that value to calculate some new value. How do you determine the uncertainty in your new calculated value?
 
-The uncertainty is propagated through the equation! That is the uncertainty is carried through using an equation to determine the new uncertainty of your calculated value.
+The uncertainty is propagated through the equation for the calculated value! That is, the uncertainty is carried through using an equation to determine the new uncertainty of your calculated value.
 
 If you are determining an uncertainty from the calculated value $q$ using the measured values $x_1, x_2, ...x_n$, the uncertainty is propagated with [](#Equation-uncertaintyPropagation)
 
@@ -290,9 +298,9 @@ Watch the video below for instructions on how to use the apparatus.
 
 :::Exercise (linearize| 8 Points)
 1. For the Hooke's law part of the lab, you will have to plot two parameters and perform a fit. Which parameter will you put on your $x$-axis and which parameter on your $y$-axis?
-2. What is the equation for the slope of the resulting line you would plot?
+2. For the resulting line you would plot, what is the equation for the slope in terms of the physical variables in the experiment?
 3. For the simple harmonic motion part of the lab, you will have to plot two parameters and perform a fit. Which parameter will you put on your $x$-axis and which parameter on your $y$-axis?;;;Note that T is not linear with any parameters, but T^2 is.;;;
-4. What is the equation for the slope of the resulting line you would plot?
+4. For the resulting line you would plot, what is the equation for the slope in terms of the physical variables in the experiment?
 :::
 
 :::Exercise (procedure| 10 Points)
@@ -317,7 +325,7 @@ Record notes on what you did, observed, or wondered during the Hooke's law porti
 
 
 :::Exercise (|4 Points)
-Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
+Include all of the data tables you made here. Make sure each table is easily identifiable and labeled.
 :::
 
 :::Exercise (|8 Points)
@@ -344,7 +352,7 @@ Record notes on what you did, observed, or wondered during the simple harmonic m
 
 
 :::Exercise (|4 Points)
-Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
+Include all of the data tables you made here. Make sure each table is easily identifiable and labeled.
 :::
 
 :::Exercise (|8 Points)
