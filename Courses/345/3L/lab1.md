@@ -1,3 +1,4 @@
+
 # Pendulum
 
 :::Intro (Objective)
@@ -25,7 +26,7 @@ The thing that we will be focusing on is the period, $T$. For the simple pendulu
 ![Picture of the apparatus. Has a metal bar vertically clamped to a table. At the top of the bar clamped on is another bar that is orthogonal to the original. Clamped to the horizontal bar is a large wooden protractor. In front of the protractor is a string goes through a hole in the horizontal bar. In the middle of the vertical rod is a piece of plastic that is used to adjust the length of the string.](imgs/Lab1/FullApparatus.jpg "Fully constructed pendulum apparatus")
 :::
 
-In [](Figure-fullApparatus) you see a picture of the apparatus you will be using. When you come in it will be setup as shown. One the table, as seen in [](Figure-equipment).D will be a container that should have a stopwatch, a metric measuring tape, and 6 bobs of the same size but made of different materials. The materials are wood, aluminum, brass, copper, steel, and zinc. Everything can be seen more clearly in [](Figure-equipment).
+In [](Figure-fullApparatus) you see a picture of the apparatus you will be using. When you come in it will be setup as shown. On the table, as seen in [](Figure-equipment).D will be a container that should have a stopwatch, a metric measuring tape, and 6 bobs of the same size but made of different materials. The materials are wood, aluminum, brass, copper, steel, and zinc. Everything can be seen more clearly in [](Figure-equipment).
 
 :::Figure (equipment|l)
 ![One figure containing four images labelled A, B, C, & D. A is the six pendulum bobs. B is the stopwatch that is provided. C is metric measuring tape. D is the piece of tupperware with each of the previous items arranged inside.](imgs/Lab1/Equipment1.png "A) Pendulum Bobs B) Stopwatch C) Measuring Tape D) Container with objects")
@@ -133,3 +134,4 @@ Your TA will walk you all through a final activity of looking for a sign of resp
 
 
 
+>>>>>>> 391ca0ec91e697ba46bf589e73ef2e90ff7f7afe

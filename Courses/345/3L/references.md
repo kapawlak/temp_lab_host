@@ -1,3 +1,4 @@
+
 # Reference Material
 
 # Uncertainty
@@ -244,3 +245,88 @@ The driver took data in units that we would like to convert. We do that in a spr
 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Nv4Ty11e00k" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
+
+# Least-Squares Algorithm
+
+You have a data set that is a list of $N$ ordered pairs $(x_1, y_1),\ (x_2,y_2),...(x_N, y_N)$ that represents your data. You want to draw the best fit line through them.
+
+1. Start with a line that has the equation $Y=mx+b$. We want to see how good this line matches the data. 
+2. We start by looking at how bad this line is from our data set. We do that by with the following equation:
+
+:::Equation (residuals)
+$$
+\sum_{i=1}^{N} (y_i-Y(x_i)) = \sum_{i=1}^{N} y_i - (mx_i+b)
+$$
+:::
+
+That is to say, we look at the difference each of our data values $y_i$ and the $Y$ value determined from our line of best fit. These differences are called the **residuals**.
+
+3. On average, the sum of [](#Equation-residuals) will be zero since we should have data equally above and below. So like we do with standard deviations, we will look at the sum of the squares of the residuals so that we get a positive answer.
+
+:::Equation (sumSquares)
+$$
+\sum_{i=1}^{N} (y_i-Y(x_i))^2 = \sum_{i=1}^{N} (y_i - (mx_i+b))^2
+$$
+:::
+
+4. Finally we weight the data by the inverse of its uncertainty squared. For this course we will assume the uncertainty is constant for each data point.
+
+:::Equation (chi-squared)
+$$
+\chi^2 = \sum_{i=1}^{N} \frac{(y_i-Y(x_i))^2}{\sigma_y^2} = \sum_{i=1}^{N} \frac{(y_i - (mx_i+b))^2}{\sigma_y^2}
+$$
+:::
+
+This value is called chi-squared.
+
+5. Finally we minimize chi-squared by adjusting the $m$ and $b$ parameters of our line until the sum of the residuals squared is at a minimum. This is why it is called the least-squares algorithm. Typically this part is handled by a computer.  
+
+# Propagating Uncertainty
+
+Sometimes you make a measurement of some value and you want to use that value to calculate some new value. How do you determine the uncertainty in your new calculated value?
+
+The uncertainty is propagated through the equation! That is the uncertainty is carried through using an equation to determine the new uncertainty of your calculated value.
+
+If you are determining an uncertainty from the calculated value $q$ using the measured values $x_1, x_2, ...x_n$, the uncertainty is propagated with [](#Equation-uncertaintyPropagation)
+
+:::Equation (uncertaintyPropagation)
+$$
+\delta q = \sqrt{ \sum_{i=1}^{N} \left ( \frac{\partial q}{\partial x_i} \delta x_i \right )^2 }
+$$
+:::
+
+:::Card (|Example||bg-UCSB-navy text-white)
+Let's say you measure the acceleration due to gravity $g$ using a pendulum. You have measured the period, $T$, with uncertainty, $\delta T$, and the length, $L$, with uncertainty $\delta L$. You assume you have a simple pendulum and you know that: 
+
+$$g = 4\pi^2 \frac{L}{T^2}$$
+
+To get the error in $g$ you apply [](#Equation-uncertaintyPropagation). You note that:
+
+$$
+\begin{aligned}
+    \frac{\partial g}{\partial T} &= -8\pi^2 \frac{L}{T^3} \\\\
+    \frac{\partial g}{\partial L} &= 4\pi^2 \frac{1}{T^2}
+\end{aligned}
+$$
+
+Thus [](#Equation-uncertaintyPropagation) becomes:
+
+$$
+\begin{aligned}
+    \delta g &= \sqrt{ \left ( \frac{\partial g}{\partial T} \delta T \right )^2 + \left (  \frac{\partial g}{\partial L} \delta L \right )^2} \\\\
+    &= \sqrt{ \left (-8\pi^2 \frac{L}{T^3} \delta T \right )^2 + \left ( 4\pi^2 \frac{1}{T^2} \delta L \right )^2}
+\end{aligned}
+$$
+
+:::
+
+# Plotting in Google Sheets
+
+This below is a video that give an introduction on how to plot in google sheets and perform a linear fit. It also explains how to use the "LINEST" function to determine the uncertainty in the slope and intercept from your fit.
+
+:::Video
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/wkqlSuAoFLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:::
+
+>>>>>>> 391ca0ec91e697ba46bf589e73ef2e90ff7f7afe
