@@ -246,7 +246,7 @@ Notice that it is a) inverted, b) at a different distance than the object, and c
 3. Get another sheet of paper and repeat steps **1** & **2**, however, instead draw the object point inside the focal length. Again draw the three simple case rays. Note that this is one of the special cases mentioned above, see [](#Figure-raytrace2). Label this Sketch as **"Convex Ray Trace 2"**
 
 4. On a third sheet of paper, make a copy (redraw it by hand if using paper and pencil) of **"Convex Ray Trace 2"** and call it **"Convex Ray Trace 2"**. and trace the rays backwards as show in [](#Figure-raytrace2).
-:::Exercise (convex|1 Point)
+:::Exercise (convex|2 Points)
 1. Include an image (or images) with your three Convex Ray Trace drawings here.
 2. Inspect **"Convex Ray Trace 2"**. Do the rays ever meet on the other side of the lens? Describe what happens to the rays
 3. Inspect **"Convex Ray Trace 3"**. What do you think is the significance of where the rays meet? ;;;Hint: If you were looking into the lens, what would you see?;;;
@@ -277,7 +277,7 @@ focal length. Note that this discussed above, see [](#Figure-raytrace3). Label t
 ::::::
 
 
-:::Exercise (convexcave|1 Point)
+:::Exercise (convexcave|2 Points)
 
 1. Do convex lenses make objects outside of the focal length appear larger or smaller?
 2. Do convex lenses make objects inside of the focal length appear larger or smaller?
@@ -366,40 +366,67 @@ Can you measure the focal length of the lens? If you were to trace the refracted
 
 
 ## Telescopes and Microscopes
-
-
-::::::Activity (telemicro|Telescopes and Microscopes)
-
-:::Figure (basictele|m|R)
-![](imgs/Lenses/tele1.png "(a) Hold the 200mm lens in your left hand. Lock your elbow to give a full extension")
-![](imgs/Lenses/tele2.png "(b) With the 100mm lens in your right hand, place it right at the back of the 200mm lens")
-![](imgs/Lenses/tele3.png "(c) Using your right eye, bring the eyepiece (100mm) in your right hand, toward your eye")
+:::Materials (100 mm lens|200 mm lens|Optical Bench|Ray Table Base)
 :::
-Note: In the following procedure, you may have to adjust the starting positions to get good results.
-1. Hold the 200mm lens in your left hand. 
+We will now use everything we've learned about lenses to make some functional equipment. 
+
+::::::::::::Activity (telescope|Telescopes)
+
+:::::::::Figure (basictele|m|Row)
+::::::row
+:::col
+![](imgs/Lenses/tele1.png "(a) Hold the $ 200 \text{ mm}$ lens in your left hand. Lock your elbow to give a full extension")
+:::
+:::col
+![](imgs/Lenses/tele2.png "(b) With the $ 100 \text{ mm}$ lens in your right hand, place it right at the back of the $ 200 \text{ mm}$ lens")
+:::
+:::col
+![](imgs/Lenses/tele3.png "(c) Using your right eye, bring the eyepiece ($ 100 \text{ mm}$) in your right hand, toward your eye")
+:::
+::::::
+:::::::::
+Note: In the following procedure, you may have to adjust the starting positions to get good results. You may also wish to walk outside and look at the Library.
+1. Hold the $ 200 \text{ mm}$ lens in your left hand. 
 2. Lock your elbow to give a full extension [](#Figure-basictele)a. 
-3. Aim your arm with the 200mm lens at something across the room. 
-4. Take the 100mm lens and hold it with your right hand. 
-5. Place the 100mm lens, the eyepiece, right at the back of the 200mm lens, the objective lens [](#Figure-basictele)b. 
+3. Aim your arm with the $ 200 \text{ mm}$ lens at something across the room. 
+4. Take the $ 100 \text{ mm}$ lens and hold it with your right hand. 
+5. Place the $ 100 \text{ mm}$ lens, the eyepiece, right at the back of the $ 200 \text{ mm}$ lens, the objective lens [](#Figure-basictele)b. 
 6. Using your right eye, slowly bring the eyepiece, in your right hand, toward your eye [](#Figure-basictele)c. 
 7. Keep your eye, the eyepiece and the objective lens along the same axis pointed at your target. You should be able to capture a clear image of your target. You may find this easier if you shut your left eye.
+
 :::Exercise (|1 Point)
 1. Does the object appear to be closer or farther from you? 
 2. How much closer do you appear to be?
 3. How much larger does the image appear to be? Explain in terms of the focal lengths of the 
 objective and eyepiece. 
 :::
-This is an extremely basic telescope. The 200mm lens is used to form an inverted image, and the 100mm lens is used as a magnifier to make it look bigger. The 200mm lens is called the objective lens, the 100mm is called the eyepiece
-8. Remove all the lenses except for the 200mm and 100mm lenses. Remove the Ray Table (round disc) from the Ray 
-Table Base and place the Ray Table onto the lab table. Slide the Ray Table Base toward the 20 cm mark. Do not remove 
-the Ray Table Base from the Optics Bench. Place the light box on the end of the optical bench, with a position of 
-100cm. Orient it such that the target (crossed-arrows) is facing the rest of the bench toward the 0cm end. Place the 
-200mm lens at 60cm and the 100cm lens at 10cm. Plug in the light box and view from approximately the 0cm mark. 
-See Figure 4.4
+
+::::::::::::
+
+
+
+::::::Activity (microscope|Microscopes)
+
+**Instructions:**
+
+
+1. Remove all the lenses except for the $200 \text{ mm}$ and $ 100 \text{ mm}$ lenses.
+2. Remove the Ray Table (round disc) from the Ray Table Base and place the Ray Table onto the lab table. 
+3. Slide the Ray Table Base toward the $20 \text{ cm}$ mark. Do not remove the Ray Table Base from the Optics Bench. 
+4. Place the light box on the end of the optical bench, with a position of $100 \text{ cm}$. Orient it such that the target (crossed-arrows) is facing the rest of the bench toward the $ 0 \text{ cm}$ end. 
+5. Place the $ 200 \text{ mm}$ lens at $ 60 \text{ cm}$ and the $ 100 \text{ cm}$ lens at $ 10 \text{ cm}$. 
+6. Plug in the light box and view from approximately the $ 0 \text{ cm}$ mark. 
+
+
+:::Figure (micro|xl)
+![](imgs/Lenses/micro.png "Example of the Microscope setup")
+:::
+
 :::Exercise (|1 Point)
 What do you observe
 :::
 ::::::
+
 
 # Conclusion
 
@@ -413,44 +440,3 @@ Make sure to include all tables, plots, pictures, drawings, screenshots or anyth
 All responses and answers should contain the correct number of sig figs and should include units when needed.
 :::
 
-<!-- Example Functions -->
-<!--PhET Formatting ![Simulation 1](imgs/Lenses/Figure5_Nodes.jpg){width=100% height=600px} -->
-
-<!-- Simulations
-
-Sim 1
-
-<iframe scrolling="no" title="InfiniteSourceTest" src="https://www.geogebra.org/material/iframe/id/v69nxnqu/width/700/height/444/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
-
-Sim 2
-
-<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/X8RuneVy/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
-
-Sim 3
-
-<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/a2rNFfHA/width/1100/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
- -->
-
-
-
-
-<!-- Sim 1 Old -->
-
-<!-- [Simulation 1 Old](https://ricktu288.github.io/ray-optics/simulator/){width=100% height=600px} -->
-<!-- No Longer Wanted -->
-<!-- I cannot get this sim to stay in a window, Setting it up as an image does not work. Setting it up as a link forces you to another page. I have a saved file for it but I do not know how to get it to that, 6CL_Lab2_P1_Test.json. -->
-
-<!-- Sim 1 Text
-Simulation 1 shows how lenses act in two dimensions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses. -->
-
-<!-- Sim 2 Old -->
-<!-- ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px} -->
-
-
-
-
-
-<!-- Simulation 3 -->
-<!-- <figure> -->
-<!-- <div class="container" style="padding-bottom:56.25%:"> -->
-<!-- <iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/X8RuneVy/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width=100% height="600px" style="border:0px;" allowfullscreen> </iframe> -->
