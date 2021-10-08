@@ -61,9 +61,9 @@ To understand how curved interfaces are different from plane interfaces, using o
 
 
 :::Figure (hex-side|xl)
-![](imgs/Lenses/Raybox.png "A hexagon approximates a convex cylindrical lens")
+![](imgs/Lenses/Raybox.png?v=threebeam "A hexagon approximates a convex cylindrical lens")
 :::
-[](#Figure-hex-side) shows how you might set this up using the same raybox apparatus as last week. When the ray of light hits the exterior of the hexagon, the angle the light is to the normal depend on *which face it hits.*
+[](#Figure-hex-side) shows how you might set this up using the same raybox apparatus as last week, using 3-ray mode that there is a ray for each face. When the ray of light hits the exterior of the hexagon, the angle the light is to the normal depend on *which face it hits.*
 
 
 
@@ -89,7 +89,7 @@ To understand how curved interfaces are different from plane interfaces, using o
 :::Figure (cyl|s|R)
 ![](imgs/Lenses/cylindrical.png "What happens if the lens is smooth?")
 :::
-Instead of a hexagon, imagine a cylindrical lens as in the side view given in [](#Figure-cyl).
+Instead of a hexagon, imagine a cylindrical lens as in the side view given in [](#Figure-cyl). Reminder: you can click on any image in the manual to make it larger.
 1. Do you think the rays would converge or diverge inside the lens?
 2. Is there any situation that a convex lens, like the one in [](#Figure-cyl), would result in rays that **do not** converge on the interior?
 3. What can you conclude about convex lenses? ;;;Hint: How do they affect incident light rays? You can assume lenses are made from glass and have a boundary with air;;; 
