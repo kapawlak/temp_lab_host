@@ -282,7 +282,7 @@ Now let's consider why ray tracing works. The law of reflection tells us that th
 
 ## Ray Tracing Curved Mirrors 
 :::Figure (curved|m|R)
-![](imgs/ReflectionRefraction/curved.png "Nevermind the size of her hand. The sky is upside-down!")
+![](imgs/ReflectionRefraction/curved.png "Nevermind the size of her hand — the sky is upside-down!")
 :::
 In the case of curved mirrors, things become more complicated. Since the direction of the surface's *normal* is changing across the interface, the direction light reflects in *depends on where the light hits the interface*. The result of this is that curved mirrors can make objects appear larger, smaller, inverted, or even combinations of these, depending on where the object is located and where you are observing! 
 
@@ -407,7 +407,7 @@ pass straight through or is there an offset? Is it parallel to the original beam
 5. When the incident beam is normal to the surface are you able to observe the same phenomenon?
 :::
 
-## Reflection Experiment 1: Plane Mirrors
+## Reflection Experiment: Plane Mirrors
 
 :::Materials (Corkboard|Pins---At least two yellow pins and one non-yellow pin|Plane Mirror|Paper|Ruler)
 :::
@@ -461,27 +461,7 @@ edge of the mirror). Measure the angle of incidence and angle of reflection. Nea
 3. What can you say about the angle of incidence and angle of reflection for each of the rays?
 :::
 
-## Reflection Experiment 2: Spherical Mirrors
-:::Materials (Spherical Mirrors---Concave and Convex|Pins---At least two yellow pins and one non-yellow pin|Plane Mirror|Paper|Ruler)
-:::
-::::::Activity (spherical| Spherical Mirrors)
-1. Hold the concave spherical mirror mounted in black plastic holder approximately 1cm from your eye.
-:::Exercise (|1 Point)
-1. What do you observe? 
-2. What orientation is the image? 
-3. By approximately what factor has the image been magnified? ;;;Remember that magnification, as the term is used in optics, can mean bigger or smaller. For bigger, the magnification is greater than 1.0. For smaller, the magnification is less than 1.0;;;
-:::
 
-2. Slowly move the mirror away from you. You will notice that there is a point where it becomes difficult to discern any type of
-image. You are approximately at the focal point of the mirror when this happens. Continue moving the mirror away from you.
-
-:::Exercise (|1 Point)
-1. What do you observe? 
-2. What orientation is the image at this distance? 
-3. How large is the image?
-4. What happens as you continue to move the mirror away from you?
-:::
-::::::
 
 # Conclusion
 

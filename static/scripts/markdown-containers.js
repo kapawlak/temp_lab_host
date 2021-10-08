@@ -92,7 +92,7 @@ class Card{
         break
       case 'Simulation':
         this.collapse=true
-        this.headerText= 'Simulation ' + this.number
+        this.headerText= `<div class= ' container-fluid row justify-content-start'> <div class='col-lg-12'> Simulation ${this.number} `
         this.styleList.push('col-lg-11 my-5 mx-auto')
         this.innerStyles[0]+= collapsable_header
         break
@@ -457,6 +457,7 @@ md.use(container, 'Simulation', {
       if (args[1]) {
        sim.headerText+= `:<span class='lead' style="padding-left:10px"> ${args[1]} </span>`
       }
+      sim.headerText+=`</div></div>`
       sim.publishCard()
       // card_maker_collapse('Simulation', args[0], title, [group1, pad_mar, args[2]].join(' '))
       return div_head.pop()

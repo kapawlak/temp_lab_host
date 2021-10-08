@@ -771,9 +771,8 @@ Make sure to include your final table with all the columns you made, a sample ca
 
 ---
 
-### INSTRUCTIONS
- 1) Be sure you did all of the **Activities** and answered all **Exercises** in this Lab
- 2) On a new page, attach a brief conclusion (1-2 paragraphs) summarizing the important points of this lab to your assignment ;;; Please complete your assignment in google docs or a similar word processing program and submit it as a .doc or .pdf;;;.
+
+Be sure you did all of the **Activities** and answered all **Exercises** in this Lab
 
 **NOTE:** Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
 :::

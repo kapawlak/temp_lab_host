@@ -131,11 +131,11 @@ Important distinction! It is easy to get speed and velocity mixed up. Speed does
 :::
 
 :::Exercise (noforce|2 Points)
-In space (no gravity), a ball is shot towards a wall at a velocity of $7.5 \text{ m/s}$. The ball hits the wall and perfectly reflects after collision, maintaining the same *speed*. At $t= 4 \text{ s}$, the ball is measured to be $20 \text{ m}$ from the wall.
+In space (no gravity), at $t=0\text{ s}$, a ball is shot towards a wall at a velocity of $7.5 \text{ m/s}$. The ball hits the wall and perfectly reflects after collision, maintaining the same *speed*. At $t= 4 \text{ s}$, the ball is measured to be $20 \text{ m}$ from the wall.
 
 1. Did any forces act on the ball? Defend your answer, explicitly referencing the ball's initial and final velocities as needed.
 2. How far was the ball from the wall initially? ;;;Hint: Try breaking the problem into two parts  — before the collision and after — and writing down the constant velocity equations;;;
-3. Sketch a graph of the ball's distance from the wall over time.
+3. Sketch a graph of the ball's distance from the wall over time. You can do this on a digital drawing program or on paper and take a picture to attach to your report.
 :::
 
 
