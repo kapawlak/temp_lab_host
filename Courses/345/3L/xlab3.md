@@ -43,7 +43,7 @@ Since we are dealing with a vertical spring, we will define the origin, the zero
 
 If we were to hang a mass, $m$, from the spring, and wait for the system to come to equilibrium (stop moving), we could determine the spring force by using Newton&rsquo;s second law and the force of gravity.
 
-::: Exercise (HL1)
+:::Exercise (HL1| 1 Point) 
 Use [](#Figure-freebodyDiagram) and knowledge of statics to answer the following: 
 1. What happens to $\Delta y$ as $m$ increases?
 :::
@@ -79,7 +79,7 @@ This model has the following assumptions:
 - The spring is massless.
 :::
 
-::: Exercise (SHM1)
+:::Exercise (SHM1|1 Point)
 Using [](#Equation-period):
 1. What happens to $T$ as $m$ increases?
 :::
@@ -188,7 +188,7 @@ To get some intuition about the least-squares algorithm do [](#Activity-leastSqu
 
 5. Adjust the slope and intercept values until you think you have drawn the line of best fit.
 
-:::Exercise (bf1)
+:::Exercise (bf1|1 Point)
 What is the equation for your best fit line?
 :::
 
@@ -198,26 +198,26 @@ What is the equation for your best fit line?
 
 8. Now slide the slope and intercept buttons until you minimize the sum slider.
 
-:::Exercise (bf2)
+:::Exercise (bf2|1 Point)
 What is the new equation for your best fit line?
 :::
 
 9. Now click the green plus by "Best-Fit Line" followed "Best-Fit Line" checkbox. The computer will now perform the Least-Squares algorithm and determine line of best fit.
 
-:::Exercise (bf3)
+:::Exercise (bf3| 2 Points)
 1. What is the equation of the best fit line?
 2. Did using the sum of squares sliders make an improvement from your first attempt to the second attempt?
 :::
 
 10. Move the last point from $(17.1,12.0)$ to $(17.1, 10)$.
 
-:::Exercise
+:::Exercise (|1 Point)
 How did this affect your line?
 :::
 
 11. Now move the middle point from $(8.2,7.6)$ to $(8.2, 12.0)$
 
-:::Exercise
+:::Exercise (|1 Point)
 1. How did this affect your line?
 2. Why did this change affect your line differently from your previous change?
 :::
@@ -288,14 +288,14 @@ Watch the video below for instructions on how to use the apparatus.
 
 ## Procedure
 
-:::Exercise (linearize)
+:::Exercise (linearize| 8 Points)
 1. For the Hooke's law part of the lab, you will have to plot two parameters and perform a fit. Which parameter will you put on your $x$-axis and which parameter on your $y$-axis?
 2. What is the equation for the slope of the resulting line you would plot?
 3. For the simple harmonic motion part of the lab, you will have to plot two parameters and perform a fit. Which parameter will you put on your $x$-axis and which parameter on your $y$-axis?;;;Note that T is not linear with any parameters, but T^2 is.;;;
 4. What is the equation for the slope of the resulting line you would plot?
 :::
 
-:::Exercise (procedure| 5 Points)
+:::Exercise (procedure| 10 Points)
 1. Write a procedure for performing the Hooke's Law experiment.
 2. Write a procedure for performing the simple harmonic motion experiment.
 :::
@@ -311,24 +311,24 @@ In this part of the lab you will measure the spring constant by using the Hooke'
 1. Follow your procedure and perform your experiment.
 2. Do the following exercises.
 
-:::Exercise
+:::Exercise (|7 Points)
 Record notes on what you did, observed, or wondered during the Hooke's law portion of the lab in this exercise.
 :::
 
 
-:::Exercise
+:::Exercise (|4 Points)
 Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
 :::
 
-:::Exercise
+:::Exercise (|8 Points)
 Make a plot of your data and add a best fit line. 
 :::
 
-:::Exercise
+:::Exercise (|5 Points)
 From your best fit line determine the value of the spring constant. Show your work.
 :::
 
-:::Exercise
+:::Exercise (|5 Points)
 Using [](#Equation-uncertaintyPropagation), determine the uncertainty in the spring constant. Show your work.
 :::
 
@@ -338,24 +338,24 @@ Using [](#Equation-uncertaintyPropagation), determine the uncertainty in the spr
 ::::::Activity (|Simple Harmonic Motion)
 
 
-:::Exercise
+:::Exercise (|7 Points)
 Record notes on what you did, observed, or wondered during the simple harmonic motion portion of the lab in this exercise.
 :::
 
 
-:::Exercise
+:::Exercise (|4 Points)
 Include all of the data tables you made here. Make sure each table is easily identifiable and labelled.
 :::
 
-:::Exercise
+:::Exercise (|8 Points)
 Make a plot of your data and add a best fit line. 
 :::
 
-:::Exercise
+:::Exercise (|5 Points)
 From your best fit line determine the value of the spring constant. Show your work.
 :::
 
-:::Exercise
+:::Exercise (|5 Points)
 Using [](#Equation-uncertaintyPropagation), determine the uncertainty in the spring constant. Show your work.
 :::
 
@@ -364,7 +364,7 @@ Using [](#Equation-uncertaintyPropagation), determine the uncertainty in the spr
 
 # Conclusion
 
-::::::Exercise (|20 Points)
+::::::Exercise (|11 Points)
 Based on your results, do the two methods of measuring the spring constant agree with each other? If you think they disagree is there something in model assumptions that could explain the difference? Justify your answer with your data.
 ::::::
 
