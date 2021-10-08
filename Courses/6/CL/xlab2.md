@@ -70,7 +70,7 @@ To understand how curved interfaces are different from plane interfaces, using o
 
 
 :::Figure (hex|xl)
-![](imgs/Lenses/hexagonal.png "The angle of refraction is no longer the same for all incident parralel light rays: it now depends on which face the ray enters through")
+![](imgs/Lenses/hexagonal.png "The angle of refraction is no longer the same for all incident parallel light rays: it now depends on which face the ray enters through")
 :::
 
 ::::::Exercise (curve|1 Point)
@@ -170,7 +170,7 @@ We use ray tracing methods to predict the behavior of a lens. We begin with conv
 3. A light ray passing through the focal point and then through the lens emerges parallel to the optical axis.
 
 :::Figure (ray3|xl)
-![A light ray that passes through the focal point of a lens always ends up parallel to the principal axis.](imgs/Lenses/fig3_3.JPG "Recall that lenses are a two-way street, so since parralel rays go though the focal point, rays going through the focal point must end up parallel")
+![A light ray that passes through the focal point of a lens always ends up parallel to the principal axis.](imgs/Lenses/fig3_3.JPG "Recall that lenses are a two-way street, so since parallel rays go though the focal point, rays going through the focal point must end up parallel")
 
 :::
 
@@ -206,7 +206,7 @@ As a convention, we always draw from the top-most point on the object. Any other
  
 Image formation through a convex lens is exemplified in the dynamic [](#Simulation-Lenses). You can change the location of the object as well as the focal length of the lens. You can do the latter by dragging the point labeled "Focus." 
 
-::::::Simulation (Lenses| Thin Lens Simlation)
+::::::Simulation (Lenses| Thin Lens Simulation)
 :::center
 <a href="https://www.geogebra.org/material/iframe/id/vd77gpfr" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
 :::
@@ -249,7 +249,7 @@ Notice that it is a) inverted, b) at a different distance than the object, and c
 :::Exercise (convex|1 Point)
 1. Include an image (or images) with your three Convex Ray Trace drawings here.
 2. Inspect **"Convex Ray Trace 2"**. Do the rays ever meet on the other side of the lens? Describe what happens to the rays
-3. Inspect **"Convex Ray Trace 3"**. What do you think is the signifigance of where the rays meet? ;;;Hint: If you were looking into the lens, what would you see?;;;
+3. Inspect **"Convex Ray Trace 3"**. What do you think is the significance of where the rays meet? ;;;Hint: If you were looking into the lens, what would you see?;;;
 :::
 
 
@@ -268,7 +268,7 @@ focal length. Note that this discussed above, see [](#Figure-raytrace3). Label t
 :::Exercise (concave|1 Point)
 1. Include an image with your Concave  Ray Trace drawing here.
 2. Do the rays converge at a given point?
-3. What is the signifigance of that point?
+3. What is the significance of that point?
 
 :::
 
@@ -441,7 +441,7 @@ Sim 3
 <!-- I cannot get this sim to stay in a window, Setting it up as an image does not work. Setting it up as a link forces you to another page. I have a saved file for it but I do not know how to get it to that, 6CL_Lab2_P1_Test.json. -->
 
 <!-- Sim 1 Text
-Simulation 1 shows how lenses act in two dimentions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses. -->
+Simulation 1 shows how lenses act in two dimensions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses. -->
 
 <!-- Sim 2 Old -->
 <!-- ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px} -->

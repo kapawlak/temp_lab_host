@@ -1,0 +1,4 @@
+
+Replace All Exercises with ppoint valued versions.
+:::\s*Exercise\s*\(*([-a-zA-Z0-9]*)\)*
+:::Exercise ($1|1 Point)
