@@ -74,12 +74,12 @@ Consider a glider hovering in place on a horizontal airtrack, like that shown in
 
 :::
 
-## Working out the Calculations
+## Working Out the Calculations
 
-The experiment seems to make sense, but we have a calculation to setup before we're ready to take data. As a reminder, we need three quantities: Force, Mass, and Acceleration. Some of these are easy, like the mass of our gliders, which we can measure with a scale directly. The force due to gravity can also be measured in the lab using a force meter.
+The experiment seems to make sense, but we have a calculation to set up before we're ready to take data. As a reminder, we need three quantities: Force, Mass, and Acceleration. Some of these are easy, like the mass of our gliders, which we can measure with a scale directly. The force due to gravity can also be measured in the lab using a force meter.
 
 
-Unfortunately, there is *no direct way* of measuring the acceleration. This means that we will need to be clever with how we determine this value. Luckily, we have access to a ruler and a stopwatch, and this should be enough. You should look over [](#Activity-airtrack-mass) to get an idea of how the experiment will play our: We will be sending a glider down a tilted track, and recording how long it takes to reach the end from its starting point. Given the length of the track $L$ and the time it takes for the glider to reach the bottom, $t$, we should be able to work out the constant acceleration it experienced.
+Unfortunately, there is *no direct way* of measuring the acceleration. This means that we will need to be clever with how we determine this value. Luckily, we have access to a ruler and a stopwatch, and this should be enough. You should look over [](#Activity-airtrack-mass) to get an idea of how the experiment will play out: We will be sending a glider down a tilted track, and recording how long it takes to reach the end from its starting point. Given the length of the track $L$ and the time it takes for the glider to reach the bottom, $t$, we should be able to work out the constant acceleration it experienced.
 
 :::Exercise (acc-equation|2 Point)
 Find the equation for the measured acceleration, $a$, on the glider as a function of travel distance $L$ and $t$. You may need to consult the Math Sheets in the Appendix or the previous lab manual. 
@@ -126,13 +126,13 @@ Please look over [](#Activity-airtrack-mass) at this point to make sure that you
 ::::::
 
 
-[](#Activity-airtrack-height) is similar to [](#Activity-airtrack-mass), however instead of varying the mass, you will be varying the height of the track for two selected masses. The [](#Activity-tables-height) below will walk you through setting up these tables.
+[](#Activity-airtrack-height) is similar to [](#Activity-airtrack-mass), however instead of varying the mass, you will be varying the height of the track for two selected masses. The [Activity](#Activity-tables-height) below will walk you through setting up these tables.
 
 
 ::::::Activity (tables-height| Preparing F vs. A Data Tables)
 
 **Instructions:**
-1. For [](#Activity-airtrack-height), create two table (one for each mass) with three data rows, similar to  [](#Table-heights).
+1. For [](#Activity-airtrack-height), create two tables (one for each mass) with three data rows, similar to  [](#Table-heights).
 2. Give this table the correct units in the header and make sure it follows all the rules of a Good Table
 
 :::Table (heights| Acceleration v.s. Force)
@@ -164,7 +164,7 @@ Be sure that you have completed the Prelab by experiment day, and have all of yo
 :::Materials (Air Track|Glider|Riser Block|Force Meter|Scale|Stopwatch)
 :::
 
-In [](#Activity-airtrack-mass), you will investigate how acceleration correlates with glider mass by doing the glider experiment with a few different masses.
+Below, in [](#Activity-airtrack-mass), you will investigate how acceleration correlates with glider mass by doing the glider experiment with a few different masses.
 
 :::::::::Activity (airtrack-mass| Mass v.s. Acceleration)
 **Instructions:**
@@ -204,7 +204,7 @@ Include your completely filled in data table here, being sure to follow the best
 ## Force v.s. Acceleration 
 :::Materials (Air Track|glider|Riser Block|Force Meter|Scale|Stopwatch)
 :::
-In [](#Activity-airtrack-mass), you will investigate how acceleration correlates with force by doing the glider experiment at a few different heights.
+Below, in [](#Activity-airtrack-mass), you will investigate how acceleration correlates with force by doing the glider experiment at a few different heights.
 
 
 ::::::Activity (airtrack-height| Force v.s. Acceleration)
@@ -235,7 +235,7 @@ track.
 
 
 
-It's time to analyze your data from collected during the experiment. Keep your data handy as you work to finish up the lab exercises. In the following sections you will be asked to complete a few calculations, make a plot using your spreadsheet program, and draw conclusions. 
+It's time to analyze your data collected during the experiment. Keep your data handy as you work to finish up the lab exercises. In the following sections you will be asked to complete a few calculations, make a plot using your spreadsheet program, and draw conclusions. 
 
 
 ## Checking Against the Theoretical Value.
@@ -268,7 +268,7 @@ For this exercise, look at the data you collected in [](#Activity-airtrack-heigh
 We should now have an idea about if our experiments' data are seemingly consistent with expectations. We can now go ahead and plot our data so that we can make observations. 
 
 :::Exercise (plot1|1 Point)
-1. Using the data from [](#Activity-airtrack-mass), plot **Force vs. Mass.** Include the plot in this exercise, and make sure it has all of the qualities of a Good Plot
+1. Using the data from [](#Activity-airtrack-mass), plot **Force vs. Mass.** Include the plot in this exercise, and make sure it has all of the qualities of a Good Plot.
 2. Does the plot appear to be linear? 
 3. How does the force depend on mass? It might be helpful to calculate the slope and compare it to your theoretical acceleration.
 :::
@@ -313,10 +313,10 @@ All responses and answers should contain the correct number of sig figs and shou
 The angle of the track with respect to the horizontal, $\theta$, satisfies
 
 $$
-\rm \sin($\theta$) = \frac{b}{D}
+\rm \sin(\theta) = \frac{b}{D}
 $$
 
-where $b$ is the height of the block used to place the track on an incline, and $D$ is the distance between the track's legs in [](#Figure-hov3). 
+where $b$ is the height of the block used to place the track on an incline, and $D$ is the distance between the track's legs in [](#Figure-setup). 
 
 Similarly, for any position on the track, we have that
 
