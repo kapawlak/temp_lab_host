@@ -34,7 +34,7 @@ In this week's laboratory experiment, you will design and run an experiment mean
 
 ## Experimental Design
 
-Determining the relationship between force, mass, acceleration should be easy, *right*? In an ideal situation, we simply need to tabulate the acceleration experienced by sets of masses after applying forces and look for a relationship. *Right?*
+Determining the relationship between force, mass, and acceleration should be easy, *right*? In an ideal situation, we simply need to tabulate the acceleration experienced by sets of masses after applying forces and look for a relationship. *Right?*
 
 It turns out, that in the real world, we rarely ever actually see "clear" examples of Newton's Laws in action. As we learned in the previous lab, there are unintentional forces acting on objects all the time — especially drag and friction. If you try to slide your book across the table, it will quickly come to rest after you stop applying a force to it. Prior to Newton's discovery of the first law of motion, [many natural philosophers](https://en.wikipedia.org/wiki/Inertia#Early_understanding_of_motion) thought that all objects naturally came to rest because they didn't have an understanding of friction — just the observation that objects seem to come to rest when you stopped pushing them. So now our problem is this:
 
@@ -44,7 +44,7 @@ It turns out, that in the real world, we rarely ever actually see "clear" exampl
 
 As with most experiments, we can't. There will always be some influence of external factors, regardless of how meticulous we are in our experimental design. Luckily for this experiment, we can get rid of *most* of the friction by using the same force that ruined our previous experiment: *air resistance*! 
 
-We know that air resistance stops objects from accelerating past a certain terminal velocity from our previous lab. It turns out that we can flip that logic on its head and *blow air at an object* to exert a force on it. If we choose to blow air *just hard enough*, we can cause an object to float, or levitate above the ground. Since the force is only (ideally) applied along the direction if the air's velocity, there should be no
+We know that air resistance stops objects from accelerating past a certain terminal velocity from our previous lab. It turns out that we can flip that logic on its head and *blow air at an object* to exert a force on it. If we choose to blow air *just hard enough*, we can cause an object to float, or levitate above the ground. Since the force is only (ideally) applied along the direction if the air's velocity, there should be no air-resistance force opposing the direction of motion (ideally).
 
 
 
@@ -81,14 +81,14 @@ The experiment seems to make sense, but we have a calculation to set up before w
 
 Unfortunately, there is *no direct way* of measuring the acceleration. This means that we will need to be clever with how we determine this value. Luckily, we have access to a ruler and a stopwatch, and this should be enough. You should look over [](#Activity-airtrack-mass) to get an idea of how the experiment will play out: We will be sending a glider down a tilted track, and recording how long it takes to reach the end from its starting point. Given the length of the track $L$ and the time it takes for the glider to reach the bottom, $t$, we should be able to work out the constant acceleration it experienced.
 
-:::Exercise (acc-equation|2 Point)
+:::Exercise (acc-equation|2 Points)
 Find the equation for the measured acceleration, $a$, on the glider as a function of travel distance $L$ and $t$. You may need to consult the Math Sheets in the Appendix or the previous lab manual. 
 :::
 
 
 Having a measurement of acceleration is good, but we should have a theoretical calculation to check it against after the experiment that doesn't rely on our independent measurements of $L$ and $t$. We can actually work out the expected acceleration by using some clever geometry. 
 
-:::::Exercise (acc-cal|2 Point)
+:::::Exercise (acc-cal|2 Points)
 
 Using some or all of the variables defined in [](#Figure-setup)a, plus some trigonometry and vector analysis, write an equation for the theoretical acceleration on the glider from gravity.
 :::Note (|12)
@@ -244,7 +244,7 @@ Prior to the experiment, we devised an equation that predicted what the accelera
 
 
 
-::::::Exercise (mass-analyze|2 Point)
+::::::Exercise (mass-analyze|2 Points)
 For this exercise, look at the data you collected in [](#Activity-airtrack-mass) and answer the questions.
 1. Does changing the mass seem to change the acceleration? Should it? ;;;Defend your answer.;;;
 2. Use your equation in [](#Exercise-acc-cal) to find the theoretical values of the acceleration in each trial this experiment. If they are all the same, you may say that.
@@ -254,7 +254,7 @@ For this exercise, look at the data you collected in [](#Activity-airtrack-mass)
 ::::::
 
 
-::::::Exercise (force-analyze|2 Point)
+::::::Exercise (force-analyze|2 Points)
 For this exercise, look at the data you collected in [](#Activity-airtrack-height) and answer the questions.
 1. Does changing the force seem to change the acceleration? Should it? ;;;Defend your answer.;;;
 2. Use your equation in [](#Exercise-acc-cal) to find the theoretical values of the acceleration in each trial this experiment. If they are all the same, you may say that.
@@ -294,7 +294,7 @@ mass and acceleration.
 
 # Summary
 
-:::Exercise (|2 Point)
+:::Exercise (|2 Points)
 Write a brief statement (1-2 paragraphs) summarizing the main points of this lab. Address how you determined how force depends on mass and acceleration, and why you think your experiment resulted in useful data (as opposed to messy data with confounding factors).
 :::
 
