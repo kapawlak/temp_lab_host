@@ -10,14 +10,19 @@ In addition to understanding energy, this week we will investigate **work** and 
 :::
 
 ::::::Prelab
-Please complete the following prior to lab:
+Please complete the following Exercises prior to lab:
 :::center
 [](#Exercise-airtrack),  [](#Exercise-acc-equation), [](#Exercise-acc-cal),
 ::: 
 
+You should also complete the following activities
 :::center
 [](#Activity-tables-mass), [](#Activity-tables-height)
 :::
+
+**This lab will require plotting as part of the analysis.** We recommend revisiting Lab 0 to practice plotting. You may also set up the plots before-hand on fake data, that way the plots auto generate when you input your measurements.
+
+As always, we encourage thouroughly reading the entire manual prior to coming to lab.
 ::::::
 
 --- 
@@ -110,17 +115,18 @@ Please look over [](#Activity-airtrack-mass) at this point to make sure that you
 ::::::Activity (tables-mass| Preparing M vs. A Data Tables)
 
 **Instructions:**
-1. For [](#Activity-airtrack-mass), create a table with three data rows, similar to  [](#Table-mass).
+1. For [](#Activity-airtrack-mass), create a table with three data rows, similar to  [](#Table-mass). Also add two cells somewhere to record the height of the table ($b$) and the distance between the table legs.
 2. Give this table the correct units in the header and make sure it follows all the rules of a Good Table
 :::Table (mass| Acceleration v.s. Mass)
- Height = _________________
+ Height (b) = _________________
+ Distance between legs (D) = _________________
 | Mass (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
 |-------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 :::
-3. Using the equation you derived in [](#Exercise-acc-equation), set up the spreadsheet so that the **Acceleration** is automatically calculated when you enter the "Distance" and "Time" values.
+3. Using the equation you derived in [](#Exercise-acc-equation), set up the spreadsheet so that the **Acceleration** is automatically calculated when you enter the "Distance" and "Time"  values into column and the "Height" and "Distance between legs (D)" values into the cell. ;;;Hint: Check your formula against this example:  ;;;
 4. Link this table into your report under [](#Exercise-mass).
 
 ::::::
@@ -132,18 +138,20 @@ Please look over [](#Activity-airtrack-mass) at this point to make sure that you
 ::::::Activity (tables-height| Preparing F vs. A Data Tables)
 
 **Instructions:**
-1. For [](#Activity-airtrack-height), create two tables (one for each mass) with three data rows, similar to  [](#Table-heights).
+1. For [](#Activity-airtrack-height), create two tables (one for each mass) with three data rows, similar to  [](#Table-heights). Also add a cell somewhere to record the distance between the table legs.
 2. Give this table the correct units in the header and make sure it follows all the rules of a Good Table
 
 :::Table (heights| Acceleration v.s. Force)
 Mass 1 = __________
-| Height (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
+Distance between legs (D) = _________________
+| Height b (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
 |---------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 
 Mass 2 = __________
+Distance between legs (D) = _________________
 | Height (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
 |---------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
@@ -168,10 +176,10 @@ Below, in [](#Activity-airtrack-mass), you will investigate how acceleration cor
 
 :::::::::Activity (airtrack-mass| Mass v.s. Acceleration)
 **Instructions:**
-:::Figure (force-measure|m|R)
-![](imgs/ForceMotion/measureforce.gif "Measuring the force using the force meter")
+:::Figure (force-measure|l|R)
+![](imgs/ForceMotion/measureforce_slow.gif "Measuring the force using the force meter")
 :::
-1. Turn on the air track. Set the pump to Level 3.
+1. Measure the height of a block ($b$) and the distance between the airtrack legs ($D$) to record in your tables. Turn on the air track. Set the pump to Level 3.
 2. You should now level the airtrack so as to not impart additional momentum into the glider. The best way to level the
 track is to use the glider. Adjust the two leveling screws symmetrically to get the glider to stay in the center of the track.
 3. Record the mass of the glider, including the glider-hook, using the balance.
@@ -220,7 +228,7 @@ track.
 4. Prepare your stopwatch and release the glider from rest.
 5. Using the stopwatch, measure $t$, the time it takes to travel the distance.
 6. Record your values of values of $L$ and $t$ in your table.
-7. Repeat 1-10 for four different heights. 
+7. Repeat 1-6 for four different heights. 
 8. Repeat everything for a second mass value using the same four heights.
 
 ::::::
