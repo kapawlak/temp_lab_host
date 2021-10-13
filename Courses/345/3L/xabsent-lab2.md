@@ -187,6 +187,31 @@ Based on your discussion, what conclusions can be drawn if $1 < |t'| \leq 3$?
 
 # The Experiment
 
+## Using the PhET
+For the activities you will want to have the PhET set in a particular way and use some specfifc tools. This section will show you how to set up the simulation. 
+
+1. Start by selecting the stopwatch checkbox in the lower left corner of the screen. You will be using the stopwatch to make measurements of the period. You can see the selector and the stopwatch in [](#Figure-stopwatch) below.
+
+:::::::::Figure (stopwatch|s|Row)
+::::::row
+::: col
+![Three checkboxes. The middle one is labelled stopwatch. Selecting this brings up the stopwatch.](imgs/Absent-Lab1/Stopwatch-Selection.png "a) Stopwatch Selection Menu")
+:::
+
+::: col
+![An image of the stopwatch. It has numbers indicating the elapsed time. There are two buttons below the time. The one on the left is for resetting the stopwatch and the one on the right is for starting and stopping the stopwatch. ](imgs/Absent-Lab1/Stopwatch.png "b) Stopwatch")
+ 
+:::
+::::::
+:::::::::
+
+:::Figure (settings|s|R)
+![A picture of the settings for the lab. There is a slider labbeled gravity, that is about half way and a dropdown below it that reads "Earth". There is a second slider labelled "Friction" set all the way to the left for no friction.](imgs/Absent-Lab1/GravityAndFriction.png)
+:::
+
+2. Ensure that gravity and friction are set to Earth and None respectively. This is the default setting and you shouldn't need to switch it for the lab. See the proper settings in [](#Figure-settings)
+
+
 :::::::::Activity
 
 In this lab you will attempt to determine if there is a difference between the period of a pendulum released at 10° and 25°. 
