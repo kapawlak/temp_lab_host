@@ -2,19 +2,34 @@
 # Lab 3: Wave Optics
 
 
-:::Intro (In this Lab)
+::::::Intro (In this Lab)
 Now that we are familiar with the principles of *ray optics*, we will move on to talk about **wave optics**. As the name suggests, wave optics considers the wave-like properties of light, and the phenomena that emerge from this description &mdash; in particular, **diffraction** and **interference**. These phenomena occur on very small length scales compared to the domain of ray optics.
-:::
-
----
-
-# Introduction
 
 :::Video (intro|The Wave Nature of Light)
 <iframe width="100%" height= "100%" src="https://www.youtube.com/embed/PgqcerR-3no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
+::::::
 
-When you are calculating image locations relative to the objects that produce them, and learning about simple optical devices, it is useful to treat light as groups of rays that travel in straight lines until they are reflected or refracted. This is referred to as *Geometrical Optics*. Unfortunately, light doesn’t behave in quite such an ordinary manner when it interacts with things at smaller scales. This is because light is an electromagnetic wave, and as such it exhibits all of the behaviors that other waves exhibit, like diffraction and interference. 
+
+
+:::Prelab
+I am so stressed out
+
+:::
+---
+
+
+
+
+
+# Introduction
+
+
+
+When you are calculating image locations relative to the objects that produce them, and learning about simple optical devices, it is useful to treat light as groups of rays that travel in straight lines until they are reflected or refracted. This is referred to as *Geometrical Optics*. 
+
+
+As you might know from our first lab, light doesn’t behave in quite such an ordinary manner when it interacts with things at smaller scales. This is because light is an electromagnetic wave, and as such it exhibits all of the behaviors that other waves exhibit, like diffraction and interference. 
 
 In this lab we will look at both of these phenomena. They are very closely related, but also different in some key ways. 
 
@@ -93,7 +108,7 @@ $$
 :::
 
 :::Note
-[](#Equation-saa), and thus [](#Equation-max), relies on $\theta$ being small. The angle $\theta$ is determined by $D$ and $y_m$. When $D$ is 1 meter (the length of your arm) and $y_m$ is 8 cm (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\theta)$ is less than 1%. In this lab, we will be working on scales about that size. 
+[](#Equation-saa), and thus [](#Equation-max), relies on $\theta$ being small. The angle $\theta$ is determined by $D$ and $y_m$. When $D$ is 1 meter (the length of your arm) and $y_m$ is$ 8 \text{ cm}$ (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\theta)$ is less than 1%. In this lab, we will be working on scales about that size. 
 :::
 
 :::Note (|9 C)
@@ -132,7 +147,7 @@ At the very top of the simulation is a graph of the intensity vs. position on th
 You are able to adjust the slit width ($a$), the slit separation ($d$), and the wavelength of the light ($\lambda)$. At the bottom you can turn diffraction on and off by checking the box. **Turning off diffraction is not something you can do in real life.**
 
 
-::::::Activity (ind)
+::::::Activity (ind| Practicing Interference and Diffraction)
 
 
 **Interference**
@@ -217,13 +232,16 @@ Based on the interference only and diffraction only part of the exercise, predic
 ::::::
 
 
-::::::Activity (laser| Gaining Intuition Laser on Optics Bench)
+::::::Activity (laser| Working with Lasers on Optics Bench)
+:::Warning
+Do not look directly into the laser! Never shine the laser around the room, always 
+point the laser into the screen.
+:::
 1. Setup the laser at one end of the optics bench and the screen, covered with paper, on the other. 
-Warning: Do not look directly into the laser! Never shine the laser around the room, always 
-point the laser into the screen. 
+
 2. Center and level the laser using the adjustment screws on the back of the laser. You can use the half meter stick to 
 measure the height of the laser beam at different points of the track to make sure it is level.
-3. Place the multiple slit set about 3cm in front of the laser (printed side facing laser) and set it to the widest part of the 
+3. Place the multiple slit set about$ 3 \text{ cm}$ in front of the laser (printed side facing laser) and set it to the widest part of the 
 variable double slit by rotating the slit disk. This section of the disk consists of two slits of constant size (width of 
 each slit is .04mm), but with variable separation between slits (separation d = 0.125mm to d = 0.75mm).
 4. Use the adjustment screws on the back of the laser to center the laser beam on the slits.
@@ -344,7 +362,7 @@ All responses and answers should contain the correct number of sig figs and shou
 ::::::Activity
 Procedure
 1. With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact 
-disc about 4cm from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
+disc about$ 4 \text{ cm}$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
 pass through.
 2. You should see at least the first order maxima, and possibly the second order maxima if you move the CD close 
 enough to the screen. Measure and record the distance between maxima of similar orders.
