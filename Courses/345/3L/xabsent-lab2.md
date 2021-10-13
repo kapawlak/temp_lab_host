@@ -165,21 +165,42 @@ Write a procedure that you will use to measure the period at both 10° and 25°.
 ::::::Activity
 In class, your TA led a discussion about the interpretation of $t'$ and how you might go about making some claims based on the value of $t'$. Instead, we will replicate some of that discussion here with a few illustrative examples. You are also encouraged to read the reference material for further details of the statistics.
 
+First, we will look at some histograms. A histogram is a graph which shows how often certain values were measured in repeated trials within an experiment. After conducting many trials, the histogram plot displays how many of the measured values fell within some range, called a bin. By looking at all the bins the data fell into, you can visualize the relative probabilities of a measurement.
+
+In [](#Figure-repeat_exp)(a), we have two histograms with data from two experiments A and B. In this particular example, the experiments measure a time in seconds. In this case, experiments A and B were performed under identical circumstances (that is, the same experiment was repeated). The differences in the histograms reflect the random error associated with any experiment. In [](#Figure-repeat_exp)(b), we have highlighted the means for Experiments A and B as well and shading representing the standard error of each mean. As you can see, the means are similar and the bounds of the error are largely overlapping.
+
+:::::::::Figure (repeat_exp|s|Row)
+::::::row
+:::col 
+![](imgs/Absent-Lab2/repeat_exp.png "(a) Histograms for two experiments, Experiments A and B, measuring a time in seconds. These experiments were conducted under identical circumstances")
+:::
+:::col 
+![](imgs/Absent-Lab2/repeat_exp_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted")
+:::
+::::::
+
+ 
+:::::::::
+
+Thinking about these histograms can give us some intuition for the $t'$ statistic discussed above. To make a connection between the histograms and $t'$, consider your measurement $A$ to be the mean of all the data in Experiment A and your measurement $B$ to be the mean of all the data in Experiment B. 
+
+Finally, although the histograms in [](#Figure-repeat_exp) are just one example of two histograms from a repeated experiment, histograms of any kind of experiment that is repeated exactly will share an important feature: the difference in the histograms will be due to the random error of the experiment.
+
 :::Exercise (|3 Points)
 If you perform the same experiment twice and collect statistics on both, what do you expect the value of $|t'|$ to be?
 :::
 
 :::Exercise (|a. 3 Points / b. 4 Points)
-1. Based on your discussion, what conclusions can be drawn if $|t'| \leq 1$?
+1. What conclusions can be drawn if $|t'| \leq 1$?
 2. What actions might you take to ensure that your conclusion is accurate?
 :::
 
 :::Exercise (|4 Points)
-Based on your discussion, what conclusions can be drawn if $1 < |t'| \leq 3$?
+What conclusions can be drawn if $1 < |t'| \leq 3$?
 :::
 
 :::Exercise (|a. 3 Points / b. 4 Points)
-1. Based on your discussion, what conclusions can be drawn if $|t'| > 3$?
+1. What conclusions can be drawn if $|t'| > 3$?
 2. What actions might you take to ensure that your conclusion is accurate?
 :::
 
