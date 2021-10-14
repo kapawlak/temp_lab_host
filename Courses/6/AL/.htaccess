@@ -1,6 +1,6 @@
-<Files solution.md>
+<FilesMatch "solution.+\.md">
 AuthUserFile /home/www/ILG/Courses/6/AL/.htpasswd
 AuthType Basic
 AuthBasicProvider file
 AuthName "Physics ??? Directory"
-</Files>
+</FilesMatch>
