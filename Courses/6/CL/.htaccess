@@ -1,7 +1,7 @@
-<FilesMatch "solution.+\.md">
-AuthUserFile /home/www/ILG/.htpasswd
+<Files solution.md>
+AuthUserFile /home/www/ILG/Courses/6/CL/.htpasswd
 AuthType Basic
 AuthBasicProvider file
 AuthName "Physics ??? Directory"
 Require valid-user
-</FilesMatch>
+</Files>

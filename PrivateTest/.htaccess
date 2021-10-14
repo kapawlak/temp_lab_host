@@ -1,7 +1,5 @@
-<FilesMatch "solution.+\.md">
-AuthUserFile /home/www/ILG/.htpasswd
+AuthUserFile /home/www/ILG/PrivateTest/.htpasswd
 AuthType Basic
 AuthBasicProvider file
 AuthName "Physics ??? Directory"
 Require valid-user
-</FilesMatch>
