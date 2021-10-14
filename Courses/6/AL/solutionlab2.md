@@ -74,8 +74,15 @@ the block and $D$ is the distance between the airtrack's legs. Once $\theta$ has
 :::
 
 ---
-We need to project $a$ onto the axis of the air track. 
+We need to project $a$ onto the axis of the air track. First $\sin(\theta) = b/D $. Then
+$
+a = g \sin(\theta)
+$
+The students may do this in a more roundabout way of calculating $\theta = \arcsin(b/D)$. This is also ok.
 
+- 2 Points: Correct equation all work shown
+- 1 Points: Correct Equation, no work OR  wrong Equation but good effort shown
+- 0 Points: No Work, no effort.
 
 ::::::
 
@@ -86,12 +93,14 @@ We need to project $a$ onto the axis of the air track.
 
 ::::::Exercise (mass|2 Points)
 Include your completely filled in data table here, being sure to follow the best practices.
+
 ---
-They should have a table like the one below. 
+They should have a table like the one below. Take of 0.25 points for each rule of a good table broken.
 :::Table (mass| Acceleration v.s. Mass)
- Height (b) = _________________
- Distance between legs (D) = _________________
-| Mass (kg or g) | Force ( N ) | Distance (m or cm) | Time (s) | Acceleration (m/s$^2$) |
+ Height (b) (kg or g) = _________________
+
+ Distance between legs (D) (m or cm) = _________________
+| Mass (kg or g) | Force (N) | Distance (m or cm) | Time (s) | Acceleration (m/s$^2$) |
 |-------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
@@ -101,21 +110,26 @@ They should have a table like the one below.
 
 
 ::::::Exercise (height|2 Points)
- Include your completely filled in data tables here, being sure to follow the best practices.
- ---
+Include your completely filled in data tables here, being sure to follow the best practices.
+
+---
+
+Students should have tables like below. They should have a table like the one below. Take of 0.25 points for each rule of a good table broken.
 
 :::Table (heights| Acceleration v.s. Force)
-Mass 1 = __________
-Distance between legs (D) = _________________
-| Height b (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
+Mass 1 (kg or g)= __________
+
+Distance between legs (D) (m or cm) = _________________
+| Height b (m or cm) | Force (N) | Distance (m or cm) | Time (s) | Acceleration (ms2) |
 |---------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 
-Mass 2 = __________
-Distance between legs (D) = _________________
-| Height (unit) | Force (unit) | Distance (unit) | Time (unit) | Acceleration (unit) |
+Mass 2 (kg or g)= __________
+
+Distance between legs (D) (m or cm) = _________________
+| Height b (m or cm) | Force (N) | Distance (m or cm) | Time (s) | Acceleration (ms2) |
 |---------------|--------------|-----------------|-------------|---------------------|
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
@@ -131,45 +145,141 @@ Distance between legs (D) = _________________
 ::::::Exercise (mass-analyze|2 Points)
 For this exercise, look at the data you collected in #Activity-airtrack-mass and answer the questions.
 1. Does changing the mass seem to change the acceleration? Should it? ;;;Defend your answer.;;;
+---
+Changing the mass should not change the acceleration. They should explain whether or not their data shows this. Their credit depends on their response and not what their data shows
+
+- 0.5 points: Identifies changing the mass should not change the acceleration. Accurately assesses if their data supports this or not based on if the values seem independent
+- 0.25 points:  
+    - Identifies changing the mass should not change the acceleration. Does not accurately assess if their data supports this or not based on if the values seem independent.
+    - Incorrectly believes mass should change acceleration. Accurately assesses independence in their data anyway
+- 0 points. Incorrectly assesses both, or no answer
+
+---
 2. Use your equation in [](#Exercise-acc-cal) to find the theoretical values of the acceleration in each trial this experiment. If they are all the same, you may say that.
+---
+Plug in the values to make sure they are correct.
+
+- 1 point: Correct values, sigfigs, work shown
+- 0.5 points: Correct value, wrong sigfigs or no work shown
+- 0 points: Incorrect value
+
+---
 3. Do you think your experimental values agrees with the theoretical value?
   - If "yes," explain what about your values leads you to believe this.
   - If "no," explain what you think may have caused the disagreement.
+---
+
+Use your best judgement on their explanation.
+
+- 0.5 point: Perfect
+- 0.25 points: On the right track
+- 0 points: totally wrong
+
+---
 ::::::
 
 
 ::::::Exercise (force-analyze|2 Points)
 For this exercise, look at the data you collected in #Activity-airtrack-height and answer the questions.
 1. Does changing the force seem to change the acceleration? Should it? ;;;Defend your answer.;;;
+---
+Changing the force should change the acceleration. They should explain whether or not their data shows this. Their credit depends on their response and not what their data shows
+
+- 0.5 points: Identifies force should change the acceleration. Accurately assesses if their data supports this or not based on if the values seem independent
+- 0.25 points:  
+    - Identifies changing the force should change the acceleration. Does not accurately assess if their data supports this or not based on if the values seem independent.
+    - Incorrectly believes force should not change acceleration. Accurately assesses independence in their data anyway
+- 0 points. Incorrectly assesses both, or no answer
+
+---
 2. Use your equation in [](#Exercise-acc-cal) to find the theoretical values of the acceleration in each trial this experiment. If they are all the same, you may say that.
+---
+Plug in the values to make sure they are correct.
+
+- 1 point: Correct values, sigfigs, work shown
+- 0.5 points: Correct value, wrong sigfigs or no work shown
+- 0 points: Incorrect value
+
+---
 3. Do you think your experimental values agrees with the theoretical value(s)?
   - If "yes," explain what about your values leads you to believe this.
   - If "no," explain what you think may have caused the disagreement.
+---
+
+Use your best judgement on their explanation.
+
+- 0.5 point: Perfect
+- 0.25 points: On the right track
+- 0 points: totally wrong
+
+---
 ::::::
 
 
 :::Exercise (plot1|1 Point)
 1. Using the data from #Activity-airtrack-mass, plot **Force vs. Mass.** Include the plot in this exercise, and make sure it has all of the qualities of a Good Plot.
+---
+- 0.5 Points for a good plot
+- 0.25 points if missing major features
+- 0 points missing
+---
 2. Does the plot appear to be linear? 
+---
+- 0.25 points correct
+- 0 points wrong
+---
 3. How does the force depend on mass? It might be helpful to calculate the slope and compare it to your theoretical acceleration.
+
+---
+- 0.25 points correct assesment or good attempt
+- 0 points wrong
+---
 :::
 
 
 :::Exercise (plot2|1 Point)
 1. Using the data from #Activity-airtrack-height, make two plots  of **Force vs Acceleration.** Include the plots in this exercise, and make sure they has all of the qualities of a Good Plot
+---
+- 0.5 Points for a good plot
+- 0.25 points if missing major features
+- 0 points missing
+---
 2. Does the plot look linear? How does force depend on acceleration? 
+---
+- 0.25 points correct
+- 0 points wrong
+---
 3. Determine the slope for each graph and compare it to the mass used for each plot.
+---
+- 0.25 points correct slope and does comparison
+- 0 points wrong or incomplete
+---
 :::
 
 
 :::Exercise (|1 Point)
 Using your answers from [](#Exercise-plot1) and  [](#Exercise-plot2) write an equation which relates force to both
 mass and acceleration.
+
+---
+This should obviously be  $F=ma$. We really would like students to use their data here
+
+- 1 Point correct equation and well supported by data
+- 0.75 Points correct equation, tries to support with data but does so incorrectly
+- 0.5 Points correct equation but does not support with data
+- 0 Points totally wrong or missing
+
+---
 :::
 
 
 :::Exercise (|2 Points)
 Write a brief statement (1-2 paragraphs) summarizing the main points of this lab. Address how you determined how force depends on mass and acceleration, and why you think your experiment resulted in useful data (as opposed to messy data with confounding factors).
+
+---
+Use your judgement
+
+---
 :::
 
 :::Summary
