@@ -31,9 +31,9 @@ You will be using the model provided below and see if you can detect a differenc
 
 In the last lab we introduced the simple pendulum. As a reminder, this is what we said.
 
-The simple pendulum is called such because the most simplified model of pendulum that we have. It assumes that we are using a point mass, $m$, at the end of a string of length, $L$, that has negligible mass itself. Notice the simple pendulum does not attempt to exactly replicate what is happening in the real world. Instead it makes some assumptions and ignores some real life features.
+The simple pendulum is called such because it is the most simplified model of pendulum that we have. It assumes that we are using a point mass, $m$, at the end of a string of length, $L$, that has negligible mass itself. Notice that the simple pendulum does not attempt to exactly replicate what is happening in the real world. Instead, it makes some assumptions and ignores some real life features.
 
-This is a typical thing in physics. Often times the real world gets extremely complicated and it becomes easier to make assumptions and ignore things. However, we must be thoughtful about what we choose to assume and ignore. We want to choose things that will have little affect what we are trying to measure. Sometimes we do this well, and sometimes we are too loose with our assumptions. In the latter case we must then reevaluate our simplified model and add back things we may have thought we could ignore, or relax some of our assumptions.
+This is a typical thing in physics. Oftentimes the real world gets extremely complicated and it becomes easier to make assumptions and ignore things. However, we must be thoughtful about what we choose to assume and ignore. We want to choose things that will have little affect what we are trying to measure. Sometimes we do this well, and sometimes we are too loose with our assumptions. In the latter case we must then reevaluate our simplified model and add back things we may have thought we could ignore, or relax some of our assumptions.
 
 The thing that we will be focusing on is the period, $T$. For the simple pendulum we have three parameters available to us. The mass of the bob, $m$, the length of the pendulum, $L$, and the initial angle, $\theta_0$. Each of these is depicted in [](#Figure-pendulumDiagram) We will be adjusting these three parameters to see what affects they have on the period.
 
@@ -165,7 +165,7 @@ Write a procedure that you will use to measure the period at both 10° and 25°.
 ::::::Activity
 In class, your TA led a discussion about the interpretation of $t'$ and how you might go about making some claims based on the value of $t'$. Instead, we will replicate some of that discussion here with a few illustrative examples. You are also encouraged to read the reference material for further details of the statistics.
 
-First, we will look at some histograms. A histogram is a graph which shows how often certain values were measured in repeated trials within an experiment. After conducting many trials, the histogram plot displays how many of the measured values fell within some range, called a bin. By looking at all the bins the data fell into, you can visualize the relative probabilities of a measurement.
+First, we will look at some histograms. A histogram is a graph which shows how often certain values were measured in repeated trials within an experiment. After conducting many trials, the histogram displays how many of the measured values fell within some range, called a bin. By looking at all the bins the data fell into, you can visualize the relative probabilities of a measurement.
 
 In [](#Figure-repeat_exp)(a), we have two histograms with data from two experiments A and B. In this particular example, the experiments measure a time in seconds. In this case, experiments A and B were performed under identical circumstances (that is, the same experiment was repeated). The differences in the histograms reflect the random error associated with any experiment. In [](#Figure-repeat_exp)(b), we have highlighted the means for Experiments A and B as well and shading representing the standard error of each mean. As you can see, the means are similar and the bounds of the error are largely overlapping.
 
@@ -189,6 +189,50 @@ Finally, although the histograms in [](#Figure-repeat_exp) are just one example 
 :::Exercise (|3 Points)
 If you perform the same experiment twice and collect statistics on both, what do you expect the value of $|t'|$ to be?
 :::
+
+For the next exercises in this activity, we should think carefully about $t'$ statistic is measuring. It is the difference between the two measurements divided by the square root of the sum of their errors squared. One way to gain intuition about $t'$ is to think about its size in various circumstances. As a hint, you can think about (you do not need to explicitly answer them) some of the following questions. What does it mean when $|t'|$ is small? The numerator must be smaller than the denominator. So, what can you say about the relative size of the difference in the measurements compared to how well we can resolve that difference? What can you say when $|t'|$ is large?
+
+Below, we have some illustrative histograms for comparisons between different (non-repeated) experiments. In these cases, we do not know if our different experimental conditions will give us different values for our measurement. For each experiment, we have a short explanation of the histograms. When looking at the histograms, it may be helpful to think about the following discussion questions (you do not need to explicitly answer them) to guide your thinking for the exercises.
+
+- Do you think we can convincingly argue that the means of the two experiments are different?
+- Can we convincingly argue they are the same?
+- Do you think $|t'|$ will be large or small?
+
+In [](#Figure-spread), you can see that the histograms overlap a little bit, but that the means are far more separated than the errors on them.  
+
+In [](#Figure-ambiguious), you can see that the histograms overlap significantly. The means are separated, but not by much more than their errors.
+
+In [](#Figure-one_unknown), you can see that the one of the histograms is significantly more spread out than the other, indicating that experiment had more random error than the other. However, the means are fairly close and there is some overlap in the error on the two means.
+
+:::::::::Figure (spread|s|Row)
+::::::row
+:::col 
+![](imgs/Absent-Lab2/spread.png "(a) Histograms for two experiments, Experiments A and B, measuring a mass in grams. These experiments were **not** conducted under identical circumstances")
+:::
+:::col 
+![](imgs/Absent-Lab2/spread_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 31")
+:::
+::::::
+
+:::::::::Figure (ambiguous|s|Row)
+::::::row
+:::col 
+![](imgs/Absent-Lab2/ambiguous.png "(a) Histograms for two experiments, Experiments A and B, measuring a velocity in meters per second. These experiments were **not** conducted under identical circumstances")
+:::
+:::col 
+![](imgs/Absent-Lab2/ambiguous_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 1.58")
+:::
+::::::
+
+:::::::::Figure (one_unknown|s|Row)
+::::::row
+:::col 
+![](imgs/Absent-Lab2/one_unknown.png "(a) Histograms for two experiments, Experiments A and B, measuring a distance in centimeters. These experiments were **not** conducted under identical circumstances")
+:::
+:::col 
+![](imgs/Absent-Lab2/one_unknown_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 0.37")
+:::
+::::::
 
 :::Exercise (|a. 3 Points / b. 4 Points)
 1. What conclusions can be drawn if $|t'| \leq 1$?
