@@ -75,12 +75,12 @@ To understand how curved interfaces are different from plane interfaces, using o
 
 ::::::Exercise (curve|1 Point)
 
-[](#Figure-hex) gives the ideal ray-diagram of a hexagonal lens. Parallel rays hit the left side of the lens and refract through it. Answer the following questions using what you know about plane refraction.
+[](#Figure-hex) gives the ideal ray-diagram of a hexagonal lens. Parallel rays hit the left side of the lens and refract through it. Answer the following questions using what you know about plane refraction. You will likely need a protractor fot his exercise — if you don't have one, you can print or trace out an [image of one](https://www.google.com/search?q=protractor+image&tbm=isch&chips=q:protractor+image,g_1:printable:Go2CJwAhfTI%3D&hl=en&sa=X&ved=2ahUKEwiT_eyl0MfzAhV8wJcIHcukB0sQ4lYoAHoECAEQEQ&biw=1905&bih=931).
 
 
-1. What is the incident angle, $\theta_1$, of the rays hitting the angled faces? ;;;You will need to use geometry to find this. Recall that the interior angles of a hexagon are 120°;;;
+1. What is the incident angle, $\theta_1$, of the rays hitting the angled faces? ;;;You will need to use geometry to find this. Recall that the interior angles of a hexagon are 120°;;; ;;;If you are struggling, try measuring the angle using a protractor (it should be a *nice* angle) and working backwards;;;
 2. Using what you solved for $\theta_1$, the index of refraction of air, $n_{\text{ air}}=1.0$, and the index of refraction of this glass,  $n_{\text{ glass}}=1.4$, solve for the refracted angle $\theta_2$.
-3. Sketch the behavior of the three light rays shown in [](#Figure-hex) after they enter the glass. You can do this on a digital drawing program (e.g. Paint or OneNote), or you can do it on paper and take a picture to attach to your report.
+3. Sketch the behavior of the three light rays shown in [](#Figure-hex) after they enter the glass. You can do this on a digital drawing program (e.g. Paint or OneNote), or you can do it on paper and take a picture to attach to your report. ;;;If completing by paper and pencil, you might want to gently trace this diagram by holding the sheet of paper over a screen;;;
 4. Do the rays converge (get closer) or diverge (spread out) inside the hexagon?
 ::::::
 
@@ -103,13 +103,13 @@ Instead of a hexagon, imagine a cylindrical lens as in the side view given in []
 
 In the previous section, we introduced the concept of a lens. We learned that lenses are objects that cause light to converge or diverge through simple refraction. What we haven't discussed yet are the consequences of convergence and divergence. Let's take a look at a thin hexagonal lens, similar to [](#Exercise-curve), and see what happens to the light rays after entering and exiting the lens.
 
-Imagine we send a ray of light through each of the faces. Using Snell's law, we find that the angle of refraction causes the rays to converge inside the lens. Eventually, the rays will reach the other side of the lens and refract again through the glass-air boundary. Since the index of refraction of the glass is higher than that of the air, we will find that the resulting rays will experience further convergence upon exiting. The result of converged rays is that they will meet at some point in space. We call where they meet the **focal point.**
+Imagine we send a ray of light through each of the faces, as illustrated in [](#Figure-focal). Using Snell's law, we find that the angle of refraction causes the rays to converge inside the lens. Eventually, the rays will reach the other side of the lens and refract again through the glass-air boundary. Since the index of refraction of the glass is higher than that of the air, we will find that the resulting rays will experience further convergence upon exiting. The result of converged rays is that they will meet at some point in space. We call where they meet the **focal point.**
 
 :::Definition (Focal Point|6 C)
 The **focal point** of an ideal lens is the point at which rays travelling *parallel to the optical axis* meet after reflection or refraction, or the point from which diverging rays or waves appear to proceed.
 :::
 
-Ideal convex lenses, which are smoothly curved, are constructed to have a special property: any light parallel to the optical axis that enters the lens eventually goes though the lenses focal point. This property is exceptionally useful for working out how lenses divert light rays, since it gives us two important pieces of information:
+Ideal convex lenses, which are smoothly curved, are constructed to have a special property: any light parallel to the optical axis that enters the lens eventually goes though the lenses focal point. This is illustrated in [](#Figure-focal). This property is exceptionally useful for working out how lenses divert light rays, since it gives us two important pieces of information:
 
 1. All light that enters parallel to the optical axis must pass through the focal point
 2. All light that passes through the focal point  and enters the lens, must emerge parallel to the optical axis: lenses are a two-way street. 
@@ -117,7 +117,7 @@ Ideal convex lenses, which are smoothly curved, are constructed to have a specia
 Focal points are so important to the function of lenses, that we even characterize lenses using them. All lenses are identified by their **focal length**, or the distance from the lens's center to their focal point. Focal lengths can be positive for converging lenses and negative for diverging lenses.
 
 ::::::Exercise (focal|1 Point)
-1. Would you expect a convex lens with a higher **curvature** (more round) to have a longer or shorter focal length? Explain your reasoning, citing [](#Exercise-curve-2) or a sketch if needed.
+1. Would you expect a convex lens with a higher **curvature** (more round vs flat) to have a longer or shorter focal length? Explain your reasoning, citing [](#Exercise-curve-2) or a sketch if needed.
 2. Would you expect a convex lens with a higher **index of refraction** to have a longer or shorter focal length? Explain your reasoning, citing [](#Exercise-curve-2) or a sketch if needed. 
 
 ::::::
@@ -335,7 +335,7 @@ In this procedure you will use the optical bench. It has a multi-purpose light s
 
 1. Adjust the grating on the ray box to provide 5 parallel rays.
 2. Place the thin convex lens perpendicular to the rays, so that the rays are running parallel to the optical axis. Note that it is necessary to place the lens on the front half of the table to observe the intended phenomenon.
-3. Dim the class lights and observe the refracted rays.
+3. Let your TA know that you are ready for them to dim the class lights and observe the refracted rays.
 
 :::Exercise (|1 Point)
 What is the focal length of the lens?
@@ -350,8 +350,7 @@ Measured from the flat surface, at what distance do the beams converge?
 
 :::Exercise (|1 Point)
 Does the block lens have symmetrical behavior? That is, do the beams converge at the same
-distance from the flat surface? Why might this be the case? ;;;Hint: look at the flat boundary,
-comment on the refraction which occurs there.;;;
+distance from the flat surface? Why might this be the case? ;;;Hint: look at the flat boundary, comment on the refraction which occurs there.;;;
 :::
 
 6. Reverse the orientation of the block such that the flat surface is towards the light source
@@ -365,7 +364,7 @@ Can you measure the focal length of the lens? If you were to trace the refracted
 
 
 
-## Telescopes and Microscopes
+<!-- ## Telescopes and Microscopes
 :::Materials (100 mm lens|200 mm lens|Optical Bench|Ray Table Base)
 :::
 We will now use everything we've learned about lenses to make some functional equipment. 
@@ -425,14 +424,17 @@ objective and eyepiece.
 :::Exercise (|1 Point)
 What do you observe
 :::
-::::::
+:::::: -->
 
 
 # Conclusion
 
-:::Exercise (|1 Point)
-Write a brief conclusion summarizing the important points of this lab.
-:::  
+::::::Exercise (|3 Point)
+Write a brief (2-3 paragraph) conclusion summarizing the important points of this lab. Correctly use the following vocabulary in your summary:
+:::center
+Convex, Concave, Principal Axis, Focal Point, Ray Tracing, Real Image, Virtual Image.
+:::
+::::::  
 
 :::Summary
 Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.

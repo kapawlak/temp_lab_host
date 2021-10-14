@@ -126,7 +126,7 @@ Please look over [](#Activity-airtrack-mass) at this point to make sure that you
 | ...         | ...          | ...             | ...         | ...                 |
 | ...         | ...          | ...             | ...         | ...                 |
 :::
-3. Using the equation you derived in [](#Exercise-acc-equation), set up the spreadsheet so that the **Acceleration** is automatically calculated when you enter the "Distance" and "Time"  values into column and the "Height" and "Distance between legs (D)" values into the cell. ;;;Hint: Check your formula against this example:  ;;;
+3. Using the equation you derived in [](#Exercise-acc-equation), set up the spreadsheet so that the **Acceleration** is automatically calculated when you enter the "Distance" and "Time"  values into column and the "Height" and "Distance between legs (D)" values into the cell. ;;;Hint: Check your formula against example values if you'd like.;;;
 4. Link this table into your report under [](#Exercise-mass).
 
 ::::::
