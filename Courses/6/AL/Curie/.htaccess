@@ -1,5 +1,0 @@
-AuthUserFile /home/www/ILG/6/AL/Curie/.htpasswd
-AuthType Basic
-AuthBasicProvider file
-AuthName "Physics Directory"
-Require valid-user
