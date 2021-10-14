@@ -814,6 +814,10 @@ md.use(container, 'Summary', {
   render: function (tokens, idx) {
     let args;
     if (tokens[idx].nesting === 1) {
+
+
+
+
       args = strip(tokens[idx].info.trim().match(/^Summary(.*)$/)[1])
       
       // opening tag
@@ -821,10 +825,12 @@ md.use(container, 'Summary', {
       <div class="Summary card col-lg-8 mx-auto ">
         <div class="card-header text-center display-6 ">
           Summary of the Lab
-        </div>`
+        </div>
+        <div class='row g-0' >`
       
-      string+=`
-      <div class='row g-0' >
+      if(Counter["Activity"]){
+        string+=`
+      
         <div class='col-3 text-center badge-Activity container fs-3 text-white'>
           <span class='badge badge-Activity fs-1 text-white'> ${Counter["Activity"].length} </span> <br> Activities
           </div> `    
@@ -841,15 +847,15 @@ md.use(container, 'Summary', {
               aria-pressed="false" autocomplete="off">
               Activity ${e[0]}
             </a>
-          </li>`
-        })
+          </li>
+          </ul>
+        </div>
+        </div>`
+        })}
           
 
         string+=`
-        </ul>
-        </div>
-      
-        </div>
+        
     
         <div class='row g-0'>
         <div class='col-3 text-center badge-Exercise container fs-3 text-white'>
@@ -881,7 +887,7 @@ md.use(container, 'Summary', {
       return string
       ;
     } else {
-      return ' </div></div>'
+      return ' </div></div></div>'
     }
   }
 });
