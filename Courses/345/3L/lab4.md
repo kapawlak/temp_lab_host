@@ -17,7 +17,7 @@ $$
 :::
 
 :::Figure (travelingPulse|l|R)
-![Traveling Pulse on a String](imgs/Lab4/TravelingPulse.jpg)
+![Traveling Pulse on a String](imgs/Lab4/TravelingPulse.jpg "Pulse travelling down a string.")
 :::
 
 As a reminder, when you send a pulse down a string, the speed at which the pulse travels depends on the tension in the string, $T$, and the linear density of the string, $\mu$. Specifically the speed at which a wave travels on a string is given by [](#Equation-pulseVelocity). 
@@ -30,7 +30,7 @@ v = f \lambda
 $$
 :::
 
-Finally, in order to produce a standing wave we must meet the boundary conditions that will form a wave. As you will see our apparatus is one that has a closed boundary at each end. That is to say that the string is fixed on both ends.
+Finally, in order to produce a standing wave, we must meet the boundary conditions that will form a wave. As you will see our apparatus is one that has a closed boundary at each end. That is to say that the string is fixed on both ends.
 
 Recall that the boundary conditions are that there must an integer multiple of half wavelengths along the length, $L$, of the string. [](#Equation-boundaryConditions) expresses this mathematically.
 
@@ -40,14 +40,14 @@ L = n\frac{\lambda}{2}
 $$
 :::
 
-With these things in mind let's discuss the apparatus. 
+With these things in mind, let's discuss the apparatus. 
 
 ## Apparatus
 
 You will need a good understanding of the apparatus in order to design your experiment. We will go through the tools your have to make your measurements and adjust the parameters.
 
 :::Figure (fullApparatus)
-![Image of Waves on a string apparatus and equipment.](imgs/Lab4/Apparatus.JPG)
+![Image of Waves on a string apparatus and equipment.](imgs/Lab4/Apparatus.JPG "Full setup")
 :::
 
 :::Figure (equipment|m|R)
@@ -58,7 +58,7 @@ You will need a good understanding of the apparatus in order to design your expe
 
 The other end of the string goes over a pulley where we hang a known mass, $m$. This mass allows us to set the tension in the string, $T$. The masses that can be added vary from about $5\text{ g}$ to around $400\text{ g}$. Changing the spacing between between the end of the string vibrator to the pulley allows you to adjust the length, $L$.
 
-Finally there is a set of calipers that can be used to measure the length of the string, $L$, or the wavelength of the standing wave, $\lambda$.
+Finally, there is a set of calipers that can be used to measure the length of the string, $L$, or the wavelength of the standing wave, $\lambda$.
 
 The string that we will be using has a linear density about $2.66\times 10^{-4}\text{ kg}\cdot\text{m}^{-1}$.
 
@@ -105,26 +105,27 @@ The summary of the parameters in the setup is in [](#Figure-parameterSummary)
 
 The independent parameters are the ones that you have direct control over. You can set $f$ with the function generator, you can set $m$ by changing the mass hanging off the end, and you can set $L$ by changing the spacing between the string vibrator and the pulley.
 
-The dependent parameters are the ones that depend on the other parameters. You can't push a button or turn a knob to directly set $\lambda$ or $n$. When you set the independent parameters, $\lambda$ and $n$ will also be set.
+The dependent parameters are the ones that depend on the other parameters. You can't push a button or turn a knob to directly set $\lambda$ or $n$. When you set the independent parameters, the dependent parameters, $\lambda$ and $n$, will be determined by $f$, $L$, and $m$.
 
 
 
 ### Pre-lab
 :::Prelab
-**Before coming to lab** you will need to complete [](#Activity-experimentEquations) and the exercise inside of it, as well as [](#Exercise-experimentChoice), [](#Exercise-linearize),  [](#Exercise-uncertainty), and [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
+**Before coming to lab** you will need to complete [](#Activity-experimentEquations) (and Exercises 1, 2, 3, & 4
+ inside of it), as well as [](#Exercise-experimentChoice), [](#Exercise-linearize),  [](#Exercise-uncertainty), and [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
 
 :::
 
 ## Designing the Experiment
 
-The point of this lab is use the waves on a string apparatus to measure the acceleration due to gravity $g$. In this section you will design an experiment that you will perform in lab.
+The point of this lab is to use the waves on a string apparatus to measure $g$, the acceleration due to gravity. In this section you will design an experiment that you will perform in lab.
 
-We will be using the plotting technique again. That is to say, we will plot plot one parameter against another, add a best fit line, and from the slope or intercept parameter get $g$. 
+We will be using the plotting technique again. We will plot one parameter against another, add a best fit line, and get $g$ from the slope or intercept parameter. 
 
 ::::::Activity (experimentEquations)
 In this activity we will create some equations that you can use to set up your experiment. You will want to write an equation that will have one of the *dependent* parameters equal to an expression of constants and *independent* parameters. We will do this both $\lambda$ and $n$.
 
-First let's determine the tension in the string. Note that a mass is in static equilibrium.
+First, let's determine the tension in the string. Note that a mass is in static equilibrium.
 
 :::Exercise (replaceTension)
 Use the fact that the mass is in static equilibrium.
@@ -138,10 +139,10 @@ Use the fact that the mass is in static equilibrium.
 Use your results from [](#Exercise-replaceTension) and [](#Equation-waveVelocity) and solve for the *dependent* parameter, ($\lambda$). Show your work.
 :::
 
-Now imagine that you are performing an experiment. You would want to pick **one** of the *independent* parameters to vary while keeping the other independent parameters constant. Then you would vary the independent parameter and measure the dependent parameter.
+Now imagine that you are performing an experiment. You would want to pick **one** of the *independent* parameters to vary while keeping the other independent parameters constant. Then, you would vary the independent parameter and measure the dependent parameter.
 
 :::Exercise 
-What two experiments could perform using the equation you came up with in [](#Exercise-experimentEq1)? i.e. What would you keep constant, what would you vary, and what would you measure?
+What two experiments could perform using the equation you came up with in [](#Exercise-experimentEq1)? i.e., What would you keep constant, what would you vary, and what would you measure?
 :::
 
 Now let's use the other dependent parameter, $n$.
@@ -156,15 +157,16 @@ Now let's use the other dependent parameter, $n$.
 
 ## Procedure
 
-For writing the procedure you will have to pick one the experiments you have designed in [](#Activity-experimentalEquations).
+For writing the procedure you will have to pick one the experiments you have designed in [](#Activity-experimentEquations).
 
 :::Exercise (experimentChoice)
 Pick one of the experiments designed above.
-1. What is the independent parameter?
-2. What is the dependent parameter?
+1. Why did you pick this experiment?
+2. What is the independent parameter?
+3. What is the dependent parameter?
 :::
 
-You will be performing a line of best fit during your experiment. This may require you plot something other than just your independent parameter on your x-axis and your dependent parameter on your y-axis. You may need to perform calculation with your parameter in order to generate a linear equation.
+You will be performing a line of best fit during your experiment. This may require you plotting something other than just your independent parameter on your x-axis and your dependent parameter on your y-axis. You may need to perform a calculation with your parameter in order to generate a linear equation.
 
 :::Exercise (linearize)
 1. What value will you plot on your x-axis?
@@ -179,16 +181,16 @@ What is the equation for the uncertainty in $g$?
 
 
 :::Exercise (procedure| 10 Points)
-Using the experiment you've outlined write procedure for measuring $g$
+Using the experiment you've outlined, write a procedure for measuring $g$
 :::
 
 
 ## Uncertainty from Scales
 This far into the course we have only discussed how to determine the uncertainty in by using statistics. While this is typically one of the best options, sometimes we are able to make a single measurement using a graduated or digital scale and estimate the uncertainty from the resolution.
 
-For instance, when using graduated scale, like that of ruler, we say the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has $1 \text{ mm}$ divisions, we would say that our uncertainty is $\pm 0.5 \text{ mm}$. 
+For instance, when using graduated scale, like that of a ruler, we say the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has $1 \text{ mm}$ divisions, we would say that our uncertainty is $\pm 0.5 \text{ mm}$. 
 
-For a digital display, we say the uncertainty is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52 \text{ g}$, then we would say our uncertainty is $\pm 0.5 \text{ g}$. Thus we would report the stones mass as $52.0 \pm 0.5 \text{ g}$
+For a digital display, we say the uncertainty is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52 \text{ g}$, then we would say our uncertainty is $\pm 0.5 \text{ g}$. Thus, we would report the stone's mass as $52.0 \pm 0.5 \text{ g}$
 
 
 # The Experiment
@@ -214,7 +216,7 @@ What is the value and uncertainty of each of the independent parameters you kept
 :::
 
 :::Exercise (|5 Points)
-From your best fit line determine the value of the $g$. Show your work.
+From your best fit line determine the value of $g$. Show your work.
 :::
 
 :::Exercise (|5 Points)
