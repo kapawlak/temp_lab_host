@@ -127,7 +127,7 @@ In this activity we will create some equations that you can use to set up your e
 
 First, let's determine the tension in the string. Note that a mass is in static equilibrium.
 
-:::Exercise (replaceTension)
+:::Exercise (replaceTension| 2 Points)
 Use the fact that the mass is in static equilibrium.
 
 1. What is the equation for the tension in the string?
@@ -135,19 +135,19 @@ Use the fact that the mass is in static equilibrium.
 2. Rewrite [](#Equation-pulseVelocity) replacing the tension with the equation you determined in part a.
 :::
 
-:::Exercise (experimentEq1)
+:::Exercise (experimentEq1| 2 Points)
 Use your results from [](#Exercise-replaceTension) and [](#Equation-waveVelocity) and solve for the *dependent* parameter, ($\lambda$). Show your work.
 :::
 
 Now imagine that you are performing an experiment. You would want to pick **one** of the *independent* parameters to vary while keeping the other independent parameters constant. Then, you would vary the independent parameter and measure the dependent parameter.
 
-:::Exercise 
+:::Exercise (| 4 Points)
 What two experiments could perform using the equation you came up with in [](#Exercise-experimentEq1)? i.e., What would you keep constant, what would you vary, and what would you measure?
 :::
 
 Now let's use the other dependent parameter, $n$.
 
-:::Exercise
+:::Exercise (| 6 Points)
 1. Replace the dependent parameter, $\lambda$, from [](#Exercise-experimentEq1) using [](#Equation-boundaryConditions) and solve for the dependent parameter, $n$. Show your work.
 
 2. What three experiments could perform using the equation you came up with in part a? i.e. What would you keep constant, what would you vary, and what would you measure? 
@@ -159,7 +159,7 @@ Now let's use the other dependent parameter, $n$.
 
 For writing the procedure you will have to pick one the experiments you have designed in [](#Activity-experimentEquations).
 
-:::Exercise (experimentChoice)
+:::Exercise (experimentChoice| 3 Points)
 Pick one of the experiments designed above.
 1. Why did you pick this experiment?
 2. What is the independent parameter?
@@ -168,14 +168,14 @@ Pick one of the experiments designed above.
 
 You will be performing a line of best fit during your experiment. This may require you plotting something other than just your independent parameter on your x-axis and your dependent parameter on your y-axis. You may need to perform a calculation with your parameter in order to generate a linear equation.
 
-:::Exercise (linearize)
+:::Exercise (linearize| 8 Points)
 1. What value will you plot on your x-axis?
 2. What value will you plot on your y-axis?
 3. If you perform a line of best fit, what will be your slope?
 4. How will get $g$ from your line of best fit? What's the equation for $g$?
 :::
 
-:::Exercise (uncertainty)
+:::Exercise (uncertainty| 3 Points)
 What is the equation for the uncertainty in $g$?
 :::
 
@@ -198,7 +198,7 @@ For a digital display, we say the uncertainty is half of the last digit displaye
 1. Follow your procedure and perform your experiment.
 2. Do the following exercises.
 
-:::Exercise (|7 Points)
+:::Exercise (|12 Points)
 Record notes on what you did, observed, or wondered while performing your experiment in this exercise.
 :::
 
@@ -211,22 +211,22 @@ Include all of the data tables you made here. Make sure each table is easily ide
 Make a plot of your data and add a best fit line. 
 :::
 
-:::Exercise
+:::Exercise (|4 Points)
 What is the value and uncertainty of each of the independent parameters you kept constant?
 :::
 
-:::Exercise (|5 Points)
+:::Exercise (|10 Points)
 From your best fit line determine the value of $g$. Show your work.
 :::
 
-:::Exercise (|5 Points)
+:::Exercise (|8 Points)
 What is the uncertainty in $g$?
 :::
 ::::::
 
 # Conclusion
 
-::::::Exercise (|11 Points)
+::::::Exercise (|15 Points)
 1. Based on your results, do you think your experiment is accurately measuring $g$? Why or why not?
 2. How would you change the experiment to improve your results?
 ::::::
