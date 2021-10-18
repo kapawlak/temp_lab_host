@@ -182,7 +182,7 @@ Below, in [](#Activity-airtrack-mass), you will investigate how acceleration cor
 1. Measure the height of a block ($b$) and the distance between the airtrack legs ($D$) to record in your tables. Turn on the air track. Set the pump to Level 3.
 2. You should now level the airtrack so as to not impart additional momentum into the glider. The best way to level the
 track is to use the glider. Adjust the two leveling screws symmetrically to get the glider to stay in the center of the track.
-3. Record the mass of the glider, including the glider-hook, using the balance.
+3. Record the mass of the glider, including the glider-hook, <strike>using the balance</strike>. **Edit: your TA will do this at the begining of class**
 
 4. Place one of the riser blocks under the single centered leg of the air track.
 5. Use the spring-driven force meter to measure the force on your glider  when it is on the inclined air track, as demonstrated in [](#Figure-force-measure).

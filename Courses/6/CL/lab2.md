@@ -353,7 +353,7 @@ Does the block lens have symmetrical behavior? That is, do the beams converge at
 distance from the flat surface? Why might this be the case? ;;;Hint: look at the flat boundary, comment on the refraction which occurs there.;;;
 :::
 
-6. Reverse the orientation of the block such that the flat surface is towards the light source
+6. Place the concave lens on the platform. Again observe the refracted beams.
 :::Exercise (|1 Point)
 Can you measure the focal length of the lens? If you were to trace the refracted rays backwards
 (on the same side as the incident beams) would they converge? 

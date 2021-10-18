@@ -24,7 +24,7 @@ function processstyles(){
 
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    console.log(popoverTriggerEl)
+  
     return new bootstrap.Popover(popoverTriggerEl, {
       trigger: 'focus'
     }) })
@@ -63,7 +63,7 @@ function replace_tags() {
     var links = document.querySelectorAll('#maincontent a')
     for (i = 0; i < links.length; i++) {
       if( links[i].innerHTML ==''){
-      console.log(links[i])
+
       links[i].innerHTML ='Invalid Link'
       var link_id = links[i].getAttribute("href").replace('#','');
 
@@ -90,7 +90,7 @@ function replace_tags() {
 
       quizzes[i].onclick= function(){
         var result=katex_map.get(this.id)
-        console.log(result, result.length)
+
         document.getElementById(this.dataset.modify).innerHTML=result
          renderMathInElement( document.getElementById(this.dataset.modify), {
           delimiters: [
@@ -123,7 +123,7 @@ function scrolltohash(){
 
 
 function quick_math(t){
-  console.log(t)
+
   renderMathInElement(t, {
     delimiters: [
       { left: "$$", right: "$$", display: true },

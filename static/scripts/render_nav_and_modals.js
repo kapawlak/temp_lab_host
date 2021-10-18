@@ -2,7 +2,6 @@ let sitedata
 
 ///Start by just printing out json file.
 function init_nav(linkfile) {
-  console.log("init nav called")
   let lab_list = document.getElementById('lab_list')
   let TA_list = document.getElementById('TA_list')
   fetch("config.json?v=" + Math.floor(Math.random() * 100000))

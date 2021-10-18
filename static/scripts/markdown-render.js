@@ -1,6 +1,6 @@
 //Load markdown it and container plugin
 var md = window.markdownit()
-md.set({ html: true })
+md.set({ html: true, javascript: true })
 var container = window.markdownitContainer;
 
 //Rendererfunc
@@ -12,7 +12,7 @@ function doRendering(md_text) {
 
 // Parse Markdown
 function includeHTML(filenum = linkfile) {
-    console.log("include html called")
+
    
     var z, xhttp;
     var rand = Math.floor(Math.random() * 100000) //gennerate a random number to append to prevent cache of markdown file

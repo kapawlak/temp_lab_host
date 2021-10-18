@@ -848,14 +848,17 @@ md.use(container, 'Summary', {
               Activity ${e[0]}
             </a>
           </li>
-          </ul>
-        </div>
-        </div>`
-        })}
+          `
+        })
+      
+      string+=` </ul>
+      </div>
+      </div>`
+      }
           
 
         string+=`
-        
+       
     
         <div class='row g-0'>
         <div class='col-3 text-center badge-Exercise container fs-3 text-white'>
