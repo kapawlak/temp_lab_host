@@ -11,7 +11,7 @@ To understand the utility of an oscilloscope consider a simple battery. It provi
 
 Your headphones, on the other hand, are driven by a time-varying voltage signal. If we used a voltmeter to measure this signal we would only be able to see the time-average voltage. This would provide very limited information about the signal. If instead we used the oscilloscope to look at the signal we could get more information about the signal. We could see what frequencies are being played, the peak to peak voltage, the amount of noise in the signal, etc.
 
-:::Exercise
+:::Exercise (dcVac)
 1. You'd like to know the voltage of a DC source. Do you use a voltmeter or oscilloscope?
 
 2. You'd like to measure the frequency of a standard wall socket. Do you use a voltmeter or oscilloscope?
@@ -87,224 +87,295 @@ These buttons bring up new menus on the right side of the screen that can be int
 This is useful for when you are trying to measure a peak-to-peak voltage, amplitude, period, or frequency of a signal.
 
 
+## Pre-Lab
+:::Prelab
+**Before coming to lab** you will need to complete [](#Exercise-dcVac), and [](#Activity-plots) and Exercises 2-6 inside of it. This will be checked off by your TA when you get to class. 
 
-
-
-
-
-## Waves on a String Model
-
-::: Equation (pulseVelocity)
-$$
-v = \sqrt{\frac{T}{\mu}}
-$$
 :::
 
-:::Figure (travelingPulse|l|R)
-![Traveling Pulse on a String](imgs/Lab4/TravelingPulse.jpg)
+
+::::::::::::Activity (plots)
+
+:::::::::Figure (blankPlots)
+::::::row
+:::col
+![10 V, 100 us](imgs/Lab5/10V100us.png)
+A
 :::
-
-As a reminder, when you send a pulse down a string, the speed at which the pulse travels depends on the tension in the string, $T$, and the linear density of the string, $\mu$. Specifically the speed at which a wave travels on a string is given by [](#Equation-pulseVelocity). 
-
-We also know that when we form a standing wave on a string that the speed of the wave can also be determined by the wavelength of the wave, $\lambda$, and the frequency of oscillation, $f$. This equivalent equation is given in [](#Equation-waveVelocity).
-
-:::Equation (waveVelocity)
-$$
-v = f \lambda
-$$
+:::col
+![5 V, 100 us](imgs/Lab5/5V100us.png)
+B
 :::
-
-Finally, in order to produce a standing wave we must meet the boundary conditions that will form a wave. As you will see our apparatus is one that has a closed boundary at each end. That is to say that the string is fixed on both ends.
-
-Recall that the boundary conditions are that there must an integer multiple of half wavelengths along the length, $L$, of the string. [](#Equation-boundaryConditions) expresses this mathematically.
-
-:::Equation (boundaryConditions)
-$$
-L = n\frac{\lambda}{2}
-$$
-:::
-
-With these things in mind let's discuss the apparatus. 
-
-## Apparatus
-
-You will need a good understanding of the apparatus in order to design your experiment. We will go through the tools your have to make your measurements and adjust the parameters.
-
-:::Figure (fullApparatus)
-![Image of Waves on a string apparatus and equipment.](imgs/Lab4/Apparatus.JPG)
-:::
-
-:::Figure (equipment|m|R)
-![Image of Waves on a string apparatus and equipment.](imgs/Lab4/WavesOnAStringEquipment.JPG "A) String Vibrator. B) Function Generator. C) Mass Kit. D) Calipers. E) Pulley. F) Hanging Mass")
-:::
-
-[](#Figure-fullApparatus) shows a picture of the full setup and [](#Figure-equipment) shows each of the components of the set up. The string is connected on one end to the string vibrator that will oscillate the string up and down at a frequency set by the function generator. The function generator sends an electrical signal that drives string vibrator at the frequency, $f$, you set.
-
-The other end of the string goes over a pulley where we hang a known mass, $m$. This mass allows us to set the tension in the string, $T$. The masses that can be added vary from about $5\text{ g}$ to around $400\text{ g}$. Changing the spacing between between the end of the string vibrator to the pulley allows you to adjust the length, $L$.
-
-Finally there is a set of calipers that can be used to measure the length of the string, $L$, or the wavelength of the standing wave, $\lambda$.
-
-The string that we will be using has a linear density about $2.66\times 10^{-4}\text{ kg}\cdot\text{m}^{-1}$.
-
-Watch the video below for more details about how you can control the experiment.
-
-
-The summary of the parameters in the setup is in [](#Figure-parameterSummary)
-
-::::::::::::Figure (parameterSummary)
-:::::::::row
-
-:::::: col
-:::Table (|Independent Parameters)
-| Name | Symbol |
-|------|--------|
-|Frequency | $f$ |
-|Mass | $m$ |
-|Length | $L$|
+:::col
+![1 V, 100 us](imgs/Lab5/1V100us.png)
+C
 :::
 ::::::
-
-:::::: col
-:::Table (|Dependent Parameters)
-
-| Name | Symbol |
-|------|--------|
-|Segments | $n$ |
-|Wavelength | $\lambda$ |
+---
+::::::row
+:::col
+![1 V, 500 us](imgs/Lab5/1V500us.png)
+D
+:::
+:::col
+![1 V, 1 ms](imgs/Lab5/1V1ms.png)
+E
+:::
+:::col
+![1 V, 10 ms](imgs/Lab5/1V10ms.png)
+F
 :::
 ::::::
 :::::::::
 
-:::::::::row
-:::::: col
-:::Table (|Constants)
+In this activity you will practice drawing the same sine wave that would be displayed on different time per division and volts per division settings on the oscilloscope. **Note:** the time per division is displayed at the center bottom of the screen and the volts per division is displayed on the bottom left of the screen.
 
-| Name | Symbol |
-|------|--------|
-|Linear Density | $\mu$ |
+:::Note
+You can click on any of the images A-F above and right click to save the image.
 :::
-::::::
-:::::::::
+
+The wave you will be drawing will be a sine wave with frequency of $1000 \text{ Hz}$ or $1 \text{ kHz}$ and an *amplitude* of $3 \text{ V}$.
+
+Recall that the basic equation for a sine wave takes the following form:
+
+:::Equation (sineWave)
+$$
+A\sin(2\pi f t + \phi) + D
+$$
+:::
+
+Where $A$ is the amplitude, $f$ is the frequency, $\phi$ is the phase shift, and $D$ is the offset.
+
+If you want a reminder of what each of these parameters do you can use [](#Simulation-sineWave) to get reacquainted.
+
+:::Simulation (sineWave)
+<iframe src="https://www.desmos.com/calculator/hewgxa02fd?embed" width="100%" height="800" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
+
+The wave you will be drawing will have the equation:
+
+:::Equation
+$$
+3\sin(2\pi\cdot 1000t)
+$$
+:::
+
+Note that the relationship between frequency and period is given in [](#Equation-period) below.
+
+:::Equation (period)
+$$
+T = \frac{1}{f}
+$$
+:::
+
+:::Exercise (10V100us)
+Download the image in A and **sketch** a plot of the sine wave described above.
+:::
+
+:::Exercise (5V100us)
+Download the image in B and **sketch** a plot of the sine wave described above.
+:::
+
+:::Exercise (1V100us)
+Download the image in C and **sketch** a plot of the sine wave described above.
+:::
+
+:::Exercise (1V500us)
+Download the image in D and **sketch** a plot of the sine wave described above.
+:::
+
+:::Exercise (1V1ms)
+Download the image in E and **sketch** a plot of the sine wave described above.
+:::
+
+:::Exercise (1V10ms)
+Download the image in F and **sketch** a plot of the sine wave described above.
+:::
+
 ::::::::::::
 
-The independent parameters are the ones that you have direct control over. You can set $f$ with the function generator, you can set $m$ by changing the mass hanging off the end, and you can set $L$ by changing the spacing between the string vibrator and the pulley.
 
-The dependent parameters are the ones that depend on the other parameters. You can't push a button or turn a knob to directly set $\lambda$ or $n$. When you set the independent parameters, $\lambda$ and $n$ will also be set.
+# Oscilloscope Fundamentals
 
+## Measurement Basics
 
+:::::::::Activity
 
-### Pre-lab
-:::Prelab
-**Before coming to lab** you will need to complete [](#Activity-experimentEquations) and the exercise inside of it, as well as [](#Exercise-experimentChoice), [](#Exercise-linearize),  [](#Exercise-uncertainty), and [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
+In this activity you will practice characterizing a sine wave and learn the basics of how to use the oscilloscope. 
 
+Recall that a sine wave is defined by the four parameters $A$, $f$, $\phi$, and $D$. In order to characterize the sine wave we must specific these four parameters.
+
+1. Start by turning on the function generator, setting it to a $\sim 1 \text{ kHz}$ sine wave.
+2. Turn on the oscilloscope and connect the function generator to CH1 of the oscilloscope if it isn't already connected.
+3. Calculate the period of the a $1 \text{ kHz}$ sine wave. Set the horizontal scaling to be something reasonable to see the wave.
+4. Adjust the vertical scaling of CH1 to be $1 \text{ V/div}$.
+5. Zero out both the vertical and horizontal positions using the CH1 vertical positioning knob and the horizontal positioning knob.
+6. Adjust the trigger level to $0 \text{ V}$.
+7. Now use the amplitude knob of the function generator to set the **amplitude** to $\sim 3 \text{ V}$ as seen on the oscilloscope.
+
+:::Exercise
+Take a picture of the waveform on your screen and include it here.
 :::
 
-## Designing the Experiment
-
-The point of this lab is use the waves on a string apparatus to measure the acceleration due to gravity $g$. In this section you will design an experiment that you will perform in lab.
-
-We will be using the plotting technique again. That is to say, we will plot plot one parameter against another, add a best fit line, and from the slope or intercept parameter get $g$. 
-
-::::::Activity (experimentEquations)
-In this activity we will create some equations that you can use to set up your experiment. You will want to write an equation that will have one of the *dependent* parameters equal to an expression of constants and *independent* parameters. We will do this both $\lambda$ and $n$.
-
-First let's determine the tension in the string. Note that a mass is in static equilibrium.
-
-:::Exercise (replaceTension)
-Use the fact that the mass is in static equilibrium.
-
-1. What is the equation for the tension in the string?
-
-2. Rewrite [](#Equation-pulseVelocity) replacing the tension with the equation you determined in part a.
+:::Exercise
+1. Using the on screen grid, what is the period of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
+2. Using the on screen grid, what is the peak-to-peak voltage of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
+3. What do you think is the uncertainty in your measurements?
 :::
 
-:::Exercise (experimentEq1)
-Use your results from [](#Exercise-replaceTension) and [](#Equation-waveVelocity) and solve for the *dependent* parameter, ($\lambda$). Show your work.
-:::
-
-Now imagine that you are performing an experiment. You would want to pick **one** of the *independent* parameters to vary while keeping the other independent parameters constant. Then you would vary the independent parameter and measure the dependent parameter.
+8. Turn on the cursors.
 
 :::Exercise 
-What two experiments could perform using the equation you came up with in [](#Exercise-experimentEq1)? i.e. What would you keep constant, what would you vary, and what would you measure?
-:::
-
-Now let's use the other dependent parameter, $n$.
-
-:::Exercise
-1. Replace the dependent parameter, $\lambda$, from [](#Exercise-experimentEq1) using [](#Equation-boundaryConditions) and solve for the dependent parameter, $n$. Show your work.
-
-2. What three experiments could perform using the equation you came up with in part a? i.e. What would you keep constant, what would you vary, and what would you measure? 
-:::
-::::::
-
-
-## Procedure
-
-For writing the procedure you will have to pick one the experiments you have designed in [](#Activity-experimentalEquations).
-
-:::Exercise (experimentChoice)
-Pick one of the experiments designed above.
-1. What is the independent parameter?
-2. What is the dependent parameter?
-:::
-
-You will be performing a line of best fit during your experiment. This may require you plot something other than just your independent parameter on your x-axis and your dependent parameter on your y-axis. You may need to perform calculation with your parameter in order to generate a linear equation.
-
-:::Exercise (linearize)
-1. What value will you plot on your x-axis?
-2. What value will you plot on your y-axis?
-3. If you perform a line of best fit, what will be your slope?
-4. How will get $g$ from your line of best fit? What's the equation for $g$?
-:::
-
-:::Exercise (uncertainty)
-What is the equation for the uncertainty in $g$?
-:::
-
-
-:::Exercise (procedure| 10 Points)
-Using the experiment you've outlined write procedure for measuring $g$
-:::
-
-
-## Uncertainty from Scales
-This far into the course we have only discussed how to determine the uncertainty in by using statistics. While this is typically one of the best options, sometimes we are able to make a single measurement using a graduated or digital scale and estimate the uncertainty from the resolution.
-
-For instance, when using graduated scale, like that of ruler, we say the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has $1 \text{ mm}$ divisions, we would say that our uncertainty is $\pm 0.5 \text{ mm}$. 
-
-For a digital display, we say the uncertainty is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52 \text{ g}$, then we would say our uncertainty is $\pm 0.5 \text{ g}$. Thus we would report the stones mass as $52.0 \pm 0.5 \text{ g}$
-
-
-# The Experiment
-::::::Activity (|Experiment)
-1. Follow your procedure and perform your experiment.
-2. Do the following exercises.
-
-:::Exercise (|7 Points)
-Record notes on what you did, observed, or wondered while performing your experiment in this exercise.
-:::
-
-
-:::Exercise (|4 Points)
-Include all of the data tables you made here. Make sure each table is easily identifiable and labeled.
-:::
-
-:::Exercise (|8 Points)
-Make a plot of your data and add a best fit line. 
+1. Using the variable knob, adjust the cursors to measure the period of the wave.
+2. Using the variable knob, adjust the cursors so that they are touching the peak and the trough of the wave. What is the peak-to-peak voltage?
+3. What do you think the uncertainty is in your measurements?
 :::
 
 :::Exercise
-What is the value and uncertainty of each of the independent parameters you kept constant?
+1. Which method do you think is better for making a measurement? Why?
 :::
 
-:::Exercise (|5 Points)
-From your best fit line determine the value of the $g$. Show your work.
+
+:::Exercise
+1. Using the cursors, what is the peak voltage and what is the trough voltage of your signal?
+2. What is the offset voltage of your signal? **Hint:** You can use the average of you peak and trough voltages.
+3. Which parameter does this measure?
 :::
 
-:::Exercise (|5 Points)
-What is the uncertainty in $g$?
+:::Note
+For a sine wave, the **amplitude** is **half** the **peak-to-peak** voltage.
 :::
+
+::Note
+In order to measure the phase of a signal we must make a measurement with respect to something. Typically in math we use the y-axis. For us, we only have one signal, and no well defined axis so for now we can say that the phase is zero ($\phi=0$).
+:::
+
+:::Exercise
+What is the equation for the input signal?
+:::
+
+9. Adjust the vertical scaling and the horizontal scaling by one click.
+
+:::Exercise
+1. What is the period? Include uncertainty.
+2. What is the offset voltage? Include uncertainty.
+3. What is the peak-to-peak voltage? Include uncertainty.
+4. Does changing the scaling change your input signal (did the parameters change)?
+:::
+
+10. Use the CH1 vertical position knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
+
+:::Exercise
+1. What is the period? Include uncertainty.
+2. What is the offset voltage? Include uncertainty.
+3. What is the peak-to-peak voltage? Include uncertainty.
+4. Does changing the vertical position change your input signal (did the parameters change)?
+:::
+
+11. Use the horizontal position knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
+
+:::Exercise
+1. What is the period? Include uncertainty.
+2. What is the offset voltage? Include uncertainty.
+3. What is the peak-to-peak voltage? Include uncertainty.
+4. Does changing the horizontal position change your input wave (did the parameters change)?
+:::
+
+12. Zero both the vertical and horizontal knobs.
+
+:::::::::
+
+
+## Coupling
+
+::::::Activity
+
+:::Figure (acdc|s|R)
+![DC and AC Symbols](imgs/Lab5/DCAC.jpg "Symbols for DC and AC")
+:::
+
+1. Press the yellow CH1 knob on the oscilloscope.
+2. Use the soft buttons to adjust the coupling to DC. See [](#Figure-acdc) for symbology.
+3. Rotate the offset knob on the function generator so that it is positioned to point at 12 o'clock.
+4. Pull the knob out.
+5. Now rotate the knob so that the signal moves by one division.
+
+:::Exercise
+2. What is the offset voltage of your signal?
+3. Does adjusting the DC offset affect your wave (did the parameters change)?
+:::
+
+6. Now switch the coupling to AC.
+
+:::Exercise
+1. What happened to your signal?
+:::
+
+AC coupling does **not change** the input signal. It only changes how the signal is displayed to you. This next exercise should help you understand why AC coupling is useful.
+
+7. Adjust your coupling back to DC.
+8. Adjust your DC offset to the maximum setting (fully clockwise or counter-clockwise).
+9. Adjust your vertical scaling knob until you can see your signal.
+
+In this scenario, we want to measure the peak-to-peak voltage of the signal.
+
+:::Exercise
+1. What is the peak-to-peak voltage? Include uncertainty.
+Now switch to AC coupling and adjust the CH1 vertical scaling so that the signal fills as much of the screen as possible.
+2. What is the peak-to-peak voltage? Include uncertainty.
+3. Why is better to use the AC coupling?
+:::
+
+:::Note
+You could have achieved the same result by staying on DC coupling, and using the CH1 vertical position knob to move the signal back to zero, then adjust the CH1 vertical scaling knob. 
+
+Feel free to try this!
+
+This can be a lot of work instead of using the AC coupling. **However** there are times where AC coupling will distort our input signal and this is the best method.
+:::
+
 ::::::
+
+## Triggering
+
+::::::Activity
+1. Push in the DC offset knob on the function generator to set it to zero.
+2. Adjust the horizontal and vertical scaling to have your signal appear nicely on the screen.
+3. Press the trigger menu button and make sure the mode is set to auto.
+4. Adjust the trigger level up so that it is greater than the input signal voltage at any point.
+
+:::Exercise
+1. What happens to the signal when the trigger level exceeds the input signal?
+2. Why does this happen? Read the section on auto mode to help. 
+:::
+
+5. Adjust the trigger lever back to $0 \text{ V}$.
+6. Switch out the function generator for a microphone.
+7. Make sure the microphone is on and continuous speak into it.
+8. Adjust the vertical scaling so that you can see the signal from the microphone. ;;;The signal from the microphone is only a few millivolts.;;;
+
+9. Now sing or hum a constant note into the microphone and adjust the trigger level to be slightly under the maximum of the input signal.
+
+:::Exercise
+What happens when you stop singing or humming?
+:::
+
+10. Now adjust the trigger mode to normal.
+11. Sing or hum at or above the same volume as before and stop.
+
+:::Exercise
+What happens when you stop singing or humming?
+:::
+
+:::Exercise
+Try singing or humming at different volumes. Try snapping or clapping. 
+
+Under what condition does the screen update when in normal trigger mode?
+:::
+
+
+::::::
+
 
 # Conclusion
 
