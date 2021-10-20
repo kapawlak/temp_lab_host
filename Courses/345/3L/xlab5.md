@@ -5,7 +5,7 @@ The goal of this lab is to become familiar with a ubiquitous electronic measurem
 :::
 
 # Introduction to the Oscilloscope
-An oscilloscope takes an electronic signal, typically a time varying voltage, and visually displays the signal on a screen. It does this by periodically sampling the signal measuring what the voltage is at a particular moment in time, creating a coordinate pair $(v_i, t_i)$. Then it plots this point on screen and the cycle repeats.
+An oscilloscope takes an electronic signal, typically a time varying voltage, and visually displays the signal on a screen. It does this by periodically sampling the signal measuring what the voltage is at a particular moment in time, creating a coordinate pair $(v_i, t_i)$. Then it plots this point on the screen and the cycle repeats.
 
 To understand the utility of an oscilloscope consider a simple battery. It provides a constant voltage, or direct current (DC), across its terminals which could easily be measured with a voltmeter. If we were to look at the voltage signal from the battery on the oscilloscope we would see a flat line. 
 
@@ -218,8 +218,8 @@ Take a picture of the waveform on your screen and include it here.
 :::
 
 :::Exercise
-1. Using the on screen grid, what is the period of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
-2. Using the on screen grid, what is the peak-to-peak voltage of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
+1. Using the on-screen grid, what is the period of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
+2. Using the on-screen grid, what is the peak-to-peak voltage of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
 3. What do you think is the uncertainty in your measurements?
 :::
 
@@ -370,19 +370,90 @@ What happens when you stop singing or humming?
 :::Exercise
 Try singing or humming at different volumes. Try snapping or clapping. 
 
-Under what condition does the screen update when in normal trigger mode?
+1. Under what condition does the screen update when in normal trigger mode?
+2. What is the difference between normal and auto mode?
 :::
 
+12. Switch back to the function generator and set the trigger level to $0 \text{ V}$. 
+13. Put vertical cursors on the screen at put on of them right at the 0 point on the horizontal axis. 
 
+:::Exercise
+Slowly move the trigger level up and carefully watch the waveform.
+
+1. What happens when you do this?
+2. Why does this happen? ;;;Read the trigger portion of the intro for help.;;;
+:::
+
+14. Trying changing to a square wave.
+
+:::Exercise
+Slowly move the trigger level up and carefully watch the waveform.
+
+1. What happens when you do this?
+2. Why does this behave differently from the sine wave?
+:::
+
+::::::
+
+# Unknown Signals
+
+
+## Partner Work
+::::::Activity
+
+1. Turn off the oscilloscope.
+2. Without looking at the function generator, have your partner adjust the type of wave, frequency, amplitude, and offset to whatever they would like. 
+3. Turn on the oscilloscope. Characterize the wave they have set up if for you.
+
+:::Exercise
+Partner 1 answers this question:
+1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
+:::
+
+4. Once you have properly identified the the wave turn off the oscilloscope.
+5. Switch places with your partner and have them find the wave you set up.
+
+:::Exercise
+Partner 2 answers this question:
+1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
+:::
+
+::::::
+
+## Tuning Forks
+::::::Activity
+
+At your table should be an tuning fork with an unknown frequency. 
+
+:::Note
+There is only one per table so if you can't find it, it might be that the group at your table is using it.
+:::
+
+:::Exercise
+Using the microphone, determine frequency of the tuning fork. 
+1. What is the identifying number written on the tuning fork?
+2. What's the frequency? Include uncertainty.
+:::
+
+::::::
+
+## Flashing Lights
+::::::Activity
+At your table should be a device that when hooked up to a $9 \text{ V}$ battery should have two flashing LED's.
+
+:::Note
+There is only one per table so if you can't find it, it might be that the group at your table is using it.
+:::
+
+1. Connect a $9 \text{ V}$ battery to the circuit.
+
+:::Exercise
+1. Just by observing the rate of **one** of the LED's flashing, what do you estimate the frequency to be?
+2. Connect your oscilloscope to the LED with the mini-grabber ends. Characterize the signal. ;;;Include its shape, period, amplitude, and frequency;;;
 ::::::
 
 
 # Conclusion
-
-::::::Exercise (|11 Points)
-1. Based on your results, do you think your experiment is accurately measuring $g$? Why or why not?
-2. How would you change the experiment to improve your results?
-::::::
 
 :::Summary
 Please note: There will be an additional 5 points for neatness. Make sure that your report is well organized and easy to follow.
