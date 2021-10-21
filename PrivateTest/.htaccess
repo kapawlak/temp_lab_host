@@ -1,0 +1,5 @@
+AuthUserFile /home/www/ILG/PrivateTest/.htpasswd
+AuthType Basic
+AuthBasicProvider file
+AuthName "Physics ??? Directory"
+Require valid-user

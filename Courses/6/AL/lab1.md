@@ -191,7 +191,7 @@ Putting it all together, for the ball on the moon, we have that $x(10\text{ s}) 
 :::
 
 :::Exercise (quadratic|1 Point)
-Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. 
+Zak launches a ball straight up into the air, from the ground, at $5 \text{ m/s}$. Assume $a = g = -9.81 \text{ m/s}$
 1. How long does it take for the ball to reach the ground again? ;;;Hint: When the ball reaches the ground again, y=0 ;;;
 2. How long does it take for the ball to reach the highest point of its trajectory? ;;;Hint: When the ball reaches the top of its trajectory, what is its velocity? ;;;
 3. What is the ball's maximum height? ;;;Hint: Can you  use the time to reach the maximum height from part (b) to find this?;;;
@@ -272,7 +272,7 @@ So that we can quickly and efficiently gather our data in person, and make an an
 2. Inside each column header you just made, specify the correct units that the measurement will be made in.
 3. From your answer to [](#Exercise-tffromy), set up a function in Google Sheets that will automatically display theoretical $t_f$ using the drop height.
 4. Using the definition of [Percent Difference](?linkfile=lab0#Definition-PercentDifference), create a google sheet function that will automatically calculate the values in this column once the data is entered.
-5. Finally, Using the **Drop Height** column and the **Avg. Measured $t_f$** column, calculate the **Measured Average Velocity** ;;; Hint: Average Velocity is just the net displacement / net time;;;
+5. Finally, Using the **Drop Height** column and the **Avg. Measured $t_f$** column, use a function to calculate the **Measured Average Velocity** ;;; Hint: Average Velocity is just the net displacement / net time;;; ;;;It might help to input "sample" data to check your functions work! Maybe use the data from the exercises and quizzes ;;;
 6. Make a Copy of this table for each of the three balls.
 7. Next, below these or on a separate sheet, make a table to record **your individual measurements** for an object, similar to [](Table-rawtable).  Each column should be labeled with the appropriate units in your version.
  :::Table (rawtable| Raw Data)

@@ -1,0 +1,21 @@
+
+Replace All Exercises with ppoint valued versions.
+
+find
+:::\s*Exercise\s*\(*([-a-zA-Z0-9]*)\)*
+replace
+:::Exercise ($1|1 Point)
+
+
+Replace all measurements with latex
+
+find
+\s([0-9]+)(mm|cm)
+
+replace 
+$ $1 \\text{ $2}$
+
+
+Point bullets
+-\s([0-9\.]+)\s*[Pp]oints*
+- *($1 Points)*
