@@ -162,7 +162,7 @@ Write a procedure that you will use to measure the period at both 10° and 25°.
 
 # Making a Quantitative Comparison
 
-::::::Activity
+::::::::::::Activity
 In class, your TA led a discussion about the interpretation of $t'$ and how you might go about making some claims based on the value of $t'$. Instead, we will replicate some of that discussion here with a few illustrative examples. You are also encouraged to read the reference material for further details of the statistics.
 
 First, we will look at some histograms. A histogram is a graph which shows how often certain values were measured in repeated trials within an experiment. After conducting many trials, the histogram displays how many of the measured values fell within some range, called a bin. By looking at all the bins the data fell into, you can visualize the relative probabilities of a measurement.
@@ -178,8 +178,6 @@ In [](#Figure-repeat_exp)(a), we have two histograms with data from two experime
 ![](imgs/Absent-Lab2/repeat_exp_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted")
 :::
 ::::::
-
- 
 :::::::::
 
 Thinking about these histograms can give us some intuition for the $t'$ statistic discussed above. To make a connection between the histograms and $t'$, consider your measurement $A$ to be the mean of all the data in Experiment A and your measurement $B$ to be the mean of all the data in Experiment B. 
@@ -190,7 +188,10 @@ Finally, although the histograms in [](#Figure-repeat_exp) are just one example 
 If you perform the same experiment twice and collect statistics on both, what do you expect the value of $|t'|$ to be?
 :::
 
-For the next exercises in this activity, we should think carefully about $t'$ statistic is measuring. It is the difference between the two measurements divided by the square root of the sum of their errors squared. One way to gain intuition about $t'$ is to think about its size in various circumstances. As a hint, you can think about (you do not need to explicitly answer them) some of the following questions. What does it mean when $|t'|$ is small? The numerator must be smaller than the denominator. So, what can you say about the relative size of the difference in the measurements compared to how well we can resolve that difference? What can you say when $|t'|$ is large?
+For the next exercises in this activity, we should think carefully about $t'$ statistic is measuring. It is the difference between the two measurements divided by the square root of the sum of their errors squared. One way to gain intuition about $t'$ is to think about its size in various circumstances. As a hint, you can think about (you do not need to explicitly answer them) some of the following questions: 
+-What does it mean when $|t'|$ is small? The numerator must be smaller than the denominator. 
+-So, what can you say about the relative size of the difference in the measurements compared to how well we can resolve that difference? 
+-What can you say when $|t'|$ is large?
 
 Below, we have some illustrative histograms for comparisons between different (non-repeated) experiments. In these cases, we do not know if our different experimental conditions will give us different values for our measurement. For each experiment, we have a short explanation of the histograms. When looking at the histograms, it may be helpful to think about the following discussion questions (you do not need to explicitly answer them) to guide your thinking for the exercises.
 
@@ -200,39 +201,44 @@ Below, we have some illustrative histograms for comparisons between different (n
 
 In [](#Figure-spread), you can see that the histograms overlap a little bit, but that the means are far more separated than the errors on them.  
 
-In [](#Figure-ambiguious), you can see that the histograms overlap significantly. The means are separated, but not by much more than their errors.
+In [](#Figure-ambiguous), you can see that the histograms overlap significantly. The means are separated, but not by much more than their errors.
 
 In [](#Figure-one_unknown), you can see that the one of the histograms is significantly more spread out than the other, indicating that experiment had more random error than the other. However, the means are fairly close and there is some overlap in the error on the two means.
 
 :::::::::Figure (spread|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/spread.png "(a) Histograms for two experiments, Experiments A and B, measuring a mass in grams. These experiments were **not** conducted under identical circumstances")
+![](imgs/Absent-Lab2/spread.png "(a) Histograms for two experiments, Experiments A and B, measuring a mass in grams. These experiments were ***not*** conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/spread_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 31")
 :::
 ::::::
+:::::::::
 
 :::::::::Figure (ambiguous|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/ambiguous.png "(a) Histograms for two experiments, Experiments A and B, measuring a velocity in meters per second. These experiments were **not** conducted under identical circumstances")
+![](imgs/Absent-Lab2/ambiguous.png "(a) Histograms for two experiments, Experiments A and B, measuring a velocity in meters per second. These experiments were ***not*** conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/ambiguous_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 1.58")
 :::
 ::::::
+:::::::::
 
 :::::::::Figure (one_unknown|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/one_unknown.png "(a) Histograms for two experiments, Experiments A and B, measuring a distance in centimeters. These experiments were **not** conducted under identical circumstances")
+![](imgs/Absent-Lab2/one_unknown.png "(a) Histograms for two experiments, Experiments A and B, measuring a distance in centimeters. These experiments were ***not*** conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/one_unknown_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 0.37")
 :::
 ::::::
+:::::::::
+
+In order to answer the following exercises, be sure to read the previous discussion carefully. You should also look at the figures and read the captions.
 
 :::Exercise (|a. 3 Points / b. 4 Points)
 1. What conclusions can be drawn if $|t'| \leq 1$?
@@ -248,7 +254,7 @@ What conclusions can be drawn if $1 < |t'| \leq 3$?
 2. What actions might you take to ensure that your conclusion is accurate?
 :::
 
-::::::
+::::::::::::
 
 # The Experiment
 
