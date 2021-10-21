@@ -208,7 +208,7 @@ In [](#Figure-one_unknown), you can see that the one of the histograms is signif
 :::::::::Figure (spread|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/spread.png "(a) Histograms for two experiments, Experiments A and B, measuring a mass in grams. These experiments were ***not*** conducted under identical circumstances")
+![](imgs/Absent-Lab2/spread.png "(a) Histograms for two experiments, Experiments A and B, measuring a mass in grams. These experiments were <b>not</b> conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/spread_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 31")
@@ -219,7 +219,7 @@ In [](#Figure-one_unknown), you can see that the one of the histograms is signif
 :::::::::Figure (ambiguous|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/ambiguous.png "(a) Histograms for two experiments, Experiments A and B, measuring a velocity in meters per second. These experiments were ***not*** conducted under identical circumstances")
+![](imgs/Absent-Lab2/ambiguous.png "(a) Histograms for two experiments, Experiments A and B, measuring a velocity in meters per second. These experiments were <b>not</b> conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/ambiguous_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 1.58")
@@ -230,7 +230,7 @@ In [](#Figure-one_unknown), you can see that the one of the histograms is signif
 :::::::::Figure (one_unknown|s|Row)
 ::::::row
 :::col 
-![](imgs/Absent-Lab2/one_unknown.png "(a) Histograms for two experiments, Experiments A and B, measuring a distance in centimeters. These experiments were ***not*** conducted under identical circumstances")
+![](imgs/Absent-Lab2/one_unknown.png "(a) Histograms for two experiments, Experiments A and B, measuring a distance in centimeters. These experiments were <b>not</b> conducted under identical circumstances")
 :::
 :::col 
 ![](imgs/Absent-Lab2/one_unknown_bar.png "(b) The histograms from (a) with their means and standard error of the mean highlighted. The value of $t'$ for these histograms is 0.37")
