@@ -5,9 +5,9 @@ The goal of this lab is to become familiar with a ubiquitous electronic measurem
 :::
 
 # Introduction to the Oscilloscope
-An oscilloscope takes an electronic signal, typically a time varying voltage, and visually displays the signal on a screen. It does this by periodically sampling the signal measuring what the voltage is at a particular moment in time, creating a coordinate pair $(v_i, t_i)$. Then it plots this point on the screen and the cycle repeats.
+An oscilloscope takes an electronic signal, typically a time varying voltage, and visually displays the signal on a screen. It does this by periodically sampling the signal, measuring what the voltage is at a particular moment in time, and creating a coordinate pair $(v_i, t_i)$. Then it plots this point on the screen and the cycle repeats.
 
-To understand the utility of an oscilloscope consider a simple battery. It provides a constant voltage, or direct current (DC), across its terminals which could easily be measured with a voltmeter. If we were to look at the voltage signal from the battery on the oscilloscope we would see a flat line. 
+To understand the utility of an oscilloscope, consider a simple battery. It provides a constant voltage, or direct current (DC), across its terminals which could easily be measured with a voltmeter. If we were to look at the voltage signal from the battery on the oscilloscope we would see a flat line. 
 
 Your headphones, on the other hand, are driven by a time-varying voltage signal. If we used a voltmeter to measure this signal we would only be able to see the time-average voltage. This would provide very limited information about the signal. If instead we used the oscilloscope to look at the signal we could get more information about the signal. We could see what frequencies are being played, the peak to peak voltage, the amount of noise in the signal, etc.
 
@@ -26,14 +26,14 @@ At first glance an oscilloscope can look a bit overwhelming. There are many butt
 :::
 
 ### Screen
-First we will point out some things about the screen. Notice there is a 10x8 grid on the screen. This grid is always present and is important for making measurements. One spacing on this grid is called a division or div for short. 
+First we will point out some things about the screen. Notice that there is a 10x8 grid, denoted by dotted lines, on the screen. The lines may be difficult to see in the image above, but they will be more clear in person. If you are having trouble seeing the grid in the above image, you can look at [](#Figure-blankPlots) in [](#Activity-plots) for a cartoon of what the grid looks like. This grid is always present and is important for making measurements. One spacing on this grid is called a division or div for short. 
 
-At the bottom of the screen you can see some information being displayed about scale on the screen. In this photo CH1 has a vertical scale of $5 \text{ V/div}$ and CH2 has a scale of $2 \text{ V/div}$. Another way to say that is there is a difference of $5 \text{ V/div}\times 8 \text{ div}=40 \text{ V}$ from the top of the screen to the bottom for CH1 and $16 \text{ V}$ for CH2. In the center of the screen you see information about the scale of the horizontal axis. In this picture it is set to $50 \text{ }\mu\text{s/div}$. Another way to say that there is a difference of $50 \text{ }\mu\text{s/div}\times 10 \text{ div}= 500\text{ }\mu\text{s}$ from the left side of the screen to the right side. It is important to note that CH1 and CH2 can have different vertical scales but always share the same horizontal scaling. 
+At the bottom of the screen you can see some information being displayed about scale on the screen. In this photo CH1 has a vertical scale of $5 \text{ V/div}$ and CH2 has a scale of $2 \text{ V/div}$. Another way to say that is there is a difference of $5 \text{ V/div}\times 8 \text{ div}=40 \text{ V}$ from the top of the screen to the bottom for CH1 and $16 \text{ V}$ for CH2. In the center of the bottom of the screen you see information about the scale of the horizontal axis. In this picture it is set to $50 \text{ }\mu\text{s/div}$. Another way to say that there is a difference of $50 \text{ }\mu\text{s/div}\times 10 \text{ div}= 500\text{ }\mu\text{s}$ from the left side of the screen to the right side. It is important to note that CH1 and CH2 can have different vertical scales but always share the same horizontal scaling. 
 
 Finally, on the right side of the screen are five sections that change depending on context. These regions tells you what happens when you press the soft buttons.
 
 ### Soft Buttons & Variable Knob
-Here you can see some buttons known as "soft buttons". These buttons' functionality change depending on context. To know what each of these buttons will do we need to look at the right hand side of the screen.
+Here you can see some buttons known as "soft buttons". These buttons' functionality change depending on context. To know what each of these buttons will do, we need to look at the right hand side of the screen.
 
 The variable knob typically allows you to set a value of some parameter you have selected in the right screen menu by rotating it.
 
@@ -71,16 +71,16 @@ Additionally there are three main triggering modes: automatic, normal, and singl
 
 **Single** mode behaves the same as normal mode expect that it will only update once and then it will freeze. So it will only draw the signal once until you reset the trigger.
 
-Turning the small knob at the top of the column allows you to adjust the voltage threshold of the trigger. Turning it will move a small arrow on the right side of teh screen up and down indicating the level of the trigger visually.
+Turning the small knob at the top of the column allows you to adjust the voltage threshold of the trigger. Turning it will move a small arrow on the right side of the screen up and down indicating the level of the trigger visually.
 
 The menu button opens a small menu on the right side of the screen that will let you set the triggering scenario as well as adjust some or advanced features. This menu can be interacted with by using the soft buttons and the variable knob.
 
 The single button will switch to single mode triggering.
 
-Finally the force button will force the oscilloscope to trigger when you press it. This means that the screen will update to display whatever is on the channel inputs when you press it.
+Finally, the force button will force the oscilloscope to trigger when you press it. This means that the screen will update to display whatever is on the channel inputs when you press it.
 
 ### Advanced Controls
-These buttons bring up new menus on the right side of the screen that can be interacted with using the soft buttons and the variable knob. Most of these buttons we won't be using or will be introduced to you at a later time. In this lab though we will be using "Cursor" button.
+These buttons bring up new menus on the right side of the screen that can be interacted with using the soft buttons and the variable knob. We won't use most of these buttons—some will be introduced to you in future labs. In this lab  we will only be using the "Cursor" button.
 
 **Cursor** button. Pressing this button will display two cursors on the screen and bring up the cursor menu. The cursors are just two lines that run the length of the screen. By pressing on of the soft buttons you can switch between vertical or horizontal cursors. You can select one or the other cursor individually using the soft buttons and then adjust its position using the variable knob. The rest of the cursor menu displays information to you about location and separation of the cursors.
 
@@ -89,7 +89,7 @@ This is useful for when you are trying to measure a peak-to-peak voltage, amplit
 
 ## Pre-Lab
 :::Prelab
-**Before coming to lab** you will need to complete [](#Exercise-dcVac), and [](#Activity-plots) and Exercises 2-6 inside of it. This will be checked off by your TA when you get to class. 
+**Before coming to lab** you will need to complete [](#Exercise-dcVac), [](#Activity-plots), and Exercises 2-7 inside of it. This will be checked off by your TA when you get to class. 
 
 :::
 
@@ -131,7 +131,7 @@ F
 In this activity you will practice drawing the same sine wave that would be displayed on different time per division and volts per division settings on the oscilloscope. **Note:** the time per division is displayed at the center bottom of the screen and the volts per division is displayed on the bottom left of the screen.
 
 :::Note
-You can click on any of the images A-F above and right click to save the image.
+You can left click on any of the images A-F above and right click to save the image.
 :::
 
 The wave you will be drawing will be a sine wave with frequency of $1000 \text{ Hz}$ or $1 \text{ kHz}$ and an *amplitude* of $3 \text{ V}$.
@@ -207,7 +207,7 @@ Recall that a sine wave is defined by the four parameters $A$, $f$, $\phi$, and 
 
 1. Start by turning on the function generator, setting it to a $\sim 1 \text{ kHz}$ sine wave.
 2. Turn on the oscilloscope and connect the function generator to CH1 of the oscilloscope if it isn't already connected.
-3. Calculate the period of the a $1 \text{ kHz}$ sine wave. Set the horizontal scaling to be something reasonable to see the wave.
+3. Calculate the period of the $1 \text{ kHz}$ sine wave. Set the horizontal scaling to be something reasonable to see the wave.
 4. Adjust the vertical scaling of CH1 to be $1 \text{ V/div}$.
 5. Zero out both the vertical and horizontal positions using the CH1 vertical positioning knob and the horizontal positioning knob.
 6. Adjust the trigger level to $0 \text{ V}$.
@@ -238,7 +238,7 @@ Take a picture of the waveform on your screen and include it here.
 
 :::Exercise
 1. Using the cursors, what is the peak voltage and what is the trough voltage of your signal?
-2. What is the offset voltage of your signal? **Hint:** You can use the average of you peak and trough voltages.
+2. What is the offset voltage of your signal? **Hint:** You can use the average of your peak and trough voltages.
 3. Which parameter does this measure?
 :::
 
@@ -246,7 +246,7 @@ Take a picture of the waveform on your screen and include it here.
 For a sine wave, the **amplitude** is **half** the **peak-to-peak** voltage.
 :::
 
-::Note
+:::Note
 In order to measure the phase of a signal we must make a measurement with respect to something. Typically in math we use the y-axis. For us, we only have one signal, and no well defined axis so for now we can say that the phase is zero ($\phi=0$).
 :::
 
@@ -331,7 +331,7 @@ You could have achieved the same result by staying on DC coupling, and using the
 
 Feel free to try this!
 
-This can be a lot of work instead of using the AC coupling. **However** there are times where AC coupling will distort our input signal and this is the best method.
+This can be a lot of work instead of using the AC coupling. **However**, there are times where AC coupling will distort our input signal and this is the best method.
 :::
 
 ::::::
@@ -409,10 +409,10 @@ Partner 2 answers this question:
 ## Tuning Forks
 ::::::Activity
 
-At your table should be an tuning fork with an unknown frequency. 
+At your table should be a tuning fork with an unknown frequency. 
 
 :::Note
-There is only one per table so if you can't find it, it might be that the group at your table is using it.
+There is only one tuning fork per table. If you can't find it, it might be that the group at your table is using it.
 :::
 
 :::Exercise
@@ -428,13 +428,13 @@ Using the microphone, determine frequency of the tuning fork.
 At your table should be a device that when hooked up to a $9 \text{ V}$ battery should have two flashing LED's.
 
 :::Note
-There is only one per table so if you can't find it, it might be that the group at your table is using it.
+There is only one device per table. If you can't find it, it might be that the group at your table is using it.
 :::
 
 1. Connect a $9 \text{ V}$ battery to the circuit.
 
 :::Exercise
-1. Just by observing the rate of **one** of the LED's flashing, what do you estimate the frequency to be?
+1. Just by observing the rate of **one** of the LEDs flashing, what do you estimate the frequency to be?
 2. Connect your oscilloscope to the LED with the mini-grabber ends. Characterize the signal. ;;;Include its shape, period, amplitude, and frequency;;;
 ::::::
 
