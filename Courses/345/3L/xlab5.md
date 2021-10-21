@@ -393,20 +393,6 @@ Slowly move the trigger level up and carefully watch the waveform.
 2. Why does this behave differently from the sine wave?
 :::
 
-::::::
-
-# Unknown Signals
-
-
-## Partner Work
-::::::Activity
-
-1. Turn off the oscilloscope.
-2. Without looking at the function generator, have your partner adjust the type of wave, frequency, amplitude, and offset to whatever they would like. 
-3. Turn on the oscilloscope. Characterize the wave they have set up if for you.
-
-:::Exercise
-Partner 1 answers this question:
 1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
 :::
 
