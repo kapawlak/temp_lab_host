@@ -21,7 +21,7 @@ Please complete the following Exercises:
 [](#Exercise-curve), [](#Exercise-curve-2), [](#Exercise-focal), [](#Exercise-convex), [](#Exercise-concave), [](#Exercise-convexcave)
 :::
 
-So so that your tables are ready for experiment day, be sure to do the following Activities:
+So that you have an understanding of how rays behave in lenses on experiment day, be sure to do the following Activities:
 :::center
  [](#Activity-rayt)
 :::

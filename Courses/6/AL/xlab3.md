@@ -157,13 +157,15 @@ In the next exercise, use both the numerical values of your data and your plots 
 :::Exercise
 1. Does your data support the Law of Conservation of Energy? 
 2. What about your data leads you to conclude this? Explain in as much detail as possible.
-3. Identify some sources of error and suggest how you could eliminate them.
-4. When the glider hits the rubber band, what are the kinetic and potential energies right when the 
-glider changes direction? 
-5. Where did the energy go?
 
 :::
 
+:::Exercise
+1. Identify some sources of error and suggest how you could eliminate them.
+2. When the glider hits the rubber band, what are the kinetic and potential energies right when the 
+glider changes direction? 
+3. Where did the energy go?
+:::
 
 # Summary
 
