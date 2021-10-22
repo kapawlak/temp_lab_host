@@ -393,7 +393,12 @@ Slowly move the trigger level up and carefully watch the waveform.
 2. Why does this behave differently from the sine wave?
 :::
 
+::::::
+
+# Unknown Signals
+
 ## Partner Work
+
 ::::::Activity
 
 1. Turn off the oscilloscope.
