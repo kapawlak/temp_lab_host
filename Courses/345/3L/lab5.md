@@ -449,6 +449,8 @@ There is only one device per table. If you can't find it, it might be that the g
 
 :::Note
 This is a case where the AC coupling affects the the signal. You should be DC coupled for this exercise. You will have to adjust signal up and down and scale it to make your measurements.
+
+Additionally, you may want to use the "Run/Stop" button in order freeze the signal so that you can ,ake a measurement.
 :::
 
 :::Exercise

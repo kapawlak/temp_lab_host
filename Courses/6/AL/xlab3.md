@@ -27,11 +27,18 @@ Please also be sure to do all steps of the following Activities
 # Energy Transformation
 
 
+
 In this lab you will be investigating the transformation of energy from one form to another, namely the transformation between potential energy (PE) and kinetic energy (KE). Potential energy is stored energy. Two examples are the energy in a compressed spring and the gravitational potential energy that an object has by virtue of its height above the ground. 
 
 :::Definition (Potential Energy)
 **Potential Energy** is the energy possessed by a body by virtue of its position relative to others, stresses within itself, electric charge, and other factors.
 :::
+
+:::Simulation (transform)
+
+<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/ForceMassEnergyTransformation/EnergyTransformation.html" width= "100%" height="800" style="border:none;"> </iframe>
+:::
+
 
 Kinetic energy is the energy stored in motion. A mass, having been flung upward, has kinetic energy. When an object is dropped from some height above the ground, gravity accelerates it downward, converting its initial potential energy into kinetic energy as it falls, a scenario you can investigate yourself in [](#Simulation-transform). 
 
@@ -40,6 +47,7 @@ Kinetic energy is the energy stored in motion. A mass, having been flung upward,
 :::
 
 In the example of the object being dropped from rest, the mass starts out with zero kinetic energy. The force of gravity does work on the mass, thus giving it kinetic energy. This would suggest that work and energy are equivalent. Indeed, the Work-Energy Theorem states that the work done on an object is always equal to the change in kinetic energy of the object. Work and energy have the same units (kg ⋅ m$^2$ ⋅ s$^{-2}$), which constitute the standard unit of energy called the Joule (J). We will not discuss work in detail, but should note that it is defined as the product of the force acting on an object and the distance over which it acts, hence the aforementioned units.
+
 
 For another example, loading a stone into a slingshot requires you to do work in stretching the elastic band by pulling the stone back against it. When you have pulled the stone all the way back, the work you have done is now stored as potential energy in the band. When you release the stone (a mass), the band relaxes, accelerating the stone from rest to whatever speed it has attained just as it flies free of the elastic band. Whatever potential energy was stored in the band, which you provided by stretching it, is now kinetic energy of the stone flying through the air.
 
@@ -73,7 +81,7 @@ Just like the previous experiment, we will observe the motion of a glider slidin
 Note that the position and velocity change with time as the glider moves along the track. We will set the x-axis to be along the track (with the positive direction up the track), and our origin $x=0$ at the bottom of the track.
 
 
-From the position and velocity measurements, we can perform a calculation to indirectly determine the kinetic and potential energies. The formulae needed for this calculation are provided in the Appendix.
+From the position and velocity measurements, we can perform a calculation to indirectly determine the kinetic and potential energies. The formulae needed for this calculation are provided in the [Appendix](#part5).
 
 :::Exercise (math)
 The glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle of $30 \deg$.
@@ -88,14 +96,15 @@ This weeks data tables will need quite a few formulae added in, so be sure to gi
 
 
 ::::::Activity (table|Making the Table)
-1. Create a table with 10+ data rows, similar to [](#Table-datapoints). Be sure that all heading rows contain the correct units.
-2. Using trigonometry and the formulae in the Appendix, fill in functions that will automatically calculate the **Height,** **Kinetic** and **Potential** energies as the **Time, Distance and Velocity** data are filled in.
+1. Create a table with 10+ data rows, similar to [](#Table-datapoints). Add a cell to include the height of the block. Be sure that all heading rows contain the correct units.
+2. Using trigonometry and the formulae in the [Appendix](#part5), fill in functions that will automatically calculate the **Height,** **Kinetic** and **Potential** energies as the **Time, Distance and Velocity** and **Block Height** data are filled in.
 :::Table (datapoints| Glider Energy Data)
 | Data Points | Time | Distance | Velocity | Height | Kinetic Energy | Potential Energy |
 |-------------|------|----------|----------|--------|----------------|------------------|
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
+Block Height b (unit): ______________
 :::
 3. Link this table into your report under [](#Exercise-table)
 ::::::
@@ -119,7 +128,7 @@ We will release the glider on the air track, and the range finder will follow it
 ![](imgs/EnergyTransformation/changeheight.gif "Just like the previous lab, we will use riser blocks to change the ramp's slope, and thus potential difference between its ends.")
 :::
 1. Fire up the air-track. Set the knob to 3. Check the level of the track as you did in the previous lab.
-2. Attach the range finder to the calculator. See Appendix A for operating instructions for the sonic ranger.
+2. Attach the range finder to the calculator. See [this document](/imgs/EnergyTransformation/sonicrangefinder.pdf) for operating instructions for the sonic ranger.
 3. Place a small riser block under the single stand-alone leg of the air track. Measure the height, $b$, of the block and 
 record this in your lab book. Also, measure and record the mass of your glider cart.
 
