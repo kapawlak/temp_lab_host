@@ -45,7 +45,7 @@ Let's start by looking at the CH1 and CH2 inputs. This is where you will connect
 
 Next we will discuss the CH1 and CH1 Vertical Controls. Pressing the Yellow or Blue button in the center of the column will turn on and off that channel from being displayed on the screen. 
 
-Turning the small knob at the top of the column will shift the zero position of that channel. This effectively moves the signal up and down on the screen. 
+Turning the small knob at the top of the column will shift the zero position of that channel. This effectively moves the signal up and down on the screen. We will call this knob the **vertical positioning knob**.
 
 Lastly, turning the large knob on the bottom changes the vertical scaling for each channel independently. For instance, if you wanted to change the vertical scaling of CH1 from $5 \text{ V/div}$ to $2 \text{ V/div}$ you would rotate the large CH1 knob.
 
@@ -53,7 +53,7 @@ Lastly, turning the large knob on the bottom changes the vertical scaling for ea
 
 The time control area allows you to adjust the horizontal scaling and positioning. We won't be using the middle button for our labs so we won't worry about it now.
 
-Turning the small knob at the top of the column will shift the zero position of the horizontal axis. This effectively moves the signal left and right on the screen.
+Turning the small knob at the top of the column will shift the zero position of the horizontal axis. This effectively moves the signal left and right on the screen. We will call this the **horizontal positioning knob**.
 
 Turning the large button on the bottom changes the horizontal scaling for both CH1 and CH2. For instance, if you wanted to change the scaling from $50 \text{ }\mu\text{s/div}$ to $100 \text{ }\mu\text{s/div}$, you would rotate this knob.
 
@@ -263,22 +263,22 @@ What is the equation for the input signal?
 4. Does changing the scaling change your input signal (did the parameters change)?
 :::
 
-10. Use the CH1 vertical position knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
+10. Use the CH1 vertical positioning knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
 
 :::Exercise
 1. What is the period? Include uncertainty.
 2. What is the offset voltage? Include uncertainty.
 3. What is the peak-to-peak voltage? Include uncertainty.
-4. Does changing the vertical position change your input signal (did the parameters change)?
+4. Does changing the vertical positioning change your input signal (did the parameters change)?
 :::
 
-11. Use the horizontal position knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
+11. Use the horizontal positioning knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
 
 :::Exercise
 1. What is the period? Include uncertainty.
 2. What is the offset voltage? Include uncertainty.
 3. What is the peak-to-peak voltage? Include uncertainty.
-4. Does changing the horizontal position change your input wave (did the parameters change)?
+4. Does changing the horizontal positioning change your input wave (did the parameters change)?
 :::
 
 12. Zero both the vertical and horizontal knobs.
@@ -327,7 +327,7 @@ Now switch to AC coupling and adjust the CH1 vertical scaling so that the signal
 :::
 
 :::Note
-You could have achieved the same result by staying on DC coupling, and using the CH1 vertical position knob to move the signal back to zero, then adjust the CH1 vertical scaling knob. 
+You could have achieved the same result by staying on DC coupling, and using the CH1 vertical positioning knob to move the signal back to zero, then adjust the CH1 vertical scaling knob. 
 
 Feel free to try this!
 
@@ -375,7 +375,7 @@ Try singing or humming at different volumes. Try snapping or clapping.
 :::
 
 12. Switch back to the function generator and set the trigger level to $0 \text{ V}$. 
-13. Put vertical cursors on the screen at put on of them right at the 0 point on the horizontal axis. 
+13. Enable vertical cursors on the screen and place one of them at the 0 point on the horizontal axis. 
 
 :::Exercise
 Slowly move the trigger level up and carefully watch the waveform.
@@ -393,6 +393,15 @@ Slowly move the trigger level up and carefully watch the waveform.
 2. Why does this behave differently from the sine wave?
 :::
 
+## Partner Work
+::::::Activity
+
+1. Turn off the oscilloscope.
+2. Without looking at the function generator, have your partner adjust the type of wave, frequency, amplitude, and offset to whatever they would like. 
+3. Turn on the oscilloscope. Characterize the wave they have set up if for you.
+
+:::Exercise
+Partner 1 answers this question:
 1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
 :::
 
@@ -431,7 +440,11 @@ At your table should be a device that when hooked up to a $9 \text{ V}$ battery 
 There is only one device per table. If you can't find it, it might be that the group at your table is using it.
 :::
 
-1. Connect a $9 \text{ V}$ battery to the circuit.
+1. One terminal to the 9V battery should already be plugged in. Simply rotate the $9 \text{ V}$ battery to come into contact with the second terminal.
+
+:::Note
+This is a case where the AC coupling affects the the signal. You should be DC coupled for this exercise. You will have to adjust signal up and down and scale it to make your measurements.
+:::
 
 :::Exercise
 1. Just by observing the rate of **one** of the LEDs flashing, what do you estimate the frequency to be?
