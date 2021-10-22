@@ -2,7 +2,7 @@
 
 
 :::Intro (This Week...|Air Track|Glider|Range Finder --- with calculator|Riser Block)
-This week we will look at the quantity that we call energy, and its transformations. In classical physics, there are two categories of energy:
+This week we will look at the quantity that we call energy and its transformations. In classical physics, there are two categories of energy:
  1. **Kinetic Energy** &mdash; what you may know as *energy of motion*, or the energy stored in the inertial motion of an object. An object has *kinetic energy* if you have to perform **work** on it to bring it to rest.
  2. **Potential Energy** &mdash; which is stored energy an object has due to certain kinds of **work** having been exerted on it, *e.g.*, the energy a barbell has after you have lifted it from the floor to above your head.
 
@@ -27,7 +27,7 @@ Please also be sure to do all steps of the following Activities
 # Energy Transformation
 
 
-In this lab you will be investigating the transformation of energy from one form to another, namely a transformation between potential energy (PE) and kinetic energy (KE). Potential energy is stored energy, for example the energy in a compressed spring, or the gravitational potential energy that an object has by virtue of its height above the ground. 
+In this lab you will be investigating the transformation of energy from one form to another, namely the transformation between potential energy (PE) and kinetic energy (KE). Potential energy is stored energy. Two examples are the energy in a compressed spring and the gravitational potential energy that an object has by virtue of its height above the ground. 
 
 :::Definition (Potential Energy)
 **Potential Energy** is the energy possessed by a body by virtue of its position relative to others, stresses within itself, electric charge, and other factors.
@@ -84,7 +84,7 @@ The glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle
 
 ## Preparing Our Data Table
 
-This weeks data tables will need quite a few formulae added in, so be sure to give yourself ebnough time before your lab to complete them.
+This weeks data tables will need quite a few formulae added in, so be sure to give yourself enough time before your lab to complete them.
 
 
 ::::::Activity (table|Making the Table)
@@ -140,7 +140,7 @@ begins and ends when the car returns to its starting position (at the band) afte
 Provide the complete table of data here, following all the rules of a Good Table
 :::
 
-# Analyzing The Air Track energy Experiment
+# Analyzing The Air Track Energy Experiment
 
 It is now time to look at the data you've collected and inspect your results. First let's plot your results and draw some inferences from a data visualization.
 
