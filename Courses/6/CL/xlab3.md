@@ -20,7 +20,7 @@ Please complete the following Exercises:
 :::center
 [](#Exercise-1), [](#Exercise-2), [](#Exercise-3), [](#Exercise-4), 
 
-[](#Exercise-5), [](#Exercise-6), [](#Exercise-cd)
+[](#Exercise-5), [](#Exercise-6), [](#Exercise-7), [](#Exercise-cd)
 :::
 
 So that you have a good understanding of interference vs diffraction for experiment day, be sure to do the following Activities:
@@ -67,7 +67,7 @@ The top of [](#Figure-interference2) <u>a</u>  demonstrates constructive interfe
 
 :::row
 :::
-Images from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/slits.html#c1. 
+Images from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/slits.html#c1) 
 
 ::::::
 
@@ -87,7 +87,7 @@ Let's make this a bit more quantitative.
 - $d$ is the separation between the two slits.
 - $a$ is the slit width.
 
-We label which intensity maxima (bright spots) we are talking about with the variable $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the positions of the maxima with positive numbers in increasing order away from $0$ (1, 2, 3, etc.), and on the other side with negative numbers in decreasing order away from $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
+We label which intensity maxima (bright spots) we are talking about with the variable $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the positions of the maxima with positive numbers in increasing order away from $0$ (1, 2, 3, etc.), and on the other side with negative numbers in decreasing order away from $0$ (-1, -2, -3, etc). We can choose which side we pick for the positive numbers and which side we choose for the negative numbers arbitrarily. 
 
 [](#Figure-interference1)  tells us the condition for maxima to occur, and [](#Figure-interference2) <u>a</u> gives the variables to  describe [](#Figure-interference1)  mathematically. **We also need to know the wavelength of the light, which we will denote with $\lambda$**. Thus we can describe the resulting maxima mathematically by the formula for constructive interference:
 
@@ -123,7 +123,7 @@ $$
 :::
 
 :::Note (|9 C)
-[](#Equation-saa), and thus [](#Equation-max), relies on $\theta$ being small. The angle $\theta$ is determined by $D$ and $y_m$. When $D$ is 1 meter (the length of your arm) and $y_m$ is$ 8 \text{ cm}$ (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\theta)$ is less than 1%. In this lab, we will be working on scales about that size. 
+[](#Equation-saa), and thus [](#Equation-max), relies on $\theta$ being small. The angle $\theta$ is determined by $D$ and $y_m$. When $D$ is 1 meter (the length of your arm) and $y_m$ is $8 \text{ cm}$ (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\theta)$ is less than 1%. In this lab, we will be working on scales about that size. 
 :::
 
 :::Note (|9 C)
@@ -137,7 +137,7 @@ $$
 :::
 Diffraction is the phenomena associated with light interacting with the slit, or opening, itself. Diffraction can be a challenging concept to learn for the first time since it doesn't seem intuitive --- however, you've seen it happen many times with a different kind of wave: water waves.
 
-The principles that govern diffraction in both light and water are the same, namely [Huydgen's Principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle). It states that every point on the wavefront of a wave is a source of a spherical wavelet itself. This principle becomes most aparent when a  straight wavefront meets a barrier.
+The principle that governs diffraction in both light and water are the same, namely [Huydgen's Principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle). It states that every point on the wavefront of a wave is a source of a spherical wavelet itself. This principle becomes most apparent when a  straight wavefront meets a barrier.
 
 
 :::Figure (wave-diffraction|l)
@@ -299,7 +299,7 @@ With our equation in hand, we are ready to set up tables to quickly batch proces
 ::::::Activity (tables|Preparing Our Calculations)
 
 **Instructions:**
-For [](#Activity-determine-wavelength), we will need **two tables** to record the data for measuring the distance to the various maxima, one table for the $0.08\text{ mm}$ slit width and the other for the $0.04\text{ mm}$. It is faster to make one table, fill in the functions, and then copy it and we advise doing it this way.
+For [](#Activity-determine-wavelength), we will need **two tables** to record the data for measuring the distance to the various maxima, one table for the $0.08\text{ mm}$ slit width and the other for the $0.04\text{ mm}$. It is faster to make one table, fill in the functions, and then copy it. We advise doing it this way.
 
 1. Create a table similar to the one below, but with proper units and all the properties of a [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)
 2. Include cells above or below the table that will hold your measurements of $D$ and $d$
@@ -341,7 +341,7 @@ In the following qualitative Activity, we will be practicing working with the la
 :::Warning
 Do not look directly into the laser! Never shine the laser around the room, always point the laser into the screen.
 :::
-1. Setup the laser at one end of the optics bench and the screen, covered with paper, on the other. 
+1. Set up the laser at one end of the optics bench and the screen, covered with paper, on the other. 
 
 2. Center and level the laser using the adjustment screws on the back of the laser. You can use the half meter stick to measure the height of the laser beam at different points of the track to make sure it is level.
 3. Place the multiple slit set about $3 \text{ cm}$ in front of the laser (printed side facing laser) and set it to the widest part of the 
@@ -370,7 +370,7 @@ Building on what we learned in [](#Activity-laser), in the following Activity we
  Locate the wavelength of the laser on the laser itself. Record this value.
 :::
 
-1. The laser, slit disk, and screen should be setup as in [](#Activity-laser). be sure to cover the screen with a piece of paper before 
+1. The laser, slit disk, and screen should be set up as in [](#Activity-laser). be sure to cover the screen with a piece of paper before 
 continuing.
 
 :::Note (|10 C)
@@ -413,7 +413,7 @@ Reflect on the following:
 ## Exploring Diffraction Gratings
 ::::::Activity (cd|CDs as Diffraction Gratings)
 1.  With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact 
-disc about$ 4 \text{ cm}$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
+disc about $ 4 \text{ cm}$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
 pass through.
 2.  You should see at least the first order maxima, and possibly the second order maxima if you move the CD close 
 enough to the screen. 
