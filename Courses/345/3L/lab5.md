@@ -11,7 +11,7 @@ To understand the utility of an oscilloscope, consider a simple battery. It prov
 
 Your headphones, on the other hand, are driven by a time-varying voltage signal. If we used a voltmeter to measure this signal we would only be able to see the time-average voltage. This would provide very limited information about the signal. If instead we used the oscilloscope to look at the signal we could get more information about the signal. We could see what frequencies are being played, the peak to peak voltage, the amount of noise in the signal, etc.
 
-:::Exercise (dcVac)
+:::Exercise (dcVac | 1 Point)
 1. You'd like to know the voltage of a DC source. Do you use a voltmeter or oscilloscope?
 
 2. You'd like to measure the frequency of a standard wall socket. Do you use a voltmeter or oscilloscope?
@@ -168,27 +168,27 @@ T = \frac{1}{f}
 $$
 :::
 
-:::Exercise (10V100us)
+:::Exercise (10V100us | 1 Point)
 Download the image in A and **sketch** a plot of the sine wave described above.
 :::
 
-:::Exercise (5V100us)
+:::Exercise (5V100us | 1 Point)
 Download the image in B and **sketch** a plot of the sine wave described above.
 :::
 
-:::Exercise (1V100us)
+:::Exercise (1V100us | 1 Point)
 Download the image in C and **sketch** a plot of the sine wave described above.
 :::
 
-:::Exercise (1V500us)
+:::Exercise (1V500us | 1 Point)
 Download the image in D and **sketch** a plot of the sine wave described above.
 :::
 
-:::Exercise (1V1ms)
+:::Exercise (1V1ms | 1 Point)
 Download the image in E and **sketch** a plot of the sine wave described above.
 :::
 
-:::Exercise (1V10ms)
+:::Exercise (1V10ms | 1 Point)
 Download the image in F and **sketch** a plot of the sine wave described above.
 :::
 
@@ -213,11 +213,11 @@ Recall that a sine wave is defined by the four parameters $A$, $f$, $\phi$, and 
 6. Adjust the trigger level to $0 \text{ V}$.
 7. Now use the amplitude knob of the function generator to set the **amplitude** to $\sim 3 \text{ V}$ as seen on the oscilloscope.
 
-:::Exercise
+:::Exercise ( | 1 Point)
 Take a picture of the waveform on your screen and include it here.
 :::
 
-:::Exercise
+:::Exercise ( | 3 Points)
 1. Using the on-screen grid, what is the period of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
 2. Using the on-screen grid, what is the peak-to-peak voltage of the signal? Show your work. i.e., Number of divisions multiplied by scaling.
 3. What do you think is the uncertainty in your measurements?
@@ -225,18 +225,18 @@ Take a picture of the waveform on your screen and include it here.
 
 8. Turn on the cursors.
 
-:::Exercise 
+:::Exercise ( | 3 Points)
 1. Using the variable knob, adjust the cursors to measure the period of the wave.
 2. Using the variable knob, adjust the cursors so that they are touching the peak and the trough of the wave. What is the peak-to-peak voltage?
 3. What do you think the uncertainty is in your measurements?
 :::
 
-:::Exercise
-1. Which method do you think is better for making a measurement? Why?
+:::Exercise ( | 3 Points)
+Which method do you think is better for making a measurement? Why?
 :::
 
 
-:::Exercise
+:::Exercise ( | 3 Points)
 1. Using the cursors, what is the peak voltage and what is the trough voltage of your signal?
 2. What is the offset voltage of your signal? **Hint:** You can use the average of your peak and trough voltages.
 3. Which parameter does this measure?
@@ -250,13 +250,13 @@ For a sine wave, the **amplitude** is **half** the **peak-to-peak** voltage.
 In order to measure the phase of a signal we must make a measurement with respect to something. Typically in math we use the y-axis. For us, we only have one signal, and no well defined axis so for now we can say that the phase is zero ($\phi=0$).
 :::
 
-:::Exercise
+:::Exercise ( | 4 Points)
 What is the equation for the input signal?
 :::
 
 9. Adjust the vertical scaling and the horizontal scaling by one click.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What is the period? Include uncertainty.
 2. What is the offset voltage? Include uncertainty.
 3. What is the peak-to-peak voltage? Include uncertainty.
@@ -265,7 +265,7 @@ What is the equation for the input signal?
 
 10. Use the CH1 vertical positioning knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What is the period? Include uncertainty.
 2. What is the offset voltage? Include uncertainty.
 3. What is the peak-to-peak voltage? Include uncertainty.
@@ -274,7 +274,7 @@ What is the equation for the input signal?
 
 11. Use the horizontal positioning knob to adjust the signal up or down by a division. Adjust the scaling to whatever you need to see the wave.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What is the period? Include uncertainty.
 2. What is the offset voltage? Include uncertainty.
 3. What is the peak-to-peak voltage? Include uncertainty.
@@ -300,14 +300,14 @@ What is the equation for the input signal?
 4. Pull the knob out.
 5. Now rotate the knob so that the signal moves by one division.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 2. What is the offset voltage of your signal?
 3. Does adjusting the DC offset affect your wave (did the parameters change)?
 :::
 
 6. Now switch the coupling to AC.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What happened to your signal?
 :::
 
@@ -319,11 +319,11 @@ AC coupling does **not change** the input signal. It only changes how the signal
 
 In this scenario, we want to measure the peak-to-peak voltage of the signal.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What is the peak-to-peak voltage? Include uncertainty.
 Now switch to AC coupling and adjust the CH1 vertical scaling so that the signal fills as much of the screen as possible.
 2. What is the peak-to-peak voltage? Include uncertainty.
-3. Why is better to use the AC coupling?
+3. Why is it useful to use the AC coupling?
 :::
 
 :::Note
@@ -344,7 +344,7 @@ This can be a lot of work instead of using the AC coupling. **However**, there a
 3. Press the trigger menu button and make sure the mode is set to auto.
 4. Adjust the trigger level up so that it is greater than the input signal voltage at any point.
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What happens to the signal when the trigger level exceeds the input signal?
 2. Why does this happen? Read the section on auto mode to help. 
 :::
@@ -356,18 +356,18 @@ This can be a lot of work instead of using the AC coupling. **However**, there a
 
 9. Now sing or hum a constant note into the microphone and adjust the trigger level to be slightly under the maximum of the input signal.
 
-:::Exercise
+:::Exercise ( | 2 Points)
 What happens when you stop singing or humming?
 :::
 
 10. Now adjust the trigger mode to normal.
 11. Sing or hum at or above the same volume as before and stop.
 
-:::Exercise
+:::Exercise ( | 2 Points)
 What happens when you stop singing or humming?
 :::
 
-:::Exercise
+:::Exercise ( | 6 Points)
 Try singing or humming at different volumes. Try snapping or clapping. 
 
 1. Under what condition does the screen update when in normal trigger mode?
@@ -377,7 +377,7 @@ Try singing or humming at different volumes. Try snapping or clapping.
 12. Switch back to the function generator and set the trigger level to $0 \text{ V}$. 
 13. Enable vertical cursors on the screen and place one of them at the 0 point on the horizontal axis. 
 
-:::Exercise
+:::Exercise ( | 6 Points)
 Slowly move the trigger level up and carefully watch the waveform.
 
 1. What happens when you do this?
@@ -386,7 +386,7 @@ Slowly move the trigger level up and carefully watch the waveform.
 
 14. Trying changing to a square wave.
 
-:::Exercise
+:::Exercise ( | 5 Points)
 Slowly move the trigger level up and carefully watch the waveform.
 
 1. What happens when you do this?
@@ -405,7 +405,7 @@ Slowly move the trigger level up and carefully watch the waveform.
 2. Without looking at the function generator, have your partner adjust the type of wave, frequency, amplitude, and offset to whatever they would like. 
 3. Turn on the oscilloscope. Characterize the wave they have set up if for you.
 
-:::Exercise
+:::Exercise ( | 3 Points)
 Partner 1 answers this question:
 1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
 :::
@@ -413,7 +413,7 @@ Partner 1 answers this question:
 4. Once you have properly identified the the wave turn off the oscilloscope.
 5. Switch places with your partner and have them find the wave you set up.
 
-:::Exercise
+:::Exercise ( | 3 Points)
 Partner 2 answers this question:
 1. Describe the wave they have set up. ;;;Include its type, period, amplitude, and frequency;;;
 :::
@@ -429,7 +429,11 @@ At your table should be a tuning fork with an unknown frequency.
 There is only one tuning fork per table. If you can't find it, it might be that the group at your table is using it.
 :::
 
-:::Exercise
+:::Note
+Additionally, you may want to use the "Run/Stop" button in order freeze the signal so that you can ,ake a measurement.
+:::
+
+:::Exercise ( | 8 Points)
 Using the microphone, determine frequency of the tuning fork. 
 1. What is the identifying number written on the tuning fork?
 2. What's the frequency? Include uncertainty.
@@ -453,7 +457,7 @@ This is a case where the AC coupling affects the the signal. You should be DC co
 Additionally, you may want to use the "Run/Stop" button in order freeze the signal so that you can ,ake a measurement.
 :::
 
-:::Exercise
+:::Exercise ( | 8 Points)
 1. Just by observing the rate of **one** of the LEDs flashing, what do you estimate the frequency to be?
 2. Connect your oscilloscope to the LED with the mini-grabber ends. Characterize the signal. ;;;Include its shape, period, amplitude, and frequency;;;
 ::::::
