@@ -12,17 +12,17 @@ The speed of sound through a fluid is determined by the Newton-Laplace equation 
 
 :::Equation (speedOfSound)
 $$
-v=\sqrt{\frac{K}{\rho}}
+v=\sqrt{\frac{B}{\rho}}
 $$
 :::
 
-Where $K$ is the elastic bulk modulus of the fluid and $\rho$ is the density of the gas.
+Where $B$ is the elastic bulk modulus of the fluid and $\rho$ is the density of the gas.
 
 For an ideal gas (**we are assuming air is ideal**), the bulk modulus can calculated with the following equation:
 
 :::Equation (bulkModulus)
 $$
-K = \gamma p
+B = \gamma p
 $$
 :::
 
