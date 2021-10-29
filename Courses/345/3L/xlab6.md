@@ -204,7 +204,7 @@ How will you handle this time delay?
 :::
 
 ## Data Collection
-
+::::::Activity
 :::Exercise
 Take notes about what you are doing in this exercise. Describe what you did, any problems you ran into and how you handled it, or anything interesting you noticed while performing your experiment.
 :::
@@ -217,9 +217,9 @@ Take notes about what you are doing in this exercise. Describe what you did, any
 :::Exercise
 Include any data tables you made during the course of the lab here.
 :::
-
+::::::
 ## Data Analysis
-
+::::::Activity
 :::Exercise
 Include your plot(s) in this exercise.
 :::
@@ -239,8 +239,8 @@ In the lab is $\text{CO}_2$, temperature, and relative humidity sensor. You can 
 :::
 
 :::Exercise
-1. What is your measured speed of sound in air?
-2. How does this compare to the speed of sound predicted by your model?
+1. What is your measured speed of sound in air? Include uncertainty.
+2. How does this compare to the speed of sound predicted by your model? Include uncertainty.
 :::
 
 :::Exercise
@@ -248,7 +248,7 @@ If your measurement is in agreement with theory, how would you improve this expe
 
 If your theory does not agree with your model, how might you modify your model to explain the discrepancy? Are there any assumptions you need to drop or modify? If you make these changes to your model how does it affect the discrepancy?
 :::
-
+::::::
 
 # Conclusion
 
