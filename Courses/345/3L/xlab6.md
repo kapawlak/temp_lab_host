@@ -57,7 +57,7 @@ Using equations [](#Equation-speedOfSound), [](#Equation-bulkModulus), [](#Equat
 
 Notice now that, as long as the air you are using is not being mixed with other gasses, $\gamma$, $k_B$, and $m$ are all constants. This means that the speed of sound in a gas is only dependent on the temperature, $T$.
 
-That being said, what are the values of those constants? The Boltzmann constant is **exactly** of $k_B=1.380649 \times 10^{-23} \text{J} \cdot \text{K}^-1$. In 2019 the definitions of the SI units were redefined [fn] [2019 SI Redefinition](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units)[/fn]. This meant that some constant became *exact* with **no uncertainty** in them. The Boltzmann constant was one of them. 
+That being said, what are the values of those constants? The Boltzmann constant is **exactly** of $k_B=1.380649 \times 10^{-23} \text{J} \cdot \text{K}^{-1}$. In 2019 the definitions of the SI units were redefined [fn] [2019 SI Redefinition](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units)[/fn]. This meant that some constants became *exact* with **no uncertainty** in them. The Boltzmann constant was one of them. 
 
 For the other two constants, $\gamma$ and $m$, determining their values might not be exactly straight forward since air is *mixture* of different gasses, mostly $\text{N}_2$ and $\text{O}_2$, with some trace other gasses.
 
@@ -108,7 +108,7 @@ What are the assumptions in your model?
 
 We will measure the speed of sound by using the time of flight method. This method basically makes a short burst of sound (like a snap, clap, or pulse) and then times how long it takes for that burst of sound to reach a detector (a microphone) a known distance away.
 
-The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will play be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatus. 
+The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will play be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatuses. 
 
 Notice in [](#Figure-speakerTube).A on the left side you have a driver (a speaker) that pulses and sends sound waves propagating down the the tube. This is what we will be trying to create. Now we need a detector at the right hand side to receive the pulses.
 
@@ -193,9 +193,9 @@ Try to keep it on the lower of the frequency range so as not to annoy your class
 :::
 
 ## Time Delay
-The function generator must send the signal to the speaker and to the oscilloscope down a wire. Then the speaker must react, and send a pulse of sound down the tube. The microphone must react to the sound reaching it, send that signal to an amplifier, which must process the signal and then send it to the oscilloscope.
+The function generator must send the signal to the speaker and to the oscilloscope down a wire. Then the speaker must react and send a pulse of sound down the tube. Then the microphone must react to the sound reaching it and send that signal to an amplifier. Then the amplifier must process the signal and send it to the oscilloscope.
 
-Additionally, is the position of the speaker or the microphone pick up exactly where you think they are? If they are not where you expect then your distance between them will be different that what you expect.
+Additionally, is the position of the speaker or the microphone pick up exactly where you think they are? If they are not where you expect, then your distance between them will be different than what you expect.
 
 All of these things might add some delay to your time measurement.
 
@@ -232,7 +232,7 @@ Include your plot(s) in this exercise.
 
 
 :::Note
-In the lab is $\text{CO}_2$, temperature, and relative humidity sensor. You can use this to help determine the theoretical speed of sound in the lab.
+In the lab is a $\text{CO}_2$, temperature, and relative humidity sensor. You can use this to help determine the theoretical speed of sound in the lab.
 - The uncertainty in the $\text{CO}_2$ meter is $\pm 75 \text{ppm}$ or $\pm 8\\%$, whichever is higher.
 - The uncertainty of the temperature sensor is $\pm 1^{\circ} \text{ F}$.
 - The uncertainty of the humidity sensor is $\pm 5\\%$ of the reading.
