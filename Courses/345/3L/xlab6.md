@@ -71,7 +71,7 @@ For $m$ there needs to be a decision. Do we assume just one gas? Do we perform s
 
 :::Exercise (determineM)
 1. What is value of $m$ that you will use in $\text{kg}$?
-2. What is your reasoning for using this value of $m$? Use a combination of words and/or math to make your argument.
+2. What is your reasoning for using this value of $m$? Use a combination of words and math to make your argument. (List any sources that you use to help determine your value of $m$)
 3. Plug in your three constants into the equation you derived in [](#Exercise-speedSolve). What is the new equation? ;;;Make sure you are in the correct units;;;
 :::
 
