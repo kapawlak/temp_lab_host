@@ -108,7 +108,7 @@ What are the assumptions in your model?
 
 We will measure the speed of sound by using the time of flight method. This method basically makes a short burst of sound (like a snap, clap, or pulse) and then times how long it takes for that burst of sound to reach a detector (a microphone) a known distance away.
 
-The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will play be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatuses. 
+The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatuses. 
 
 Notice in [](#Figure-speakerTube).A on the left side you have a driver (a speaker) that pulses and sends sound waves propagating down the the tube. This is what we will be trying to create. Now we need a detector at the right hand side to receive the pulses.
 
