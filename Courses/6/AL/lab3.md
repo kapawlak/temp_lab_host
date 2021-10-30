@@ -51,7 +51,7 @@ In the example of the object being dropped from rest, the mass starts out with z
 
 For another example, loading a stone into a slingshot requires you to do work in stretching the elastic band by pulling the stone back against it. When you have pulled the stone all the way back, the work you have done is now stored as potential energy in the band. When you release the stone (a mass), the band relaxes, accelerating the stone from rest to whatever speed it has attained just as it flies free of the elastic band. Whatever potential energy was stored in the band, which you provided by stretching it, is now kinetic energy of the stone flying through the air.
 
-:::Exercise (slingshot)
+:::Exercise (slingshot|2 Point)
 Where did the kinetic energy come from?
 :::
 Our main focus will be a fundamental law of nature called the Law of Conservation of Energy. This law states that, in the absence of dissipative forces such as friction,
@@ -83,7 +83,7 @@ Note that the position and velocity change with time as the glider moves along t
 
 From the position and velocity measurements, we can perform a calculation to indirectly determine the kinetic and potential energies. The formulae needed for this calculation are provided in the [Appendix](#part5).
 
-:::Exercise (math)
+:::Exercise (math|3 Point)
 The glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle of $30 \deg$.
 1. The glider sits at a height of $h= 0.34\text{ m}$ above the bottom of the track. What is its potential energy?
 2. What is the distance, $r$, the glider sits from the Range Finder?
@@ -105,6 +105,7 @@ This weeks data tables will need quite a few formulae added in, so be sure to gi
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
 Block Height b (unit): ______________
+Distance between legs D (unit): ______________
 :::
 3. Link this table into your report under [](#Exercise-table)
 ::::::
@@ -145,7 +146,7 @@ begins and ends when the car returns to its starting position (at the band) afte
 
 ::::::
 
-:::Exercise (table)
+:::Exercise (table|3 Point)
 Provide the complete table of data here, following all the rules of a Good Table
 :::
 
@@ -155,7 +156,7 @@ It is now time to look at the data you've collected and inspect your results. Fi
 
 
 
-:::Exercise (plot)
+:::Exercise (plot|2 Point)
 1. Make a Good Plot with the kinetic and potential energy data from the experiment.
 2. Is there anything interesting about this plot? Where to the lines cross?
 :::
@@ -163,13 +164,13 @@ It is now time to look at the data you've collected and inspect your results. Fi
 
 In the next exercise, use both the numerical values of your data and your plots to answer the questions.
 
-:::Exercise
+:::Exercise (|3 Point)
 1. Does your data support the Law of Conservation of Energy? 
 2. What about your data leads you to conclude this? Explain in as much detail as possible.
 
 :::
 
-:::Exercise
+:::Exercise (|2 Point)
 1. Identify some sources of error and suggest how you could eliminate them.
 2. When the glider hits the rubber band, what are the kinetic and potential energies right when the 
 glider changes direction? 
@@ -178,7 +179,7 @@ glider changes direction?
 
 # Summary
 
-::::::Exercise 
+::::::Exercise (|3 Point)
 
 Write a brief statement summarizing the main points of this lab (both parts).
 ::::::

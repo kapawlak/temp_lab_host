@@ -12,17 +12,17 @@ The speed of sound through a fluid is determined by the Newton-Laplace equation 
 
 :::Equation (speedOfSound)
 $$
-v=\sqrt{\frac{K}{\rho}}
+v=\sqrt{\frac{B}{\rho}}
 $$
 :::
 
-Where $K$ is the elastic bulk modulus of the fluid and $\rho$ is the density of the gas.
+Where $B$ is the elastic bulk modulus of the fluid and $\rho$ is the density of the gas.
 
 For an ideal gas (**we are assuming air is ideal**), the bulk modulus can calculated with the following equation:
 
 :::Equation (bulkModulus)
 $$
-K = \gamma p
+B = \gamma p
 $$
 :::
 
@@ -71,7 +71,7 @@ For $m$ there needs to be a decision. Do we assume just one gas? Do we perform s
 
 :::Exercise (determineM)
 1. What is value of $m$ that you will use in $\text{kg}$?
-2. What is your reasoning for using this value of $m$? Use a combination of words and/or math to make your argument.
+2. What is your reasoning for using this value of $m$? Use a combination of words and math to make your argument. (List any sources that you use to help determine your value of $m$)
 3. Plug in your three constants into the equation you derived in [](#Exercise-speedSolve). What is the new equation? ;;;Make sure you are in the correct units;;;
 :::
 
@@ -108,7 +108,7 @@ What are the assumptions in your model?
 
 We will measure the speed of sound by using the time of flight method. This method basically makes a short burst of sound (like a snap, clap, or pulse) and then times how long it takes for that burst of sound to reach a detector (a microphone) a known distance away.
 
-The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will play be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatuses. 
+The apparatus will be comprised of a speaker ([](#Figure-speakerTube).B) connected to a function generator ([](#Figure-measurementTools).A), placed at one end of a large tube ([](#Figure-speakerTube).C). The function generator will be set to play a square wave to create a sudden pulse that we can easily identify on the oscilloscope. The tube will focus the sound so it does not radiate around the classroom and affect other students' apparatuses. 
 
 Notice in [](#Figure-speakerTube).A on the left side you have a driver (a speaker) that pulses and sends sound waves propagating down the the tube. This is what we will be trying to create. Now we need a detector at the right hand side to receive the pulses.
 
@@ -204,7 +204,7 @@ How will you handle this time delay?
 :::
 
 ## Data Collection
-
+::::::Activity
 :::Exercise
 Take notes about what you are doing in this exercise. Describe what you did, any problems you ran into and how you handled it, or anything interesting you noticed while performing your experiment.
 :::
@@ -217,9 +217,9 @@ Take notes about what you are doing in this exercise. Describe what you did, any
 :::Exercise
 Include any data tables you made during the course of the lab here.
 :::
-
+::::::
 ## Data Analysis
-
+::::::Activity
 :::Exercise
 Include your plot(s) in this exercise.
 :::
@@ -239,8 +239,8 @@ In the lab is a $\text{CO}_2$, temperature, and relative humidity sensor. You ca
 :::
 
 :::Exercise
-1. What is your measured speed of sound in air?
-2. How does this compare to the speed of sound predicted by your model?
+1. What is your measured speed of sound in air? Include uncertainty.
+2. How does this compare to the speed of sound predicted by your model? Include uncertainty.
 :::
 
 :::Exercise
@@ -248,7 +248,7 @@ If your measurement is in agreement with theory, how would you improve this expe
 
 If your theory does not agree with your model, how might you modify your model to explain the discrepancy? Are there any assumptions you need to drop or modify? If you make these changes to your model how does it affect the discrepancy?
 :::
-
+::::::
 
 # Conclusion
 

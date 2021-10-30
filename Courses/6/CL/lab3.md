@@ -20,7 +20,7 @@ Please complete the following Exercises:
 :::center
 [](#Exercise-1), [](#Exercise-2), [](#Exercise-3), [](#Exercise-4), 
 
-[](#Exercise-5), [](#Exercise-6), [](#Exercise-7), [](#Exercise-cd)
+[](#Exercise-5), [](#Exercise-6), [](#Exercise-equation), [](#Exercise-cd)
 :::
 
 So that you have a good understanding of interference vs diffraction for experiment day, be sure to do the following Activities:
@@ -55,7 +55,7 @@ When light passes through two closely separated slits, the rays travel slightly 
 
 
 
-The top of [](#Figure-interference2) <u>a</u>  demonstrates constructive interference. The two waves are in phase with one another where they impinge on the screen, and hence their amplitudes add together forming a bright spot referred to as a maximum. [](#Figure-interference2) <u>b</u>  shows destructive interference. The waves are exactly out of phase at the screen, and produce a dark spot, referred to as a minimum. 
+The top of [](#Figure-interference2) <u>a</u>  demonstrates constructive interference. The two waves are in phase with one another where they meet the screen, and hence their amplitudes add together forming a bright spot referred to as a maximum. [](#Figure-interference2) <u>b</u>  shows destructive interference. The waves are exactly out of phase at the screen, and produce a dark spot, referred to as a minimum. 
 ::::::Figure (interference2| m|R)
 
 
@@ -205,7 +205,7 @@ Let's start by focusing only on interference.
 
 An important thing to notice is that that when there is no diffraction, all maxima are **equally bright and equally spaced**.  
 
-:::Exercise
+:::Exercise (|1 Point)
 1. Use [](#Equation-max) to predict what will happen to the locations of the maxima on the screen ($y_m$) when you adjust the slit separation $d$  (*i.e.*, what happens when we increase and decrease the slit separation).
 
 2. Use [](#Equation-max)  to predict what will happen to the locations of the maxima on the screen ($y_m$) when you adjust the wavelength ($\lambda$).
@@ -213,14 +213,14 @@ An important thing to notice is that that when there is no diffraction, all maxi
 
 2. Adjust the slit separation while leaving everything else the same. Pay attention to what happens on the screen and in the intensity plot.
 
-:::Exercise
+:::Exercise (|1 Point)
 How does adjusting the slit separation affect the pattern on the screen (or the intensity plot)? Things to consider might include the positions of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
 :::
 
 3.  Make sure the slit separation is somewhere in the near the middle of the range. Adjust the wavelength while keeping the other parameters constant.
 
-:::Exercise
-How does adjusting the wavelength affect the pattern on the screen or the intensity plot (besides color; remember your prediction based on Equation 3. ? Things to consider might include the positions of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable .
+:::Exercise (|1 Point)
+How does adjusting the wavelength affect the pattern on the screen or the intensity plot (besides color; remember your prediction based on [](#Eq-max)? Things to consider might include the positions of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable .
 :::
 
 **Diffraction**
@@ -232,7 +232,7 @@ Now we will consider only diffraction effects. As mentioned in the introduction,
 
 Notice that now we have one large peak in the center and many much smaller peaks to the sides. This is the **diffraction envelope** shown in Figure 3. 
 
-:::Exercise
+:::Exercise (|1 Point)
 1. How does adjusting the slit width change the diffraction envelope?
 
 2. How does adjusting the wavelength change the diffraction envelope?
@@ -256,7 +256,7 @@ This is important, because if we are labeling the interference maxima (-2, -1, 0
 
 4. Make sure that diffraction is checked in order to see the diffraction effects.
 
-:::Exercise
+:::Exercise (|1 Point)
 Based on the interference only and diffraction only part of the exercise, predict what will happen if you adjust the following parameters independently:
 
 1. The slit width.
@@ -272,7 +272,7 @@ Based on the interference only and diffraction only part of the exercise, predic
 
 
 
-:::Exercise
+:::Exercise (|1 Point)
 1. If you decrease the slit width, why do more peaks appear in the central diffraction envelope?
 
 2. If you increase the slit separation, why do more peaks appear in the central diffraction envelope?
@@ -288,7 +288,7 @@ As we have previously done, we will need to write down some equations, make a fe
 
 
 First, since we will be determining the wavelength of the laser from our empirical data, we need to solve for the equation that allows us to do this.
-:::Exercise (equation)
+:::Exercise (equation|1 Point)
 Rearrange [](#Equation-max) so that you can calculate the wavelength of the laser, $\lambda$, from the measured maxima and locations, the distance to the screen, and the slit spacing.
 
 :::
@@ -325,7 +325,7 @@ $d$ (unit) = ______________
 
 Finally, for the diffraction grating experiment, we will be using an ordinary CD (Compact Disk) as a diffraction grating. CDs have very small grooves, like a record, that are etched in with a very precise laser.  In order to compare the result of your experiment to an accepted value, you will need to look up the spacing between the tracks.
 
-:::Exercise (cd)
+:::Exercise (cd|1 Point)
 Search for "Compact Disc Track Spacing". 
 1. What is the spacing *between* the tracks for a standard CD?
 2. Give your source for this information.
@@ -348,8 +348,8 @@ Do not look directly into the laser! Never shine the laser around the room, alwa
 variable double slit by rotating the slit disk. This section of the disk consists of two slits of constant size (width of 
 each slit is $ .04 \text{ mm}$), but with variable separation between slits (separation  $ d = 0.125 \text{ mm}$ to $ d = 0.75 \text{ mm}$).
 4. Use the adjustment screws on the back of the laser to center the laser beam on the slits.
-:::Exercise
-1. What do you observe on the screen? Make a sketch of it (either on a digital program or by hand and attach a photo) and put it in your notebook.
+:::Exercise (|1 Point)
+1. What do you observe on the screen? Make a **sketch** of it (either on a digital program or draw it by hand and attach a photo of the drawing -- do not attach a photo of the pattern itself) and put it in your notebook.
 2. Are these the kind of shadows you would expect to see if you cut two notches in a piece of paper and shined a light through it? 
 3. How does the pattern on the screen change when you decrease the slit separation?
 :::
@@ -366,9 +366,7 @@ Building on what we learned in [](#Activity-laser), in the following Activity we
 :::Figure (dai_again|xl)
 ![Diffraction and interference](imgs/Lab3/fig1_2_2.JPG "Diffraction and interference with all quantities labeled")
 :::
-:::Exercise
- Locate the wavelength of the laser on the laser itself. Record this value.
-:::
+
 
 1. The laser, slit disk, and screen should be set up as in [](#Activity-laser). be sure to cover the screen with a piece of paper before 
 continuing.
@@ -384,7 +382,7 @@ so that you maximize the distance between the slit disk and screen.
 6.  Mark the center of each maxima (m = -3 through m = 3) on the paper covered screen.
 7.  Remove the paper. Measure the distance between maxima of similar order (the distance between 
 m = -1 and m = 1 and so on). Record these values into your table.  
-:::Exercise
+:::Exercise (|1 Point)
 Reflect on the following:
 1. In the above note, we ask you to place the laser + slit disk and screen on the opposite sides of the track. Why is this a good idea?
 2. Why might you want to measure the distance from $-m$ to $m$ rather than directly measure each maxima from center maxima?
@@ -393,16 +391,16 @@ Reflect on the following:
 8.  Repeat the above procedure for the double slit with $ 0.25 \text{ mm}$ slit separation and $ 0.04 \text{ mm}$ slit width.
 
 ::::::
-:::Exercise (tables)
+:::Exercise (tables|2 Point)
 1. Provide your Good Tables with all data filled in here.
 2. What is your average computed value for the wavelength of the laser for *all* values computed?
-3. How does this compare to the value printed on the laser? 
+3. Locate the wavelength of the laser on the laser itself. Record and record this value. How does your result compare to the value printed on the laser? 
 4. Does one measurement better agree with the printed value on the laser? Why do you think this is or isn't the case?
 
 :::
 
 
-:::Exercise
+:::Exercise (|1 Point)
 1. Does the distance between maxima change when you change the slit width?
 2. How does the distance to the first maxima of the diffraction envelope change with slit width?
 :::
@@ -412,27 +410,29 @@ Reflect on the following:
 
 ## Exploring Diffraction Gratings
 ::::::Activity (cd|CDs as Diffraction Gratings)
-1.  With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact 
-disc about $ 4 \text{ cm}$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to 
-pass through.
+1.  With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact disc about $ 4 \text{ cm}$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to pass through.
 2.  You should see at least the first order maxima, and possibly the second order maxima if you move the CD close 
 enough to the screen. 
 3. Measure and record the distance between maxima of similar orders.
 
-:::Exercise
-1. What are the $y_m$'s you measured? A table is not required for this short activity.
-2. What is your average computed value of the track spacing for a CD? 
-3. Calculate the percent difference between your measured value and the value specified in the Compact Disc Standard you found in [](#Exercise-cd).
-4. Does your average value of the CD track spacing fall within the tolerance of  $ \pm 0.1 \mu \text{m}$ of the Compact Disc Specification?
+:::Exercise (|2 Point)
+1. What are the $y_m$'s you measured? A table is not required for this short activity, but make sure you specify the which peak each measurement belongs to.
+2. Do you think that the small angle approximation is valid in this experiment?
+3. Which equation should you use?
+4. Using this equation, what is your average computed value of the track spacing for a CD? 
 :::
 ::::::
 
+:::Exercise (|1 Point)
 
+1. Calculate the percent difference between your measured value and the value specified in the Compact Disc Standard you found in [](#Exercise-cd).
+2. Does your average value of the CD track spacing fall within the tolerance of  $ \pm 0.1 \mu \text{m}$ of the Compact Disc Specification?
+:::
 
 
 # Conclusion
 
-:::Exercise
+:::Exercise (|2 Point)
 Write a brief conclusion summarizing the important points of this lab.
 :::
 
