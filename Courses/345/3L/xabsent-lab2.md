@@ -1,7 +1,7 @@
 # Absent Assignment Lab 2
 
 # Document Purpose
-This is an assignment provided to students who had an excused abscence for Lab 2. This document will guide you through some of the activities done in section.
+This is an assignment provided to students who had an excused absence for Lab 2. This document will guide you through some of the activities done in section.
 
 If you have any questions while doing this assignment you should reach out to your TA and schedule a time to meet with them on Zoom, preferably during their office hours. If you can't make your TA's office hours, you can try to reach out to another Physics 3L TA whose office hours you can make.
 
@@ -81,9 +81,10 @@ The apparatus is the same as the previous lab and can be shown in [](#Figure-ful
 
 Include the following two exercises in your report even though you  have already done them in your pre-lab. Feel free to make changes to your procedure or your responses to the exercises for your report.
 
-:::
+:::Prelab
+**Before coming to lab** you will need to complete [](#Exercise-sigfigs) and [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
 
-Please read the [Making a Good Table](?linkfile=references#part5) of the Reference Material.
+Additionally, please read the [Making a Good Table](?linkfile=references#part5) of the Reference Material.
 
 If you are unfamiliar with working with equations in spreadhseets, you should also read the [Working with a Spreadsheet](?linkfile=references#part6) part of the Reference Material.
 :::
