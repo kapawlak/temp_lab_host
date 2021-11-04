@@ -364,7 +364,7 @@ Building on what we learned in [](#Activity-laser), in the following Activity we
 ::::::Activity (determine-wavelength|Determining Laser Wavelength)
 
 :::Figure (dai_again|xl)
-![Diffraction and interference](imgs/Lab3/fig1_2_2.JPG "Diffraction and interference with all quantities labeled")
+![Diffraction and interference](imgs/Lab3/fig1_2_2.jpg "Diffraction and interference with all quantities labeled")
 :::
 
 

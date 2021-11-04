@@ -19,3 +19,8 @@ $ $1 \\text{ $2}$
 Point bullets
 -\s([0-9\.]+)\s*[Pp]oints*
 - *($1 Points)*
+
+
+\sGood Table\s
+[Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)
+

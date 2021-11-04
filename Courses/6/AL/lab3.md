@@ -129,7 +129,7 @@ We will release the glider on the air track, and the range finder will follow it
 ![](imgs/EnergyTransformation/changeheight.gif "Just like the previous lab, we will use riser blocks to change the ramp's slope, and thus potential difference between its ends.")
 :::
 1. Fire up the air-track. Set the knob to 3. Check the level of the track as you did in the previous lab.
-2. Attach the range finder to the calculator. See [this document](/imgs/EnergyTransformation/sonicrangefinder.pdf) for operating instructions for the sonic ranger.
+2. Attach the range finder to the calculator. See [this document](imgs/EnergyTransformation/sonicrangefinder.pdf) for operating instructions for the sonic ranger.
 3. Place a small riser block under the single stand-alone leg of the air track. Measure the height, $b$, of the block and 
 record this in your lab book. Also, measure and record the mass of your glider cart.
 

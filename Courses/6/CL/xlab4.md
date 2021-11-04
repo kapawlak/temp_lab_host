@@ -1,16 +1,17 @@
 # Lab 4: Nuclear Physics
 
-:::Intro You've made it to the final lab!
+::::::Intro You've made it to the final lab!
 You've learned a lot about optics this quarter, and we are finally ready to move on! In this lab we will be focusing on the final subject of this course: **Nuclear Physics** and the characteristics of its radiation.
-:::
 
----
-
-# Introduction
 
 :::Video (intro| What is Radiation?)
 <iframe width='100%' height='100%' src="https://www.youtube.com/embed/VeXpMijpazE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
+::::::
+
+---
+
+# Radiation and Its Origins
 
 The nuclei of some atoms are unstable. In the process of becoming stable, they emit various particles. This phenomenon is known as radioactive decay. The most common types of emission are alpha and beta particles, and gamma rays. 
 
@@ -23,7 +24,7 @@ Gamma radiation, unlike alpha or beta radiation, is an electromagnetic wave. Mos
 
 The energies of all three of these types of radiation greatly exceed the ionization potential of atoms and molecules &ndash; that is, the energy necessary to remove an electron from an atom or molecule. Hence, they ionize atoms and molecules of the matter with which they interact. For this reason they are known as *ionizing radiation*.
 
-## Geiger-Müller Tube
+## Measuring Radiation with a Geiger-Müller Tube
 
 :::Video (gmt|Geiger-Müller Tubes)
 <iframe width='100%' height='100%' src="https://www.youtube.com/embed/qtvz8lH5zhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -47,7 +48,7 @@ The Geiger-Müller counter has applications in the fields of nuclear physics, ge
 The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge, and radioactive events will not be counted. If the voltage is too great, the tube will break down, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube exhibits a “plateau” effect, where for a given level of radiation, the count rate remains nearly constant over a range of applied voltage. One can determine the correct operating voltage for the Geiger-Müller tube experimentally, by using a small radioactive source and observing the count rate while varying the voltage. [](#Figure-gmtube) displays a typical plateau curve.
 
 
-## Operational Overview
+# Preparing for the Experiment
 :::Figure (labstation|m|R)
 ![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG 'Spectech ST - 150 Nuclear Lab Station')
 
@@ -64,50 +65,47 @@ The basic operation of the ST-150 is straightforward; it does the counting for y
 To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken, it cannot be repaired. ***Never*** allow objects to touch the window.
 :::
 
-
-
-# Background Counts
-
-::::::Activity (BG-Counts|Analyzing Background Counts)
-
-In this activity we will introduce our instrument, the ST - 150, and measure the level of the radiation around us by observing the count rate with no source installed in the instrument.
-
-:::Video (bg-vid|Background Radiation)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/ye4EiLZWXQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::Activity(tables|Tables)
 :::
 
-:::Exercise
-What is the average rate of background radiation in the physics lab? Answer in units of counts per minute.
-:::
-::::::
+# Experiments
+## Background Counts (Table (3+1) hundred second trials + avg + variance)
 
 ::::::Activity (bg-counts|Background Counts In Person)
 
-1. Turn the instrument on and set the voltage to 500V by pressing the H.V. button and adjusting the voltage using the 
-UP/DOWN buttons. Adjustments to the voltage will be made in 20 volt increments. Press the H.V. button again to 
+1. Turn the instrument on and set the voltage to $500 \text{ V}$ by pressing the H.V. button and adjusting the voltage using the 
+UP/DOWN buttons. Adjustments to the voltage will be made in $20 \text{ V}$  increments. Press the H.V. button again to 
 return to the COUNT display.
-2. Set the acquisition time to 100 seconds by pressing the TIME button. Adjust the time interval using the UP/DOWN 
+2. Set the acquisition time to $100 \text{ sec}$ by pressing the TIME button. Adjust the time interval using the UP/DOWN 
 buttons. Press TIME again to return to the COUNT display.
 3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating 
 data and the count indicator light will turn off. At this point it is only necessary to press COUNT again to zero the 
-readout and restart a new 100 second interval.
-4. Take three 100-second trials of the background. Record the count for each trial. Calculate the average counts per minute. 
-:::Exercise
-What is the average background radiation in the physics lab?
-:::
-5. Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single 100-second trial of the 
-background radiation.
-:::Exercise
-How does the background radiation compare when there is an absorber in place? What does this 
-tell you about the energy of the background particles?
-:::
-Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics 
-building, so the absorber isn’t much of an obstacle.
+readout and restart a new $100 \text{ sec}$ interval.
+4. Take three $100 \text{ sec}$ trials of the background. Record the count for each trial in your background radiation table. 
+
+5. Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single $100 \text{ sec}$ trial of the 
+background radiation and record the value.
+
 ::::::
 
-Background radiation is usually caused by high-energy cosmic rays from sources outside the earth. 
+:::Exercise
+1. Provide your complete[Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)here.
+2. What is the average background radiation in the physics lab? Use your first three measurements for this.
 
-## Cobalt-60
+:::
+
+:::Exercise
+
+1. How does the background radiation compare when there is an absorber in place? Make the comparison keeping in mind the count *uncertainty* column. 
+
+2. What does this tell you about the energy of the background particles? Explain.
+:::
+
+
+Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics 
+building, so the absorber isn’t much of an obstacle.
+
+## Radiation from Cobalt-60 (Table with 600 s counts, rho x, four slots, subtract background count, compute nat log)
 
 Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [](#Figure-co60). You can see in [](#Figure-co60) that Co-60 emits two different-energy beta particles. This transmutes the nucleus into that of Ni-60, but the Ni-60 is in an excited state. To get to the most stable (ground) state, the excited nucleus emits gamma rays, each time lowering its energy, finally becoming stable Ni-60.
 
@@ -117,41 +115,34 @@ Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. 
 From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
 :::
 
-::::::Activity (co60| The activity of Co-60)
-In this activity we will measure the activity of a Co-60 source with the beta particles being blocked. 
 
-:::Video (co60| Co-60)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/w23dvGLi54c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-:::Exercise
-What is the (gamma) activity of the C0-60 in units of counts per minute? ;;;Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.;;;
-:::
-
-::::::
 
 ::::::Activity (co-6-gamma|)co60 Gamma in person
-1) The first emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
+1. The primary emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
 block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber 
 on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. 
-This aluminum sheet will remain in place throughout the experimen
-2) Place the thinnest lead absorber, #8, in the very top slot. Take a single 600s measurement and record the number of 
-counts in your data table, along with the absorber’s ρx value.
-3) Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
-4) Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined 
+This aluminum sheet will remain in place throughout the experiment
+2. Place the thinnest lead absorber, #8, in the very top slot. Take a single $600\text{ s}$ measurement and record the number of 
+counts in your data table, along with the absorber’s $\rho x$ value.
+3. Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
+4. Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined 
 values for the three absorbers.
-5) Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
-6) For each measurement subtract off the average background count found in Part 1.
-7) Compute the natural logarithm for each of your background adjusted counts. Plot this data against your ρx values, 
-with ln(counts) on the vertical axis and absorber density thickness ρx on the horizontal axis
-:::Exercise
-What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
-:::
+5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
+6. 
+7. Compute the natural logarithm for each of your background adjusted counts. 
+
 ::::::
+:::Exercise
+1. Include your[Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)here. For each measurement, remember to work with the data after the average background count found in [](#Activity-bg-counts) is subtracted.
 
-# Absorption of Gamma Rays
+:::
+:::Exercise
+1. Make a Good Plot your processed data against your $\rho x$ values: This should have $\ln(\text{counts})$ on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis
+2. What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
+:::
+## Absorption of Gamma Rays
 
-## Absorption of Radiation
+### Absorption of Radiation
 
 In this lab we will measure the mass attenuation coefficient of Cobalt-60 in lead. The mass attenuation coefficient is a measure of how much radiation a given material will absorb or scatter.
 
