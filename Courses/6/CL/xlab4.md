@@ -24,6 +24,11 @@ Gamma radiation, unlike alpha or beta radiation, is an electromagnetic wave. Mos
 
 The energies of all three of these types of radiation greatly exceed the ionization potential of atoms and molecules &ndash; that is, the energy necessary to remove an electron from an atom or molecule. Hence, they ionize atoms and molecules of the matter with which they interact. For this reason they are known as *ionizing radiation*.
 
+:::Note (|10 C)
+We have determined the plateau voltage for you in this lab! Do not use any voltage besides what is labeled on your Nuclear Lab Station.
+
+:::
+
 ## Measuring Radiation with a Geiger-Müller Tube
 
 :::Video (gmt|Geiger-Müller Tubes)
@@ -47,108 +52,13 @@ The Geiger-Müller counter has applications in the fields of nuclear physics, ge
 
 The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge, and radioactive events will not be counted. If the voltage is too great, the tube will break down, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube exhibits a “plateau” effect, where for a given level of radiation, the count rate remains nearly constant over a range of applied voltage. One can determine the correct operating voltage for the Geiger-Müller tube experimentally, by using a small radioactive source and observing the count rate while varying the voltage. [](#Figure-gmtube) displays a typical plateau curve.
 
-
-# Preparing for the Experiment
-:::Figure (labstation|m|R)
-![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG 'Spectech ST - 150 Nuclear Lab Station')
-
-:::
-
-In this lab we will use the ST-150 Nuclear Lab Station to make radiation measurements with a Co-60 gamma source. We will place it in the device at a set distance from the detector, and then we will insert various absorbers between it and the detector.
-:::center
-**The quantities of radiation in this lab are safe and will not hurt you.**
-:::
-
-The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between them. Each position can hold either a radioactive source or an absorber.
-
-:::Note (|10 C)
-To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken, it cannot be repaired. ***Never*** allow objects to touch the window.
-:::
-
-:::Activity(tables|Tables)
-:::
-
-# Experiments
-## Background Counts (Table (3+1) hundred second trials + avg + variance)
-
-::::::Activity (bg-counts|Background Counts In Person)
-
-1. Turn the instrument on and set the voltage to $500 \text{ V}$ by pressing the H.V. button and adjusting the voltage using the 
-UP/DOWN buttons. Adjustments to the voltage will be made in $20 \text{ V}$  increments. Press the H.V. button again to 
-return to the COUNT display.
-2. Set the acquisition time to $100 \text{ sec}$ by pressing the TIME button. Adjust the time interval using the UP/DOWN 
-buttons. Press TIME again to return to the COUNT display.
-3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating 
-data and the count indicator light will turn off. At this point it is only necessary to press COUNT again to zero the 
-readout and restart a new $100 \text{ sec}$ interval.
-4. Take three $100 \text{ sec}$ trials of the background. Record the count for each trial in your background radiation table. 
-
-5. Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single $100 \text{ sec}$ trial of the 
-background radiation and record the value.
-
-::::::
-
-:::Exercise
-1. Provide your complete[Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)here.
-2. What is the average background radiation in the physics lab? Use your first three measurements for this.
-
-:::
-
-:::Exercise
-
-1. How does the background radiation compare when there is an absorber in place? Make the comparison keeping in mind the count *uncertainty* column. 
-
-2. What does this tell you about the energy of the background particles? Explain.
-:::
-
-
-Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics 
-building, so the absorber isn’t much of an obstacle.
-
-## Radiation from Cobalt-60 (Table with 600 s counts, rho x, four slots, subtract background count, compute nat log)
-
-Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [](#Figure-co60). You can see in [](#Figure-co60) that Co-60 emits two different-energy beta particles. This transmutes the nucleus into that of Ni-60, but the Ni-60 is in an excited state. To get to the most stable (ground) state, the excited nucleus emits gamma rays, each time lowering its energy, finally becoming stable Ni-60.
-
-:::Figure (co60|xl)
-![Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.](imgs/Lab4/co60.gif "Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.")
-
-From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
-:::
-
-
-
-::::::Activity (co-6-gamma|)co60 Gamma in person
-1. The primary emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
-block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber 
-on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. 
-This aluminum sheet will remain in place throughout the experiment
-2. Place the thinnest lead absorber, #8, in the very top slot. Take a single $600\text{ s}$ measurement and record the number of 
-counts in your data table, along with the absorber’s $\rho x$ value.
-3. Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
-4. Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined 
-values for the three absorbers.
-5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
-6. 
-7. Compute the natural logarithm for each of your background adjusted counts. 
-
-::::::
-:::Exercise
-1. Include your[Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)here. For each measurement, remember to work with the data after the average background count found in [](#Activity-bg-counts) is subtracted.
-
-:::
-:::Exercise
-1. Make a Good Plot your processed data against your $\rho x$ values: This should have $\ln(\text{counts})$ on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis
-2. What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
-:::
 ## Absorption of Gamma Rays
-
-### Absorption of Radiation
 
 In this lab we will measure the mass attenuation coefficient of Cobalt-60 in lead. The mass attenuation coefficient is a measure of how much radiation a given material will absorb or scatter.
 
 There are two types of absorbers in this lab:  aluminum and lead. They come in various thicknesses, and each material has a characteristic density. The likelihood that a radioactive particle is absorbed depends primarily upon the amount of mass it encounters. 
 
-Regardless of the materials’ different densities, we employ a method that allows us treat them all similarly. If we measure the amount of material traversed in $\rm mg/cm^2$ rather than the linear thickness traveled by the particle, we get a more useful quantity, which we call "density thickness." It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
+Regardless of the materials’ different densities, we employ a method that allows us to treat them all similarly. If we measure the amount of material traversed in $\rm mg/cm^2$ rather than the linear thickness traveled by the particle, we get a more useful quantity, which we call "density thickness." It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
 
 Mathematically we see that:
 
@@ -174,60 +84,7 @@ The nice thing about density thickness is that it combines linearly. That means 
 Gamma radiation is part of the electromagnetic spectrum, and of all known forms of energy in the universe, it is of the highest energy. Because of this high energy, gamma ray absorption by matter is significantly lower than for beta or alpha particles. **In this lab you will subtract the background count from each run.** This is because there is not enough lead to stop all of the gamma rays from the Co-60 source and thereby reduce the count rate to the background level.
 
 
-
-# Procedure
-
-::::::Activity (co602)
-
-In this activity we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. You will make a table of measurements, which you will then use in the next activity to determine the mass attenuation coefficient of lead. 
-
-Make a table like the following. Remember that for each run you should subtract the background number of counts that you measured in activity 1. The result is what we will call "Net Counts" in the table.
-
-:::Table
-| Density Thickness [$mg/cm^2$] | Counts | Net Counts | Activity [cpm] |
-|-------------------------------|--------|------------|----------------|
-|                               |        |            |                |
-|                               |        |            |                |
-|                               |        |            |                |
-:::
-
-:::Video (th1)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/6mW-X-0OxxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-1. Watch [](#Video-th1) and fill out the table accordingly. The density thickness of absorber 8 is $1,230 \rm\ mg/cm^2$.
-
-:::Video (th2)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/pBp3f3ruSBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-2. Watch [](#Video-th2) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place, you need to add its density thickness to that of absorber 9. The density thickness of absorber 9 is $1,890 \rm\ mg/cm^2$.
-
-:::Video (th3)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/yJRLIPIsUwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-3. Watch [](#Video-th3) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 10. The density thickness of absorber 10 is $3,632 \rm\ mg/cm^2$.
-
-:::Video (th4)
-<iframe width='100%' height='100%' src="https://www.youtube.com/embed/VKZmvOzoxnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-:::
-
-4. Watch [](#Video-th4) and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 11.  The density thickness of absorber 11 is $7,435 \rm\ mg/cm^2$.
-::::::
-
-::::::Activity
-1. Create a new column in your table. Compute the natural logarithm for each of your activity values. Plot these data against your $\rho x$ values, with ln(activity) on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis.
-
-:::Exercise
-What kind of curve do your data follow (straight-line, exponential, parabolic, etc)?
-:::
-::::::
-
-
-
-# Determining the Mass Attenuation Coefficient $\mu/\rho$
+# The Mass Attenuation Coefficient $\mu/\rho$
 
 The mass attenuation coefficient for a specific material, defined as $\mu/\rho$, tells us how well a material absorbs or scatters radiation. The behavior of radiation as it passes through matter is given by the formula:
 
@@ -246,22 +103,173 @@ $$
 :::
  
 [](#Equation-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
+# Preparing for the Experiment
+:::Figure (labstation|m|R)
+![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG 'Spectech ST - 150 Nuclear Lab Station')
 
-::::::Activity
+:::
 
-1. Make a best-fit line on the plot you made in activity 4. 
-2. From the best-fit line, determine $\mu/\rho$.
+In this lab we will use the ST-150 Nuclear Lab Station to make radiation measurements with a Co-60 gamma source. We will place it in the device at a set distance from the detector, and then we will insert various absorbers between it and the detector.
+:::center
+**The quantities of radiation in this lab are safe and will not hurt you.**
+:::
+
+The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between them. Each position can hold either a radioactive source or an absorber.
+
+:::Note (|10 C)
+To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken, it cannot be repaired. ***Never*** allow objects to touch the window.
+:::
+
+## Information on Cobalt-60
+Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [](#Figure-co60). You can see in [](#Figure-co60) that Co-60 emits two different-energy beta particles. This transmutes the nucleus into that of Ni-60, but the Ni-60 is in an excited state. To get to the most stable (ground) state, the excited nucleus emits gamma rays, each time lowering its energy, finally becoming stable Ni-60.
+
+:::Figure (co60|xl)
+![Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.](imgs/Lab4/co60.gif "Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.")
+
+From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
+:::
+
+## Preparing our Tables
+::::::Activity (tables|Tables)
+
+:::Table (bg-table| Background Counts)
+
+| Counts (unit) | Time Interval (unit) | Counts Per Minute | Uncertainty (unit)|
+|---------------|---------------------:|-------------------|-------------|
+| ...           |                      |                   |             |
+| ...           |                      |                   |             |
+| ...           |                      |                   |             |
+
+
+
+ **Average CPM:** ___________ 
+
+:::
+
+
+:::Table (co60-table| Co-60 Gamma Radiation Count Data)
+
+| Total $\rho x$ (unit) | Counts (unit) | Time Interval (unit) | Counts Per Minute |
+|-----------------------|---------------|----------------------|-------------------|
+|                       | ...           |                      |                   |
+|                       | ...           |                      |                   |
+|                       | ...           |                      |                   |
+|                       | ...           |                      |                   |
+
+:::
+
+
+:::Table (co60-table2| Linearized Co-60 Gamma Radiation Data)
+
+Average Background CPM: ____________
+
+| Total $\rho x$ (unit) | Background Corrected CPM |  LN(CPM) |
+|-----------------------|--------------------------|----------|
+|                       |                          |          |
+|                       |                          |          |
+|                       |                          |          |
+|                       |                          |          |
+
+:::
+::::::
+
+# Experiments
+
+## Background Counts
+
+::::::Activity (bg-counts|Background Counts In Person)
+
+1. Turn the instrument on and set the voltage to $500 \text{ V}$ by pressing the H.V. button and adjusting the voltage using the 
+UP/DOWN buttons. Adjustments to the voltage will be made in $20 \text{ V}$  increments. Press the H.V. button again to 
+return to the COUNT display.
+2. Set the acquisition time to $100 \text{ sec}$ by pressing the TIME button. Adjust the time interval using the UP/DOWN 
+buttons. Press TIME again to return to the COUNT display.
+3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating 
+data and the count indicator light will turn off. At this point it is only necessary to press COUNT again to zero the 
+readout and restart a new $100 \text{ sec}$ interval.
+4. Take three $100 \text{ sec}$ trials of the background. Record the count for each trial in your background radiation table. 
+
+5. Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single $100 \text{ sec}$ trial of the 
+background radiation and record the value.
+
+::::::
+
+:::Exercise
+1. Provide your complete [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
+2. What is the average background radiation in the physics lab? Use your first three measurements for this.
+
+:::
+
+:::Exercise
+
+1. What was your measured counts per minute with the absorber in place?
+2. How does this result compare to your results with no absorber? Make the comparison keeping in mind the *uncertainty* column. 
+3. What does this tell you about the energy of the background particles? Explain.
+:::
+
+
+Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics 
+building, so the absorber isn’t much of an obstacle.
+
+## Radiation from Cobalt-60 
+
+::::::Activity (co-6-gamma|co60 Gamma in person)
+1. The primary emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
+block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber 
+on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. 
+This aluminum sheet will remain in place throughout the experiment
+2. Place the thinnest lead absorber, #8, in the very top slot. Take a single $600\text{ s}$ measurement and record the number of 
+counts in your data table, along with the absorber’s $\rho x$ value.
+3. Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
+4. Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined 
+values for the three absorbers.
+5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
+::::::
+:::Exercise
+ Include your [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
+:::
+
+
+## Determining the Mass Attenuation Coefficient
+
+
+
+
+
+
+
+
+
+
+::::::Activity (co-analysis|Analyzing the Mass Attenuation Coefficient)
+
+1. Using your collected data, fill in all missing values in the Linearized Data Table
+:::Exercise (linear-table)
+ Include your Linearized data table here. 
+:::
+
+2. Make a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) of your linearized counts data against the respective $\rho x$ values: This should have $\ln(\text{Adjusted CPM})$ on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis
+
+:::Exercise (linear-plot)
+1. Include your Linearized Plot here. 
+2. What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
+:::
+3. Make a best-fit line on the plot you made in [](#Activity-co-6-gamma). 
+4. From the best-fit line, determine $\mu/\rho$.
+
+::::::
+
+
 
 :::Exercise
 1. What is your computed value for the mass attenuation coefficient of lead?
 
-2. How does this compare to the accepted value of $5.9 \times 10^{-5} \rm\ cm^2/mg$? Your error may be $±50$%.
+2. How does this compare to the accepted value of $5.9 \times 10^{-5} \rm\ cm^2/mg$? Assume that your error may be $\pm20$%.
 
 3. What density thickness would you need to reduce the intensity of radiation by 1⁄2? Use the accepted value of the mass attenuation coefficient in your calculation.
 
 4. How much lead is this? Estimate the number of the thickest lead absorbers  (absorber 11) you would need to add up in order to achieve the requirement calculated in part c.
 :::
-::::::
 
 # Conclusion
 :::Exercise
