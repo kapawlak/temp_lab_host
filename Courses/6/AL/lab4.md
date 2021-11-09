@@ -58,11 +58,13 @@ A radian is a unit of measurement for angles. In value, $1$ rad is equivalent to
 When working with radians, the most important thing to remember is that all circles have $2\pi$ radians, just as they have $360&deg;$. While not so important, the way this definition and equivalence is derived is given below, and can be enlightening.
 
 
-:::Hider (|How the Radian Gets its Value)
+::::::Hider (|How the Radian Gets its Value)
 You ask, &ldquo;How is the value of a radian determined?&rdquo; Perhaps this will help. You buy a 15&Prime; pizza. You cut a piece of string so that it is 15 inches long, fold it exactly in half and make a mark at the midpoint. Now you use it to find the center of the pizza, and you make a straight cut from there to the edge of the pizza. Now you cut the string exactly in half, take one of the two 7.5-inch pieces, place one end of it exactly at the outer end of the cut you have just made, and carefully lay it along the edge of the pizza. From the other end of the string, you now make a second straight cut to the center of the pizza. You now have a slice whose length along the crust (arc length) equals the length of each side (the radius of the pizza, $r$). The angle subtended by this arc is thus $1$ radian, but now you would like to know how many radians there are in a circle, and also, what a radian corresponds to in degree measure.
-
-You don&rsquo;t have a protractor with you, but you do have a clean napkin and a pen, and you&rsquo;ve managed to measure the circumference of the pizza in terms of the length of your string (= $r$). You note that the circumference of the pizza, $C$, equals $2\pi r$, and that a full circle subtends an angle of $360$&deg;. This means that there are $2\pi$ radians in 360&deg;. Doing the arithmetic, you find that $360^{\circ}/(2\pi) (= 180/\pi) = 57.3$&deg;. Hence, 1 radian = $57.3$&deg;. (You measured the diameter and radius rather precisely.) Note that because the radian is a ratio of two lengths, it is dimensionless.
+:::Figure (rad|m|R)
+![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Circle_radians.gif "Source: Wikipedia")
 :::
+You don&rsquo;t have a protractor with you, but you do have a clean napkin and a pen, and you&rsquo;ve managed to measure the circumference of the pizza in terms of the length of your string (= $r$). You note that the circumference of the pizza, $C$, equals $2\pi r$, and that a full circle subtends an angle of $360$&deg;. This means that there are $2\pi$ radians in 360&deg;. Doing the arithmetic, you find that $360^{\circ}/(2\pi) (= 180/\pi) = 57.3$&deg;. Hence, 1 radian = $57.3$&deg;. (You measured the diameter and radius rather precisely.) Note that because the radian is a ratio of two lengths, it is dimensionless.
+::::::
 
 
 ### Angular Velocity
@@ -83,7 +85,7 @@ You probably recall that the time rate of change in (linear) velocity is *accele
 :::
 
 
-Note that in the text above, the arrows over the symbols indicate that the quantities they represent are *vectors* &ndash; that is, $\vec\theta$, $\vec\omega$ and $\vec\alpha$ have both magnitude and direction. (It is also common to denote that these quantities are vectors by setting their symbols in **boldface**, as ***&theta;***, ***&omega;*** and ***&alpha;***.) The direction is along the axis of rotation, and the sense is in the direction in which your right thumb points when you curl the fingers of your right hand in the direction of the rotation. Since it is only the sense that changes, and since we are not so much concerned with direction, for convenience we will use the scalar forms of the equations in which all these symbols appear.
+Note that in the text above, the arrows over the symbols indicate that the quantities they represent are *vectors* &ndash; that is, $\vec\theta$, $\vec\omega$ and $\vec\alpha$ have both magnitude and direction. (It is also common to denote that these quantities are vectors by setting their symbols in **boldface**, as ***&theta;***, ***&omega;*** and ***&alpha;***.) The direction is along the axis of rotation, and the orientation is in the direction in which your right thumb points when you curl the fingers of your right hand in the direction of the rotation. Since it is only the orientation that changes, and since we are not so much concerned with direction, for convenience we will use the scalar forms of the equations in which all these symbols appear.
 
 
 ## Mass, Force, Momentum
@@ -201,10 +203,10 @@ The total kinetic energy for the rotating object is the sum for all points on it
 :::
 
 ## Setup
-:::Figure (device|m|R)
-![](imgs/Lab4/TTsetup.jpg)
+:::Figure (device|l|R)
+![](imgs/Lab4/TTsetup.jpg "A diagram depicting the setup for this week's lab.")
 :::
-For our dynamic measurement of the moment of inertia, we will use a mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. The string loops around a pulley and attaches to a mass hanging from the free end of the string. This mass, under the direct influence of gravity, provides tension, which exerts a torque on the turntable, thus causing it to rotate. [](#Figure-device) shows a schematic of the apparatus: 
+For our dynamic measurement of the moment of inertia, we will use a mounted turntable that has a hub attached at its center, which has three grooves of different radii, around which one can wind a string. The string loops around a pulley and attaches to a mass hanging from the free end of the string. This mass, under the direct influence of gravity, provides tension, which exerts a torque on the turntable, thus causing it to rotate. [](#Figure-device) shows a schematic of the apparatus: 
 
 By measuring the time it takes the mass to fall from its initial height to the table top (or some reference line just above it), we can find $a$, its (linear) acceleration. From this we can calculate $\alpha$, the angular acceleration of the turntable. From the weight of the mass, and its linear acceleration, we can find $T$, the tension in the string. Once we know all these things, we can calculate the torque, $\tau$, and from $\tau = I \alpha$ find $I$, the moment of inertia of our turntable platter.
 
@@ -305,7 +307,7 @@ Lever Arm r = ________
 ::::::Activity (main|Moment of Inertia from a Rotational Scale)
 
 :::Figure (TTsetup|xl)
-![](imgs/Lab4/TTsetup.jpg)
+![](imgs/Lab4/TTsetup.jpg "A diagram depicting the setup for this week's lab.")
 :::
 
 1. Record the lever arm distance, $r$, of your turntable.
