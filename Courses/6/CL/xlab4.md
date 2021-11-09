@@ -9,9 +9,21 @@ You've learned a lot about optics this quarter, and we are finally ready to move
 :::
 ::::::
 
+::::::Prelab
+
+:::center
+[](#Exercise-sketch), [](#Exercise-linear)
+:::
+
+:::center
+[](#Activity-tables)
+:::
+
+::::::
+
 ---
 
-# Radiation and Its Origins
+# Radiation: Origins, Measurement, and Equations
 
 The nuclei of some atoms are unstable. In the process of becoming stable, they emit various particles. This phenomenon is known as radioactive decay. The most common types of emission are alpha and beta particles, and gamma rays. 
 
@@ -78,31 +90,49 @@ $$
 Density thickness has dimensions of mass/area; we will use $\rm mg/cm^2$.
 
 :::Note (|10 C)
-The nice thing about density thickness is that it combines linearly. That means if you had a material with density thickness 300 $\rm mg/cm^2$, and another with 100 $\rm mg/cm^2$, and you stacked them on top of each other, the total density thickness would be 400 $\rm mg/cm^2$. 
+The nice thing about density thickness is that it combines linearly. That means if you had a material with density thickness $300 \rm mg/cm^2$, and another with $100 \rm mg/cm^2$, and you stacked them on top of each other, the total density thickness would be $400 \rm mg/cm^2$. 
 :::
 
 Gamma radiation is part of the electromagnetic spectrum, and of all known forms of energy in the universe, it is of the highest energy. Because of this high energy, gamma ray absorption by matter is significantly lower than for beta or alpha particles. **In this lab you will subtract the background count from each run.** This is because there is not enough lead to stop all of the gamma rays from the Co-60 source and thereby reduce the count rate to the background level.
 
 
-# The Mass Attenuation Coefficient $\mu/\rho$
+## The Mass Attenuation Coefficient $\mu/\rho$
 
 The mass attenuation coefficient for a specific material, defined as $\mu/\rho$, tells us how well a material absorbs or scatters radiation. The behavior of radiation as it passes through matter is given by the formula:
 
 :::Equation n
 $$
-N = N\rm_0 \it{e}^{-(\mu/\rho)(\rho x)}
+N = N\rm_0 \it{e}^{-(\frac{\mu}{\rho})(\rho x)}
 $$
 :::
 
-where N is the number of counts per unit time (activity) after the radiation has passed through an absorber of thickness $x$, $N\rm_0$ is the number of counts incident on the absorber per unit time, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $mg/cm^3$. If we take the natural logarithm of both sides we obtain:
+where N is the number of counts per unit time (activity) after the radiation has passed through an absorber of thickness $x$, $N\rm_0$ is the number of counts incident on the absorber per unit time, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $\text{mg}/\text{cm}^3$. 
+
+:::Exercise (sketch)
+Imagine we are looking at the attenuation of a certain kind of radiation through a material with $\mu/\rho = 0.15 \text{cm}^2/\text{g}$. We've determined that the number of radiation counts prior to entering our sample is $N_0 = 100$ for a one-minute interval.
+1. We have a thin foil sample of known $\rho x = 1.1 \text{g}/{cm}^2 $. How many counts should we expect to make it through the sample during a one minute interval? Use [](#Equation-n)
+2. We make an independent measurement of our sample material and determine that the mass density of our material is $\rho = 10.5 \text{g}/\text{cm}^3$. Again using [](#Equation-n), create a sketch from $x= 0 \text{cm}$ to $x = 5 \text{cm} $ that illustrates how many counts you'd expect to record in a minute as a function of sample thickness, $x$ ;;;You can do this by hand and attach a picture, or do so on a digital drawing program ;;;
+3. Estimate the thickeness needed to block 50% of counts. Repeat for 75% of counts.
+:::
+
+
+A typical way to deal with exponential equations is *linearizing* them. If we take the natural logarithm of both sides we obtain:
 
 :::Equation log
 $$
-ln(N) = ln(N\rm_0) - (\mu/\rho)(\rho \it{x})
+\ln(N) = \ln(N\rm_0) - (\mu/\rho)(\rho \it{x})
 $$
 :::
  
-[](#Equation-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
+[](#Equation-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = \ln(N_0)$. We see that if we plot the logarithmic of count data, that the *slope* will give us important information about the physics.
+
+:::Exercise (linear)
+1. Using the values of parameters ($N_0$, $\mu/\rho$ and $\rho$) provided in [](#Exercise-sketch), write down the correct equation for $\ln(N)$ in terms of $x$. Your equation should only have $\ln(N)$ and $x$, and everything else with values substituted.
+2. Verify that your thicknesses in [](#Exercise-sketch)c are also correct in this linearized form of the equation.
+:::
+
+
+
 # Preparing for the Experiment
 :::Figure (labstation|m|R)
 ![Spectech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG 'Spectech ST - 150 Nuclear Lab Station')
@@ -130,11 +160,18 @@ From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betae
 :::
 
 ## Preparing our Tables
-::::::Activity (tables|Tables)
 
+As always, it is recommended that you skip ahead to the Experiments and read through them at this point so you have a good idea what the purpose of each table and calculation is for. 
+::::::Activity (tables|Preparing our tables)
+
+** The following steps should be done on a single spreadsheet so you can cross-link data between tables!!!**
+
+
+1. First, create a table for the Background Counts Activity, similar to [](#Table-bg-table). Be sure the appropriate units are filled in. Also make a cell that calculates the **Average Counts Per Minute**. 
 :::Table (bg-table| Background Counts)
 
-| Counts (unit) | Time Interval (unit) | Counts Per Minute | Uncertainty (unit)|
+
+| Counts (unit) | Time Interval (unit) | Counts Per Minute | Uncertainty (counts/minute)|
 |---------------|---------------------:|-------------------|-------------|
 | ...           |                      |                   |             |
 | ...           |                      |                   |             |
@@ -145,9 +182,16 @@ From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betae
  **Average CPM:** ___________ 
 
 :::
+2. Using spreadsheet functions, have the **Counts** and **Time Interval** automatically converted to **Counts Per Minute**. Also add a spread sheet function to automatically calculate **Average CPM** from the **Counts Per Minute** column. ;;;Many students find it useful to insert fake data to see that everything is working ;;;
+3. The Uncertainty column for this kind of data is very special [fn]Radiation is what is known as a [Poisson process](https://en.wikipedia.org/wiki/Poisson_point_process), which is a kind of random process that has a constant average rate that something happens. Given a sample of some counts over a certain interval, we have a very specific way of quantifying the uncertainty in the true rate. [/fn]. The uncertainty in **Counts Per Minute** is going to be the squareroot of the value. Include a spreadsheet function to calculate this.
+
+---
+
+4. Next, create a table, like [](#Table-co60-table) to record the raw Mass Attenuation Experiment Data. Include the correct units and a spreadsheet function to convert **Counts** and **Time Interval** data into **Counts Per Minute**
 
 
-:::Table (co60-table| Co-60 Gamma Radiation Count Data)
+
+:::Table (co60-table| Co-60 Gamma Attenuation Data)
 
 | Total $\rho x$ (unit) | Counts (unit) | Time Interval (unit) | Counts Per Minute |
 |-----------------------|---------------|----------------------|-------------------|
@@ -158,30 +202,37 @@ From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betae
 
 :::
 
-
+5. Finally, create a table to *process* the raw data, like [](#Table-co60-table2). Here you will include a cell that has the average background radiation CPM you first measured. You will copy your $\rho x$ values into this table also.
 :::Table (co60-table2| Linearized Co-60 Gamma Radiation Data)
 
 Average Background CPM: ____________
 
 | Total $\rho x$ (unit) | Background Corrected CPM |  LN(CPM) |
 |-----------------------|--------------------------|----------|
-|                       |                          |          |
-|                       |                          |          |
-|                       |                          |          |
-|                       |                          |          |
+| ...                   |                          |          |
+|     ...               |                          |          |
+|        ...            |                          |          |
+|           ...         |                          |          |
 
 :::
+6. Create a spreadsheet function that uses the **Average Background CPM** and the **CPM** of the Raw Data table to calculate the **Background Corrected CPM**
+7. In the final column, use a spreadsheet function to calculate **LN(CPM)** ;;;Be careful! Do not use LOG, which is base 10!;;;
+8. Include a link to all three tables in [](#Exercise-table1), [](#Exercise-table2), [](#Exercise-linear-table) respectively
+
 ::::::
 
 # Experiments
 
 ## Background Counts
 
-::::::Activity (bg-counts|Background Counts In Person)
+::::::Activity (bg-counts|Determining Counts from Background Radiation)
 
 1. Turn the instrument on and set the voltage to $500 \text{ V}$ by pressing the H.V. button and adjusting the voltage using the 
 UP/DOWN buttons. Adjustments to the voltage will be made in $20 \text{ V}$  increments. Press the H.V. button again to 
 return to the COUNT display.
+:::Figure (set|xl)
+![](imgs/Lab4/setvolts.gif "Set the voltage to 500 V on the SPECTECH")
+:::
 2. Set the acquisition time to $100 \text{ sec}$ by pressing the TIME button. Adjust the time interval using the UP/DOWN 
 buttons. Press TIME again to return to the COUNT display.
 3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating 
@@ -194,7 +245,7 @@ background radiation and record the value.
 
 ::::::
 
-:::Exercise
+:::Exercise (table1)
 1. Provide your complete [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 2. What is the average background radiation in the physics lab? Use your first three measurements for this.
 
@@ -213,11 +264,14 @@ building, so the absorber isn’t much of an obstacle.
 
 ## Radiation from Cobalt-60 
 
-::::::Activity (co-6-gamma|co60 Gamma in person)
+::::::Activity (co-6-gamma|Mass Attenuation using a Co-60 Source)
 1. The primary emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to 
-block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber 
+block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber
 on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. 
 This aluminum sheet will remain in place throughout the experiment
+:::Figure (plate|xl)
+![](imgs/Lab4/insertplate.gif "Inserting the Aluminum Plate")
+:::
 2. Place the thinnest lead absorber, #8, in the very top slot. Take a single $600\text{ s}$ measurement and record the number of 
 counts in your data table, along with the absorber’s $\rho x$ value.
 3. Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined ρx values for both absorbers.
@@ -225,7 +279,7 @@ counts in your data table, along with the absorber’s $\rho x$ value.
 values for the three absorbers.
 5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
 ::::::
-:::Exercise
+:::Exercise (table2)
  Include your [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 :::
 
@@ -281,22 +335,4 @@ You will expected to turn in every plot and table you make for this lab, as well
 
 
 
-
-# In Person Component
-::::::Activity (determining|Determining the Mass Attenuation Coefficient)
-Determining the Mass Attenuation Coefficient µ/ρ
-The mass attenuation coefficient for a specific material, defined as µ/ρ, tells us how well a material absorbs or scatters 
-radiation. The behavior of radiation as it passes through matter is given by the formula:
-N = No e-(µ/ρ)(ρx)
-where N is the number of counts after passing through an absorber of thickness x, No is the number of counts incident on 
-the absorber, the quantity (µ/ρ) is the mass attenuation coefficient, ρx is the linear density in mg/cm2 and ρ is the density 
-of the absorber material in mg/cm3
-. If we take the natural logarithm of both sides we obtain:
-ln(N) = ln(No) - (µ/ρ)(ρx)
-The above equation follows the form y = mx + b, with m = -(µ/ρ) and b = ln(No)
-:::Exercise
-1. What is your computed value for the mass attenuation coefficient of lead?
-2. How does this compare to the accepted value of 5.9 x 10-5 cm2/mg? Your error may be ±20%.
-3. What are some sources of error in the experiment? How could you reduce them?
-::::::
 

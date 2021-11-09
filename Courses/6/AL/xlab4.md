@@ -6,9 +6,18 @@ In the last lab of this quarter, you will refresh your knowledge of **Rotational
 :::
 
 
-:::Prelab
-NEEDS PRELAB QUESTIONS
+::::::Prelab
+Please complete the following Exercises
+:::center
+[](#Exercise-1), [](#Exercise-2), , [](#Exercise-3)
 :::
+In addition, please go through the following Activities:
+:::center
+[](#Activity-moi-calc), [](#Activity-table)
+:::
+
+Moreover, please note that [](#Exercise-plot) requires a plot. Feel free to set up the plot prior to lab if you need more time.
+::::::
 ---
 # From Linear to Rotational Mechanics
 In your study of linear mechanics, you have become familiar with terms like position and displacement (along a coordinate x, y or z), velocity ($v$), acceleration ($a$), mass ($m$), and so on. In rotational mechanics, we measure similar quantities such as angular displacement, angular velocity and angular acceleration.
@@ -193,9 +202,9 @@ The total kinetic energy for the rotating object is the sum for all points on it
 
 ## Setup
 :::Figure (device|m|R)
-![Figure_1](imgs/Lab4/Figure_1.jpg)
+![](imgs/Lab4/TTsetup.jpg)
 :::
-For our dynamic measurement of the moment of inertia, we will use a vertically-mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. [](#Figure-device) shows a schematic of the apparatus: 
+For our dynamic measurement of the moment of inertia, we will use a mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. The string loops around a pulley and attaches to a mass hanging from the free end of the string. This mass, under the direct influence of gravity, provides tension, which exerts a torque on the turntable, thus causing it to rotate. [](#Figure-device) shows a schematic of the apparatus: 
 
 By measuring the time it takes the mass to fall from its initial height to the table top (or some reference line just above it), we can find $a$, its (linear) acceleration. From this we can calculate $\alpha$, the angular acceleration of the turntable. From the weight of the mass, and its linear acceleration, we can find $T$, the tension in the string. Once we know all these things, we can calculate the torque, $\tau$, and from $\tau = I \alpha$ find $I$, the moment of inertia of our turntable platter.
 
@@ -256,21 +265,21 @@ where $M$ is the mass of the disc and $R$ is the radius of the disc. Do not conf
 
 1. [](#Video-moi) below shows the measurement of the mass and the diameter of the turntable platter. Record these values.
 :::Video (moi| Measuring the Turntable Platter)
-<iframe width="100%" height="100%"  src="https://www.youtube.com/embed/gFbj7EOupxc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%"  src="https://www.youtube.com/embed/gFbj7EOupxc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
-2. Given the mass  $M=976.5 \rm\ g$ and radius $R=12.7 \rm\ cm$ of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
+2. Given the mass and radius of the turntable platter, use the correct equation to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
 
+<!-- $M=976.5 \rm\ g$ $R=12.7 \rm\ cm$ -->
+
+::::::
 :::Exercise
  What did you calculate the Moment of Inertia to be?
 :::
-
-::::::
-
 ## Preparing our Data Tables
 In the moment of inertia lab, we will be observing how six different masses — and hence, six different torques — will generate rotation in a heavy disk. From our knowledge of the force on the masses, we will be able to figure out the torque applied to the disk. We will further use the total angular displacement (which can be found from the distance to the ground) to work out the Moment of Inertia. You should read [](#Activity-main)
  
 ::::::Activity (table|Preparing Our Data Tables)
-1. Create a Good Table with six data rows similar to [](#Table-torque)
+1. Create a [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) with six data rows similar to [](#Table-torque). Be sure to include the correct units.
 :::Table (torque|Moment of Inertia Data)
 Lever Arm r = ________
 | Mass | Height | Time | Acc | Angular Acc. | Torque | 
@@ -295,8 +304,12 @@ Lever Arm r = ________
 ## Measuring the Moment of Inertia
 ::::::Activity (main|Moment of Inertia from a Rotational Scale)
 
+:::Figure (TTsetup|xl)
+![](imgs/Lab4/TTsetup.jpg)
+:::
+
 1. Record the lever arm distance, $r$, of your turntable.
-:::Note
+:::Note (|10 C)
  This is not the radius of the turntable top; this is the distance from the rotation axis to where the string makes contact with the turntable. This value should be $1$, $2$, or $3 \text{ cm}$.
 :::
 :::Exercise
@@ -311,13 +324,13 @@ What level of confidence do you have in this measurement (+/- mm)?
 ::::::
 
 :::Exercise (table)
-Include your completed Good Table here.
+Include your completed [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 :::
 
 # Analyzing The Experiments
 We are now ready to extract some information from our data on the Moment of Inertia of the disk.
-:::Exercise
-1. Plot the **Torque** and **Angular Acceleration**
+:::Exercise (plot)
+1. Plot the **Torque** and **Angular Acceleration**. ( Be sure is is a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) )
 2. Does the line look linear? Should it?
 3. Plot the line of best fit for this data and include the equation here.
 4. What is the Moment of Inertia?
@@ -330,12 +343,12 @@ Finally, we want to compare the values achieved in two different ways.
 
 2. What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
 
-3. In what way could these assumptions cause a discrepancy between the two values you obtained for the moment of inertia? Hint: Using Video 2, inspect how the mass of the turntable is distributed around the axis of rotation.
+3. In what way could these assumptions cause a discrepancy between the two values you obtained for the moment of inertia? ;;; Inspect how the mass of the turntable is distributed around the axis of rotation.;;;
 
 4. What else might cause a discrepancy between these two values? 
 ::::::
 # Conclusion
-:::Activity
+:::Exercise
 Write a brief statement summarizing the main points of this lab.
 :::
 
