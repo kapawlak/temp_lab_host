@@ -51,7 +51,7 @@ Where $V$ and $N$ are the same as before, $m$ is the mass of a single gas molecu
 
 ::::::Activity (model|Building the Model)
 
-:::Exercise (speedSolve)
+:::Exercise (speedSolve| 4 Points)
 Using equations [](#Equation-speedOfSound), [](#Equation-bulkModulus), [](#Equation-idealGasLaw), and [](#Equation-density), solve for the speed of sound, $v$, as a function of $\gamma$, $k_B$, $T$, and $m$. Show your work.
 :::
 
@@ -63,19 +63,19 @@ For the other two constants, $\gamma$ and $m$, determining their values might no
 
 The adiabatic index, $\gamma$ is dependent on the structure of the molecule. Since both $\text{N}_2$ and $\text{O}_2$ are diatomic, they have the same $\gamma$ value of $1.4$. Then for now we can assume that $\gamma=1.4$. 
 
-:::Exercise
+:::Exercise (| 4 Points)
 What factors might contribute to $\gamma$ not being $1.4$?
 :::
 
 For $m$ there needs to be a decision. Do we assume just one gas? Do we perform some sort of calculation to determine $m$? This will be up to you to decide how you want to approach this.
 
-:::Exercise (determineM)
+:::Exercise (determineM | 8 Points)
 1. What is value of $m$ that you will use in $\text{kg}$?
 2. What is your reasoning for using this value of $m$? Use a combination of words and math to make your argument. (List any sources that you use to help determine your value of $m$)
 3. Plug in your three constants into the equation you derived in [](#Exercise-speedSolve). What is the new equation? ;;;Make sure you are in the correct units;;;
 :::
 
-:::Exercise (assumptions)
+:::Exercise (assumptions | 5 Points)
 What are the assumptions in your model?
 :::
 ::::::
@@ -163,7 +163,7 @@ A diagram of the apparatus and the connections are depicted in [](#Figure-appara
 **Before coming to lab** you will need to complete [](#Activity-model), Exercises 1-4 inside of it, [](#Exercise-experimentDescription), [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
 :::
 
-:::Exercise (experimentDescription)
+:::Exercise (experimentDescription | 8 Points)
 For this lab you will need to design you own experiment. It should involve making at least one plot and performing at least one linear fit.
 
 1. Briefly describe the experiment you will perform.
@@ -172,7 +172,7 @@ For this lab you will need to design you own experiment. It should involve makin
 4. What is the meaning of the intercept?
 :::
 
-:::Exercise (procedure)
+:::Exercise (procedure | 6 Points)
 Write a procedure for performing the experiment you described above. Some questions in the lab that your procedure should be prepared to answer are the following [](#Exercise-frequency) and [](#Exercise-timeDelay)
 :::
 
@@ -186,7 +186,7 @@ Determine what frequency you will set your function generator to.
 Try to keep it on the lower of the frequency range so as not to annoy your classmates.
 :::
 
-:::Exercise (frequency)
+:::Exercise (frequency | 9 Points)
 1. What frequency will you use for your experiment?
 2. Describe what you did to determine this.
 3. Are there any issues you can identify with setting the frequency too high or too low? (Besides annoying your classmates.)
@@ -199,32 +199,32 @@ Additionally, is the position of the speaker or the microphone pick up exactly w
 
 All of these things might add some delay to your time measurement.
 
-:::Exercise (timeDelay)
+:::Exercise (timeDelay | 7 Points)
 How will you handle this time delay?
 :::
 
 ## Data Collection
 ::::::Activity
-:::Exercise
+:::Exercise ( | 8 Points)
 Take notes about what you are doing in this exercise. Describe what you did, any problems you ran into and how you handled it, or anything interesting you noticed while performing your experiment.
 :::
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. Take a picture of your oscilloscope screen while the microphone is picking up a signal and include it here.
 2. Describe what you are measuring.
 :::
 
-:::Exercise
+:::Exercise ( | 4 Points)
 Include any data tables you made during the course of the lab here.
 :::
 ::::::
 ## Data Analysis
 ::::::Activity
-:::Exercise
+:::Exercise ( | 8 Points)
 Include your plot(s) in this exercise.
 :::
 
-:::Exercise
+:::Exercise ( | 4 Points)
 1. What is the slope of your line of best fit?
 2. What is the intercept?
 :::
@@ -238,12 +238,12 @@ In the lab is a $\text{CO}_2$, temperature, and relative humidity sensor. You ca
 - The uncertainty of the humidity sensor is $\pm 5\\%$ of the reading.
 :::
 
-:::Exercise
+:::Exercise ( | 8 Points)
 1. What is your measured speed of sound in air? Include uncertainty.
 2. How does this compare to the speed of sound predicted by your model? Include uncertainty.
 :::
 
-:::Exercise
+:::Exercise ( | 8 Points)
 If your measurement is in agreement with theory, how would you improve this experiment to increase your precision to be sure? If you have time, try out your ideas.
 
 If your theory does not agree with your model, how might you modify your model to explain the discrepancy? Are there any assumptions you need to drop or modify? If you make these changes to your model how does it affect the discrepancy?
