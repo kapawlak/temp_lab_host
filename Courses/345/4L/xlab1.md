@@ -19,6 +19,10 @@
 
 4. To double the number of data points, redistribute the compasses about the paper. They should be equally distributed and should not be at any of the original locations. Again draw an arrow in the direction of the compass.
 
+:::Exercise (sketch_1|1 Point)
+Include an image of your sketch in your report
+:::
+
 :::::::::
 
 :::::::::Activity (air_core|Air Core Electromagnet)
@@ -32,7 +36,11 @@
 5. Depress the current switch. With the compasses in the same position, this time draw dashed arrows indicating the direction of the field.
 
 :::Exercise (reverse_current|1 Point)
-What happens when you reverse the current?
+Describe what happens when you reverse the current?
+:::
+
+:::Exercise (sketch_1|1 Point)
+Include an image of your sketch in your report
 :::
 
 ::: Note (mag_hints|10)
@@ -287,5 +295,5 @@ What direction will current flow in the second coil when the first coil generate
 :::
 
 :::Exercise (sketch_laws|3 Points)
-Assuming that the galvanometer expects current to flow in through the positive terminal, were your experimental results consistent with the last two questions? Draw pictures to illustrate your thinking.
+Assuming that the galvanometer expects current to flow in through the positive terminal, were your experimental results consistent with the last two questions? Draw pictures to illustrate your thinking. Make sure to include your pictures with your written explanation in the report.
 :::
