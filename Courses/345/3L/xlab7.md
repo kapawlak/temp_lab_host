@@ -19,9 +19,10 @@ $$
 
 Often times in a physics or electronic lab we don't use a power source that supplies a constant voltage that we, the user, get to set. This means that we set the voltage and that the current is determined by the resistance. This is what we will be doing in this lab.
 
-:::Exercise (ohmLawCurrent)
+:::Exercise (ohmsLawCurrent| 2 Points)
 Given the explanation above, rewrite Ohm's law to match what we will be doing in the lab.
 :::
+
 
 ## Equivalent Resistance
 
@@ -34,6 +35,14 @@ You have likely seen the concept of equivalent resistance. Equivalent resistance
 From the perspective of the voltage source, these two circuits behave identically. These two models are equivalent, but dealing a single resistor can be much more simple than a complex network.
 
 The trouble here is determining the value of $R_{eq}$. Depending on the network, this might be a non trivial task. For now, we will only consider two basic topologies you are likely familiar with. Series circuits, parallel circuits, or some combination of them. 
+
+Outside of mathematical determining the equivalent resistance, you can also determine it empirically. For instance if we measured the voltage drop across the complex network of resistors in [](#Figure-eqResistance) and the current flowing into the network we could use design an experiment using the equation you derived in [](#Exercise-ohmsLawCurrent) to measure the equivalent resistance. We would make a plot of $I$ vs. $V$, also know as an $I-V$ plot, and get the equivalent resistance.
+
+:::Exercise (measEqResistance| 8 Points)
+Assuming you were measuring the current into the network and voltage across it, and using applying equivalent resistance, describe the experiment you would perform to measure the equivalent resistance. Additionally describe how you would get the equivalent resistance from your data. ;;;Assume that network (and the equivalent resistance model) obey Ohm's Law;;;
+:::
+
+
 
 ### Series Circuits
 
@@ -67,6 +76,12 @@ The equivalent resistance for a of $N$ resistors in parallel is given by [](Equa
 $$
 R_{eq} = \left ( \sum_{i=1}^{N} \frac{1}{R_i} \right )^{-1}
 $$
+:::
+
+# Pre-Lab
+
+:::Prelab
+**Before coming to lab** you will need to complete (#Exercise-ohmsLawCurrent) and [](#Exercise-measEqResistance). This will be checked off by your TA when you get to class. 
 :::
 
 # Apparatus
@@ -182,92 +197,133 @@ If you want to include the voltmeters or the ammeter in any circuit diagram you 
 **Before coming to lab** you will need to complete [](#Activity-model), Exercises 1-4 inside of it, [](#Exercise-experimentDescription), [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
 :::
 
-:::Exercise (experimentDescription | 8 Points)
-For this lab you will need to design you own experiment. It should involve making at least one plot and performing at least one linear fit.
-
-1. Briefly describe the experiment you will perform.
-2. What will you be plotting?
-3. What is the meaning of the slope of your fit?
-4. What is the meaning of the intercept?
-:::
-
-:::Exercise (procedure | 6 Points)
-Write a procedure for performing the experiment you described above. Some questions in the lab that your procedure should be prepared to answer are the following [](#Exercise-frequency) and [](#Exercise-timeDelay)
-:::
 
 # The Experiment
 
-## Frequency
+In this lab you will demonstrate the concept of equivalent resistance. Use the mathematical models above and compare that to $I-V$ curves. 
 
-Determine what frequency you will set your function generator to. 
+## Single Resistor
 
-:::Note
-Try to keep it on the lower of the frequency range so as not to annoy your classmates.
+::::::Activity (single)
+
+1. Using a single resistor from the resistor box, connect a circuit so that you can make an $I-V$ curve.
+
+:::Exercise ( | 3 Points)
+Draw a circuit diagram and include it here.
 :::
 
-:::Exercise (frequency | 9 Points)
-1. What frequency will you use for your experiment?
-2. Describe what you did to determine this.
-3. Are there any issues you can identify with setting the frequency too high or too low? (Besides annoying your classmates.)
+2. Create an $I-V$ plot for this circuit.
+
+:::Exercise ( | 1 Point)
+Include your data table here.
 :::
 
-## Time Delay
-The function generator must send the signal to the speaker and to the oscilloscope down a wire. Then the speaker must react and send a pulse of sound down the tube. Then the microphone must react to the sound reaching it and send that signal to an amplifier. Then the amplifier must process the signal and send it to the oscilloscope.
-
-Additionally, is the position of the speaker or the microphone pick up exactly where you think they are? If they are not where you expect, then your distance between them will be different than what you expect.
-
-All of these things might add some delay to your time measurement.
-
-:::Exercise (timeDelay | 7 Points)
-How will you handle this time delay?
+:::Exercise ( | 6 Points)
+Include your plot here.
 :::
 
-## Data Collection
-::::::Activity
-:::Exercise ( | 8 Points)
-Take notes about what you are doing in this exercise. Describe what you did, any problems you ran into and how you handled it, or anything interesting you noticed while performing your experiment.
+:::Exercise ( | 6 Points)
+1. Based on the plot, does this resistor follow Ohm's Law?
+2. What is the resistance you measured? Include uncertainty.
 :::
 
-:::Exercise ( | 4 Points)
-1. Take a picture of your oscilloscope screen while the microphone is picking up a signal and include it here.
-2. Describe what you are measuring.
-:::
-
-:::Exercise ( | 4 Points)
-Include any data tables you made during the course of the lab here.
-:::
 ::::::
-## Data Analysis
-::::::Activity
-:::Exercise ( | 8 Points)
-Include your plot(s) in this exercise.
+
+## Series Equivalence
+
+::::::Activity (series)
+
+Here we will demonstrate the principle of equivalent resistance.
+
+1. Create two more circuits using the resistor box. One with 2 resistors in series and one with 3.
+
+:::Exercise ( | 6 Points)
+1. Draw a circuit diagram for the two resistors in series circuit.
+2. Draw a circuit diagram for the three resistors in series circuit.
 :::
+
+2. Create an $I-V$ plot for both circuits. 
+
+:::Exercise ( | 2 Points)
+1. Include your data table here for the two resistors in series circuit.
+2. Include your data table here for the three resistors in series circuit.
+:::
+
+:::Exercise ( | 12 Points)
+1. Include your plot here for the two resistors in series circuit.
+2. Include your plot here for the three resistors in series circuit.
+:::
+
+:::Exercise ( | 12 Points)
+1. What is the equivalent resistance you measured for the two resistors in series? Include uncertainty.
+2. How does this equivalent resistance compare to the theoretical model?
+3. What is the equivalent resistance you measured for the three resistors in series. Include uncertainty.
+4. How does this equivalent resistance compare to the theoretical model?
+::: 
+::::::
+
+## Parallel Equivalence
+
+::::::Activity (parallel)
+
+Here we will demonstrate the principle of equivalent resistance.
+
+1. Create two more circuits using the resistor box. One with 2 resistors in parallel and one with 3.
+
+:::Exercise ( | 6 points)
+1. Draw a circuit diagram for the two resistors in parallel circuit.
+2. Draw a circuit diagram for the three resistors in parallel circuit.
+:::
+
+2. Create an $I-V$ plot for both circuits. 
+
+:::Exercise ( | 2 Points)
+1. Include your data table here for the two resistors in parallel circuit.
+2. Include your data table here for the three resistors in parallel circuit.
+:::
+
+:::Exercise ( | 12 Points)
+1. Include your plot here for the two resistors in parallel circuit.
+2. Include your plot here for the three resistors in parallel circuit.
+:::
+
+:::Exercise ( | 12 Points)
+1. What is the equivalent resistance you measured for the two resistors in parallel? Include uncertainty.
+2. How does this equivalent resistance compare to the theoretical model?
+3. What is the equivalent resistance you measured for the three resistors in parallel. Include uncertainty.
+4. How does this equivalent resistance compare to the theoretical model?
+::: 
+::::::
+
+## Lightbulb
+
+
+::::::Activity (lightbulb)
+
+1. Connect create a circuit with the lamp to make an $I-V$ plot.
 
 :::Exercise ( | 4 Points)
-1. What is the slope of your line of best fit?
-2. What is the intercept?
+Draw a circuit diagram and include it here.
 :::
 
+2. Make an $I-V$ plot for the lamp.
 
-
-:::Note
-In the lab is a $\text{CO}_2$, temperature, and relative humidity sensor. You can use this to help determine the theoretical speed of sound in the lab.
-- The uncertainty in the $\text{CO}_2$ meter is $\pm 75 \text{ppm}$ or $\pm 8\\%$, whichever is higher.
-- The uncertainty of the temperature sensor is $\pm 1^{\circ} \text{ F}$.
-- The uncertainty of the humidity sensor is $\pm 5\\%$ of the reading.
+:::Exercise ( | 2 Points)
+Include you data table here.
 :::
 
-:::Exercise ( | 8 Points)
-1. What is your measured speed of sound in air? Include uncertainty.
-2. How does this compare to the speed of sound predicted by your model? Include uncertainty.
+:::Exercise (|8 Points)
+Include your plot here.
 :::
 
-:::Exercise ( | 8 Points)
-If your measurement is in agreement with theory, how would you improve this experiment to increase your precision to be sure? If you have time, try out your ideas.
-
-If your theory does not agree with your model, how might you modify your model to explain the discrepancy? Are there any assumptions you need to drop or modify? If you make these changes to your model how does it affect the discrepancy?
+:::Exercise (| 9 Points)
+1. Do you think a lightbulb obeys Ohm's Law?
+2. Why or why not?
+3. What can you say about the resistance of the lightbulb?
 :::
+
 ::::::
+
 
 # Conclusion
 
