@@ -81,7 +81,7 @@ $$
 # Pre-Lab
 
 :::Prelab
-**Before coming to lab** you will need to complete (#Exercise-ohmsLawCurrent) and [](#Exercise-measEqResistance). This will be checked off by your TA when you get to class. 
+**Before coming to lab** you will need to complete [](#Exercise-ohmsLawCurrent) and [](#Exercise-measEqResistance). This will be checked off by your TA when you get to class. 
 :::
 
 # Apparatus
@@ -175,7 +175,7 @@ These are the meters that you will have available to you. You will have two volt
 
 When using the meters to make a measurement it is important to to note the scale that you are on. You can adjust the scale using the switch on the upper left corner of the meters. The writing at the location of the switch indicates the maximum value that the meter will read. If the voltage or current exceeds the max value the meter will only display a "1". Additionally, the unit that the meter is using is set by the max value switch. For instance, if the ammeter is set to $5 \text{ A}$ then the value displayed is in $\text{A}$. If the ammeter is set to $200 \text{ mA}$ the value displayed is in $\text{ mA}$.
 
-The final tip is that you should always use black jack of the ammeter. You're choice of the red or green jack depends on which maximum current setting you use. The green is only useful if you are on the $5 \text{ A}$ setting, but the red should be used for all other settings.
+The final tip is that you should always use black jack of the ammeter. Your choice of the red or green jack depends on which maximum current setting you use. The green is only useful if you are on the $5 \text{ A}$ setting, but the red should be used for all other settings.
 
 
 :::Figure (meterDiagram|m|R)
@@ -300,7 +300,7 @@ Here we will demonstrate the principle of equivalent resistance.
 
 ::::::Activity (lightbulb)
 
-1. Connect create a circuit with the lamp to make an $I-V$ plot.
+1. Create a circuit with the lamp to make an $I-V$ plot.
 
 :::Exercise ( | 4 Points)
 Draw a circuit diagram and include it here.
