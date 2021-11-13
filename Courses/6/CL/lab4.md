@@ -10,11 +10,11 @@ You've learned a lot about optics this quarter, and we are finally ready to move
 ::::::
 
 ::::::Prelab
-
+Please complete the following Exercises prior to lab:
 :::center
 [](#Exercise-sketch), [](#Exercise-linear)
 :::
-
+To ensure you are prepared to record and process experiment data, please do the following activity before lab:
 :::center
 [](#Activity-tables)
 :::
