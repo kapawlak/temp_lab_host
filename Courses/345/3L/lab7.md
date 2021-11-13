@@ -17,7 +17,7 @@ V = IR
 $$
 :::
 
-Often times in a physics or electronic lab we don't use a power source that supplies a constant voltage that we, the user, get to set. This means that we set the voltage and that the current is determined by the resistance. This is what we will be doing in this lab.
+Often times in a physics or electronic lab we don't use a power source that supplies a constant voltage that we, the user, get to set. This means that we set the voltage and that the current is determined by the resistance. This is what we will be doing this lab. Notice that Ohm's Law as written in [](Equation-ohmsLaw) indicates a situation where the voltage is set by the current. Let's rewrite Ohm's Law to match our situation.
 
 :::Exercise (ohmsLawCurrent| 2 Points)
 Given the explanation above, rewrite Ohm's law to match what we will be doing in the lab.
@@ -39,7 +39,7 @@ The trouble here is determining the value of $R_{eq}$. Depending on the network,
 Outside of mathematical determining the equivalent resistance, you can also determine it empirically. For instance if we measured the voltage drop across the complex network of resistors in [](#Figure-eqResistance) and the current flowing into the network we could use design an experiment using the equation you derived in [](#Exercise-ohmsLawCurrent) to measure the equivalent resistance. We would make a plot of $I$ vs. $V$, also know as an $I-V$ plot, and get the equivalent resistance.
 
 :::Exercise (measEqResistance| 8 Points)
-Assuming you were measuring the current into the network and voltage across it, and using applying equivalent resistance, describe the experiment you would perform to measure the equivalent resistance. Additionally describe how you would get the equivalent resistance from your data. ;;;Assume that network (and the equivalent resistance model) obey Ohm's Law;;;
+Assuming you were measuring the current into the network and voltage across it, and applying equivalent resistance, describe the experiment you would perform to measure the equivalent resistance. Additionally describe how you would get the equivalent resistance from your data. ;;;Assume that network (and the equivalent resistance model) obey Ohm's Law;;;
 :::
 
 
@@ -190,12 +190,6 @@ The final tip is that you should always use black jack of the ammeter. Your choi
 
 
 If you want to include the voltmeters or the ammeter in any circuit diagram you draw you can draw it as a circle with a "V" or "A" in it respectively. An example of the symbol and how to connect your meters is shown in [](#Figure-meterDiagram).
-
-
-## Pre-Lab
-:::Prelab
-**Before coming to lab** you will need to complete [](#Activity-model), Exercises 1-4 inside of it, [](#Exercise-experimentDescription), [](#Exercise-procedure). This will be checked off by your TA when you get to class. 
-:::
 
 
 # The Experiment
