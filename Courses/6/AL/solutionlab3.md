@@ -25,6 +25,7 @@ The glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle
 1. The glider sits at a height of $h= 0.34\text{ m}$ above the bottom of the track. What is its potential energy?
 ---
 The potential energy (which is relative to the bottom of the track) is simply $mgh=(0.050 \text{kg})(9.81 \text{ms}^{-2})(0.34 \text{m}) = 0.17 J $
+I forgot to write that $m = 50 \text{g}$ in the original version of this lab, so accept and answer for m, or even if it was left as a variable. Sorry!
 - *(1 Point)* Correct answer with steps shown
 - *(0.5 Point)* Almost correct: forgot to convert units.
 - *(0 Points)* Wrong Answer or no steps shown

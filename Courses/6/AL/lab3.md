@@ -84,7 +84,7 @@ Note that the position and velocity change with time as the glider moves along t
 From the position and velocity measurements, we can perform a calculation to indirectly determine the kinetic and potential energies. The formulae needed for this calculation are provided in the [Appendix](#part5).
 
 :::Exercise (math|3 Point)
-The glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle of $30 \deg$.
+The $50 \text{g}$ glider is at rest on a track of length $R=2 \text{ m}$, elevated at an angle of $30 \deg$.
 1. The glider sits at a height of $h= 0.34\text{ m}$ above the bottom of the track. What is its potential energy?
 2. What is the distance, $r$, the glider sits from the Range Finder?
 3. If the glider were let go, what would be its speed at the end of the track?
@@ -97,7 +97,7 @@ This weeks data tables will need quite a few formulae added in, so be sure to gi
 
 ::::::Activity (table|Making the Table)
 1. Create a table with 10+ data rows, similar to [](#Table-datapoints). Add a cell to include the height of the block. Be sure that all heading rows contain the correct units.
-2. Using trigonometry and the formulae in the [Appendix](#part5), fill in functions that will automatically calculate the **Height,** **Kinetic** and **Potential** energies as the **Time, Distance and Velocity** and **Block Height** data are filled in.
+2. Using trigonometry and the formulae in the [Appendix](#part5), fill in functions that will automatically calculate the **Height,** **Kinetic** and **Potential** energies as the **Time, Distance and Velocity** **Glider Mass** and **Block Height** data are filled in.
 :::Table (datapoints| Glider Energy Data)
 | Data Points | Time | Distance | Velocity | Height | Kinetic Energy | Potential Energy |
 |-------------|------|----------|----------|--------|----------------|------------------|
@@ -106,6 +106,7 @@ This weeks data tables will need quite a few formulae added in, so be sure to gi
 | ...         | ...  | ...      | ...      | ...    | ...            | ...              |
 Block Height b (unit): ______________
 Distance between legs D (unit): ______________
+Glider and Reflector Mass (unit):______________ 
 :::
 3. Link this table into your report under [](#Exercise-table)
 ::::::
