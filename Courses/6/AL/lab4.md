@@ -217,7 +217,7 @@ The tension in the string provides, in turn[fn]pun intended[/fn], an opposing fo
 :::
 <!--In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin $\theta$ equals one; F and F$_\perp$ are identical.-->
 
-:::Exercise
+:::Exercise (|2 Points)
 1. What is the formula for the torque on the turntable in terms of tension $T$ in the string and the lever arm distance $r$? 
 
 2. What is the tension in the string if the turntable is held fixed, with the mass hanging from the pulley (*i.e.*, the mass is stationary)?
@@ -243,7 +243,7 @@ $$
 
 where $a$ is the acceleration of the falling mass, $r$ is the lever arm distance, and $\alpha$ is the angular acceleration of the turntable.
 
-:::Exercise
+:::Exercise (|1 Point)
 Show that the equation $a=r\alpha$ is consistent in terms of units. 
 Note: Radians can be ignored as units. (They are dimensionless, as mentioned above.)
 :::
@@ -274,7 +274,7 @@ where $M$ is the mass of the disc and $R$ is the radius of the disc. Do not conf
 <!-- $M=976.5 \rm\ g$ $R=12.7 \rm\ cm$ -->
 
 ::::::
-:::Exercise
+:::Exercise (|1 Point)
  What did you calculate the Moment of Inertia to be?
 :::
 ## Preparing our Data Tables
@@ -314,24 +314,24 @@ Lever Arm r = ________
 :::Note (|10 C)
  This is not the radius of the turntable top; this is the distance from the rotation axis to where the string makes contact with the turntable. This value should be $1$, $2$, or $3 \text{ cm}$.
 :::
-:::Exercise
+:::Exercise (|1 Point)
 What effect does the diameter of the string have?
 :::
 2. Select and record a test mass. Be sure to include the mass of the hangar. Before releasing it, also record its height above the ground.
-:::Exercise
+:::Exercise (|1 Point)
 What level of confidence do you have in this measurement (+/- mm)?
 :::
 3. Release the mass and record the time it takes to strike the floor. Record this data..
 4. Repeat this procedure (steps 1-3) for six different masses.
 ::::::
 
-:::Exercise (table)
+:::Exercise (table|2 Points)
 Include your completed [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 :::
 
 # Analyzing The Experiments
 We are now ready to extract some information from our data on the Moment of Inertia of the disk.
-:::Exercise (plot)
+:::Exercise (plot|4 Points)
 1. Plot the **Torque** and **Angular Acceleration**. ( Be sure is is a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) )
 2. Does the line look linear? Should it?
 3. Plot the line of best fit for this data and include the equation here.
@@ -340,7 +340,7 @@ We are now ready to extract some information from our data on the Moment of Iner
 
 Finally, we want to compare the values achieved in two different ways.
 
-:::Exercise
+:::Exercise (|4 Points)
 1. Compare the two values you obtained for the moment of Inertia. Which do you think is more accurate? Which more precise?
 
 2. What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
@@ -350,7 +350,7 @@ Finally, we want to compare the values achieved in two different ways.
 4. What else might cause a discrepancy between these two values? 
 ::::::
 # Conclusion
-:::Exercise
+:::Exercise (|2 Points)
 Write a brief statement summarizing the main points of this lab.
 :::
 

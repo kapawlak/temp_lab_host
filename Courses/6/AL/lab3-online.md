@@ -162,6 +162,8 @@ By Representative, we mean the following: you will have to choose points to incl
 2. Use (roughly) evenly spaced data points.
 3. Include the point where the glider reached its maximum height.
 4. Include the point when the speed was maximum, you will need to look at your v vs. t graph to get this
+
+
 You may want to plot the data v.s. time and watch the experiment a few times to get a feel for what is happening.
 
 

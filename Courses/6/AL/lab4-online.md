@@ -332,7 +332,7 @@ What effect does the diameter of the string have on the lever arm? Explain why w
 
 # Analyzing The Experiments
 We are now ready to extract some information from our data on the Moment of Inertia of the disk.
-(plot)
+:::Exercise (plot|2 Points)
 1. Plot the **Torque** and **Angular Acceleration**. ( Be sure is is a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) )
 2. Does the line look linear? Should it?
 3. Plot the line of best fit for this data and include the equation here.
@@ -341,7 +341,7 @@ We are now ready to extract some information from our data on the Moment of Iner
 
 Finally, we want to compare the values achieved in two different ways.
 
-:::Exercise (|4 Points)
+:::Exercise (|2 Points)
 1. Compare the two values you obtained for the moment of Inertia. Which do you think is more accurate? Which more precise?
 
 2. What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?

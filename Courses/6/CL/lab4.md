@@ -108,7 +108,7 @@ $$
 
 where N is the number of counts per unit time (activity) after the radiation has passed through an absorber of thickness $x$, $N\rm_0$ is the number of counts incident on the absorber per unit time, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $\text{mg}/\text{cm}^3$. 
 
-:::Exercise (sketch)
+:::Exercise (sketch|4 Points)
 Imagine we are looking at the attenuation of a certain kind of radiation through a material with $\mu/\rho = 0.15 \text{cm}^2/\text{g}$. We've determined that the number of radiation counts prior to entering our sample is $N_0 = 100$ for a one-minute interval.
 1. We have a thin foil sample of known $\rho x = 1.1 \text{g}/{cm}^2 $. How many counts should we expect to make it through the sample during a one minute interval? Use [](#Equation-n)
 2. We make an independent measurement of our sample material and determine that the mass density of our material is $\rho = 10.5 \text{g}/\text{cm}^3$. Again using [](#Equation-n), create a sketch from $x= 0 \text{cm}$ to $x = 5 \text{cm} $ that illustrates how many counts you'd expect to record in a minute as a function of sample thickness, $x$ ;;;You can do this by hand and attach a picture, or do so on a digital drawing program ;;;
@@ -126,7 +126,7 @@ $$
  
 [](#Equation-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = \ln(N_0)$. We see that if we plot the logarithmic of count data, that the *slope* will give us important information about the physics.
 
-:::Exercise (linear)
+:::Exercise (linear|2 Points)
 1. Using the values of parameters ($N_0$, $\mu/\rho$ and $\rho$) provided in [](#Exercise-sketch), write down the correct equation for $\ln(N)$ in terms of $x$. Your equation should only have $\ln(N)$ and $x$, and everything else with values substituted.
 2. Verify that your thicknesses in [](#Exercise-sketch)c are also correct in this linearized form of the equation.
 :::
@@ -245,13 +245,13 @@ background radiation and record the value.
 
 ::::::
 
-:::Exercise (table1)
+:::Exercise (table1|2 Points)
 1. Provide your complete [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 2. What is the average background radiation in the physics lab? Use your first three measurements for this.
 
 :::
 
-:::Exercise
+:::Exercise (|2 Points)
 
 1. What was your measured counts per minute with the absorber in place?
 2. How does this result compare to your results with no absorber? Make the comparison keeping in mind the *uncertainty* column. 
@@ -279,7 +279,7 @@ counts in your data table, along with the absorber’s $\rho x$ value.
 values for the three absorbers.
 5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
 ::::::
-:::Exercise (table2)
+:::Exercise (table2|2 Points)
  Include your [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 :::
 
@@ -298,13 +298,13 @@ values for the three absorbers.
 ::::::Activity (co-analysis|Analyzing the Mass Attenuation Coefficient)
 
 1. Using your collected data, fill in all missing values in the Linearized Data Table
-:::Exercise (linear-table)
+:::Exercise (linear-table|1 Points)
  Include your Linearized data table here. 
 :::
 
 2. Make a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) of your linearized counts data against the respective $\rho x$ values: This should have $\ln(\text{Adjusted CPM})$ on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis
 
-:::Exercise (linear-plot)
+:::Exercise (linear-plot|2 Points)
 1. Include your Linearized Plot here. 
 2. What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
 :::
@@ -315,7 +315,7 @@ values for the three absorbers.
 
 
 
-:::Exercise
+:::Exercise (|2 Points)
 1. What is your computed value for the mass attenuation coefficient of lead?
 
 2. How does this compare to the accepted value of $5.9 \times 10^{-5} \rm\ cm^2/mg$? Assume that your error may be $\pm20$%.
@@ -326,7 +326,7 @@ values for the three absorbers.
 :::
 
 # Conclusion
-:::Exercise
+:::Exercise (|1 Points)
 Write a brief conclusion summarizing the important points of this lab.
 :::
 :::Summary
