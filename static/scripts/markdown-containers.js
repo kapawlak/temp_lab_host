@@ -250,9 +250,12 @@ md.use(container, 'Exercise', {
     let args;
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Exercise(.*)$/)[1])
+
       let ex = new Card('Exercise', args[0])
       ex.footerText+=  args[1] ? ` ${args[1]} ` : ''
+      ex.styleList
       ex.innerStyles[3]+=' py-0'
+      ex.styleList.push(' ' + args[2])
       ex.publishCard()
       return div_head.pop()
     } else {

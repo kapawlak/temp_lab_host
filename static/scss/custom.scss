@@ -550,6 +550,15 @@ $simulation-bg:$UCSB-mist;
     }
 
 }
+
+.Exercise.prelab{
+    .card-header{
+        background-color: $danger;
+        color:white;
+        border:0;
+    }
+}
+
 .badge-Exercise{
     background-color: $Exercise-header-bg;
     font-size: 1.3rem;

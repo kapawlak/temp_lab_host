@@ -1,15 +1,15 @@
-# PHYS 6CL 
+# PHYS 6BL 
 
 <div class='text-center'  >
 <img src='imgs/Home/leaf-banner.jpg' width='100%' > </img>
 </div>
 
-## Welcome to UCSB Physics 6CL
+## Welcome to UCSB Physics 6BL
 
 
-PHYS 6CL is the laboratory based component of the PHYS 6C course, and the last in of our introductory three-course sequence. This sequence of courses is designed to prepare students in the Life and Biological Sciences for success in their future STEM careers. The laboratory exercises aim to deliver the core experience with physics experimental techniques and concepts needed in the Life Sciences.
+PHYS 6BL is the laboratory based component of the PHYS 6B course, and the second in of our introductory three-course sequence. This sequence of courses is designed to prepare students in the Life and Biological Sciences for success in their future STEM careers. The laboratory exercises aim to deliver the core experience with physics experimental techniques and concepts needed in the Life Sciences.
 
-In this course we will cover topics that roughly reflect the material you learn in class: The Wave Nature of Light, Reflection and Refraction, Simple Lenses, Wave Optics, and a brief excursion into Nuclear Physics. In addition to verifying the concepts learned in the theory course against real experiments, you will also learn universal introductory experimental techniques used in *all* scientific fields. PHYS 6CL specifically focuses on intermediate error analysis, hypothesis testing and critical comparison to accepted values.   
+In this course we will cover topics that roughly reflect the material you learn in class: Simple Harmonic Motion, Wave Physics, Ohm's Law, and a brief introduction to Magnets and Inductors. In addition to verifying the concepts learned in the theory course against real experiments, you will also learn universal introductory experimental techniques used in *all* scientific fields. PHYS 6BL specifically focuses on introductory data linearization techniques, intermediate plotting and critical thinking.
 
 
 ### Materials

@@ -1,5 +1,5 @@
 
-# Ohm&rsquo;s Law
+# Ohm's Law
 
 :::Card Intro This week
 This week, we will investigate the most fundamental relationship of electronic flow: **Ohm's Law**. Ohm's law states that the electronic current induced by a potential difference is inversely proportional to the total *resistance* of the medium it is travelling through. Ohm's law means that electronic systems cannot come to equilibrium instantaneously, and must do *work* by e.g. heating the medium while a current is present.
@@ -14,9 +14,9 @@ In this lab we will use Ohm's law to measure the resistance of various circuits 
 
 :::Hider Historal Notes
 
-During the dawn of the age of electricity, an investigator named Georg Simon Ohm examined the relationship between an applied voltage and the resulting current in a conducting material. He found that for a given conductor the current in the wire was directly proportional to the voltage across it. When current (dependent axis) is plotted against the voltage (independent axis) across a given conductor, the data form a straight line. The reciprocal of the slope is the resistance of the conductor. This result was published in 1826. In recognition of Ohm’s work, this empirical relationship bears his name (Ohm&rsquo;s Law), as does the unit of resistance, the ohm, which is also symbolized by $\Omega$.
+During the dawn of the age of electricity, an investigator named Georg Simon Ohm examined the relationship between an applied voltage and the resulting current in a conducting material. He found that for a given conductor the current in the wire was directly proportional to the voltage across it. When current (dependent axis) is plotted against the voltage (independent axis) across a given conductor, the data form a straight line. The reciprocal of the slope is the resistance of the conductor. This result was published in 1826. In recognition of Ohm’s work, this empirical relationship bears his name (Ohm's Law), as does the unit of resistance, the ohm, which is also symbolized by $\Omega$.
 :::
-A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit, if the circuit is more than just a single loop, according to the characteristics of each part of the circuit. The unit of current is the ampere (after Andr&eacute; Marie Amp&egrave;re), sometimes shortened to &ldquo;amp,&rdquo; abbreviated A. 
+A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit, if the circuit is more than just a single loop, according to the characteristics of each part of the circuit. The unit of current is the ampere (after Andr&eacute; Marie Amp&egrave;re), sometimes shortened to "amp," abbreviated A. 
 
 The flow of electrons is caused by differences in electrical potential between different parts of the circuit. The unit of electrical potential is the volt (after Alessandro Volta), abbreviated V, and potential difference is often referred to as **voltage**. Generators, power supplies and batteries provide such potential differences.
 
@@ -36,9 +36,9 @@ A useful analogy for understanding current flow in circuits is the comparison to
 <!-- [Electric circuit pipe analogy](https://www.youtube.com/watch?v=Lvp_a_JkD2o){target="_blank"} -->
 
 
-## Ohm&rsquo;s Law
+## Ohm's Law
 
-Ohm&rsquo;s law is most simply expressed as the equation:
+Ohm's law is most simply expressed as the equation:
 
 :::Equation ohmsLaw
 $$
@@ -54,7 +54,7 @@ where
 
 **$R$** is the resistance of the resistor measured, as noted above, in units called “ohms,” which are also symbolized by the upper-case Greek letter omega $(\Omega)$.
 
-In words, Ohm&rsquo;s law states that “the voltage V across the ends of a resistor R, and the current I flowing through this resistor,
+In words, Ohm's law states that “the voltage V across the ends of a resistor R, and the current I flowing through this resistor,
 are proportional.” If the potential difference across a resistor is set at 1 volt, and if a current of 1 amp is measured in the
 resistor, then its resistance is determined to be 1 ohm. 
 
@@ -70,7 +70,7 @@ $$
 $$
 :::
 
-Algebraic rearrangement of [Eq](#Eq-ohmsLaw) above gives the current in terms of the voltage and resistance:
+Algebraic rearrangement of [](#Equation-ohmsLaw) above gives the current in terms of the voltage and resistance:
 
 $$
 I = V/R
@@ -84,8 +84,8 @@ $$
 
 Note that if $V$ is in volts, for $R$ to be in ohms, $I$ must be in amperes. If $V$ is in volts and $I$ is in mA, then $R$ will be in k$\Omega$.
 
-:::::: Exercise
-In [Si](#Si-ohmsSim) you will see a simple but effective demonstration of Ohm&rsquo;s Law. Use this simulation to gain understanding of Ohm&rsquo;s Law and how changing either the resistance of the resistor or the voltage across it changes the current. Notice that the size of each symbol changes to illustrate the change in magnitude of that value. In addition, the orange arrows on the the corners of the circuit change in size according to the magnitude of the current.
+::::::Activity
+In [](#Simulation-ohmsSim) you will see a simple but effective demonstration of Ohm's Law. Use this simulation to gain understanding of Ohm's Law and how changing either the resistance of the resistor or the voltage across it changes the current. Notice that the size of each symbol changes to illustrate the change in magnitude of that value. In addition, the orange arrows on the the corners of the circuit change in size according to the magnitude of the current.
 
 :::Simulation ohmsSim
 <iframe src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html" width="100%" height="800px" scrolling="no" allowfullscreen></iframe>
@@ -93,10 +93,10 @@ In [Si](#Si-ohmsSim) you will see a simple but effective demonstration of Ohm&rs
 
 Use the equations above to answer the following questions. 
 
-::: Question
+:::Exercise (|1 Point)
 1. A 758-$\Omega$ resistor passes a current of 2.5 mA. What is the voltage across this resistor?
 
-Use [Si](#Si-ohmsSim) to verify your result.
+Use [](#Simulation-ohmsSim) to verify your result.
 
 2. A 2,500-$\Omega$ resistor passes a current of 1.5 A. What is the voltage across this resistor? Notice the change in units of the current compared to those in part a.
 
@@ -121,9 +121,9 @@ Basically part 5 of the outline.
 
 # Empirically Determining Resistance 
 
-In [Ex](#Ex-empirical) we will examine the circuit shown in [Fi](#Fi-schematic) and built in Video 2 (below). [Fi](#Fi-schematic) shows the schematic representation of the circuit, which consists of a power supply and a resistor. We will use a voltmeter and an ammeter to measure, respectively, the voltage across, and the current passing through, a resistor.
+In [Ex](#Ex-empirical) we will examine the circuit shown in [](#Figure-schematic) and built in Video 2 (below). [](#Figure-schematic) shows the schematic representation of the circuit, which consists of a power supply and a resistor. We will use a voltmeter and an ammeter to measure, respectively, the voltage across, and the current passing through, a resistor.
 
-::::::Exercise empirical
+::::::Activity empirical
 
 :::RFigure schematic
 ![Schematic of a voltage source connected to a resistor](imgs/Lab3/OhmsLawSchematic.png)
@@ -131,13 +131,13 @@ In [Ex](#Ex-empirical) we will examine the circuit shown in [Fi](#Fi-schematic) 
 
 
 **Instructions:**
-1. Examine the circuit shown in [Fi](#Fi-schematic) and the diagram in [Fi](#Fi-baseSetup). A resistor of resistance $R=2,200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
+1. Examine the circuit shown in [](#Figure-schematic) and the diagram in [](#Figure-baseSetup). A resistor of resistance $R=2,200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
 
 :::Figure baseSetup
 ![Figure 2: A circuit with a single resistor of resistance **R**.](imgs/Lab3/Figure1_Part1Circuit.jpg)
 :::
 
-[Vi](#Vi-construction) shows the construction of the circuit in [Fi](#Fi-schematic).
+[Vi](#Vi-construction) shows the construction of the circuit in [](#Figure-schematic).
 
 <!-- Video 1 -->
 
@@ -159,7 +159,7 @@ In [Ex](#Ex-empirical) we will examine the circuit shown in [Fi](#Fi-schematic) 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y6ZEXgQUqes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-[Vi](#Vi-basicDataCollection) shows the circuit from [Fi](#Fi-baseSetup) with the voltage from the power supply being slowly changed from 0 volts to 20 volts.
+[Vi](#Vi-basicDataCollection) shows the circuit from [](#Figure-baseSetup) with the voltage from the power supply being slowly changed from 0 volts to 20 volts.
 
 **Note:** The voltmeter measures the voltage across the resistor **in units of volts** . The ammeter measures the amount of current flowing through the resistor **in units of milliamperes**.
 
@@ -167,7 +167,7 @@ In [Ex](#Ex-empirical) we will examine the circuit shown in [Fi](#Fi-schematic) 
 
 2. Neatly tabulate your data, then plot your data with current on the $x$-axis and voltage on the $y$-axis. Find and plot the line of best fit.
 
-::: Question
+:::Exercise (|1 Point)
 
 1. What is the value of the slope of this line? Use units. Note the equivalence volts/amperes = ohms.
 
@@ -179,7 +179,7 @@ In [Ex](#Ex-empirical) we will examine the circuit shown in [Fi](#Fi-schematic) 
 ::::::
 
 <!--
-::: Exercise
+:::Activity
 
 ## Notice: This exercise is optional and does not provide extra credit.
 
@@ -193,7 +193,7 @@ In this exercise you will use the technique from Exercise 2 to find the value of
 1. Watch Video 4. As the  voltage changes, pause the video, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
 2. Neatly tabulate your data, then plot your data with current on the *x*-axis and voltage on the *y*-axis.
 
-::: Question
+:::Exercise (|1 Point)
 What is the value of the unknown mystery resistor?
 :::
 :::
@@ -214,7 +214,7 @@ $$
 Individual\ Voltage\ Dropped = Source\ Voltage \cdot \frac{Individual\ Resistance}{Total\ Resistance}
 $$
 Thus the name voltage divider refers to the fact that the voltage will divide according to the ratio of the two resistances. -->
-<!-- ::: Question
+<!-- :::Exercise (|1 Point)
 a) A series circuit has a source voltage of 20 V and two resistances of 1.7 K and 2.6 K, respectively. What is the total circuit current? What are the voltages across each resistor? Show that Ohm’s Law holds for each element individually.
 ::: -->
 <!-- #### Parallel Circuits
@@ -225,7 +225,7 @@ Thus when we connect two or three resistors in parallel they all have the same v
 <!-- The equation to determine the equivalent resistance of a network of parallel resistors is:
 $$1/R_{equivalent} = 1/R_{1} + 1/R_{2} + 1/R_{3}$$
 in the above experiment, all of the resistances were equal.
-::: Question
+:::Exercise (|1 Point)
 a) What is the equivalent resistance of a parallel network of 2.2kΩ, 3.1kΩ and 6.7kΩ?
 b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in parallel. The entire circuit is driven by 18V. What is the voltage across each element? What is the current through each element?
 ![Figure 4: Ciruit Question](imgs/Lab3/Figure4_Part3CircuitQ.jpg)
@@ -237,11 +237,11 @@ In a simple series circuit, elements are connected end to end in a chain. Thus, 
 
 **For series elements, the current through them is the same. The voltage across each element is proportional to its resistance.**
 
-[Fi](#Fi-seriesSetup), in the next exercise, shows a circuit with two resistors connected in series.
+[](#Figure-seriesSetup), in the next exercise, shows a circuit with two resistors connected in series.
 
-:::::: Exercise
+::::::Activity
 
-1. Examine the circuit shown in [Fi](#Fi-seriesSetup). Two resistors of resistance **R** $=2,200\ \Omega$ are wired in series with an ammeter and connected to the 0–20-volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop across them.
+1. Examine the circuit shown in [](#Figure-seriesSetup). Two resistors of resistance **R** $=2,200\ \Omega$ are wired in series with an ammeter and connected to the 0–20-volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop across them.
 
 :::Figure seriesSetup
 ![Figure 2: Two resistors of resistance **R** are wired in series.](imgs/Lab3/Figure2_Part2Circuit.jpg)
@@ -253,7 +253,7 @@ In a simple series circuit, elements are connected end to end in a chain. Thus, 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6Kj52kXYTyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-[Vi](#Vi-seriesDataCollection) shows the circuit in [Fi](#Fi-seriesSetup), with the voltage across the pair of resistors being changed slowly from 0 to 20 volts.
+[Vi](#Vi-seriesDataCollection) shows the circuit in [](#Figure-seriesSetup), with the voltage across the pair of resistors being changed slowly from 0 to 20 volts.
 
 **Note:** The voltmeter is placed across two resistors, both of resistance $R$, chained end to end. The quantity measured by this device is the voltage across the pair of resistors. The ammeter measures the amount of current flowing through the series circuit. 
 
@@ -262,7 +262,7 @@ In a simple series circuit, elements are connected end to end in a chain. Thus, 
 As the  voltage changes, pause the video, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.-->
 3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the $x$-axis and voltage on the $y$-axis. Find and plot the line of best fit.
 
-::: Question
+:::Exercise (|1 Point)
 1. What is the slope of the line of your plot? Use units.
 
 2. Compare the slope with the values of the individual resistors. What can you say about the equivalent resistance of resistors in series, in comparison to that of a single resistor?
@@ -279,12 +279,12 @@ $$
 
 # Parallel Circuit Elements
 
-You are now familiar with the relationships among current, voltage and resistance for a single resistor, and with the way resistors behave when you connect them in series. In a parallel configuration we have two or more elements connected to each other at both ends. [Fi](#Fi-3parallelSetup), in [Ex](#Ex-parallel), shows three resistors in a parallel configuration. Note that in circuits, any points connected by a wire are considered to be the same point. (That is, since they are connected by a wire, they are at the same potential.) Thus, for resistors in parallel, Ohm’s law applies to each resistor individually. Therefore, the current through each resistor is inversely proportional to its resistance. The total current flowing in the circuit is the sum of the currents flowing through the individual resistors.
+You are now familiar with the relationships among current, voltage and resistance for a single resistor, and with the way resistors behave when you connect them in series. In a parallel configuration we have two or more elements connected to each other at both ends. [](#Figure-3parallelSetup), in [Ex](#Ex-parallel), shows three resistors in a parallel configuration. Note that in circuits, any points connected by a wire are considered to be the same point. (That is, since they are connected by a wire, they are at the same potential.) Thus, for resistors in parallel, Ohm’s law applies to each resistor individually. Therefore, the current through each resistor is inversely proportional to its resistance. The total current flowing in the circuit is the sum of the currents flowing through the individual resistors.
 
 **For resistors connected in parallel, the voltage across each resistor is the same. The current through each resistor is inversely proportional to its resistance.**
 
-:::::: Exercise parallel
-1. Examine the circuit shown in [Fi](#Fi-2parallelSetup). Two resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20-volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. 
+::::::Activity parallel
+1. Examine the circuit shown in [](#Figure-2parallelSetup). Two resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20-volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. 
 
 In this circuit, the resistors sit next to each other with common points at each end. This provides two separate paths for current to flow. The voltage across each resistor is the same, but the current is split between them.
 
@@ -298,7 +298,7 @@ In this circuit, the resistors sit next to each other with common points at each
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8JM-5cI3zhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-[Vi](#Vi-twoParallelDataCollection) shows the circuit in [Fi](#Fi-2parallelSetup), with the voltage across the pair of resistors being changed slowly from 0 to 20 volts. 
+[Vi](#Vi-twoParallelDataCollection) shows the circuit in [](#Figure-2parallelSetup), with the voltage across the pair of resistors being changed slowly from 0 to 20 volts. 
 <!--
 ### Notice: You may pick a single voltage/current pair to find the resistance, instead of finding it for 10 pairs.
 -->
@@ -312,9 +312,9 @@ As the voltage changes, make the video pause, and record the voltage and corresp
 3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1j_oHZBVi7vsE31FO_DncADHoPzgAzTdiIqjItS4zJ6g/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the $x$-axis and voltage on the $y$-axis.
 
 
-::: Question
+:::Exercise (|1 Point)
 <!--
-a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resistance of the pair of resistors connected in parallel.
+a) If you took only one data point, use Ohm's Law to calculate the resistance of the pair of resistors connected in parallel.
 
 b) If you took and plotted multiple points:
 -->
@@ -324,7 +324,7 @@ b) If you took and plotted multiple points:
 2. What does your answer indicate about the total resistance of a parallel circuit with two resistors, compared to the resistance of the circuit with a single resistor?
 :::
 
-1. Now Examine the circuit shown in [Fi](#Fi-3parallelSetup). Three resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
+1. Now Examine the circuit shown in [](#Figure-3parallelSetup). Three resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
 
 :::Figure 3parallelSetup
 ![Figure 4. Three resistors of resistance **R** in parallel.](imgs/Lab3/Figure3c_Part3Circuit.jpg)
@@ -336,7 +336,7 @@ b) If you took and plotted multiple points:
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/P-kIiMwo7s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-[Vi](#Vi-threeParallelDataCollection) shows the circuit in [Fi](#Fi-3parallelSetup), with the voltage across the set of three parallel resistors being changed slowly from 0 to 20 volts. 
+[Vi](#Vi-threeParallelDataCollection) shows the circuit in [](#Figure-3parallelSetup), with the voltage across the set of three parallel resistors being changed slowly from 0 to 20 volts. 
 <!--
 ### Notice: You may pick a single voltage/current pair to find the resistance instead of finding 10 pairs.
 -->
@@ -348,9 +348,9 @@ As the voltage changes, make the video pause, and record the voltage and corresp
 -->
 6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the $x$-axis and voltage on the $y$-axis. Find and plot the line of best fit.
 
-::: Question
+:::Exercise (|1 Point)
 <!--
-a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resistance of the set of three resistors connected in parallel.
+a) If you took only one data point, use Ohm's Law to calculate the resistance of the set of three resistors connected in parallel.
 
 b) If you took and plotted multiple points:
 -->
@@ -376,7 +376,7 @@ $$
 
 We see that when resistors are in parallel, their resistances add reciprocally. So the more resistors we add, the lower the total resistance becomes.
 
-::: Question
+:::Exercise (|1 Point)
 1. If we had three resistors, each of 1.0 kΩ, how could we connect them so that the equivalent resistance of the combination is 1.5 kΩ? 
 2. Draw a schematic of the three resistors.
 
@@ -384,7 +384,7 @@ We see that when resistors are in parallel, their resistances add reciprocally. 
 :::
 
 
-<!-- ::: Question
+<!-- :::Exercise (|1 Point)
 a) What is the equivalent resistance of a parallel network of 2.2 kΩ, 3.1 kΩ and 6.7 kΩ?
 b) A 2.2-kΩ resistor is placed in series with 1.7-kΩ and 2.6-kΩ resistors in parallel. The entire circuit is driven by 18 V. What is the voltage across each element? What is the current through each element?
 
@@ -407,7 +407,7 @@ Video 8 is a brief overview of the simulation and how it works.
 !(https://drive.google.com/file/d/1mMkStu23L28fPTbcnl4XQlUa_WRk4IU_)
 ::: -->
 
-<!-- ::: Exercise
+<!-- :::Activity
 
 In this exercise your objective is to build a circuit with a resistance of 1.5 k&Omega;. You have available, however, only 1-k&Omega; resistors. You can accomplish this by using the equivalent resistance equations for both series and parallel, to arrange some of the 1-k&Omega; resistors so that their overall resistance equals 1.5 k&Omega;.
 
@@ -423,7 +423,7 @@ In this exercise your objective is to build a circuit with a resistance of 1.5 k
 
 3. Begin building your circuit in Simulation 2 to test your design. Note that switches are helpful for quick testing of different parts of a circuit. 
 
-::: Question
+:::Exercise (|1 Point)
 a) What is the least number of resistors you need to make your circuit work?
 
 b) What is the configuration of this circuit? (You should include a screenshot of your circuit, but please describe it in words.)
@@ -433,7 +433,7 @@ b) What is the configuration of this circuit? (You should include a screenshot o
 
 
 :::Hider Further Observations
-You probably noticed that for each experiment, the change in current that a particular change in voltage produced, &Delta;*V*/&Delta;*I*, which equals *R*, was constant over the range of voltages applied to the circuit. That is, the circuits obeyed Ohm&rsquo;s law for all applied voltages. For this reason, resistors are often said to exhibit *ohmic* resistance.
+You probably noticed that for each experiment, the change in current that a particular change in voltage produced, &Delta;*V*/&Delta;*I*, which equals *R*, was constant over the range of voltages applied to the circuit. That is, the circuits obeyed Ohm's law for all applied voltages. For this reason, resistors are often said to exhibit *ohmic* resistance.
 
 The resistances that you calculated from the data should have been reasonably close to those you would expect for resistors having the nominal value given. Besides the usual sources of measurement error (instrument accuracy, for example), there is something else that might cause these values to differ. The resistances of carbon resistors such as those used in this lab, can differ from their nominal values according to a tolerance specified by the manufacturer.  These are usually &plusmn;5% or &plusmn;10%, but can be higher or lower. For applications in which it is necessary that the resistance be very close to the nominal value, resistors are available with tolerances of 1% or less, even down to 0.005%(!).
 :::
@@ -441,7 +441,7 @@ The resistances that you calculated from the data should have been reasonably cl
 # Conclusion
 
 <!-- Add things -->
-::: Exercise
+:::Activity
 Write a brief conclusion summarizing the important points of this lab.
 :::
 
@@ -457,7 +457,7 @@ All responses and answers should contain the correct number of sig figs and shou
 <!-- Move resistivity here -->
 ## Resistivity and Resistance
 
-Resistance is primarily affected by two things. First is a material&rsquo;s intrinsic property known as resistivity, which varies from material to material. The greater the resistivity of a material, the greater the resistance of an object made of that material. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Since current flows through the cross-sectional area of the material, increasing this area is like adding resistors in parallel; the greater the cross-sectional area, the lower the resistance. The length of the material is analogous to a set of resistors in series; the longer the piece of material, the greater its resistance. These relationships are expressed by the equation below.
+Resistance is primarily affected by two things. First is a material's intrinsic property known as resistivity, which varies from material to material. The greater the resistivity of a material, the greater the resistance of an object made of that material. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Since current flows through the cross-sectional area of the material, increasing this area is like adding resistors in parallel; the greater the cross-sectional area, the lower the resistance. The length of the material is analogous to a set of resistors in series; the longer the piece of material, the greater its resistance. These relationships are expressed by the equation below.
 
 :::Equation
 $$
@@ -477,7 +477,7 @@ Check out Simulation 3 to see how the values of $ρ,\ L$, and $A$ affect $R$. Pl
 
 The resistivity of a material can be dependent on temperature. For fixed resistors, manufacturers choose their materials so as to minimize this effect. Materials whose resistance varies significantly with temperature, however, are useful for making devices called *thermistors*, which are often used as sensing elements in thermometers. We will not be working with such devices in this lab.
 <!--
-::: Exercise
+:::Activity
 
 
 ## Notice: This exercise is optional and does not provide extra credit.
@@ -488,7 +488,7 @@ A typical modern resistor made of composite may be about 8.5 mm long and 3.2 mm 
 
 <!-- Image of a resistor? -->
 <!--
-::: Question
+:::Exercise (|1 Point)
 a) What is the resistivity, $\rho$, of a 750-$\Omega$ resistor that is in the standardized package mentioned above?
 
 b) What is the resistivity of a 3.2-k$\Omega$ resistor (in the same package)? 
@@ -500,7 +500,7 @@ d) If you had a nichrome wire of the typical resistor diameter, 3.2 mm, what len
 
 You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire might use wire approximately 0.1 mm in diameter wrapped around a core 2.5 mm in diameter. One loop of this wire around the core is approximately 7.85 mm long.
 
-::: Question
+:::Exercise (|1 Point)
 Use the resistivity of nichrome, the length per loop of wire, and diameter of modern nichrome wires in resistors, to find the number of turns of nichrome wire needed to make a 750-$\Omega$ resistor.
 :::
 :::
