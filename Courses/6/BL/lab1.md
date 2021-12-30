@@ -235,11 +235,13 @@ If you use the same mass as in step 4) above you may include those measurements 
 :::::::::Activity (loglog|Making a Log-Log Plot)
 
 
-1. In the spreadsheet of data from [](#Activity-additional), fill in the spreadsheet function to calculate $\rm log_{10}(L)$ and $\rm log_{10}(T)$. Plot $\rm log_{10}(L)$ on the independent axis, and $\rm log_{10}(T)$ on the dependent axis.  Find the line of best fit and display it on your plot.
+1. In the spreadsheet of data from [](#Activity-additional), you should have filled in the spreadsheet function to calculate $\rm log_{10}(L)$ and $\rm log_{10}(T)$ in the Prelab. Check that the values seem to make sense.
+2. Plot $\rm log_{10}(L)$ on the independent axis, and $\rm log_{10}(T)$ on the dependent axis.  
+3. Find the line of best fit and display it on your plot.
 
 
 :::Note (|6 C)
-Hint: Convert length measurements to meters.
+Hint: Convert length measurements to meters if you recorded them in $\text{cm}$.
 :::
 
 :::Exercise (|2 Points)
