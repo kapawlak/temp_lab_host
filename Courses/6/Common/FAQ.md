@@ -54,9 +54,9 @@ Please make sure that the following are on the first page of your assignment:
 
 Furthermore, make sure that each Exercise is clearly labeled (and in order) to receive credit for your answers.
 
-## How to I link a table or plot into my aGoogle Doc so that it automatically updates when I enter data?
+## How to I link a table or plot into my Google Doc so that it automatically updates when I enter data?
 
-Instructions for how to do this can be found [here](https://support.google.com/docs/answer/7009814)
+Instructions for how to do this can be found [here](https://support.google.com/docs/answer/7009814) under "Embed tables, charts, & slides"
 
 ## Where do I turn in my assignments?
 
