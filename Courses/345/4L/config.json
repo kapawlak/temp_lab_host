@@ -1,57 +1,39 @@
 {
     "TAs": [
       {
-        "first-name": "Kelly",
-        "last-name": "Pawlak",
-        "pronouns": "(She/Her/Hers)",
-        "email": "kapawlak@ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",        
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ULW9KeE3_400x400.jpg?itok=_jLjeNxS",
+        "first-name": "James",
+        "last-name": "Kwon",
+        "pronouns": "",
+        "email": "jameskwon@ucsb.edu",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "",        
+        "img": "../../../people/photo/nopic.png",
         "title":"TA"
+      }
+    ],
+    "Faculty": [
+      {
+        "first-name": "Paula",
+        "last-name": "Popescu",
+        "pronouns": "(She/Her/Hers)",
+        "email": "ppopescu@physics.ucsb.edu ",
+        "title":"Lecturer, Coordinator",
+        "img": "../../../people/photo/paulapopescu.jpg"
       },
       {
         "first-name": "Zak",
         "last-name": "Espley",
         "pronouns": "(He/Him/His)",
         "email": "zespley@physics.ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ZakAndGalileo.jpeg?itok=HriS16Cn",
-        "title":"TA"
-      }
-    ],
-    "Faculty": [
-      {
-        "first-name": "Kelly",
-        "last-name": "Pawlak",
-        "pronouns": "(She/Her/Hers)",
-        "email": "kapawlak@ucsb.edu",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",        
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/ULW9KeE3_400x400.jpg?itok=_jLjeNxS",
+        "zoom": "",
+        "officehours": "",
+        "sectionhours": "",        
+        "img": "../../../people/photo/zakespley.jpeg",
         "title":"Coordinator"
-      },
-      {
-        "first-name": "Paula",
-        "last-name": "Popescu",
-        "pronouns": "(She/Her/Hers)",
-        "email": "ppopescu@physics.ucsb.edu ",
-        "zoom": "https://ucsb.zoom.us/s/7327636002",
-        "officehours": "2-3PM Wednesdays",
-        "sectionhours": "1-3PM Monday, 12-2PM Thursdays",
-        "title":"Lecturer, Coordinator",
-        "img": "https://www.physics.ucsb.edu/sites/default/files/styles/people_node/public/people/photo/popescu%20photo.jpg?itok=dkwvpBPq"
       }
     ],
     "page-links": [
-      {
-        "name": "Lab 0",
-        "file": "lab0"
-      },
       {
         "name": "Lab 1",
         "file": "lab1"
@@ -67,6 +49,18 @@
       {
         "name": "Lab 4",
         "file": "lab4"
+      },
+      {
+        "name": "Lab5",
+        "file": "lab5"
+      },
+      {
+        "name": "Lab 6",
+        "file": "lab6"
+      },
+      {
+        "name": "Reference Material",
+        "file": "references"
       }
     ],
     "integrations": [
