@@ -38,25 +38,26 @@ The north pole of each compass is painted red, similarly to that of the permanen
 2. Slowly move the large compass in the foreground to different locations to see the orientation of its needle.
 
 :::Figure compassLocations
-![Picture of location where to place comapsses](imgs/Lab4/CompassLocations.PNG)
+![Picture of location where to place comapsses](imgs/Lab1Online/CompassLocations.PNG)
 :::
 
 
 3. Take a piece of paper and sketch a rectangle in the center to represent your permanent bar magnet. Move the large compass around the permanent bar magnet to ***roughly*** the locations of each of the blue dots in [](#Figure-compassLocations),  and draw an arrow on your paper in each location, pointing in the direction of the compass's north pole. Take about 20 data points.
 
-::::::Note
-**Magnetic fields are vector fields, meaning that every point in space has both a magnitude and a direction associated with it. This direction of the magnetic field is the direction in which the north pole of a compass needle points under the influence of the field.**
-
-
-:::RFigure magnetFieldLines
-![Figure of Compasses aligning to field lines](imgs/Lab4/fieldlines.png)
+:::Figure (magnetFieldLines | |R)
+![Figure of Compasses aligning to field lines](imgs/Lab1Online/fieldlines.png)
 :::
+
+:::Note
+**Magnetic fields are vector fields, meaning that every point in space has both a magnitude and a direction associated with it. This direction of the magnetic field is the direction in which the north pole of a compass needle points under the influence of the field.**
 
 
 The compasses show the direction of the magnetic field created by the permanent bar magnet at the locations where they are placed. A *magnetic field line* is a directed line that is tangent to the magnetic field at each point along its length.  Notice that the direction of a compass needle is along the field line passing through its location. Magnetic field lines originate from the North pole of the magnet and loop back into the South pole.
 
 [](#Figure-magnetFieldLines) shows the magnetic field lines around a permanent bar magnet and a few representative compass directions.
-::::::
+:::
+
+
 :::::::::
 
 ## Air Core Electromagnet
@@ -67,7 +68,7 @@ A coil of wire with current flowing through it generates a magnetic field. We ca
 In [Ex](#Ex-permanentMagnet) you gained intuition with a permanent bar magnet. In this exercise you will be using [](#Simulation-electroMagnet) to visualize the magnetic field of an electromagnet. Note that this is an air core electromagnet. The circuit diagram for this experiment is shown in [](#Figure-airCoreField).
 
 :::Figure airCoreField
-![[](#Figure-compassLocations).2 – Wiring for basic electromagnet](imgs/Lab4/Figure1.2_Wiring_basic_electromagnet.jpg)
+![[](#Figure-compassLocations).2 – Wiring for basic electromagnet](imgs/Lab1Online/Figure1.2_Wiring_basic_electromagnet.jpg)
 :::
 
 1. Examine the "Electromagnet" tab of [](#Simulation-electroMagnet). 
@@ -124,7 +125,7 @@ In this exercise we will be exploring the strength of magnetic fields.
 We will be working with the system described in [](#Figure-airCoreStrength). This system uses an electromagnet that has an air core, just as in [Ex](#Ex-airCoreField). The large compass is placed on the axis of the coil, about 4 cm away.
 
 :::Figure airCoreStrength
-![[](#Figure-magnetFieldLines).1– Shows wiring, also shows compass on axis of coil](imgs/Lab4/Figure2.1_Wiring_compas_onaxis.jpg)
+![[](#Figure-magnetFieldLines).1– Shows wiring, also shows compass on axis of coil](imgs/Lab1Online/Figure2.1_Wiring_compas_onaxis.jpg)
 :::
 
 :::Note
@@ -168,7 +169,7 @@ In [Vi](#Vi-airCoreStrength) we see the system from [](#Figure-airCoreStrength),
 This exercise continues our investigation of magnetic field strength. Instead of varying the distance between our compass and our electromagnet as we did in [Ex](#Ex-airCoreStrength), we will vary the current flowing through our electromagnet. We will use a circuit containing a variable resistor  (a rheostat), as shown in [](#Figure-currentFieldStrength). We apply a fixed voltage, and vary the resistance of the rheostat; thus we vary the amount of current flowing through the coil (according to Ohm's Law). [Vi](#Vi-currentFieldStrength) shows the circuit in [](#Figure-currentFieldStrength), with the rheostat being slowly adjusted from zero resistance at the beginning, to maximum resistance at the end.
 
 :::Figure currentFieldStrength
-![[](#Figure-magnetFieldLines).2 – Wiring diagram showing rheostat in series.](imgs/Lab4/Figure2.2_Wiring_rheostat_inseries.jpg)
+![[](#Figure-magnetFieldLines).2 – Wiring diagram showing rheostat in series.](imgs/Lab1Online/Figure2.2_Wiring_rheostat_inseries.jpg)
 :::
 
 
@@ -247,9 +248,9 @@ The right hand rule holds that when your right thumb is aligned with the directi
 :::
 
 :::Figure
-![[](#Figure-airCoreStrength)gure 6a. F = q v x B. Your index finger goes in the direction of v, middle finger in the direction of B. Your thumb is the direction of F.](imgs/Lab4/Figure4.1a_RHR.jpg) 
-![[](#Figure-airCoreStrength)gure 6b. For a wire, when your thumb points in the direction of positive current flow, your fingers wrap in the direction of the magnetic field.](imgs/Lab4/Figure4.1b_RHR.jpg)
-![[](#Figure-airCoreStrength)gure 6c. For a coil, when your fingers wrap in the direction of positive current flow (look at the windings to determine this), your thumb points in the direction of the magnetic field.](imgs/Lab4/Figure4.1c_RHR.jpg)
+![[](#Figure-airCoreStrength)gure 6a. F = q v x B. Your index finger goes in the direction of v, middle finger in the direction of B. Your thumb is the direction of F.](imgs/Lab1Online/Figure4.1a_RHR.jpg) 
+![[](#Figure-airCoreStrength)gure 6b. For a wire, when your thumb points in the direction of positive current flow, your fingers wrap in the direction of the magnetic field.](imgs/Lab1Online/Figure4.1b_RHR.jpg)
+![[](#Figure-airCoreStrength)gure 6c. For a coil, when your fingers wrap in the direction of positive current flow (look at the windings to determine this), your thumb points in the direction of the magnetic field.](imgs/Lab1Online/Figure4.1c_RHR.jpg)
 :::
 
 
@@ -259,7 +260,7 @@ The right hand rule holds that when your right thumb is aligned with the directi
 In this exercise we will explore laws critical to the study of electromagnetism. We will be using [](#Simulation-lenzLaw) to explore how a moving magnet produces current in a nearby coil of wire. The simulation shows a system similar to the one described in [](#Figure-lenzLaw). 
 
 :::Figure lenzLaw
-![[](#Figure-airCoreStrength).1 – Lenz’s law setup](imgs/Lab4/Figure4.1_LenzsLaw.jpg)
+![[](#Figure-airCoreStrength).1 – Lenz’s law setup](imgs/Lab1Online/Figure4.1_LenzsLaw.jpg)
 :::
 
 1. Examine [](#Simulation-permanentMagnet). You may notice that in [](#Figure-lenzLaw) we show a Galvanometer, which measures current, and [](#Simulation-lenzLaw) has a voltmeter, which measures voltage. As we learned in the Ohm's Law lab, $V=IR$. Thus, for a resistive element such as the light bulb in [](#Simulation-lenzLaw), we can use these interchangeably for the purposes of this lab. 
