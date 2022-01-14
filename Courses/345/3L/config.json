@@ -7,76 +7,33 @@
         "email": "Jiuci_Xu@ucsb.edu",
         "zoom": "",
         "officehours": "",
-        "sectionhours": "1-3PM Tuesday (Y), 4-7PM Tuesday (Y)",        
+        "sectionhours": "1-4PM Wednesday, 4-7PM Wednesday",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },
       {
-        "first-name": "James",
-        "last-name": "Kwon",
+        "first-name": "Isha",
+        "last-name": "Anantpurkar",
         "pronouns": "",
-        "email": "jameskwon@ucsb.edu",
+        "email": "isha_anantpurkar@ucsb.edu",
         "zoom": "",
         "officehours": "",
-        "sectionhours": "1-3PM Monday (Y), 4-7PM Monday (Y)",        
+        "sectionhours": "4-7PM Tuesday, 7-10PM Tuesday",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },
       {
-        "first-name": "Qier",
-        "last-name": "An",
+        "first-name": "Zhenghao",
+        "last-name": "Xu",
         "pronouns": "",
-        "email": "aan@ucsb.edu",
+        "email": "z_xu@ucsb.edu",
         "zoom": "",
         "officehours": "",
-        "sectionhours": "1-3PM Thursday (Y), 4-7PM Thursday (Y)",        
-        "img": "../../../people/photo/nopic.png",
-        "title":"TA"
-      },
-      {
-        "first-name": "Diego",
-        "last-name": "Gonzalez Hernandez",
-        "pronouns": "",
-        "email": "dgonzalezhernandez@ucsb.edu",
-        "zoom": "",
-        "officehours": "",
-        "sectionhours": "1-3PM Monday (B), 4-7PM Monday (B)",        
-        "img": "../../../people/photo/nopic.png",
-        "title":"TA"
-      },
-      {
-        "first-name": "Zhenhao",
-        "last-name": "Song",
-        "pronouns": "",
-        "email": "z_song@ucsb.edu",
-        "zoom": "",
-        "officehours": "",
-        "sectionhours": "1-3PM Wednesday (Y), 4-7PM Wednesday (Y)",        
-        "img": "../../../people/photo/nopic.png",
-        "title":"TA"
-      },
-      {
-        "first-name": "Zixuan",
-        "last-name": "Peng",
-        "pronouns": "",
-        "email": "zixuanpeng@ucsb.edu",
-        "zoom": "",
-        "officehours": "",
-        "sectionhours": "1-3PM Wednesday (B), 4-7PM Wednesday (B)",       
-        "img": "../../../people/photo/nopic.png",
-        "title":"TA"
-      },
-      {
-        "first-name": "Owen",
-        "last-name": "Sheekey",
-        "pronouns": "",
-        "email": "osheekey@ucsb.edu",
-        "zoom": "",
-        "officehours": "",
-        "sectionhours": "7-10PM Wednesday (Y)",        
+        "sectionhours": "1-4PM Tuesday",        
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       }
+      
     ],
     "Faculty": [
       {
@@ -102,7 +59,7 @@
     "page-links": [
       {
         "name": "Lab 1",
-        "file": "lab1"
+        "file": "online-lab1"
       },
       {
         "name": "Lab 2",
