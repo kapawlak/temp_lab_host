@@ -1,36 +1,36 @@
 {
     "TAs": [
       {
+        "first-name": "Jemma",
+        "last-name": "Fendley",
+        "pronouns": "",
+        "email": "fendley@ucsb.edu",
+        "room": "",
+        "officehours": "",
+        "sectionhours": "",
+        "img": "../../../people/photo/nopic.png",
+        "title":"TA"
+      },
+      {
         "first-name": "Henry",
         "last-name": "Leung",
         "pronouns": "",
         "email": "yleung@ucsb.edu",
         "room": "",
-        "officehours": "M 3-5 pm, T 6-8 pm",
-        "sectionhours": "[Monday 7-10PM] [Tuesday 3-5PM] [Wednesday 3-5PM, 5-7PM]",
+        "officehours": "",
+        "sectionhours": "",
         "img": "../../../people/photo/nopic.png",
         "title":"TA"
       },
       {
-        "first-name": "William",
-        "last-name": "Huynh",
+        "first-name": "Zhenghao",
+        "last-name": "Xu",
         "pronouns": "",
-        "email": "whuynh@ucsb.edu",
+        "email": "z_xu@ucsb.edu",
         "room": "",
-        "officehours": " Monday: 10am-1pm, 5pm-6pm",
-        "sectionhours": "[Monday 1-3PM, 3-5PM] [Wednesday 1-3PM]",
+        "officehours": "",
+        "sectionhours": "",
         "img": "../../../people/photo/nopic.png",
-        "title":"TA"
-      },
-      {
-        "first-name": "Benjamin",
-        "last-name": "Lloyd",
-        "pronouns": "",
-        "email": " benjaminlloyd@ucsb.edu",
-        "room": "",
-        "officehours": "Tuesday 1:30-3:30 pm, Thursday 2-4 pm",
-        "sectionhours": "[Monday 5-7PM] [Wednesday 5-7PM, 7-10PM]",
-        "img": "../../../people/photo/benlloyd.jpeg",
         "title":"TA"
       }
     ],
@@ -58,8 +58,8 @@
         "file": "lab0"
       },
       {
-        "name": "Lab 1",
-        "file": "lab1"
+        "name": "Lab 1 Online",
+        "file": "lab1-online"
       },
       {
         "name": "Lab 2",

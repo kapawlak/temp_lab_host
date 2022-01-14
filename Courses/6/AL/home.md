@@ -33,21 +33,6 @@ The course Faculty are here to help with more complex issues, working behind the
 
 
 
-## Schedule (Fall 2021)
-
-The table below shows the weekly schedule
-
-:::Table (schedule| PHYS 6AL Lab Schedule|10 C)
-| Weeks              | Lab | Lab Title                   |
-|--------------------|-----|-----------------------------|
-| 26-Sep thru 1-Oct  | 0   | Experimental Physics Primer |
-| 3-Oct thru 15-Oct  | 1   | Velocity and Acceleration   |
-| 17-Oct thru 29-Oct | 2   | Forces and Motion           |
-| 31-Oct thru 12-Nov | 3   | Energy Transformation       |
-| 14-Nov thru 26-Nov | 4   | Rotation                    |
-:::
-
----
 
 ## Laboratory Guidelines and Policies
 

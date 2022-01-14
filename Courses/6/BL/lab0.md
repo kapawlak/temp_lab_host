@@ -4,7 +4,7 @@ The goal of this assignment is to prepare you for the rest of the quarter and re
 
 - Function v.s. Shape in plotting
 - **Log-Log** Plots
-- **Signifigant Figures** and their propagation
+- Using lines of best fit to determine parameters.
 
 :::
 # Plot Shapes and Linearization
@@ -183,30 +183,31 @@ Data is a wonderful thing but &mdash; as humans who, unfortunately, cannot draw 
 
 2. However the plot looks, include a best-fit (straight) line. In Google Sheets, this option is found under "Series" in the "Customize" tab
 
-:::Figure trendlineHowTo
+:::Figure (trendlineHowTo|xxl)
 
 ![](imgs/Lab0/trendline.png)
 
 :::
 
-**Make sure that your graph has all of the components of a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) in order to receive full credit.**
 
-:::Exercise (|1 Point)
-1. Include your completed [[Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport)](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) here.
+
+
+
+::::::
+:::Exercise (|2 Points)
+Make sure that your graph has all of the components of a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) in order to receive full credit.
+1. Include your completed [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport)](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) here.
 2. Does this graph look linear, quadratic, exponential, or something else?
 3. How can you tell?
 4. Does it make sense to perform a linear fit with this data set? Why or why not? (Don't use $R^{2}$ in your answer.)
 :::
-
-::::::
-
 ## Linearizing the Data
 In the previous activity, it is likely that you found that the data did **not** have a linear (straight-line) relationship. Because of this, we need to work on the data a bit further to understand how the dependent and independent values are related. 
 
 Luckily, we have a general equation that should describe the data, given by [](#Equation-keplerGeneralSimplified). We will assume that this equation accurately captures the data in the model and use it to guide our analysis.
 
-:::Exercise (log|1 Point)
-According to the rules of logarithms given above, take the log of both sides of [](#Equation-keplerGeneralSimplified)
+:::Exercise (log|2 Points)
+According to the rules of logarithms given above, take the log of both sides of [](#Equation-keplerGeneralSimplified). Show your result and your work.
 :::
 
 We will use your result in [](#Exercise-log) in the activity below. 
@@ -254,11 +255,11 @@ As long as you use the same base when you take the antilog to find the proportio
 
 Therefore, for consistency, please make sure to use log base 10.
 :::
-:::Exercise (|1 Point)
+
+::::::
+:::Exercise (|2 Points)
 Link your completed **Table 2: Log-Log Data Table** here. Be sure that all values have the correct sigfigs, and if follows the rules of a [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport)!
 :::
-::::::
-
 We are finally ready to plot our linearized data and draw inferences using line of best fot tools. The first thing that we need to do is ensure that the Log-Log plot has, infact, linearized our data. After we are confident that our data is linear, we can inspect the line of best fit and intercepts to extract the key paramters
 
 
@@ -266,16 +267,16 @@ We are finally ready to plot our linearized data and draw inferences using line 
 1. Make a plot of the data from your new **Table 2: Log-Log Data Table**. (Be sure to take the log of  **both** columns. That is, plot $\log(T)$ vs. $\log(a)$.) Again, make sure that your graph has all of the components of a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) in order to receive full credit.
 
 
-2. Create a best-fit line for the new log-log plot. In Google Sheets, you can do this as described in [Ex](#Ex-exPlot1), or you can find it under "Label" in the "Series" menu trendline options.
+2. Create a best-fit line for the new log-log plot. In Google Sheets, you can do this as described previously, or you can find it under "Label" in the "Series" menu trendline options.
 
-:::Figure showEquation
+:::Figure (showEquation|xxl)
 
 ![](imgs/Lab0/label.png)
 
 :::
 
 :::::::::
-:::Exercise (|1 Point)
+:::Exercise (|3 Point)
 1. Include a copy of your [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) here. What is the equation for your line of best fit?
 2. Does this graph look linear, quadratic, exponential, or something else? How can you tell?
 3. Does it make sense to perform a linear fit with this data set? Why or why not? (Don't use $R^{2}$ in your answer.)
@@ -289,7 +290,7 @@ We are finally ready to plot our linearized data and draw inferences using line 
 
 Finally we will connect the parameters extracted from the Linearized data to the Theoretical model. Please complete the following Exercises using the Data nd Line of Best Fit obtained.
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Point)
 
 
 1. According to the line of best fit that you found, and the relationship between the Log-Log and Raw Data equations, what is the value of the exponent $z$? 
@@ -297,7 +298,7 @@ Finally we will connect the parameters extracted from the Linearized data to the
 2. What is the numerical value of $k$? ;;;You might find this result interesting. If the value you get seems too simple, don't panic; it's probably right!;;;
 :::
 
-::::::Exercise (|1 Point)
+::::::Exercise (|2 Point)
 As we noted earlier, Kepler's law is frequently written in the form
 
 $$
@@ -342,11 +343,12 @@ $$ a = \beta a' $$
 where $a$ has units of a.u., $a'$ has units of meters, and $\beta$ is the number of a.u. per meter.
 
 
-::::::Exercise (|1 Point)
+::::::Exercise (|2 Point)
 1. Plug the two substitutions into [](#Equation-keplerGeneralSimplified) ($T=k a^{(j/i)}$). Rearrange the equation so that $\alpha, \beta, t$ are on the left side of the equation and $d$ remains on the right side, e.g.
 $$
-\alpha ^\? \beta^\? T' = k a'^{i/j}
+\alpha ^\? \beta^\? T' = k a'^{j/i}
 $$
+you will figure out what the "?'s" are.
 2. What are the numerical values of the conversion factors $\alpha$ and $\beta$ ? ;;;Hint: How many seconds are in a year? How many years are in a second, then? What is the value of alpha? ;;;
 3. Plug in these numerical values to find the number that multiplies $T'$ on the left-hand side. What is this value?
 
@@ -361,33 +363,15 @@ Note that when you arrive at your conversion factor, you can check it by compari
 
 
 
-<!--
 
-# 7. POWER PLOT
-:::Activity
-In the introduction, we noted that if you know the function, then if you manipulate the $x$ variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting $y$ vs. $x$ gives a curved line, but plotting $y$ vs. $x^3$ yields a straight-line plot with slope $a$. Thus, for your planetary orbital data, if you plot either $T$ vs. $a^z$ ($=a^{(j/i)})$, or $T^i$ vs. $a^j$, you should get a straight line (with slope $K$ = 1).
-
-a. According to the two choices above, in your data table make either one or two more columns, and do one of the following:
-
-- Make one additional column for $a^{(j/i)}$, and fill it appropriately. Now plot $T$ vs. $a^{(j/i)}$.
-
-- Make two additional columns, one for $T^i$ and one for $a^j$, and fill them appropriately. Now plot $T^i$ vs. $a^j$.
-
-Whichever plot you choose to do, include a best-fit line. As usual, make sure that it has all the characteristics of a [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport).
-:::Exercise (|1 Point)
-1. How does this plot look? Does it fit a straight line?
-:::
-:::
-
--->
 
 :::Hider (hs|Historical Note)
 Until the work of Brahe and Kepler, there was great confusion regarding the motion of the planets. Also, our understanding of gravity was limited, and until Newton, no one had imagined the possibility that gravity could act not only close to earth, but over astronomical distances as well. Newton's Law of Universal Gravitation provided a deeper understanding of Kepler's laws, and together these formed part of the bedrock of classical physics. We hoped that fitting the data associated with the motion of the planets would provide a pleasant exercise.
 :::
 # Conclusion
 
-:::Exercise (|1 Point)
-Write a brief conclusion summarizing the important points of this lab.
+:::Exercise (|3 Point)
+Write a brief conclusion summarizing the important points of this lab. (1 - 2 Paragraphs)
 :::
 
 :::Summary

@@ -40,7 +40,7 @@ In the following [Activity](#Activity-tables), we will be preparing our data tab
 If you haven't done so, please preview the lab procedure in [Part II](#part2) to familiarize yourself the the general procedure. After reviewing this, continue on to [](#Activity-tables) to prepare the data tables and basic calculations.
 
 
-::::::Activity (tables|Preparing the Tables)
+::::::Activity (tables|Preparing the Tables (10 min))
 In this lab, we will need three data tables. 
 1. A very basic template of these three tables is provided [here](https://docs.google.com/spreadsheets/d/1DDIQSRuBLbqCgpXy2pXZxzmEegwtEWjupJs3e6fj_GU/edit?usp=sharing). Please **copy** these into a personal spreadsheet.
 2. These tables are not [Good Tables](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport). Add missing elements and formatting to ensure that they are good, descriptive tables. You will need to come up with a descriptive title for each table.
@@ -62,7 +62,7 @@ When linked sheets are updated, any edits to the data in the original file will 
 
 We will investigate if the period $T$ of the pendulum depends on the mass $m$ of the bob attached to its end. To do so, we will vary the mass, $m$, while keeping the length, $L$, and initial angle, $\theta_0$, constant.
 
-::::::Activity (mass| Period as a function of Mass)
+::::::Activity (mass| Period as a function of Mass (15 min))
 
 We have **five** (5) bobs of different masses that we can place at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, "Mass 4" in a later video, we are talking about the same mass presented here.
 
@@ -86,7 +86,7 @@ Start the stopwatch when the pendulum is at the beginning of a period, then, whe
 
 ::::::
 
-:::Exercise (table1|1 Point)
+:::Exercise (table1|2 Points)
 1. Include your completed [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 2. Does the period appear to depend on mass? Justify your answer in 2-3 sentences.
 :::
@@ -99,7 +99,7 @@ Conventional analysis of the pendulum is done for small angles, where the restor
 
 We will investigate if the period $T$ of the pendulum depends on the initial angle $\theta_0$ of the bob attached to its end. To do so, we will vary the initial angle, $\theta_0$, while keeping the length, $L$, and mass, $m$, constant.
 
-::::::Activity (angle| Period as a function of Initial Angle)
+::::::Activity (angle| Period as a function of Initial Angle (10 min))
 
 You will be working with only a single mass for this part of the experiment, and only one pendulum length. Below is a video of a pendulum with mass #2. The video shows the pendulum starting at the different initial angles of $5^{\circ}$, $10^{\circ}$, and $15^{\circ}$.  You will collect your data from this video.
 
@@ -116,7 +116,7 @@ You will be working with only a single mass for this part of the experiment, and
 
 ::::::
 
-:::Exercise (table2|1 Point)
+:::Exercise (table2|2 Points)
 1. Include your completed [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 2. Does the period depend on the initial angle? Justify your answer in 2-3 sentences.
 :::
@@ -129,11 +129,11 @@ Why can you use only one mass instead of all five different masses in order to d
 
 We will investigate if the period $T$ of the pendulum depends on the length of the pendulum $L$. To do so, we will vary the length $L$, while keeping the initial angle, $\theta_0$, and mass, $m$, constant.
 
-::::::Activity (mass| Period as a function of Length)
+::::::Activity (mass| Period as a function of Length (15 min))
 
 In the following video you will see three pendulums all having the same mass (mass #2) and initial angle of $10^{\circ}$. The only thing that varies among runs is the length. After the first run, there will be a brief close-up of the mass with a meterstick in the background. You can use this to make your own length measurement. For the second run, the length will be  $40 \rm cm$, and for the third it will be  $24 \rm cm$.
 
-1. Use the same method as in [](#Activity-mass) and [](#Activity-length) to measure the average period for each pendulum length.
+1. Use the same method as in [](#Activity-mass) and [](#Activity-angle) to measure the average period for each pendulum length.
 
 ::: Video
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ac8y90LqqfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -141,7 +141,7 @@ In the following video you will see three pendulums all having the same mass (ma
 
 ::::::
 
-:::Exercise (table3|1 Point)
+:::Exercise (table3|2 Points)
 1. Include your completed [Good Table](?linkfile=FAQ#QHowdoIreceivefullcreditonatableinmylabreport) here.
 2. Does the period depend on length? Justify your answer in 2-3 sentences.
 :::
@@ -152,7 +152,7 @@ In the following video you will see three pendulums all having the same mass (ma
 From your previous investigations on which parameters affect the period of the pendulum you should have concluded that the length $L$ affects the period of the pendulum. In this part, we will attempt to find the mathematical relationship between the period $T$ and the length $L$.
 
 
-::::::Activity (additional|Additional $L$ v.s. $T$ Data)
+::::::Activity (additional|Additional $L$ v.s. $T$ Data (15 min))
 
 Below is a (very-much-sped-up) video of several pendulums with mass #2. The initial angles are all $10^{\circ}$. We vary the length from 96 $\rm cm$ to $\rm 24$ cm. To keep the lab from being too long, we will provide you with the data that we collected.
 
@@ -171,7 +171,7 @@ Below is a (very-much-sped-up) video of several pendulums with mass #2. The init
 
 ::::::
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 1. Include your [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) here.
 2. Describe the relationship between length and period. Is it linear or nonlinear? How do you know? (1-2 Sentences)
 
@@ -281,7 +281,7 @@ e. Based on this analysis, give an explanation to Alpa and Beetuh summarizing wh
 
 :::
 -->
-:::::::::Activity (loglog|Making a Log-Log Plot)
+:::::::::Activity (loglog|Making a Log-Log Plot (20 min))
 <!--** Option 2: Log-Log **
 
 The relationship between the period and length can be expressed:
@@ -331,7 +331,7 @@ In your final reduction, you should recognize that some values are constant, whi
 Hint: Convert length measurements to meters.
 :::
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 1. Include your [Good Plot](?linkfile=FAQ#QHowdoIreceivefullcreditonaplotinmylabreport) here
 2. From the line of best fit, what is the numerical value of the slope of this  log-log line? 
 
@@ -340,7 +340,7 @@ Hint: Convert length measurements to meters.
 
 3.  Use the slope and intercept of your log-log graph to determine the quantities $a$ and $b$.
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 1. From your answers to the two previous questions, what is the numerical value of $a$ you calculated? 
 
 2. From your answers to the two previous questions, what is the numerical value of $b$ you calculated? 
@@ -374,7 +374,7 @@ where $g$ is the acceleration due to gravity ($g=9.8\rm\ m/s^2$). We want to com
 
 
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 1. Express the acceleration due to gravity $g$ in terms of $a$ and $b$.
 
 2. What numerical value do you obtain for $g$?
@@ -404,7 +404,7 @@ Consider two different pendulums of equal mass and tied to strings of equal leng
 
 # Conclusion
 
-:::Exercise (|1 Point)
+:::Exercise (|2 Points)
 Write a brief conclusion summarizing the important points of this lab.
 :::
 

@@ -28,7 +28,7 @@ You must also complete the following Activity to ensure that you have a table re
 [](#Activity-sheets)
 :::
 
-Your TA will check your notebook at the beginning of class. You should also, at the very minimum, skim the rest of the lab before class to ensure that you are prepared to turn in your report by the end of class.
+You will need to upload your report with prelabs completed on Gauchospace before the beginning of class. You should also, at the very minimum, skim the rest of the lab before class to ensure that you are prepared to turn in your report by the end of class. You can change your answers to the Prelab during class. 
 ::::::
 ---
 
