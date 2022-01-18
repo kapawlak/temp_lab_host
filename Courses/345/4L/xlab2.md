@@ -1,189 +1,317 @@
-# Charge to Mass Ratio of the Electron
+# Reflection and Refraction
 
-# Gaining Intuition
+:::Intro (This Week)
 
-:::Figure (vac-tube)
-![](imgs/Lab2/vac_tube.png "Vacuum tube setup")
+This week we will investigate Reflection and Refraction. After a short review of the theory governing the reflection and refraction of light by surfaces and prisms, you will tackle a few "virtual" experiments by using simulations or interacting with videos.
+
+:::
+# Introduction
+
+
+:::Video (intro| A Quick Lesson on Reflection and Refraction)
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/CWOkuhY8Szo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-Elementary particle physics has as its goal to know the properties of the many atomic and subatomic particles (mesons, quarks, lambda particles, etc) and to understand their place in nature. The first elementary particle discovered was the electron and the first property measured was the charge to mass ratio, e/m, determined by J. J. Thompson in 1897. Many particles once thought to be elementary, such as the proton, are now known to be composed of other particles such as quarks, but the electron has not lost its status as a true elementary particle. In fact, as far as we know it has mass, charge (also spin angular momentum and a magnetic dipole moment), but no size.
 
-The experimental method you will use to measure e/m for the electron is designed after the experiment of Bainbridge. The apparatus consists of a large vacuum tube supported at the center of a pair of Helmholtz coils. An electron gun, composed of a filament parallel to the axis of the coils and surrounded by a coaxial anode containing a single slit produces a narrow beam of electrons whose paths are made visible by a trace amount of mercury vapor in the tube. A diagram of the vacuum tube-electron gun is shown in [](#Figure-tube-schematic).
 
-:::Figure (tube-schematic)
-![](imgs/Lab2/tube_schematic.png "Schematic of the vacuum tube-electron gun")
-:::
+# Refraction
+## Index of refraction and speed of light
+Light travels in a vacuum at a speed $c=3.00 \times 10^8  \text{ m s}^{-1}$, and more slowly within any other medium or material. We define the **index of refraction**  of a material, denoted by $n$, to be the ratio of the speed of light in a vacuum to the speed of light in that medium.
 
-The apparatus works as follows. The filament is heated by running an electric current through it (just as the filament in a light bulb is heated). When the filament is “red hot”, electrons will evaporate from the filament material (just as water molecules will evaporate from the surface of a kettle of water when it is heated). The evaporated electrons will form a negatively charged “cloud” around the filament. This process of electron emission from a hot metal surface is called thermionic emission.
-
-To create a beam of electrons, the anode (or metal cap) is maintained at a potential of about +20V to +40V with respect to  the filament (this is the so-called “accelerating potential” written as Vacc). The electrons in cloud around the filament are attracted by the positive potential and are accelerated toward the metal cap. Some electrons escape from the cap into the  field free space of the vacuum tube by passing through the narrow slit in the cap thereby forming a thin ribbon or beam of electrons.  Note that the low pressure (vacuum) is essential here. At atmospheric pressure, an electron escaping from the filament would travel only about 10-4 cm before colliding with an air (or mercury) molecule. Forming a long “beam” of electrons would be impossible under such circumstances. At lower pressures there are fewer air molecules per unit volume and the electrons can travel farther, and at 10-5 atmospheres electrons can travel about 8 to 10 cm before hitting a mercury molecule.
-
-Electrons moving in such a low-pressure mercury environment are made “visible.” When an electron strikes a mercury atom, if it has enough kinetic energy (10.4 electron volts), one of the mercury’s electrons will be knocked off. A nearby electron soon takes its place, and the excess energy is given off as blue (primarily) light during the recombination . If the pressure were too low there would be too few mercury atoms to emit much light and the beam would be difficult to see; at about 10-5 atmospheres, however, there is still enough mercury in the glass bulb to make the beam of electrons clearly visible in a dark room. One sees a bluish glow from the struck mercury molecules.
-
-Once the electron leaves the anode through the slit, all of its energy will be kinetic and this energy can be computed from the expression
-
-:::Equation (energy)
+:::Equation
 $$
-\frac{1}{2}mv^2 = eV
+n = \frac{c}{v}
 $$
 :::
+where $c$ is the speed of light in a vacuum and $v$ is the speed of light in the medium. If you know the medium’s index of refraction, you know the speed of light in that medium.
 
-where $m$ is the electron mass, $e$ is the charge of the electron, $V$ is the accelerating voltage, and $v$ is the velocity of the electron.
+When a light ray encounters a boundary between two materials, it experiences a change in direction, which we call *refraction*. The bending of the light at the interface is due to fact that light travels at different speeds in the two materials, so it's a result of the the difference in the materials’ indexes of refraction. 
 
-:::Exercise (equation|1 Point)
-What is the relevance of [](#Equation-energy)? What physical device provides $V$ as described in this equation?
+
+:::Figure (refrac|xl)
+![The result of refraction at different angles of incidence.](imgs/Lab1/fig1_1.jpg 'The result of refraction at different angles of incidence.')
+ 
 :::
 
-With no current flowing in the Helmholtz coils and in the absence of any other sources of electric or magnetic fields, the path of these electrons is a straight line. If a current is caused to flow in the Helmholtz coils, a magnetic field will be created in the region between the coils where the vacuum tube is located. If the electron beam exiting from the slit in the anode is oriented so that the path of the electrons is perpendicular to the magnetic field produced by the Helmholtz coils, then the electrons will feel a force perpendicular to their direction of travel of magnitude
+The figure above shows beams of light being emitted from the blue semicircle at the bottom left. The rays travel through a medium having an index of refraction of $n_1$, toward the interface of that medium with a second medium having an index of refraction of $n_2$. The beams in the lower region are the *incident* beams. The beams in the upper region are the *refracted* beams. When light reaches the interface, some of it is reflected back into the first medium, but most of it is refracted into the second medium. Note that two of the exiting beams, B and C, are bent (*refracted*) away from the normal. (Ray D is also bent away from the normal, but represents a special case, which we will see later in this lab.) This figure could represent light coming from water and going into air. When a beam is perpendicular to the interface boundary, as is beam A, it is said to be *normal* to the interface. Normal rays are undeflected. 
 
-:::Equation (forces)
+## Snell's Law
+The refraction of light at the interface between two media with indexes of refraction $n_1$ and $n_2$ is described by Snell’s Law:
+
+:::Equation
 $$
-F = evB
-$$
-:::
-
-where $e$ is the charge of the electron, $v$ is its velocity, and $B$ is the magnetic field strength.
-
-:::Exercise (mag_field|1 Point)
-A charge of $-2.6 \times 10^{-10} \text{C}$ moves at $10,000 \text{m/s}$ in the earth's magnetic field of $32,000 \text{nT}$ (nano Teslas, $\text{n} = 10^{-9}$). What amount of force does it experience?
-:::
-
-Since the force is always perpendicular to the direction of travel of the electrons, the path followed by the electrons will be circular. The force on a particle undergoing uniform circular motion can also be expressed as 
-
-:::Equation (circ_motion)
-$$
-F = \frac{m v^2}{R}
+n_1\sin(\theta_1) = n_2\sin(\theta_2),
 $$
 :::
+where $\theta_1$ is the angle of incidence and $\theta_2$ is the angle of refraction.
 
-where $m$ and $v$ are defined as in [](#Equation-energy) and [](#Equation-forces) and $R$ is the radius of curvature of the circular path. Substituting this expression for the force into [](#Equation-forces) and solving for $v^2$ yields
+:::Note (|8 C)
+All angles are measured from the *perpendicular to the interface* to the ray. Thus, a small angle means the ray is nearly perpendicular to the boundary, and a large angle means the ray is nearly tangent to the interface. Note that all angles are less than 90 ̊. 
+:::
 
-:::Equation (v_sq)
+:::Note
+The indexes of refraction are properties of the two mediums.
+:::
+
+<!-- Q1 -->
+:::Exercise
+Look at [](#Figure-refrac) to answer the following:
+
+1. Light ray A is normal to the interface.  What is the angle of incidence $\theta_1$ for this ray? According to Snell's law, what is the angle of refraction $\theta_2$? 
+
+2. Is the angle of the refracted light beam B larger or smaller than the angle of incidence? What about light beam C? According to Snell's Law, what does the relative magnitude of the angles (*i.e.*, $\theta_2/\theta_1$) tell us about the relative magnitude of the indexes $n_1$ and $n_2$?
+
+:::
+## Critical angle and total internal reflection
+When the angle of incidence reaches a certain value (ray D in [](#Figure-refrac)), light no longer gets refracted into the second medium; instead it is fully reflected back. The **critical angle** is the incident angle at which no light gets transmitted, but all the light is reflected back into the first medium.
+The critical angle is the angle of incidence that corresponds to an angle of refraction of 90°. For any angle greater than the critical angle, *total internal reflection* occurs. A necessary condition for the critical angle to exist is that the index $n_1$ of the first medium has to be greater than the index $n_2$ of the second medium.
+
+
+## Simulation of Reflection
+Let"s start by looking at a simulation of what happens when light interacts with a boundary.
+
+
+::::::Activity
+
+In this exercise you will use a simulation to investigate what happens to light at a boundary.
+
+:::Simulation
+<iframe src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=1" width="100%" height="600" allowfullscreen="" frameborder="0"></iframe>
+:::
+
+1. The top material should already be set to "Air." Leave it as that. Change the bottom material to "Mystery B."
+
+2. Turn on the laser by clicking the large red button. Click on the grey housing of the laser, and move it to a new angle.
+
+3. Use the protractor tool to measure the new incident angle and refracted angle.
+
+:::Exercise
+1. What is the index of refraction for the material "Mystery B?" Show your work.
+
+2. What is the speed of light in the "Mystery B" material? (Show your work.)
+:::
+
+::::::
+
+
+## Experiment
+ In this experiment we will use an optical bench and a semi-circular acrylic block with an unknown index of refraction. Our objective is to find its index of refraction.
+
+:::::::::Activity
+
+:::Figure (semicyn|m|R)
+![Schematic of Prism ](imgs/Lab1/semi_circular_refraction.jpg "Schematic of Prism")
+
+:::
+
+In the video below, you will be shown light passing through a semi-cylindrical prism (D-block). The light is coming from the bottom of the frame and hitting the curved surface of the D-block first, then passing through the material and exiting the flat surface as in [](#Figure-semicyn)
+
+You will use this video to make some measurements and answer the questions below.
+
+**Instructions**
+
+
+1. Start by making a data table to record the incident and refracted angles.
+
+2. At about 2:20 in the video, the ray tracing table starts to be rotated. This goes on until about 3:50. Within this window, make the video pause at four different angles, and use the ray tracing table to record the incident and refracted angles. The video stops for a moment to highlight which angles you should be measuring. Feel free to use this as one of your measurements. Finally, be sure your choices of the incident angles produce a reasonable span of values. A selection of values ranging from $5^{\circ}$ to $8^{\circ}$, would not be “a reasonable span." ;;; Hint:You should NOT spend more than 5 minutes making these measurements. If you do, you are working too hard;;;
+
+
+
+:::Video
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/TdWsScRNHuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+:::Note (|8 C)
+We neglect the first boundary between air and the acrylic block, because the incident beam is perpendicular to the cylinder’s surface, so it is undeflected.
+:::
+
+
+ 
+3. In our case, $n_1$ in Snell's law corresponds to the plastic block, and $n_2$ corresponds to the air. The index of refraction for air is $n_2 = 1.00$, so after measuring the incident and refracted angles, we are left with only one unknown, the index of refraction for the plastic, $n_1$.  Use your measurements from the video, and add a new column to your table in which you calculate the corresponding $n_1$ for each measurement.
+ 
+
+
+:::Exercise
+What is average index of refraction for the acrylic D-block? We will denote it $n_{avg}$.
+:::
+
+4. The *critical angle* is the incident angle at which light does not get transmitted, but is completely reflected back. Find this angle in the video.
+
+:::Exercise
+1. Based on the video, what is the critical angle for an acrylic-air boundary? We will denote it $\theta_c$.
+
+2. At the critical angle, the refracted light travels along the surface of the plastic block. Thus, $\sin(\theta_2) = 1.0$, or $\theta_2 = 90$ ̊. Plug this into Snell’s law and compute $n_c$.
+:::
+
+::::::Note (|10 C)
+Recall that the equation for percent difference is the following:
+
+:::Equation
+
 $$
-v^2 \frac{e^2 B^2 R^2}{m^2}
+\text{percent difference} = \frac{| \text{value 1} - \text{value 2}|}{average} 
 $$
 :::
 
-Substituting this expression for $v^2$ into [](#Equation-energy) and solving for $e/m$ yields
+Where the average is given by:
 
-:::Equation (em_exp)
 $$
-\frac{e}{m} = \frac{2V}{B^2 R^2}
+\text{average} = \frac{\text{value 1} + \text{value 2}}{2}
 $$
+
+::::::
+
+:::Exercise
+Compare your calculated $n_c$ to $n_{avg}$. What is the percent difference? 
 :::
 
-$V$ can be read directly from a multimeter attached to the anode circuitry.
-
-:::Exercise (derivation|1 Point)
-Clearly demonstrate the derivation of [](#Equation-em_exp). The general method is described in the text, you must show it explicitly.
-:::
-
-The value of $B$ (in Tesla) for a set of Helmholtz coils can be computed from the expression
-
-:::Equation (B_coil)
-$$
-B = \frac{8 \mu_0 N I}{\sqrt{125}a}
-$$
-:::
-
-where $N$ is the number of turns in the coils, $I$ is the current flowing in the coils, $a$ is the radius of the coils, and $\mu_0$ is the permeability of free space, $4 \pi \times 10^{-7} \text{T} \cdot \text{m/A}$.
-
-In the lab apparatus, $N = 72$, $a$ can be measured with meter stick, and $I$ can be measured via an ammeter attached to the Helmholtz coil circuitry. As can be seen from [](#Equation-B_coil), the strength of the magnetic field can be varied by changing the current in the Helmholtz coils. The distances from the filament to the posts is listed on each of the apparatus. By varying the current in the Helmholtz coils, the path of the electrons can be adjusted to pass directly through one of the posts. In this way, we know the radius of curvature of the path. Since each of the quantities on the right side of [](#Equation-em_exp) can be readily measured using the apparatus described above, [](#Equation-em_exp) is the equation you will use to calculate an experimental value for $e/m$ .
-
-In summary, the experimental method for measuring e/m for the electron is as follows. You will create an electron beam by passing a current through the filaments of the electron gun and adjusting the accelerating voltage on the anode to a known value. With the plane in which the electrons are moving perpendicular to the direction of the field of the Helmholtz coils, you will increase the current flowing in the coils until the resultant B field is strong enough to bend the beam of electrons into a circular path which passes through a given post in the vacuum tube. V and I can be measured from multimeters hooked into the circuitry of the apparatus, B can be calculated from I with the use of equation (6) and R can be computed from the distance from the filament to the given post as listed on the apparatus. Equation (5) can then be used to compute a value for e/m.
-
-
-<i><b> The above portion of this lab was written and reprinted with permission by John Largent, Dartmouth College (Fall 2003). </b></i> 
-
-# Measuring the Charge to Mass ratio of the Electron
-
-:::Figure (diagram)
-![](imgs/Lab2/diagram.png "Diagram of the circuit used in Part II")
-:::
-
-:::Exercise (filament|1 Point)
-What is filament used for in this apparatus? Why is there a rheostat in the circuit, and why must it be at full resistance when you begin?
-:::
-
-:::Exercise (acc_volt|1 Point)
-What is accelerating voltage used for in this apparatus? What piece of equipment tells you the voltage value? What piece of equipment tells you the anode current?
-:::
-
-:::Exercise (elec_leave|1 Point)
-What happens to the electrons that leave the filament? Where do they go? How do they get there?
-:::
-
-:::Exercise (ve_beam|1 Point)
-Explain how you could compute the velocity of the electrons in the beam.
-:::
-
-:::Exercise (why_helm|1 Point)
-What is the Helmholtz coil for?
-:::
-
-:::::::::Activity (fil_an|Filament and Anode Circuits)
-1. Locate the components of the filament circuit. It consists of a power supply with an Adjust-A-Volt control connected to the tube apparatus.
-
-::: Note (adjust-a-volt|10)
-Set Adjust-A-Volt knob to zero, full counter clockwise.
-:::
-
-2. Turn the gray power supply on and look at the built-in meter. Turn the Adjust-A-Volt knob until it reads $1 - 1.5 \text{amps}$. If it is any more than this, immediately turn it off and ask your TA for assistance.
-3. Turn your attention to the anode circuit. This equipment provides the accelerating voltage that forms the electron beam. Essentially this is a small particle (electron) accelerator. Turn on the DC Voltmeter (DCV). Set the range to 200 V. This meter measures the accelerating voltage that the electrons in the beam experience.
-4. Set the coarse and fine current controls to fully clockwise. Do not readjust the current controls for the rest of the experiment.
-5. Check to see that the anode power supply is in tracking mode. Now, using the left voltage control set the voltage to be between $20$ and $25\text{V}$ as read on the yellow voltmeter. Increase the current through the tube to about $3.0$ $\text{amps}$ by turning the Adjust-A-Volt knob clockwise (to the right). Note that the yellow voltmeter measures the sum of the tracking power supply's voltages.
-
-::: Note (adjust-a-volt|10)
-You will not see the beam yet! However, if you look into the vertical slot, you will see a glowing red light. This is the filament being heated.
-:::
-
-6. To form the beam, you need to increase the filament current. Slowly increase the Adjust-A-Volt knob. You should do this over the course of approximately $40$ $\text{seconds}$. Around $4$ $\text{amps}$ you should begin to see the beam form. You may need to have the room lights off. Use the student desk lamp as needed.
-
-::: Warning (warning|10)
-Do not exceed 4.5 amps!!!
-
-Use the <i><b> minimum </b></i> amount of current possible to form the beam. 0.5 amps is a significant amount of current and greatly decreases the life of the tube.
-
-At any point that you're not using the tube to make measurements you should bring the filament current back down.
-
-DO NOT RUN THE TUBE AT THE OPERATING CURRENT WHEN YOU ARE NOT COLLECTING DATA. RETURN THE TUBE TO IDLE CURRENT (APPROXIMATELY 1 - 1.5 AMPS) UNTIL YOU ARE READY TO BEGIN COLLECTING DATA.
+:::Exercise
+What is the speed of light in the acrylic block (use either $n_c$ or $n_{avg}$)?
 :::
 
 :::::::::
 
-:::::::::Activity (helm|Helmholtz Coil)
-1. With the Helmholtz coil power supply off, set the coarse and find <i>voltage</i> controls on it to zero, full counter-clockwise.
-2. Set the coarse and fine <i>current</i> controls of the Helmholtz coil power supply fully clockwise. Do not re-adjust the current controls for the rest of the experiment.
-3. You can now turn on the Helmholtz coil power supply. Slowly increase the voltage of the Helmholtz coil power supply.
-4. You should see that the magnetic field causes the electron beam to deflect. With enough deflection, it will move in a circular path. The amount of current passing through the coil is read on the built-in ammeter of the coil power supply.
-5. The five posts within the tube have known radii. Using the equations above, the Anode voltage, and the Helmholtz current, we can determine the ratio of an electron's charge to its mass. With the anode voltage still at $25\text{V}$, adjust the Helmholtz current to hit each of the five posts. Record the current for each radius.
 
-   :::Table (droptable| Processed Data)
-     | Post | radius ($\text{m}$) | 
-   |---------------------|---------------------------|
-   | 1                | 0.032               
-   | 2                | 0.039      
-   | 3                | 0.045      
-   | 4                | 0.052      
-   | 5                | 0.057              
-   ::: 
+# Prisms & Frequency-Dependent Refraction
+## Theory
+::::::Figure (freqdep|m|R)
 
-:::Exercise (tabulate|3 Points)
-1. For each data point, tabulate the Helmholtz coil current and accelerating voltage (the accelerating voltage is fixed for these first five measurements).
 
-2. Compute the $B$ field of the coil and the velocity of the electron in each case.
+![Frequency-dependent index of refraction for glass, quartz, and diamond](imgs/Lab1/fig2_1.jpg "Frequency-dependent index of refraction for glass, quartz, and diamond")
 
-3. Compute the ratio of $e/m$ in each case.
+
+
+![Scatter Plot of above data.](imgs/Lab1/fig2_1_graph.jpg "Scatter Plot of above data.")
+
+
+
+
+::::::
+The index of refraction for a medium is dependent upon the frequency of the light; blue light has a different index of refraction from that of red light for a given medium.
+
+1. The angle at which a beam of light is refracted when traveling between two mediums is dependent upon their indexes of refraction.
+
+2. The indexes of refraction are typically frequency dependent for a given medium. A medium will refract one color more (or less) than another color.
+
+3. White light is made of many constituent colors.
+
+Piecing these statements together, we have a tidy explanation for the phenomenon of a rainbow. At each boundary, some colors are refracted more than others, which results in white light being spread out into its constituent spectrum. This spreading is called dispersion. The second boundary of the prism – plastic to air – is at such an angle as to increase this dispersion. The difference between the index of refraction for the lowest frequency and the highest frequency determines how wide a rainbow you can see. A material with a larger spread in indexes will give a wider rainbow.
+
+
+
+:::Exercise
+A beam of white light traveling in air is incident on a glass block at an angle of 17 degrees. Use Snell’s Law to compute the refracted angle for purple, green and orange light.
 :::
 
-6. Repeat the above five measurements using anode voltages of $30\text{V}$ and $35\text{V}$. You will have 15 measurements in total. <b>Do the analysis above (step a, b, and c in [](#Exercise-tabulate)) for all data points </b>. Again, if at any point you're not using the tube to make measurements you should bring the filament down to the idle current.
+## Experiment
+In [](#Activity-white), you will investigate what happens when the path of white light passing through the D-block is close to the critical angle. You will use your knowledge of Frequency-Dependent Refraction to describe what is happening.
 
-:::Exercise (include tables|1 Point)
-Make sure to include properly formatted data table(s) that include all the relevant quantities (the Helmholtz coil current, accelerating voltage, $B$ field of the coil, velocity of the electron, and the ratio of $e/m$) for all 15 measurements.
+::::::Activity white
+
+In this video you will see what happens when we refract white light. Recall that white light is composed of many different frequencies (colors) of light.
+
+<!-- Dispersion -->
+:::Video
+
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/RXb3OZu0NRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-:::Exercise (avg|1 Point)
-What is the average value of $e/m$?
+
+:::Exercise
+In the video, the clearest rainbow is observed when the light is close to the critical angle. Why is the critical angle ideal for observing the rainbow? 
+;;; Hint: How does dispersion change with increasing the incident angle? What happens to refracted light past the critical angle?;;;
+
 :::
 
-:::::::::
+::::::
+
+
+# Reflection from Plane Mirrors
+
+
+We regularly encounter flat mirrors, as well as glass surfaces that act like mirrors. Intuitively you know that your image is standing directly across from you. When we speak in terms of ray tracing, we are the *object* and our reflection is the *image*. It is easy to convince yourself that this image is formed straight back – that is, on a line normal to the plane of the mirror – and that it is also an equal distance behind the mirror.
+
+The image of any point object in a plane mirror is simply the point straight across at an equal distance. This is the case for any viewing angle; you will see the image “behind” the mirror at an equal distance. The line between the object and image is always normal to the plane of the mirror.
+
+
+
+:::Figure (raytrace|xl)
+![Simple ray tracing with a single planar mirror.](imgs/Lab1/fig3_1.jpg "Simple ray tracing with a single planar mirror.")
+:::
+
+Now let's consider why ray tracing works. The law of reflection tells us that the angle of incidence is always equal to the angle of reflection. We also know that the image is formed by the light ray that emanates from the object, reflects off the mirror, and finally reaches our eye. The ray that reaches our eye must obey the law of reflection; its path is shown in [](#Figure-raytrace). It is important to note that this would work equally well for any set of angles. We see an image behind the mirror because of the law of reflection; if you extended the reflected light ray behind the mirror, it would arrive precisely at the image point as in [](#Figure-raytrace). The phenomenon of reflection fools us into thinking that the light rays originate from the image point.
+
+
+::::::Activity
+
+Here we will show you how to set up a ray tracing for a plane mirror. In the video we are looking down onto the top edge of a flat mirror that is oriented perpendicular to the plane of your screen. The red pin that is placed will be the object. We will use yellow pins to mark the reflected rays. 
+
+The goal of this exercise is to trace the path that light takes from the object pin, off the mirror, and to your eye, on the paper on the left side of the screen. Then we will remove the mirror, and trace those rays to the right side of the screen, behind the mirror, to find the location of the image that we are seeing.
+
+<!-- Plane Mirror Ray Trace -->
+:::Video
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/xQlytH6o7DU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+Now you have seen a video of the all of the rays being marked. What's left to do is to trace the points into a diagram. Depending on what materials you have available, you can choose from one of the following two methods:
+
+## Method 1: Using Geogebra
+Below is a link to an image paper that was created in the video. You will take that image and perform a ray trace.
+
+
+
+1. Take [this image](imgs/Lab1/geogebra.png) and go to the website [GeoGebra (click this link to go to the started ray trace)](https://www.geogebra.org/geometry/n6jx7jug)
+
+2. For a guide on how to use the tools in GeoGebra and perform the ray trace, watch the video below.
+
+<!-- GeoGebra Introduction -->
+:::Video
+<iframe width='100%' height='100%' src="https://www.youtube.com/embed/2o2RKRxyILY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+3. Make sure to measure the incident and reflected angles for both rays.
+
+4. Also include the distance from the object to the mirror and the image to the mirror.
+
+5. Take a screenshot of your ray tracing and include it in your lab report.
+
+
+## Method 2: Printing/Tracing and using a protractor
+In this version, you will either print or trace the image and use a protractor to measure the ray tracing angles
+1. Either print or trace [this image](imgs/Lab1/geogebra.png) onto a sheet of paper. If tracing, hold a sheet of paper over your screen and gently trace the markings with a pencil. DO NOT APPLY PRESSURE to your screen. If needed, go over the markings a second time on your table.
+2. Complete the ray tracing by hand using a ruler.
+3. Measure the angles with a protractor. Make sure to measure the incident and reflected angles for both rays. If you do not own a protractor you may print or trace [this one](imgs/Lab1/protractor.gif). Alternatively, you can hold the paper with your ray tracing up to the screen, over the protractor image, to measure the angles.
+
+4. Also include the distance from the object to the mirror and the image to the mirror, which you  may find by using a ruler.
+
+5. Take a picture/scan of your ray tracing and include it in your lab report.
+
+:::Exercise
+How does the object distance compare to the image distance? In ideal conditions, how should they compare?
+:::
+
+:::Exercise
+What are the angles of incidence and reflection for each of the rays? How should they be related?
+:::
+
+:::Exercise
+What could be the reasons for errors in the two questions above?
+:::
+
+
+::::::
+
+# Conclusion
+
+:::Exercise
+Write a brief conclusion summarizing the important points of this lab.
+:::
+
+:::Summary
+
+You are expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions
+
+:::
+
+

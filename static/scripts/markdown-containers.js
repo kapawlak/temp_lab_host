@@ -313,7 +313,7 @@ md.use(container, 'Note', {
     if (tokens[idx].nesting === 1) {
       args = strip(tokens[idx].info.trim().match(/^Note(.*)$/)[1])
       let note= new Card('Note', args[0])
-      note.styleList.push(args[1] ? 'col-lg-' + args[1].replace("L","float-lg-start ").replace("R","float-lg-end") : 'col-lg-4 mx-auto' )
+      note.styleList.push(args[1] ? 'col-lg-' + args[1].replace("L","float-lg-start ").replace("R","float-lg-end") : 'col-lg-10 mx-auto' )
       note.publishCard()
  
       return div_head.pop()
