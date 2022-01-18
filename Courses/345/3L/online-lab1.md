@@ -1,4 +1,4 @@
-# Online Assignment Lab 1
+# Online Assignment Lab 1: Lab Intro
 
 # Document Purpose
 This is an online version of the first laboratory experiment performed in Physics 3L. 
@@ -6,7 +6,7 @@ This is an online version of the first laboratory experiment performed in Physic
 ## Pre-Lab
 
 :::Prelab
-**Before coming to lab sections** you will need to complete **and submit on Gauchospace** your responses to [](Exercise-logistics), [](Exercise-alignment), and [](Exercise-procedure). 
+**Before coming to lab sections** you will need to complete **and submit on Gauchospace** your responses to [](#Exercise-logistics), [](#Exercise-alignment), and [](#Exercise-procedure). 
 
 Additionally it is **highly** recommended that you read through Parts 1 and 2 of the "Reference Material" that can be found in the top left "Labs" drop down menu.
 
@@ -40,20 +40,20 @@ Making assumptions and simplifications of real physical objects and phenomena in
 In this lab we will be focusing on the period of the pendulum, $T$. For the simple pendulum we have three parameters as part of our model. The mass of the bob, $m$, the length of the pendulum, $L$, and the initial angle of release, $\theta_0$. Each of these is depicted in [](Figure-pendulumDiagram) We will be adjusting these three parameters to see what affects they have on the period.  
 
 
-:::Exercise (logistics)
+:::Exercise (logistics|3pts)
 Answer the following:
 1. What is your TA's name?
 2. When is each pre-lab due?
 3. Should you include the pre-lab exercises in the report you submit at the end of the section?
 :::
 
-:::Exercise (alignment)
+:::Exercise (alignment|3pts)
 1. When reading the initial angle using the protractor (for a real-life pendulum), you must look straight on or you might have an error from parallax. Briefly explain what parallax is.
 2. How will the parallax affect your measurement of the initial angle in real life? 
 3. Will parallax affect your measurement if you are using a simulation?
 :::
 
-:::Exercise (procedure)
+:::Exercise (procedure|4pts)
 Write a step by step procedure outlining how you will collect data that will determine which of the three parameters, mass, length, and initial angle, affect the period of the pendulum.
 
 You will not be graded on whether you have "the right" procedure. We are simply looking for effort that you have thought about this and that you will be ready to start taking measurements when you get to class.
@@ -112,17 +112,17 @@ In this activity you will be performing an experiment where you measure the peri
 6. Now use the stopwatch to measure the time it takes for the pendulum to undergo 10 cycles (so the time for 10 periods of the pendulum). Record the value in the "10 Swing Period (s)". As you fill out the spreadsheet you should see the histogram plot and the adjacent "1 Swing in 10 Period (s)" column update.
 7. Respond to the following exercises.
 
-:::Exercise
+:::Exercise (|10pts)
 Copy and paste the tables and histograms you made into your report.
 :::
 
-:::Exercise
+:::Exercise (|5pts)
 1. What statistic are you using to characterize the measurement of the period?
 2. What statistic represents the precision of the measurement process?
 3. What statistic are you using to characterize the uncertainty in the measurement of the period? 
 :::
 
-:::Exercise
+:::Exercise(|5pts)
 By looking at the data, make an argument for which method is more precise for measuring the period. Why do you think one method is more precise than the other?
 :::
 
@@ -147,32 +147,45 @@ In this activity you will be performing an experiment where you measure the peri
 6. Use the stopwatch to measure a single period of the pendulum as measured from the lowest point of the pendulum's swing. Record the value in the "Bottom Period (s)" column. Repeat this 16 times. As you fill out the spreadsheet you should see the histogram plot update.
 7. Respond to the following exercises.
 
-:::Exercise
+:::Exercise (|10pts)
 Copy and paste the tables and histograms you made into your report.
 :::
 
-:::Exercise
+:::Exercise (|5pts)
 By looking at the data, make a argument for which method is more precise for measuring the period. Why do you think one method is more precise than the other?
 :::
 
 ::::::
 
-# Acitivty 3: Looking for signal
+# Activity 3: Looking for signal
 
 
-In this activity you will investigate if the period depends on any different parameters above, $L$, $m$, and $\theta_0$.
+In this activity you will investigate if the period depends on any of the parameters: $L$, $m$, and $\theta_0$.
 
 ::::::Activity
 1. Pick one of the three parameters listed above. Keep the other two constant.
 
-:::Exercise
+:::Exercise (|20pts)
 1. Which parameter are you measuring?
 2. What are the values of the other two parameters you used in your experiment?
-3. What is the data you collected?
+3. Describe your measurement (in light of Activity 1 and Activity 2).
+4. What is the data you collected?
+5. Do you think the period depends on the parameter you measured? Why or why not?
 :::
 
-:::Exercise
-1. Do you think the period depends on the parameter you measured? Why or why not?
-2. Investigate changing the other two parameters. Do you think the period depends any other parameters? Why or why not?
+:::Exercise(|15pts)
+1. Investigate changing the other two parameters.
+2. Do you think the period depends any other parameters? Why or why not?
 :::
 ::::::
+
+# Conclusion
+
+::::::Exercise (|15 Points)
+Based on your results from Activity 1 and Activity 2, is there a difference between measuring the period of the pendulum with different techniques? If so, what is the cause of this discrepancy to? How did you use your conclusions from Activity 1 and Activity 2 to set up your measurements in Activity 3?
+::::::
+
+:::Summary
+Please note: There will be an additional 5 points for neatness. Make sure that your report is well organized and easy to follow.
+:::
+
